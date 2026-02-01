@@ -32,18 +32,62 @@ cd /root/clawd/projects/hsi-forecast && python3 src/predict.py --format both
 
 ```json
 {
-  "date": "2026-02-03",
-  "reference_price": 27387.11,
-  "predicted_high": 27628,
-  "predicted_high_pct": 0.88,
-  "predicted_low": 27129,
-  "predicted_low_pct": -0.94,
-  "predicted_range": 499,
+  "date": "2026-02-01",
   "direction": "DOWN",
-  "direction_prob": 0.25,
-  "volatility_regime": "HIGH",
-  "gap_adjustment": "FXI -2.9% → gap down"
+  "confidence": 0.667,
+  "diffusion": -3,
+  "bullish_count": 3,
+  "bearish_count": 6,
+  "bullish_factors": [">EMA20", "CNH+0.1%", "VIX=17"],
+  "bearish_factors": ["<MA5", "HSI-2.1%", "FXI-2.9%", "SPX-0.4%", "NDX-0.9%", "VIX+3.3%"],
+  "model_diffusion_agree": true,
+  "predicted_high": 27628,
+  "predicted_low": 27129,
+  "volatility_regime": "HIGH"
 }
+```
+
+## Confidence Calculation (Diffusion-Based)
+
+The model uses **9 factors** classified as bullish or bearish:
+
+| Category | Factors |
+|----------|---------|
+| **Technical** | Price >EMA20, Price >MA5, HSI momentum |
+| **Overnight** | FXI change, SPX change, NDX change |
+| **Currency** | CNH strength (inverted USDCNH) |
+| **Volatility** | VIX level (<20 bullish), VIX change (down=bullish) |
+
+### Diffusion Formula
+
+```
+Diffusion = bullish_count - bearish_count
+Range: -9 (all bearish) to +9 (all bullish)
+```
+
+### Confidence Logic
+
+Confidence depends on whether **model prediction** and **diffusion** agree:
+
+| Model + Diffusion | Formula | Example |
+|-------------------|---------|---------|
+| **Agree** | 50% + (\|diff\|/9 × 50%) | Model=DOWN, Diff=-3 → 67% |
+| **Disagree** | 50% - (\|diff\|/9 × 50%) | Model=DOWN, Diff=+3 → 33% |
+
+**Interpretation:**
+- Confidence **>50%**: Model and factors agree → trustworthy signal
+- Confidence **<50%**: Model and factors conflict → uncertain signal
+- Confidence **=50%**: Diffusion is 0 (neutral factors)
+
+### Example
+
+```
+Model: DOWN (75% probability)
+Factors: 3🟢 bullish, 6🔴 bearish
+Diffusion: -3 (bearish)
+
+Model says DOWN + Diffusion is bearish = AGREE ✓
+Confidence = 50% + (3/9 × 50%) = 67%
 ```
 
 ## Model Performance
@@ -55,32 +99,19 @@ cd /root/clawd/projects/hsi-forecast && python3 src/predict.py --format both
 | Direction Accuracy | 72% |
 | Direction AUC-ROC | 0.81 |
 
-## Key Features (16 total)
-
-| Feature | Importance | Description |
-|---------|------------|-------------|
-| fxi_change_pct | 10.3% | FXI ETF overnight change (best HK proxy) |
-| day_of_week | 9.0% | Day effects (Monday, etc.) |
-| hsi_volatility | 8.3% | 10-day rolling volatility |
-| spx_close | 8.3% | S&P 500 close |
-| vix | 5.3% | CBOE Volatility Index |
-| vix_change_pct | 5.2% | VIX change (fear spike) |
-
 ## Gap Adjustment Logic
 
-The model applies post-prediction adjustments based on:
+Post-prediction adjustments based on overnight moves:
 
 1. **FXI Overnight Move** (primary):
    - FXI down > 0.5% → expect HK gap down
    - FXI up > 0.5% → expect HK gap up
-   - Adjustment: Low gets 1.5x FXI move, High gets 0.8x
 
 2. **VIX + US Down** (secondary):
    - VIX rising + US down → additional downside risk
-   - Adds 1.5x US average change to low
 
 3. **High VIX Level**:
-   - VIX > 20 → widen range by (VIX-20)/100
+   - VIX > 20 → widen range
 
 ## Volatility Regimes
 
@@ -92,8 +123,6 @@ The model applies post-prediction adjustments based on:
 | EXTREME | > 1.5 | ×1.5 |
 
 ## Retrain Model
-
-When you want to update with new data:
 
 ```bash
 cd /root/clawd/projects/hsi-forecast
@@ -111,20 +140,6 @@ python3 src/train.py
 python3 src/backtest.py
 ```
 
-## Generate Charts
-
-```bash
-python3 src/visualize.py
-```
-
-Creates in `charts/`:
-- fitting_chart.png
-- correlation_heatmap.png
-- direction_analysis.png
-- feature_importance.png
-- optimization_heatmap.png
-- residual_analysis.png
-
 ## Data Sources
 
 | Ticker | Source | Description |
@@ -138,28 +153,23 @@ Creates in `charts/`:
 
 ## Example Response
 
-When user asks "What's the HSI forecast for tomorrow?":
+When user asks "What's the HSI forecast?":
 
-1. Run prediction:
-```bash
-cd /root/clawd/projects/hsi-forecast && python3 src/predict.py --format telegram
 ```
+🎯 **HSI Forecast** (2026-02-01)
 
-2. Report results:
-```
-🎯 HSI Forecast for Monday 3 Feb
+📉 **DOWN** | Confidence: **67%**
+[██████░░░░]
 
-📊 Predicted Range (from Fri close 27,387):
-• High: 27,628 (+0.88%)
-• Low: 27,129 (-0.94%)  
-• Range: 499 pts
+📊 Diffusion: **-3** (3🟢 vs 6🔴) ✓
 
-📉 Direction: DOWN (75% probability)
+🟢 >EMA20, CNH+0.1%, VIX=17
+🔴 <MA5, HSI-2.1%, FXI-2.9%, SPX-0.4%, NDX-0.9%, VIX+3.3%
 
-⚠️ Key Signals:
-• FXI -2.9% overnight → gap down likely
-• VIX elevated at 17.4
-• Volatility regime: HIGH
+📈 Range: 27,129 → 27,628
+   (-0.94% to +0.88%)
+
+⚡ Vol: HIGH | Ref: 27,387
 ```
 
 ## Limitations
