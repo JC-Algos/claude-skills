@@ -1,11 +1,11 @@
 ---
 name: hsi-forecast
-description: Predict daily HSI range (high/low) and direction using XGBoost. Uses overnight FXI, US markets, VIX as key features.
+description: Predict daily HSI range (high/low) and direction using XGBoost for range and 4 Judges ensemble (CatBoost, GRU, ARIMA, Diffusion) for direction.
 ---
 
 # HSI Daily Forecast Skill
 
-Predict Hang Seng Index daily trading range and direction before market open using XGBoost models.
+Predict Hang Seng Index daily trading range and direction before market open.
 
 ## When to Use
 
@@ -28,28 +28,74 @@ Predict Hang Seng Index daily trading range and direction before market open usi
 cd /root/clawd/projects/hsi-forecast && python3 src/predict.py --format both
 ```
 
+## Architecture
+
+### Range Prediction (XGBoost)
+- **High MAE:** 0.65%
+- **Low MAE:** 0.78%
+
+### Direction Prediction (4 Judges)
+
+| Judge | Type | Description |
+|-------|------|-------------|
+| CatBoost | Machine Learning | Tree-based gradient boosting |
+| GRU | Deep Learning | Recurrent neural network (10-day sequence) |
+| ARIMA | Statistical | Time series autoregressive model |
+| Diffusion | Rule-based | Factor analysis (9 indicators) |
+
+### Consensus Logic
+
+| Vote | Result |
+|------|--------|
+| 4:0 or 3:1 | ✅ 有信心 (confident) |
+| 2:2 | ⚠️ 弱 / 無方向 (weak/no direction) |
+
 ## Output Format
+
+### Telegram Message
+
+```
+🎯 HSI Daily Forecast - Monday 2 Feb 2026
+
+📊 Predicted Range (from Fri close 27,387):
+• High: 27,628 (+0.88%)
+• Low: 27,129 (-0.94%)
+• Range: 499 pts (1.82%)
+
+📈 Direction: UP (3↑ vs 1↓) | ✅ 有信心
+
+🗳️ 4 Judges:
+• CatBoost (ML): 📈 UP (51%)
+• GRU (Deep): 📈 UP (68%)
+• ARIMA (Stats): 📈 UP (51%)
+• Diffusion: 📉 DOWN (3🟢 vs 6🔴)
+
+🟢 Bullish: >EMA20, CNH+0.1%, VIX=17
+🔴 Bearish: <MA5, HSI-2.1%, FXI-2.9%, SPX-0.4%, NDX-0.9%, VIX+3.3%
+
+⚡ Volatility: HIGH (×1.2)
+```
+
+### JSON Output
 
 ```json
 {
   "date": "2026-02-01",
-  "direction": "DOWN",
-  "confidence": 0.667,
+  "direction": "UP",
+  "gru_direction": "UP",
+  "gru_prob": 0.681,
+  "arima_direction": "UP",
+  "arima_prob": 0.509,
   "diffusion": -3,
   "bullish_count": 3,
   "bearish_count": 6,
-  "bullish_factors": [">EMA20", "CNH+0.1%", "VIX=17"],
-  "bearish_factors": ["<MA5", "HSI-2.1%", "FXI-2.9%", "SPX-0.4%", "NDX-0.9%", "VIX+3.3%"],
-  "model_diffusion_agree": true,
   "predicted_high": 27628,
   "predicted_low": 27129,
   "volatility_regime": "HIGH"
 }
 ```
 
-## Confidence Calculation (Diffusion-Based)
-
-The model uses **9 factors** classified as bullish or bearish:
+## Diffusion Factors (9 total)
 
 | Category | Factors |
 |----------|---------|
@@ -58,60 +104,34 @@ The model uses **9 factors** classified as bullish or bearish:
 | **Currency** | CNH strength (inverted USDCNH) |
 | **Volatility** | VIX level (<20 bullish), VIX change (down=bullish) |
 
-### Diffusion Formula
+## Model Files
 
 ```
-Diffusion = bullish_count - bearish_count
-Range: -9 (all bearish) to +9 (all bullish)
+models/
+├── range_high.json      # XGBoost High
+├── range_low.json       # XGBoost Low
+├── gru_direction.pt     # GRU model
+├── gru_scaler.pkl       # GRU scaler
+├── arima_params.pkl     # ARIMA parameters
+└── ensemble/
+    └── direction_cat.cbm # CatBoost
 ```
 
-### Confidence Logic
+## API Endpoint
 
-Confidence depends on whether **model prediction** and **diffusion** agree:
+```bash
+# JSON output
+curl "https://ta.srv1295571.hstgr.cloud/api/hsi/forecast"
 
-| Model + Diffusion | Formula | Example |
-|-------------------|---------|---------|
-| **Agree** | 50% + (\|diff\|/9 × 50%) | Model=DOWN, Diff=-3 → 67% |
-| **Disagree** | 50% - (\|diff\|/9 × 50%) | Model=DOWN, Diff=+3 → 33% |
-
-**Interpretation:**
-- Confidence **>50%**: Model and factors agree → trustworthy signal
-- Confidence **<50%**: Model and factors conflict → uncertain signal
-- Confidence **=50%**: Diffusion is 0 (neutral factors)
-
-### Example
-
-```
-Model: DOWN (75% probability)
-Factors: 3🟢 bullish, 6🔴 bearish
-Diffusion: -3 (bearish)
-
-Model says DOWN + Diffusion is bearish = AGREE ✓
-Confidence = 50% + (3/9 × 50%) = 67%
+# Telegram-formatted message
+curl "https://ta.srv1295571.hstgr.cloud/api/hsi/forecast?format=telegram"
 ```
 
-## Model Performance
+## n8n Workflow
 
-| Metric | Value |
-|--------|-------|
-| High Range MAE | 0.50% |
-| Low Range MAE | 0.48% |
-| Direction Accuracy | 72% |
-| Direction AUC-ROC | 0.81 |
-
-## Gap Adjustment Logic
-
-Post-prediction adjustments based on overnight moves:
-
-1. **FXI Overnight Move** (primary):
-   - FXI down > 0.5% → expect HK gap down
-   - FXI up > 0.5% → expect HK gap up
-
-2. **VIX + US Down** (secondary):
-   - VIX rising + US down → additional downside risk
-
-3. **High VIX Level**:
-   - VIX > 20 → widen range
+- **ID:** `Trgc6ts29L2sv9w2`
+- **Schedule:** 8:30 HKT Mon-Fri (cron: `30 0 * * 1-5`)
+- **Webhook:** `https://n8n.srv1295571.hstgr.cloud/webhook/hsi-forecast`
 
 ## Volatility Regimes
 
@@ -122,59 +142,37 @@ Post-prediction adjustments based on overnight moves:
 | HIGH | 1.0-1.5 | ×1.2 |
 | EXTREME | > 1.5 | ×1.5 |
 
-## Retrain Model
+## Retrain Models
 
 ```bash
 cd /root/clawd/projects/hsi-forecast
 
-# 1. Fetch latest data (3 years)
+# 1. Fetch latest data
 python3 src/fetch_data.py
 
 # 2. Create features
 python3 src/features.py
 
-# 3. Train with walk-forward validation
+# 3. Train XGBoost (range)
 python3 src/train.py
 
-# 4. Run backtest
-python3 src/backtest.py
+# 4. Train ensemble (direction)
+python3 src/train_ensemble.py
 ```
 
-## Data Sources
+## Docker Dependencies
 
-| Ticker | Source | Description |
-|--------|--------|-------------|
-| ^HSI | Yahoo | Hang Seng Index |
-| FXI | Yahoo | iShares China Large Cap ETF |
-| ^GSPC | Yahoo | S&P 500 |
-| ^IXIC | Yahoo | Nasdaq Composite |
-| ^VIX | Yahoo | CBOE Volatility Index |
-| CNH=F | Yahoo | USD/CNH Futures |
+If updating predict.py with new packages:
 
-## Example Response
-
-When user asks "What's the HSI forecast?":
-
-```
-🎯 **HSI Forecast** (2026-02-01)
-
-📉 **DOWN** | Confidence: **67%**
-[██████░░░░]
-
-📊 Diffusion: **-3** (3🟢 vs 6🔴) ✓
-
-🟢 >EMA20, CNH+0.1%, VIX=17
-🔴 <MA5, HSI-2.1%, FXI-2.9%, SPX-0.4%, NDX-0.9%, VIX+3.3%
-
-📈 Range: 27,129 → 27,628
-   (-0.94% to +0.88%)
-
-⚡ Vol: HIGH | Ref: 27,387
+```bash
+docker exec n8n-ta-api-1 pip install catboost lightgbm torch statsmodels
+docker exec n8n-ta-api-1 apt-get install -y libgomp1
+docker restart n8n-ta-api-1
 ```
 
 ## Limitations
 
-- Direction accuracy is 72% (not 100%)
+- 4 Judges accuracy is ~55% (better than single model, still not 100%)
 - Overnight gaps can be missed if FXI/US diverges from HK
-- Model uses 3 years of data; may not capture regime changes
 - Cannot predict news-driven moves
+- GRU requires 10 days of historical data
