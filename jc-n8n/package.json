@@ -1,0 +1,19 @@
+{
+  "name": "jc-n8n",
+  "version": "1.0.0",
+  "description": "n8n workflow automation, Docker infrastructure, Traefik routing, custom APIs (TA, Short Selling, Indicator Webhook), and RSS feeds on this VPS.",
+  "keywords": [
+    "n8n",
+    "docker",
+    "workflow",
+    "automation",
+    "traefik",
+    "api",
+    "rss",
+    "ta-api",
+    "forex",
+    "webhooks"
+  ],
+  "author": "Oracle",
+  "private": true
+}
