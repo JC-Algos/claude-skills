@@ -17,22 +17,41 @@ import sys
 # Configuration
 HK_TZ = pytz.timezone('Asia/Hong_Kong')
 
+# =============================================================================
+# RSS FEED CONFIGURATION
+# =============================================================================
+# You can use:
+# - Public RSS feeds (SCMP, Reuters)
+# - Public RSSHub instance (https://rsshub.app) for Bloomberg, Mingpao
+# - Local RSSHub (localhost:1200) if self-hosted
+# - Local custom RSS server (localhost:1201) for HKEJ, AAStocks, etc.
+#
+# To use public RSSHub, change localhost:1200 to rsshub.app
+# Example: 'http://localhost:1200/bloomberg' -> 'https://rsshub.app/bloomberg'
+# =============================================================================
+
+# Set to True to use public RSSHub instance instead of local
+USE_PUBLIC_RSSHUB = False
+RSSHUB_BASE = 'https://rsshub.app' if USE_PUBLIC_RSSHUB else 'http://localhost:1200'
+LOCAL_RSS_BASE = 'http://localhost:1201'  # Custom RSS server for HK sources
+
 RSS_FEEDS = {
-    # Local RSS Server (port 1201)
-    'HKEJ Stock': 'http://localhost:1201/hkej/stock',
-    'HKEJ China': 'http://localhost:1201/hkej/china',
-    'AAStocks': 'http://localhost:1201/aastocks/news',
-    'Now Finance': 'http://localhost:1201/nowfinance',
-    'Yahoo Finance HK': 'http://localhost:1201/yahoo/finance-hk',
-    'HK01 Finance': 'http://localhost:1201/hk01/finance',
-    
-    # RSSHub (port 1200)
-    'Mingpao': 'http://localhost:1200/mingpao/pns/s00004',
-    'Bloomberg': 'http://localhost:1200/bloomberg',
-    
-    # Direct RSS
-    'Reuters': 'http://localhost:1200/reuters/world',  # Use RSSHub
+    # Public RSS (always available)
     'SCMP Business': 'https://www.scmp.com/rss/91/feed/',
+    'Reuters': 'https://www.reuters.com/rssFeed/businessNews',
+    
+    # RSSHub sources (public or local)
+    'Mingpao': f'{RSSHUB_BASE}/mingpao/pns/s00004',
+    'Bloomberg': f'{RSSHUB_BASE}/bloomberg',
+    
+    # Local RSS Server sources (requires localhost:1201)
+    # Comment out if not available
+    'HKEJ Stock': f'{LOCAL_RSS_BASE}/hkej/stock',
+    'HKEJ China': f'{LOCAL_RSS_BASE}/hkej/china',
+    'AAStocks': f'{LOCAL_RSS_BASE}/aastocks/news',
+    'Now Finance': f'{LOCAL_RSS_BASE}/nowfinance',
+    'Yahoo Finance HK': f'{LOCAL_RSS_BASE}/yahoo/finance-hk',
+    'HK01 Finance': f'{LOCAL_RSS_BASE}/hk01/finance',
 }
 
 # Categories and keywords (order matters - first match wins)
