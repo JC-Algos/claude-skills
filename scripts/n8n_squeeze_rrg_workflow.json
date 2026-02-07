@@ -1,0 +1,51 @@
+{
+  "name": "Squeeze + RRG Analysis",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "squeeze-rrg",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [250, 300],
+      "webhookId": "squeeze-rrg-001"
+    },
+    {
+      "parameters": {
+        "command": "=python3 /root/clawd/scripts/squeeze_rrg_analyzer.py {{ $json.query.timeframe || '1h' }} {{ $json.query.output || 'telegram' }}"
+      },
+      "id": "execute-command",
+      "name": "Run Squeeze RRG",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { success: true, output: $json.stdout } }}"
+      },
+      "id": "respond",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [650, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{ "node": "Run Squeeze RRG", "type": "main", "index": 0 }]]
+    },
+    "Run Squeeze RRG": {
+      "main": [[{ "node": "Respond", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

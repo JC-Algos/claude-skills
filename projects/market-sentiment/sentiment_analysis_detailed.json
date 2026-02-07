@@ -1,0 +1,2396 @@
+{
+  "timestamp": "2026-01-29T14:21:11.698087",
+  "calculation_method": "Percentages exclude neutral articles (Positive + Negative only)",
+  "assets": {
+    "US_SPX": {
+      "name": "S&P 500 Index (SPX)",
+      "total_articles": 48,
+      "duplicate_count": 5,
+      "sentiment_counts": {
+        "positive": 17,
+        "negative": 10,
+        "neutral": 21,
+        "directional_total": 27
+      },
+      "sentiment_percentages": {
+        "positive": 62.96296296296296,
+        "negative": 37.03703703703704,
+        "neutral": 43.75
+      },
+      "sentiment_classification": {
+        "label": "BULLISH",
+        "description": "Positive market sentiment"
+      },
+      "articles": [
+        {
+          "title": "Markets News, Jan. 27, 2026: S&P 500 Hits All-Time High, Nasdaq Soars as Tech Stocks Rally; Dow Tumbles as UnitedHealth Shares Plunge - Investopedia",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FanY3cjB4OXMxRmNUcWRQTjhtMTQ2WGNvTGVuNUdxN2hXTGlrLWx3Mi1NS0xMSTZEMjJ0Y1g2SkZrazg2azZyQzZtdExmUmpnQ2NEM2FHMXBRQVNaM0VOZ3B2Mno3emVmZU5jUWlxNA?oc=5",
+          "published": "Tue, 27 Jan 2026 22:54:12 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9993997812271118,
+          "text_length": 150,
+          "content_retrieved": true
+        },
+        {
+          "title": "U.S. Stock Market Close | Mixed performance among the three major indices, with the S&P 500 index briefly surpassing the 7000-point mark; Seagate Technology surged 19%, leading a strong rally in the storage sector, while Western Digital and SanDisk rose - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlVqel8xcUdHVkczV3UwUVVfSXdtX252ODBsbVQ2MFFxTWQxNFVTa1RYeUJnZUJzNnBoOXZSUERWc1BoajlER2tEcmJLZm02a1ROZWhkc0d2eUt1Q3o0NUdmVFRwOU9mcnQtYmtuZnR3cDNBdHgyUnlYWWV0Zms1Z2h5dVZxSWxRR2tDZ2dBbHRpUFhTMXQyT3d3ajlleFJkLURuLQ?oc=5",
+          "published": "Wed, 28 Jan 2026 23:36:51 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999877214431763,
+          "text_length": 262,
+          "content_retrieved": true
+        },
+        {
+          "title": "Private equity lags stocks for retail investors - Private Equity Stakeholder Project PESP",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fbi1ySG1peUo3X08wUWhqZnZhRTh2Q2tBQWRvcDlhVUpISXFFZnlLUFJCZHJuRFMyanNSWG5JcVVaNVIxLTBjb1ktNWloQ184RmxvUUo0Y1Z4Qm9hVklWV3JNYkFiTi04c2ZJQWo4b0o?oc=5",
+          "published": "Tue, 27 Jan 2026 19:00:45 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999949932098389,
+          "text_length": 91,
+          "content_retrieved": true
+        },
+        {
+          "title": "Impax Large Cap Fund Q4 2025 Commentary - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXNtZmRnd0lZZ0xFZTJlN1ptRjY2djZONkdwdWJYZkJtb1lRNThBQ3ItVXEtblBjUVg1djREbkdMeUFUelZOZEZ0M0FGZWxNUFl6eG5WcHlYSmtqTFR2dmxIZWlnWUtpQ3djZkNMUFl4bldPaldGTGtiWjFURWZWajBoT1k2SE0?oc=5",
+          "published": "Wed, 28 Jan 2026 18:33:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999167919158936,
+          "text_length": 57,
+          "content_retrieved": true
+        },
+        {
+          "title": "Will the Russell 2000 Continue to Outperform the S&P 500? - Schaeffer's Investment Research",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUmZNYWl5QzJXdUpac1FjRUhEY2RaRFNrQWhPU2VWdHdCcnY5OWctTHlSS0RrRzhMMFhENHVRUHVhRGZ2OFRJc3dhMHAtb2IyVm9qX2xrRzk2SHhmVWhUY1ZOel85RDl4c01NRXJVTHYtSmNWUzl0T3hRNXBBMFJFOFJwQm5zOThERlEwUzRLOVZNVEtJQlNnU2ZQNENsUWdudmRwM2lWMDNJMkRjLU9SNEthaXg1YkM5QXBB?oc=5",
+          "published": "Wed, 28 Jan 2026 13:00:09 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999982118606567,
+          "text_length": 93,
+          "content_retrieved": true
+        },
+        {
+          "title": "Should You Invest in the Invesco S&P 500 Equal Weight Technology ETF (RSPT)? - sharewise.com",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWS1mMUxIbmYzZ2FuSENTSXV2Sk55bmtxTjRiZmVlMWFBcjg0amdFZGJ1clhvLTFWUmo4ZjhQVVl3aGRZaGNqVnRXbTVKRUFocEc2T3J3X0FXMnVNQ0lvVEFEcWpGejl2RnJ1a3MzOWwtNExkTVB0Y0NmMmNRd1lTVDNjZkFTNzdUS3lJWWJYaVJqb18xT3Z0SHoxOURkZVpkY3FRLVdIQlA3SDJkUUVDT0xBa0t3QTlCX1pUSU8zaXNPUVJrWmxvSXRSa3MxS1BL?oc=5",
+          "published": "Thu, 29 Jan 2026 13:12:05 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999991774559021,
+          "text_length": 94,
+          "content_retrieved": true
+        },
+        {
+          "title": "US Stocks Overnight | Mixed Performance Across Major Indices as S&P 500 Briefly Surpasses 7,000 Points - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNjJBY1J0NVd1a2lZUFpoQ1gyM0F3QXhndXltQ09VY3pXd1ZVU1NHLURUYWljc1p3TV80c0ZDOG05V2lDQnV6TmtEMWw3TV9xZ1VZLWVhX2I0d1M2TnQ3MUpucnR6dkRiNWZTb05QQmVrcUZjX1NPaFFjRUxjUm5EWV8wSEg0NzJ2aFpaS1VkWGY3M3RtdDBIMGViQjlxMDIwRTJlRUtaQQ?oc=5",
+          "published": "Wed, 28 Jan 2026 22:52:46 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.6095750331878662,
+          "text_length": 111,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold's big rally has sparked a bearish stock-market signal that hasn't been seen in over 20 years - Business Insider",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTEtCZ2Y5OXI1SG5mbG5IM0wtYUx6TnpDc05RYjdCRExkanY2UFdXNkpqTE9EdnRaUmFSSHExSHFlOHp3NGFrSTB6dGI0aDdlbVhGSmlvMzh1VzZkeGJuLWZlRXZTeGkxOFpXZ1ppaThIczlPd1J2WnE5VTVJcm1WRnpHNU5NWjNoTjBPdmRPRENXajBvS2M3THpsbzlsX09hb3BJ?oc=5",
+          "published": "Thu, 29 Jan 2026 10:15:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.948915421962738,
+          "text_length": 118,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 briefly surpasses 7,000, then closes little changed as Fed keeps rates steady: Live updates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pcE1DVkxWUmhhQTdxakk3OTRTRk9KZlRRWnEwdGdjOEk3NlhzWF9QYkhGa0cwb21zTlZrOWlUSnpzRzNiaEN1ZGtzQi0yUThRX3Q0SUtWbTY3bmlVX0JJX2xIalRzWFBJaVlOVzM4ZVY0ZUVVMTFZ0gF8QVVfeXFMTkduVjQtaFBYN0dKUDBfejcwVjJldUJrSHA4d2ZZbU1NY0dXeHl0R3IwUXVyY2JRLXpzcmRXczJRaEFsaVpEWG5hYThsTFM5eTdCYlFhcnNRcEFvWEkwSUF4YzRSRW0xVExlY1JIQnRsT1h6Tkl5X19xN0stbQ?oc=5",
+          "published": "Wed, 28 Jan 2026 09:13:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.7741371393203735,
+          "text_length": 108,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Crash in 2026? Fed Chair Jerome Powell Has an Urgent Warning for Investors. - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FSkFnMFNIeWYtTFZyWG9ubXpWT01WUDFUT0NOYVlhcTE2QkRxc3BBX19pS3VPSkZXNlR0UXdabXBvaGpSbVpQTEdiVDhkVzFEYU81WHZYNV9zM0ZNSmd0V0RzUFRmb3JnbXRvNklBdlhscVVURnYtY2J3MFE3Zw?oc=5",
+          "published": "Wed, 28 Jan 2026 09:00:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9999561309814453,
+          "text_length": 106,
+          "content_retrieved": true
+        },
+        {
+          "title": "The Stock Market Hinges Less on Earnings Than on Confidence Right Now - inc.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSWNWc1dfcHJZbzRDMmkzYVlHcks0QnJJbEpNZmJqQXlPN1Rreko4S3FkVUhPb19oY1BXOG4zend6Z0tPVFc3S1BMMTdMdkV4SG9uZWVUNG51T3ZkYV9OTlJ1LUJ5aVkwb0txTE1QUDJvR255ZEpxVGg1NTYxRVd0TzJsNk14S3dLVWNrMDh4NXNyYmNOcTM1bXB3dHNHZ3BORVlZN2xfSzFjUm9aWmQyTVl3?oc=5",
+          "published": "Tue, 27 Jan 2026 10:09:28 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9657147526741028,
+          "text_length": 81,
+          "content_retrieved": true
+        },
+        {
+          "title": "Market Outlook: S&P 500 hits 7,000 as AI optimism drives momentum - BNN Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmpZVWl5emtlQVRXSVZVYndtbDBsT1JtR0lmbGlGczMxcm9oeVlZR2ZnMmNmeTRDMVZ0aTI2cU5FVGpZaTNZUkNHRVl2WU4xV2U4cjg2QU1RQ2JDOWswZUpYZzRqcTdrU2FZUUpHamxGNHpVSE9SUjZoR09nT3hGeVU4NjJNNXNHa21OOUVuVzFFcE9HMXFFTUxqWjBnOUJKbjQ2WHYwQnRCM3pwdkZER2JhNldwZ2FLajk0bGtKMDJZTVFaNHc?oc=5",
+          "published": "Wed, 28 Jan 2026 21:29:17 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.7882078886032104,
+          "text_length": 83,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today: S&P 500, Dow Jones Futures Gain After Federal Reserve Pauses Rate Cuts—Tesla, Microsoft, Meta, Apple, IBM In Focus - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNbC02SzkwckFFT1RjN1ZMeTFfeElGdFVWcUNvdmkxWk9LV3NYNGZ5ZGsxdmV2ZjFsNkJQNVdvZjdWeTFDUVRXejFvLXRiYzJFc25RQ2NmSTRYTEdGbzBuUHlFUHppWGR1Mk9najNZQy10Y3V5bVRjaUQtcV9VQ1haT3FiQTFfQm1XQjFHNmJKMlRkcVZZR2k1bUxKMWp2REVSTVA4MEU4VHlrTTcxMWd6M3BVMjhtdGNaVjlJU2pBUUNCUFZ4dTM0Z2Q2MFljeFBQSVFxQmUyQ3lzdUZWMXliUDlSNHk2ZHI1WG9nM2hlZXpZbkp5bzlCNGhic05MVVd6Q0h5aFdUUW54bEowVUFsSVVR?oc=5",
+          "published": "Thu, 29 Jan 2026 10:19:07 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9325399398803711,
+          "text_length": 147,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 Forecast: SPX rises ahead of Mag 7 earnings & FOMC decision this week - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdGttSWFBZ3VxdEsyRkJVZ0RiX3VwdlJ5WUpndk1BaHAwOFVlU0oyNFRmMUc2dHBkZGxMUTVWYlBIUEF2M2hhU0JlWldQX3h1eXhXemxoVFFSYVdIbGpvLTE2cXRKU0RzMDJ3TEtndHJ2WjZuZUlDNmp5SlFxUEt4OVdkdV9HeE1CWW5TTFpiaS1VZzU5Y0pIQnJnZnY0andsRE1mLUtIVVZXanJ3UjF1dGhNbDlWY1BMV3fSAcYBQVVfeXFMTjB4bGc5d1ZROFB3cGQ4RXhITDJvcHpIVjJmX3U2cWU1anFUVm9GTkhkbmF4YUNNWUMxS1ZPeGREYWJTTlRHWWtBMXVXenBwNC03V1VPMElCalREQklIWmRFWTJkcTJoNURFM3JHTEhRekFWSE9Vc195NzFNbUhFWUV1cnUyZU1DZW9ac3NvQ0R2SmU5ZnI5cHV1ZG1XV0lQR2llb3RadG5vUG5EU21MREh2SFh0N0JkdzlyeFEyOEZYWXhhaS1B?oc=5",
+          "published": "Mon, 26 Jan 2026 16:16:39 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8918583393096924,
+          "text_length": 91,
+          "content_retrieved": true
+        },
+        {
+          "title": "US Stock market outlook: S&P 500, Dow Jones, Nasdaq trade will be driven by these pivotal factors. Details - The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVWlYM2ZFTzZkVUVHc0VLUE1RY3g4dWVSZUZpbjl0bmc4VTR4MmJ6X24yZlBnaFptUjI1OWtfdWhmRGtfZC1QeUFWN0JrSEd5ZHlwOVRKV0I0S2pPcnJ6eFZBMDBJeTJqWjZveHVCcDdyei05ZXRMdll4cWJocVh0WmdoVVpsVjNyaXRkX0ZHYnktNWNzUTV2S1BSTmVuU2tjUkFHcDVscFpMSDNxTEVka2VldEtRM2NJLVlhR0tfeFNjUmt0Q2VmQkZyaTdPRkN2d1NWcHBtMzJ6ajM1VEJiWDZrUFA2NmJqR1RwdHo0THA5ZXhRZkhTMU1UZmVtdENKZnlXSk5DUUdYM1FwV19z0gGUAkFVX3lxTE4wU21sY3k4YnVzeEpzNlV5cmgwYUJYcnJGTXpDRU1nMlNsbGJrMENTQi00VUpTRnlwTkNGSjhRbDllc240RnBLRXN2UDF3T05paWR5YnhubHo1SHg3T1k2bXlHWkg1bF9ucUFKOE1lWDdxZ0g0bjVYbkdZOEJ1OHpBZE0wVU5aRDNMbWplOHI1b3ZzcF9xdzloN0trTHJrcFdybENFR3BGSnc2MHpnX2V5Y2Rwby1kNlNaamRERlZMdE9sVmpaWHpGVmhzLTRGYlEyamxyYUxjT1JBSjUxYktCbTI4LVR6NGI1aGlEVHlhVi1ZTEIzeVIydGIxUHR0a2xyMzdRNDdHTFI3S3NhWXVaUV9JSQ?oc=5",
+          "published": "Sun, 25 Jan 2026 17:23:39 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999865293502808,
+          "text_length": 129,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 Index: Breaks 7,000 Today – Tech Stocks Face Fed and Earnings Test - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdG9zYzlfcDBBQ2tuZ3VUc3BMd2RKZlNHS1hydHRRUlVIVlR6aklUSHdQU2luaEVoamEwNTFodmlKUEUtTnJKamYyaG40WW9zbzdZLTlOOU5XSnlpZ1hhcjd2bk9iR1p4TG9VclNoNjRxSjI1M1AzaVU5d2FtWUk3Q1dhSjBmT25BQWxsNXZmbkJ2N2p3UnFPWXV6UGJyenIyMFVCQjdYbEJ1ck5UU0k0bW5aam5oRDgxMUdJaQ?oc=5",
+          "published": "Wed, 28 Jan 2026 18:19:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999966621398926,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "What S&P Earnings Would Be Without The Magnificent Seven - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zc0tScFh2NDE0SElCMFZQRjB0YmttNEdEcnc3NG9aYnlYcU1RZzhzeFF6MExyQmJVOXJ0T1RsbjFCNGh4NkxucFpWUUNBN0dHSEN6VGJGazlFMnl0eWtJamtnaEt1THI5MHRqNG1SVTc1TTlEZHpz?oc=5",
+          "published": "Tue, 27 Jan 2026 12:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999955892562866,
+          "text_length": 86,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, S&P 500 and Dow Jones 30 Forecasts – US Indices Continue to Threaten a Breakout - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa1FySk92NVZrYUtGTDNHLUgzNFdXSm5GazZ6UkhPdDVXQ0oyS25CWWdxS0s4TTYtWnFkWmREMmQ4bWYyX19sVXVieG8zLW5BT3RXRkdqWHBhcVhXTDFnbHA2ZEIzQjI5cXFJbFUyekJrWF9rUEtsazZGMGpDRFdEQTJoRFN4RmRIdndMUGd5c0pIdnluVDd0Z0ZDb2lvaFJqbWhXVWlIZDlWUDVyM1pYbzF0alM5WXFiVDl3bTVJY005UEpkQ2F4T1RyX0RHbFVlQ2pB?oc=5",
+          "published": "Thu, 29 Jan 2026 12:54:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.5176344513893127,
+          "text_length": 106,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stocks overachieved in 2025. Will the party end in 2026? - USA Today",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeko4MGk1MEJLdWRHRDJDRnlrWlpIQkU4cEM4RTdsbkhWN1dYNUpvbkJ0MjFTVjFtLXo0c0Y5UE5NMVN6aUFwNW5UcFdLLWpaSXljN0FxN1l1TkpISnNmeUZBTEp1ci1ESlBHYmxONGZhMmRLSlZTOUpjbjVTTlFTdE5ra1VFZTFrSU4yMTVSd1lzZHVNWUF0MWx5LUx0ZEtnOXJFWmxDZVMwQnozNzJWS0JqeFUtY00?oc=5",
+          "published": "Tue, 27 Jan 2026 20:11:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.5774487257003784,
+          "text_length": 70,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500, Nasdaq, Dow Forecast for the Week Ahead – Fed on Tap - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3hjQUxUN2xsQ256TF84eVZqa1AxV3N4eEh4MzdjR0tqdXNLTjYtMkN6d2hyaVg3STFGa1lJcU0xdVJWQUZPV1lGd01qVnhDYktCNVJqRGVNTVRlU3RyS2llYkNDMW5sc29LaklDUHc5bVlWTWZhTTNsZ0FyTVlFdmFpS1dpdDNReVJydlZEcXhLOE43elY4b2Z5dnhEbnhNYjFFeG5qeGtzMjRYcm9RbdIBvAFBVV95cUxON21OUHFXOG1hZUp1SVpfQThYdFY4bW9fcW5JbmMxZ2ZhcnFrZkNHbjVZUlh6QjBsd0E3U29ac3JOZXNXd2RQZlVQZ2lWN0F2bHE4Nm9BOGJ5Z1J0UGJ3RkFkbVM1SE10b1U5cFZSZTJaWHlfWUhjTXlsYUxiV0o5aFdwYnpJQkFPTllYNl8tV3NuRWpVSUV5NTlKLThvQjhEMDluMlh0OXlTTEZpcW5BQk92SVd3MTR0VmdRRQ?oc=5",
+          "published": "Sat, 24 Jan 2026 22:45:03 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999961853027344,
+          "text_length": 75,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index and S&P 500 Forecasts – US Indices Continue to Look Upwards - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWDdad0JXbUJ4OGwyMzdGU2h6cGViOERBT1hHZXB2UFBKUE12M2FfWllMTTBwb2dLWVA1N2s0SGF4TGZMWVIwU2RwbEZmSVZHNDVua1BSNEQxZHV5b3lzLVFkTVRqb2tkVVpkdmNHZGNWMG1xN215MkRjS0pNSnhmM0lkMXhBOGFXU29RMzNEZnFBdkdjdUk2eUIwUElreEI3dXdrM0l4Nzc3NUJfRUxwdVpfbUVpaHNuam9oWg?oc=5",
+          "published": "Tue, 27 Jan 2026 13:37:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9702825546264648,
+          "text_length": 85,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, S&P 500 and Dow Jones Forecasts – US Indices Strong and Waiting for Fed - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLU5MMlhCc0w5eUZ5SFgzOVZLRjhZNmZ0emM5YjFxM2xsTEVmMzFoNXVpM2hTeHJPRVc4cVBOb2pabzd0MnJjZWYtWUxRU3hycmZOR1ViUl9rWlZQbVRHenF3NURkYV9xN0VrRWNKRzM4U3lFRUpTRnFZd2ZOd0F4VWhoX01uQ2xOZ1VleXMySmE4cmhidGxpNEhKdHU1clp2TUZ6TnhBM2NMbDVfWEVsYnZxWWhLa0xkdzNpWlAxZHAyaDg4cFpsT3REMzM?oc=5",
+          "published": "Wed, 28 Jan 2026 15:25:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999997615814209,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, Dow Jones 30 and S&P 500 Forecasts – US Indices Seem Unfazed by Global Noise - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONGl4SnZUSVRETDdGbjFnNEk4VW1pY1NDLTFUOC1aeDl2d3FCWVMtbzJmZTlHdndfd0hLcE5rZ2kzcHUtVGZrRkw3eTVuTGxYSV9meHJId0JzM0E5ZHcxRlZ3Y1ZwM3VOWEd6ZWNPUHU0QWRyRU56Ujk1azcxWGd3UGN5MW1aZ1llaGVWYXBSMzFlVEkyTFdSZmJTM0t5ODFPZXNyMnAyNlRXNF9rMnc2SVdXMVdldi1tQ1B6YlZNR0ItUHlXdFl1NEo4ZC1odjJnNmlV?oc=5",
+          "published": "Mon, 26 Jan 2026 14:07:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9998934268951416,
+          "text_length": 103,
+          "content_retrieved": true
+        },
+        {
+          "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Mixed Global Growth Signals - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd1AyaWxZWkd6Qy1mTVlMUWk1SW8zZi02bFMtemdHcXJUaUFqTWVaemdVb1Y4THJYbHRoQ3poeTJ4LUNIWE9MTm9qT2FuVHdPVDZwVWJrZG51QkVmUkIxVFNFVE5YSW5xRWp5c1NwNk9ITGFUaTZMZHFhMnloY0hUZ3BCRXV0aGVHZzg1WGVPYmQyd2pkT3p6b1dWdXNPTHQ0Yy1CVl9CdkdEVXJ0cE5fWU54N3JZZVBxRjRtdHdmcG9NQ2l2TkhacGtR0gHPAUFVX3lxTFA2V0FpMUdRMFAzdEtXX0FZektUQlRsQzJtSUtmSVhmTUsxTHZiOEpETGtSeXVlRklNTUt5RmhtV3NfRmFqblNiT3I1WnN3SHd4TWwzbTFrSEd2cnVyemtDZS1QaXZMNmVfTGIzbllJdEtMeDVNSF9MOXIwNGVvM2ZoUHdPcnZpWkNzclI5ckpjRFRqaXBZWTdDR3YxSmRqR0lTdTF5UFN1RWY1YWpEN01iWThMRkdLT2tnX3dSektuT0NEZ3VscHJuTVpmbTNJSQ?oc=5",
+          "published": "Thu, 29 Jan 2026 10:39:01 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9959718585014343,
+          "text_length": 99,
+          "content_retrieved": true
+        },
+        {
+          "title": "11 S&P 500 Stocks Expected To Post Jaw-Dropping Earnings Growth - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXRrVWxmdGd6QjNvX0hFeFVOeHoxaDltT0dPMVpwSGFpZkNGZl83aTBzamxyRVZYTmtvem1LdmdHWmozTDdQUW9HNnVKbWRPNlVqT2tVbTJ5V05qUzVUelVuSFY1cVFRQ2Q1SnZwSEVWXzZlZFVCYml1NTJ0elR0aGJsYm9sbjJrcjNveVJNWm9RYkRmSnUxX2NXNGszTWlsaXRiUVpCOXQ1WVNI?oc=5",
+          "published": "Tue, 27 Jan 2026 13:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9989528656005859,
+          "text_length": 93,
+          "content_retrieved": true
+        },
+        {
+          "title": "US Stock Market Today: S&P 500 Futures Edge Higher As Growth And Fed Concerns Collide - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kWlZRalplY1BQY1FEX0xEa2lWQ1VPc2w4U3JPYXRQR3pJdVNFM1kzZHJJS2RYV3NSUkx0VEw4aWNIY2gzVzY2MFZfRE9XTU1wd1daVm5TZzNvUHRvaUxRNG5GUWFhdUNGQmticDJPclZReHhkaWN4eA?oc=5",
+          "published": "Tue, 27 Jan 2026 10:18:55 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999234676361084,
+          "text_length": 103,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 Reaches Record 7,000 as Technology Stocks Surge - TradeAlgo",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbTlRd3ZiMGp1bElNZ2dzZ05aOUIyU3I5eDIxNmRQa1FSek54YUROYWFLZFlka1p1NHlXYTVlZFZHUi02OTlKSVVLZUVGcGdWZ2xXemgxX3JQbTF5amxhRmdrQ0VWSzlOQW40Y2lmTmhkNDZlMjE0cUlhWnVjM25QbWVpeER3UE9ic3N5di0zQQ?oc=5",
+          "published": "Wed, 28 Jan 2026 16:54:27 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9990890026092529,
+          "text_length": 69,
+          "content_retrieved": true
+        },
+        {
+          "title": "Zacks Earnings Trends Highlights: Meta, Microsoft and Tesla - The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWmhyWVppTF9qbTE0VUdhY1ZNazI3V3Q3Qnh3QnYxUGo2TXFJWW9HeHluVXNVZ183QlRuUEYwMjhsVWloRDdtLU85SkxoWTFfYXJIblhHZ2hHblctdGM1Zjl3ZHRKMTctN3RRcENJMXB3M1dxYkd0RVd4QzZSNV9ld191cmY0SEFKYVZCWVkwMGd4NFNqcGQ0WllZc3pucmdkOTZrQl84S0tVR296a3RzU2x0RUpWTmRwajhHa2lsdUktMFVoNVJHdW1LaVJGeWpWSVRfSTZKY19oQzQ?oc=5",
+          "published": "Thu, 29 Jan 2026 09:04:28 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9806796312332153,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500: This Rally Needs A Blow Off (Technical Analysis) (SP500) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWUstakN2Y0cyem1JSDRiUjNLRHZVOEgyeFUtV0tZSzVHN1U2WEc2cDBkY01CV3NGUC1TU0dkWTlhSDQyQ1psTGFfT1VqUWM5VTk2eUNOQkRWby0zWUQ1X0ZGeHBXdmE0Yzc0WHFITFhBeTNpTUVfZ3pQb0tZMDVIa3A1QmpkRnVSQ1F5cnVrWWJvd1NNQ3c?oc=5",
+          "published": "Sun, 25 Jan 2026 21:00:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.956214427947998,
+          "text_length": 83,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 Technical Analysis, Big Picture View (See Video) - investingLive",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUkJRcE1Zb3JNeUJLeDF4TGVxRUxqakNxUW53QloyanVXSUZIXzUzU0pkLVJoYzVXM0w0ZVd4Q1pvWEpiQ2ZFWHlTS2Z2T3lhR21YSGpCdzlvazNhb2JfWWVWb3o3YVJGdHp0WV9LSmdaTjRmdE13bE1UYVd1X3Y0RTNUdkdJbFk5WmhpX0JvRS1ycEJCVl94UGJZYk9TQdIBowFBVV95cUxOTEJOU3RzV0YtcmtXX0FHcW9ZZ0hZbm1ubnplVC11c1JhMElaQk1McEtiaUZXYU9FSkNsck1vUXNwNW82WHZ4TXlOb3VESzJZWExiNkFhcWVlMDhYaWxfeUdpc1Jhc1FOX0tydUFuX2pDVTIzYWY0eXhKbVVXQlExUjQzRVRuNzRGZU5Kb3A1Rm92RVZ0ZFN5YjQ0UWhmTEc1Q1Bz?oc=5",
+          "published": "Wed, 28 Jan 2026 16:34:10 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999446868896484,
+          "text_length": 74,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P500: Tech Stocks Power US Stock Market Rally Ahead of Fed Decision - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZk9hS0VVUDZfSGZ4VkRzQjZtOS14Nk5sN1U4QkpDODE4YnA2TlBMcUxzTmRPenZwLVk4ZkZMZ0xPNEs4SEJwMzVaU3NhQkw0Y2g4V1ZHME5LdmoyUF9idmVRS21xQnJSSkNreTE3clhrRnloZzg5eUl3b1Rfc2xJMWwxNm5wd1UxclN6WmVscGpuNjVLc0d4UXVGa0tjWFJ5SG5jdGtVMHBtbFZqOWRCNWZ3aUZjQ0ZuMGc?oc=5",
+          "published": "Tue, 27 Jan 2026 15:25:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999219179153442,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: S&P 500 slips from record as Fed stands pat, Nasdaq rises before Big Tech earnings flurry - Yahoo Finance UK",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONWFCTEh0eXNsX0pMbEVaWG94Y2RWa0hYb0l5MzFRZ1Rua29DaGFiVExReXZWVXc3RXJMRXBaQWZiSWVOclVIanU4X3gwbFl0Yk1xUjdjU1hXS2p6UDV3dXBOWkxqSlNLV2ZYelVmUmJwRHlVeDN0V05aaS1fbGhtRkhOUDNhOWpEYmdIZmhjLTdpbjRzNzJ0eDFpbVZ5R0kzNzRJMGltc181UVc2S0NVRE8xUXQwYk1xXzZ2RnNGR2Q4WXlwMXhkRGo4WlU2VjBpdDdlT3VVUlRhVlY4SmsxWA?oc=5",
+          "published": "Wed, 28 Jan 2026 22:01:41 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9999052286148071,
+          "text_length": 130,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: S&P 500 breaches 7,000 mark Wall Street braces for Fed decision, Big Tech earnings - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd0NaMEI4cXNHVTA5aUVuMnQwb2VTQ2tzSktiX0t5ckhWSVVWUFVKb0xBU05NZEhnaUcxdVotVGstSC0wdjJ2VG9PTFNXbkttWVdBYXN1a0pyeERVTmpnZWxxMTBmb1FQTFZ1WXp3Y2p0c2cyU3pJRzByYlpKbTJxbXNOUFJCTGpkSXFxcWpubE41bzFlQ0NSVFA1cDZBNG8zMlJ5cnItRWN6emEzRkk1cGdGSHBiZUNrSGp2cHh3UlZzbFRkeDJnSjBVZ3ZUdUpUXzR2bGpjSm9XLUVNbDQxXzZFTQ?oc=5",
+          "published": "Wed, 28 Jan 2026 14:38:35 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999982118606567,
+          "text_length": 120,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq rise as Wall Street braces for Fed decision, Big Tech earnings - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMkV0T2F6LWRSb0lDTTYzaHF2aFQxVjc5bkJ4SFJCTEROWVlOVzZxVmZ0OGwxM0phcW9VYW0tUHRwZHU4ZERPalg5LWZlcUJhUXI4MmQwWTBDMzRMZWJJU1hyU3RTSnhDYm9RaFhBaGJGYWE4WFl1ZUQzSS1mY2EycUhkdU5GekpEVHdGWlZLU2VyZEkzcXJnZVR2enZ2cXNvMG9LNjFkOGFYVU1NNC1wY0htbzRXRVhMNk14X3Z6a0JzUlpaTTR1cURUSVZxQld4c2c2OFI1dF9scWdZSUhHQ3ZTeXc5SDhyVTFiak9KSQ?oc=5",
+          "published": "Wed, 28 Jan 2026 08:27:24 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999617338180542,
+          "text_length": 121,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: S&P 500 slips from record as Fed stands pat, Nasdaq rises before Big Tech earnings flurry - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeXlEMFN2M2VMdE5uS0ZfNHlWMVFES2RHc0hkTlZBbnBjTEFGWFZ2SWVMR0taZHh6b2wwSk1Rdkl1RHdyRWtHNzhITlF5alVicXVZdWx4WnFKMGw5bjhWSjhaMXFoQTIyMVV2Y2MxeWN5NkcwY2hIRFVKWE8tdGlQa21mOXdfMjdVMEE1T3ZNbUFpNDIybnVSV29YQzRYYkVFa1NtOVRrRmlRZ3p4N0Z2Y1VhUS0zWVpoQnVzbFRfcnNHWElkNG5FX1Y3a1FjZFV0Mzlha0JvbXVMZHE1TUswT1BtUElvU2JzTXphbzN3?oc=5",
+          "published": "Wed, 28 Jan 2026 22:01:41 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9998935461044312,
+          "text_length": 127,
+          "content_retrieved": true
+        },
+        {
+          "title": "Nasdaq ends slightly up, S&P 500 flat as Fed brings little surprise - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3hEc0NJdW1iTkctS2FITkpqWTZOSXpYaEd0WkNjMkE2endwMkJfTlU0cWU1Mm5nQlZaRzVrRW5CZnBBUDBzVU81OElTS3djQWQ5WVVQXy1mUEZxZG40cXJMZXhiaThKNmtUbGRTaG51dGUzRjJ6VFJMaExPZlBaRlhlTTROak82dE9aZ3dCMm1aam1MSFFoZGVJVVY3YlQ4LS1XaXpoOW5vVVVKaVE?oc=5",
+          "published": "Thu, 29 Jan 2026 00:37:22 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9647687077522278,
+          "text_length": 79,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today: Gold, Silver Hit New Records; S&P 500 Futures Gain — Live Updates - The Wall Street Journal",
+          "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxOV256RjNmdVZFREZOZ1o5RG9HZ3R0WXJTeTBSb241Rm9rdTBhUk5FMldoamI4NVlwSHkwNVhBZXZnd01kY0FvNTg5WnVkMDZuaXp0STlqRUQ5cXhxRlVxbm8tNzliX0ZnT0VLZ1FOd25sWGZHU0lUWUt6aWpjVllwZElUVFRlRGRLZWY0SEhWVDlDM0RNU3FtSmdvR3ZzNmIxaWhLb0F4Y1NCQlNMXzUzWmJRZWxITHhKLTVOcXoxTncyUFFnRUJEa1ZLU1lRaGdQRnc1N25WdWVOd19FaEtCemExdnVZRXJJVnB4WVBVMjNuaWJhX1I3N0FaTGVDNFp4WWVOT1RNTk1EbHNhcHJoT25jNjhvR1hva0E1bm5keEIyMmxSdnNWY3RsU21qZGREemF2ZE1VVGFzRDZxWFBCTUhzUUtxVnhoeDktRFAyODJBcm9ESXFKNEl6X05JX3ltNi05V0ZFOU5GTEppY0czbV9PMUExOFN1dmdmQUZCWWFKWm5xa0hPa0VzaTc?oc=5",
+          "published": "Thu, 29 Jan 2026 13:13:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9034445285797119,
+          "text_length": 113,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 closes at a record Tuesday as tech giants rally: Live updates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ybTlXVGZPWXRhUHVWZ0RaRGV4YU43Q0steWxpUkNJb0pESHNZVlZnQ3k4QWt4Y0dra2hPODRGTXQzWjBYMDhsWDR0aGZ2Y19RTFZZT29uWU56enVNS0NWTlVUNlpjcDgzWXRELTVHcnVtUm9pTFhV0gF8QVVfeXFMTUZaVElaVFF6a1l2RUJWOUNzazd1clNLalo1V0RZazlMYm41aU81VUY5Z2NTN3RBM3dTU0tidTJTRDdoSVQ3SjVrVUhOS1FrNURQajJiVktqNnlGcVlXRG1pLW9SSFBQRjIyWWhjVEtrbEtXOFFCLXFMcE50cQ?oc=5",
+          "published": "Tue, 27 Jan 2026 21:26:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.986634373664856,
+          "text_length": 78,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as Tesla, Meta, Microsoft diverge after earnings - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdElPQlJPOG10WXY5Wm1YRjZXMV96bGhhclRRM290V2hRQjRIZXFaU0E0dUhGTlZjbExCa09FZjBrNDBLNFB1cU10RHpzWFd6akVIRUktaU9rZDJwZkx3NlYzWDg2Rzc2STFpNURzcEIzZWdVMTM1Y09WTGNwcU41ZXR3akRwZjJyOWFwdXotMWpEbmRhRnlYckFFV01xZ2xiQnNGTlZjbm5jSGtnRGJIdUlpTXZ5cEVlbmJQRXozdGlGQ09SWDZ2Tmo2Y1FiQXBtN25ieHhrcTl6Z0d4T09QSw?oc=5",
+          "published": "Thu, 29 Jan 2026 14:13:03 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9793863892555237,
+          "text_length": 120,
+          "content_retrieved": true
+        },
+        {
+          "title": "Wall Street Pauses After The S&P 500 Briefly Hit 7,000 - Finimize",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXdVR1BPMDNIQ0xMd080ejNWMGVsaXNPUHh4cDVYNDBYaU5wUGt5WGpBMkRGdnRWUGxjLXVTaDRILTVXbUJJa2U4M0pnOW1XQ3RaRkdyR1AzYVpGbjUxT1pmeU9meE1nWlY2aHVkbmxvUmd1NUlhWWFXSmg1aHhyMlRjclFtaFpx?oc=5",
+          "published": "Wed, 28 Jan 2026 18:23:35 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.7157049775123596,
+          "text_length": 67,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 futures rise after Meta soars on earnings, but Microsoft dive limits gain: Live updates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TZXlyVVVoRV9KTXV4QllHSDJOV3hzbUVTOVA3eGV0Y3UxUXU3SmljUFVlSzBkUjdlWVA0ZmJ3YkNLeXpIVUtvNHh3LVpRbUFSR21GNXpxakhaZnNremM0SkdwVUF3YkFMYkpOVklZRG44NXRBUDBj0gF8QVVfeXFMTkpuRzNLVkJKWnNVMF9UZUV1S3VfX2JaczJUeEZHQVJSWlliUWxDRVJMYXpSTkFoQVdSY3JIYWd6TTRIZzU0LUdBLWs4Wmxtbl92SWFjeVhMRFNvbENWUHVqT0tiMVJOXzlTMU5IS2JvR0hLMEVZcDQxV1NoRg?oc=5",
+          "published": "Thu, 29 Jan 2026 14:01:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8995798230171204,
+          "text_length": 104,
+          "content_retrieved": true
+        },
+        {
+          "title": "Dow Set to Open Up as the Market Digests Big Tech Earnings - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPZ0Q1TTg3d0F3N3hraGdUajRKSjBsa04wUnc0UGk4aUZmNFl2Y2IzQVRpRmd2NDJTWEJLaXBHUzVpTTR6akotN29IbzdoRDdUZ0FoTXhlQU56aTFOdGVrTklaTFFYZnFDeU5Kd2R4dHVNMlpYaWhsQlo3ejhLNHd0bDJTR1RGcDY2UEUyZEVqV2hIY192cDN1UFN4V1czMVUxR3BVcElvM0d0UGhpaW9lcHVMT3lMU2p4d3J0WmdRby1COEpoeTVTZHQ1bkpMekhCWmgwWlNOZ3g3dUhYXzJFQWpXRElpaGs3RVdlSHFhUU5QY3d5SmIwLU9USUFqdUtsaXF5YldLNzg2YnFGWG1naDAtSGwzSjZ4b3dvN2Y2ZlZPS3VGRjRUYjB1TFRmSzBkNGktcm8yTVlEMUctSndsaWZPOWNLMTVlUE9vdEt2Z2Zmc0ZwMmt4ci1WeVhMNjkydmtiVnh1UkxZMjNjbzJ0aDVFZlNGOUU1WU9j?oc=5",
+          "published": "Thu, 29 Jan 2026 12:08:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999990463256836,
+          "text_length": 71,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Rally Wanes as Bessent Fuels Dollar Advance: Markets Wrap - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY0FTZnkzT0NYbVR5U3pxNHgzRDYwSFF5U09NWDRJOU9xc2JDbEswZTVDckFhZEctQ2VrZWVEcmlQYWw5cDVybENpczBwNGJJN3ZJVEtSSXFJbjY0Tm01MVRycTR5UEs0TGRxb2FQREw4VVUzSG9CTlRIaVdROFRhUm1peVhQdE1hQXRhZTQzOGhRQVdJ?oc=5",
+          "published": "Tue, 27 Jan 2026 22:36:07 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.6841174364089966,
+          "text_length": 77,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market News, Jan. 28, 2026: Dow sees slight gain, S&P 500 closes flat after Fed pauses rate cuts; Nasdaq has sixth day of gains with tech earnings on tap; gold hits fresh record, oil prices at 4-month high - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxObzk4aVAtdG82bDBiR1dPeGNsWDc3bF9aZkRLOXU0cjdqdkt2M3c2SUhiNDAyS2JNZVNqNm43R0gxeGZZM2o1dVd6d2pKQjBZUnc3RnJqbWpGODJtMUU1TmRiM015MWRLWWdKXzJVa1lBNDM3djFRWjV6OHRHX2o1dHBBOGtXVXZBRjhET201UGZCdGN5MGVKVEZWTEJDV2hyX0RNZEhEajZXb3dsaTAweU94a0pTVUhEQnJNYzdHVWcyM0dCLVlrV0dKdTVVYnFtRG5BWWlWN3hpOXFXVFYxUGIydy0tQm5vb0pNaUNHRXVzV1dPdlJiV1BFejZIUzR5NVQzUnotcTdwd1lfcU51R2I4MGJIV280ZDFMVmZTbHZuUFk3bmlaMjdYeE43Wko4cW5ZZ3loRGw1dHZkTlltcTluNzV0ejN2RmhVUFVBaUdtajVHMkU2QXpjSnplRVVrX0ZXdGpyOWdhQVpKOHhwU3ZtTEJKX3hkZDlRdFJkQ1B3RnB4TVFjQlZ0djJlMjNQTFZJZHMwOXdfQ1Y0YWZZVW9kN0dIRl9PWU5WWVh2ZXlPUDFyek1JalR5Vk5QU3I3cTlwdDU5U1BhVWVqRE5KXy0wLURGekdZVUtr?oc=5",
+          "published": "Wed, 28 Jan 2026 21:37:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9998099207878113,
+          "text_length": 227,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today: Dow Loses 400 Points As UnitedHealth Tumbles; S&P 500 Sets A Record (Live Coverage) - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMjZtajZEY0V1OTllTGZlRFdGaE5WZmxweDNQZGhRdjBneFB3MlNCdDRpTWR2YVk2b3dITWJON05mR2FTOUhJSno0OUNFeUZvVnZYTmRYNGlYZnhMWTduVjRqZU9NY1Q1c1FUUjROaFQ1U3FiWUZlQ29LY2hkdXBlUDVyaDd1VmZncXJHS2VzWnRwZWZENTd2cw?oc=5",
+          "published": "Tue, 27 Jan 2026 21:28:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.7420476675033569,
+          "text_length": 133,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today, Jan. 28: Earnings from Microsoft, Meta, and Tesla follow S&P milestone - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnJPYmxqVUE0QXZibjdNdUFUbk9RRTNMZldFelQyUXREVVdTR1JRYVZzbDM5RjFqUHZtUnloMU9oYVJOUzVHc0hoU2tzeWF0RVlPci1OTkxtTnAzY1AtMGc0UnR3d1RRSGQwRWVHaE5TWk4zZ2M0QWpOMkNzQ2NnZDR1Zm5VVXFXRDI3c3ZmeWM3Mk1FLUFXVk40VEtoVWxPR2x1ckhuME11ZXdVZnVjUnNyZlhScm9NWElGQ1JUNmdoRmtGbm9lVEFoY0tId3lQ?oc=5",
+          "published": "Wed, 28 Jan 2026 22:11:37 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999997615814209,
+          "text_length": 108,
+          "content_retrieved": true
+        },
+        {
+          "title": "The Stock Market Flashes a Warning Seen Only 2 Times Before. History Has a Flawless Track Record on Where the S&P 500 Is Headed in 2026. - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSHJfUjhPMlRtLVBRVDRnSUloT01NM3pkU1hmUWc5b3ByRUU5cDNGd3B1aTZlRkF1d3M4Qmk4STRZWFZGRjlDNlZIX1ZXM0VwUUV1bm50SEFKLU5hZ2gxX1pVSjFKQzdodTZpN2pTZzlzZkNvZVlHaVFnRW53d2I2cF8xUFEtZzlhWHQzSkNJaGdHNEV6UFB4Rg?oc=5",
+          "published": "Mon, 26 Jan 2026 13:41:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9999185800552368,
+          "text_length": 156,
+          "content_retrieved": true
+        },
+        {
+          "title": "Markets News, Jan. 28, 2026: Stock Indexes Close Little Changed After Fed Holds Interest Rates Steady, Ahead of Big Tech Earnings - Investopedia",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uaTY2VVRBeERjSkV2MzJ5c1FydUZfRUVTT3VsTXlwUnUtNkZrNkwwSHktU2tRcVIwSmhoa3dmTFFydk1aOFVSVlpmWXcwOGljTkpoZFdpOHQ2em9JZnpHQTh0RU5fRWhadlMyZXR1OA?oc=5",
+          "published": "Wed, 28 Jan 2026 23:31:39 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9994877576828003,
+          "text_length": 146,
+          "content_retrieved": true
+        }
+      ]
+    },
+    "US_NDX": {
+      "name": "Nasdaq 100 Index (NDX)",
+      "total_articles": 35,
+      "duplicate_count": 3,
+      "sentiment_counts": {
+        "positive": 13,
+        "negative": 3,
+        "neutral": 19,
+        "directional_total": 16
+      },
+      "sentiment_percentages": {
+        "positive": 81.25,
+        "negative": 18.75,
+        "neutral": 54.285714285714285
+      },
+      "sentiment_classification": {
+        "label": "STRONG BULLISH",
+        "description": "Very strong positive sentiment"
+      },
+      "articles": [
+        {
+          "title": "Historical Average Returns for Nasdaq 100 Index (QQQ) - Trade That Swing",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSVZ5NmNUbHhSeHlEa09ldjdScmtHNTlJVFRVaTVLYUVodnAyZzg0SlFRMlUyakQxT0dvZkdkNHRFWmNiZ3N2Yy1Xdkx1U29iYjFoSzNlTzY4eWR4NkJucHBHa3JuRWd0eEtBZGhMRzJBUXN6MXMzUVhXUDZpSDJyYjB1Z2dlQQ?oc=5",
+          "published": "Mon, 26 Jan 2026 14:36:15 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999996423721313,
+          "text_length": 74,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 futures rise after Meta soars on earnings, but Microsoft dive limits gain: Live updates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TZXlyVVVoRV9KTXV4QllHSDJOV3hzbUVTOVA3eGV0Y3UxUXU3SmljUFVlSzBkUjdlWVA0ZmJ3YkNLeXpIVUtvNHh3LVpRbUFSR21GNXpxakhaZnNremM0SkdwVUF3YkFMYkpOVklZRG44NXRBUDBj0gF8QVVfeXFMTkpuRzNLVkJKWnNVMF9UZUV1S3VfX2JaczJUeEZHQVJSWlliUWxDRVJMYXpSTkFoQVdSY3JIYWd6TTRIZzU0LUdBLWs4Wmxtbl92SWFjeVhMRFNvbENWUHVqT0tiMVJOXzlTMU5IS2JvR0hLMEVZcDQxV1NoRg?oc=5",
+          "published": "Thu, 29 Jan 2026 14:01:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8995798230171204,
+          "text_length": 104,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: S&P 500 slips from record as Fed stands pat, Nasdaq rises before Big Tech earnings flurry - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeXlEMFN2M2VMdE5uS0ZfNHlWMVFES2RHc0hkTlZBbnBjTEFGWFZ2SWVMR0taZHh6b2wwSk1Rdkl1RHdyRWtHNzhITlF5alVicXVZdWx4WnFKMGw5bjhWSjhaMXFoQTIyMVV2Y2MxeWN5NkcwY2hIRFVKWE8tdGlQa21mOXdfMjdVMEE1T3ZNbUFpNDIybnVSV29YQzRYYkVFa1NtOVRrRmlRZ3p4N0Z2Y1VhUS0zWVpoQnVzbFRfcnNHWElkNG5FX1Y3a1FjZFV0Mzlha0JvbXVMZHE1TUswT1BtUElvU2JzTXphbzN3?oc=5",
+          "published": "Wed, 28 Jan 2026 22:01:41 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9998935461044312,
+          "text_length": 127,
+          "content_retrieved": true
+        },
+        {
+          "title": "Live Nasdaq Composite: Markets Look to Extend Gains Despite Economic Headwinds - AOL.com",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qbXhSdElzZTNjNWFjeDVFM0ZsNjc2OW5laWZkejh1UTFtNWc2Z2R2dXdJSlduOUw4cmlXQmNyTEpkeThQd3pMYV9RcV9CYnZLOWIyMDhETjlSd3plSTh6b1poZGtOWGE2NzRaV21sUW42WThFVWhRUw?oc=5",
+          "published": "Wed, 28 Jan 2026 17:02:02 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999997615814209,
+          "text_length": 90,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today, Jan. 27: Dow Sinks As UnitedHealth Plummets, Tech Stocks Boost S&P 500 and Nasdaq - Nasdaq",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd20tLXJqc1dzbHhoc29MRjVOOEF2a2I1bVpwWjRVMFdtX215cklaWlpYdkVIRk5pSGVtbmdsaTE0eDhGV3VDeVBUVVBGeGJ4ZHZfMWxXVllTWDdSR1MzOV9lSG5Mb1hGYmZ5bEhHNHRhSjF2TXJNeFFKaUF4NXNGdmxFb1RIU210QlNZYmZDOWd2eWR1S3BtRnAxdV9BdTFYbmRld0Z3aWNER3M4Z295TU9nT0dUTDJnQTFBXw?oc=5",
+          "published": "Wed, 28 Jan 2026 17:13:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9711259007453918,
+          "text_length": 112,
+          "content_retrieved": true
+        },
+        {
+          "title": "Live Nasdaq Composite: Market Optimism Overrides Fear on Economic Tailwinds - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRmNRY3Q1ZUpiZUNtRnVqWXJyb0xtcjFXM1ZrWXAtYmp1Ny1FMjVPRmZLS193a2hmb3pCc0QxV0M5RjZPZmE3TzJ6UW0zakRiNHlzX3VwUEpPMGVLcEw1YXFLTDZpeUdrRUdlSGlMM2VBaDhsakhMc2xSUzdkRy1jX3lYUlRsekIyblUwdk9OOWYyNi14RjdYWlhiVVRSdmRSWUhrU1R4TzN4WUREZ0tYOUF0ZVFoMGdFdEE?oc=5",
+          "published": "Tue, 27 Jan 2026 14:58:09 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.999535322189331,
+          "text_length": 93,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, S&P 500 and Dow Jones 30 Forecasts – US Indices Continue to Threaten a Breakout - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa1FySk92NVZrYUtGTDNHLUgzNFdXSm5GazZ6UkhPdDVXQ0oyS25CWWdxS0s4TTYtWnFkWmREMmQ4bWYyX19sVXVieG8zLW5BT3RXRkdqWHBhcVhXTDFnbHA2ZEIzQjI5cXFJbFUyekJrWF9rUEtsazZGMGpDRFdEQTJoRFN4RmRIdndMUGd5c0pIdnluVDd0Z0ZDb2lvaFJqbWhXVWlIZDlWUDVyM1pYbzF0alM5WXFiVDl3bTVJY005UEpkQ2F4T1RyX0RHbFVlQ2pB?oc=5",
+          "published": "Thu, 29 Jan 2026 12:54:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.5176344513893127,
+          "text_length": 106,
+          "content_retrieved": true
+        },
+        {
+          "title": "US Stocks Brief: Nasdaq 100 Futures and S&P Futures Both Up Just Above 0.1% - marketscreener.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWWlaa0VMVFRheVhVZmJnVVZ2cHBLcWdGclVlV2ZaRHk1dDBxZW9GWkhTMjJZT0lRX2ZURmpLeDg3TTFEWVVaV0pxN1B2QVF2ZnQzdlM1WGxZNFN5N3lpRk5ZLXY5RWRHcjc2czNOelBFWS01T1ZsU0prTmtIRWs0NEU1RFBnUURlbTQ2ZmtFS3Vja3p1LVEzSjNxNXdzMkMxZWd1Qko1a0YtODQ0THpnamlpVExJaDkwb2E2ekpwamFlUjV4?oc=5",
+          "published": "Thu, 29 Jan 2026 12:13:46 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9943609833717346,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500 briefly surpasses 7,000, then closes little changed as Fed keeps rates steady: Live updates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pcE1DVkxWUmhhQTdxakk3OTRTRk9KZlRRWnEwdGdjOEk3NlhzWF9QYkhGa0cwb21zTlZrOWlUSnpzRzNiaEN1ZGtzQi0yUThRX3Q0SUtWbTY3bmlVX0JJX2xIalRzWFBJaVlOVzM4ZVY0ZUVVMTFZ0gF8QVVfeXFMTkduVjQtaFBYN0dKUDBfejcwVjJldUJrSHA4d2ZZbU1NY0dXeHl0R3IwUXVyY2JRLXpzcmRXczJRaEFsaVpEWG5hYThsTFM5eTdCYlFhcnNRcEFvWEkwSUF4YzRSRW0xVExlY1JIQnRsT1h6Tkl5X19xN0stbQ?oc=5",
+          "published": "Wed, 28 Jan 2026 09:13:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.7741371393203735,
+          "text_length": 108,
+          "content_retrieved": true
+        },
+        {
+          "title": "Commvault (NASDAQ:CVLT) Anchors Nasdaq Composite Index Software Talk - Kalkine Media",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdVZiRVpwcHJ2ODhwR01RSG53RFNEa0NIdTJMQVVwNF9DbGVBWDlNajhHYXM5djZHM3BsUmxYNDRHVjdsQnAwRWFwUnp0VzZBc1lWQkVENUF0Qkl1a0o0YWwwVnFnQTJVdC1NdEFMZ1J6aTdNbnU5QlpEQkY1ZE5Ub01YMUhhUTd6dGhpanF1ckE3c3JqaFB1MmFLZlZLT3dMcEpNZ003bkdFcmVsZGlnZw?oc=5",
+          "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999966621398926,
+          "text_length": 86,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock market today: S&P 500 hits fresh record with Fed decision, Big Tech earnings bonanza on deck - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYi1Oamw3Q2J4dWpLZm1TSDBKblVtbTl2NFpvS0ZCUF92YmJYaEZ0ODVUZVhiTXF4NE1yeHdYVVFmXy1FX1NncmRiOGNvMzdxMmZadl96Q0p3Vm5PdFNfUnR1T2pQQnpGU05Vdm1HUnp4TFV4dmVvWXpYYVRaSmN2dmNfM2VOcFpBYmxlUWVqUGR1TTFNODg2dExEemRyeUFlWFZLTDlmay0tWHRUZWZKWjhmcXlhcGJhdXRoa0MwR2xXcm9TbUlERFBMcXktX0FnZUlhblVmRGZ1WFFTLW9Z?oc=5",
+          "published": "Tue, 27 Jan 2026 21:06:15 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.6096490621566772,
+          "text_length": 116,
+          "content_retrieved": true
+        },
+        {
+          "title": "S&P 500, Nasdaq, Dow Forecast for the Week Ahead – Fed on Tap - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3hjQUxUN2xsQ256TF84eVZqa1AxV3N4eEh4MzdjR0tqdXNLTjYtMkN6d2hyaVg3STFGa1lJcU0xdVJWQUZPV1lGd01qVnhDYktCNVJqRGVNTVRlU3RyS2llYkNDMW5sc29LaklDUHc5bVlWTWZhTTNsZ0FyTVlFdmFpS1dpdDNReVJydlZEcXhLOE43elY4b2Z5dnhEbnhNYjFFeG5qeGtzMjRYcm9RbdIBvAFBVV95cUxON21OUHFXOG1hZUp1SVpfQThYdFY4bW9fcW5JbmMxZ2ZhcnFrZkNHbjVZUlh6QjBsd0E3U29ac3JOZXNXd2RQZlVQZ2lWN0F2bHE4Nm9BOGJ5Z1J0UGJ3RkFkbVM1SE10b1U5cFZSZTJaWHlfWUhjTXlsYUxiV0o5aFdwYnpJQkFPTllYNl8tV3NuRWpVSUV5NTlKLThvQjhEMDluMlh0OXlTTEZpcW5BQk92SVd3MTR0VmdRRQ?oc=5",
+          "published": "Sat, 24 Jan 2026 22:45:03 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999961853027344,
+          "text_length": 75,
+          "content_retrieved": true
+        },
+        {
+          "title": "Nasdaq 100 forecast: Can big tech earnings drive new all-time highs? - City Index UK",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX1pzUjJXaDRHYkktTnVGM3ZIeEpaU0tLcFFZbHFpNTdveWJWeHVsbU9vTEdxM0I2SkF1UHo4S21OV2tyZ3k4ZDcyejdsNDlRT2JHSnJVX0ZxUmRrQlM4Q21jdFN5VkxMNmRCR2NkVGRvS3QtaF84ZC1xd3loOHE3WnhRTGhCT1ZMc2pHTkEwZkVxRkxTczUzYmFNRlNmYjdXYmZESWF0Ui1OcXJMV1RSNDlXWXVkOU9V0gHEAUFVX3lxTFB1ZVdTTFk3Zm15MzV4bVc5UlZqZkpOdXRtTVdNM05EMVRhdExaUXUtblFoampfVkdRR08wZnQxMW5hREJKZlFNelZzMXp5RGNlNjZlSm53Nkp4MkVkSVFsZ3ptN0FtUk53elMtbmhralRBWGJQdzlnakhGTEROWFdJb0RwUEZOQlZqaER0eXFnbWx1Rm5zRXI2M0cwbmFMQ2VzUXN2d3pDQm5vWGlmLXFYSzNIbWNZYVY1UnlDMTVINGkyUFQ?oc=5",
+          "published": "Tue, 27 Jan 2026 17:27:22 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9728900194168091,
+          "text_length": 86,
+          "content_retrieved": true
+        },
+        {
+          "title": "Nasdaq Index: ASML Surge, Powell Remarks and Megacap Earnings Drive Today’s Forecast - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbWhkbExacFQ1NGF4elVPMkN1Q28xOE8yZ2R3WE1Ca3FsV1A1bXF0d1VJZ2diVHhyMUNfcDJtczFDNl91bVdvMFVtYTh0VFQ1aUdiM21yT2xtVHlBY09VMW15R2ZiQVpla0dqQ29jcEltMVJEZVRTLVlIY2pUNExHcVNYZ0V2eG5GajZXUzZlR0hjWUhZbDVrWjU5TmtVYlN0djQxOEhsNXBSWlJtN1FraFFEZmNIbHFIMkpZUFpxUU9HQk1IbjJWUjEzR0Y?oc=5",
+          "published": "Wed, 28 Jan 2026 18:21:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998711347579956,
+          "text_length": 97,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index and S&P 500 Forecasts – US Indices Continue to Look Upwards - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWDdad0JXbUJ4OGwyMzdGU2h6cGViOERBT1hHZXB2UFBKUE12M2FfWllMTTBwb2dLWVA1N2s0SGF4TGZMWVIwU2RwbEZmSVZHNDVua1BSNEQxZHV5b3lzLVFkTVRqb2tkVVpkdmNHZGNWMG1xN215MkRjS0pNSnhmM0lkMXhBOGFXU29RMzNEZnFBdkdjdUk2eUIwUElreEI3dXdrM0l4Nzc3NUJfRUxwdVpfbUVpaHNuam9oWg?oc=5",
+          "published": "Tue, 27 Jan 2026 13:37:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9702825546264648,
+          "text_length": 85,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, SP500, Dow Jones Forecasts – SP500 Tested 7000 As Traders Waited For Fed Decision - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRWw5VTNSbUhkQ1pNVFBwWnIzT0p6eFMwQ2tlb2R3ek1LNjVDbkJwOWpKSzVUR1JMTkVNWmZ4dVQwS3pueUVlTEdhYTVzLUlsUXY0WmZ0Mld4elM0VExYM25pa1ZpcXhac0RhRzJ5WTJtcDQ3S2hjeDk2ZHVYbDlzVlJCWDRsMlhMT09tanM2THA1LTBKcG5NQk5LZ1hHY21JUENEaVQ1UExGZElHZDl2VlRiVXV3U2JWak1KaVA0c3k2WlBtWFpVaVFtdXJEWFNzTDk4ZHlWb196Zw?oc=5",
+          "published": "Wed, 28 Jan 2026 18:43:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9989379048347473,
+          "text_length": 108,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, S&P 500 and Dow Jones Forecasts – US Indices Strong and Waiting for Fed - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLU5MMlhCc0w5eUZ5SFgzOVZLRjhZNmZ0emM5YjFxM2xsTEVmMzFoNXVpM2hTeHJPRVc4cVBOb2pabzd0MnJjZWYtWUxRU3hycmZOR1ViUl9rWlZQbVRHenF3NURkYV9xN0VrRWNKRzM4U3lFRUpTRnFZd2ZOd0F4VWhoX01uQ2xOZ1VleXMySmE4cmhidGxpNEhKdHU1clp2TUZ6TnhBM2NMbDVfWEVsYnZxWWhLa0xkdzNpWlAxZHAyaDg4cFpsT3REMzM?oc=5",
+          "published": "Wed, 28 Jan 2026 15:25:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999997615814209,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, Dow Jones 30 and S&P 500 Forecasts – US Indices Seem Unfazed by Global Noise - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONGl4SnZUSVRETDdGbjFnNEk4VW1pY1NDLTFUOC1aeDl2d3FCWVMtbzJmZTlHdndfd0hLcE5rZ2kzcHUtVGZrRkw3eTVuTGxYSV9meHJId0JzM0E5ZHcxRlZ3Y1ZwM3VOWEd6ZWNPUHU0QWRyRU56Ujk1azcxWGd3UGN5MW1aZ1llaGVWYXBSMzFlVEkyTFdSZmJTM0t5ODFPZXNyMnAyNlRXNF9rMnc2SVdXMVdldi1tQ1B6YlZNR0ItUHlXdFl1NEo4ZC1odjJnNmlV?oc=5",
+          "published": "Mon, 26 Jan 2026 14:07:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9998934268951416,
+          "text_length": 103,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, SP500, Dow Jones Forecasts – SP500 And NASDAQ Move Higher As Traders Wait For Big Tech Reports - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaVlEa0E4S0tjdVNhbXBzMDh0WG00Xy10WkdXb2pBZVNHVEtXcXhYanotU3k5X05HZ25Sdmctc0JZdjBKRXlkQWstamZIQjQ3Z2U2U1F2UjFvMVFjWU5kekdlUDJHcWJDcG5SQXdCYUJFTm1sSkRiOEhpTEFQSnNiWVRXQjBMY3ZHeEdZc3NHcUJ4OHZydlp5QzZtSmlJNkp2ZEwxVXI5VUUwbXZrZ3Y1VTZRWlFQbEpVOHdObUd4YzVWVXctNERoR0FzcW9yQXRUbHcwTlF2SXVSWjM3d0lxZFBPNVRqTmRraWdB?oc=5",
+          "published": "Tue, 27 Jan 2026 19:18:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8349475860595703,
+          "text_length": 121,
+          "content_retrieved": true
+        },
+        {
+          "title": "NASDAQ Index, SP500, Dow Jones Forecasts – Stocks Gain Ground As Traders Prepare For Big Tech Earnings And Fed Meeting - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNanpBSzNfN3V5cW1FcVZVQ2pFV253LVg1Y0Q0NExjakNhaUVjZTM1a3lkOUV6YWlTRTVCQU56VlUzV1lISy1OTEN6eTY0N1VDU1lfa1g1OTUwbnVTdS1zTWhzQjk0Yk9IZTdwN2xvbkd2M19NUmRXd0lGUGZoUWFlWEpfdW9ndHpMYnd4TW91Q2R4NFFucU9hanFiRE5aM2stbU1TbmlKOUpwb1c4ajBIUjNsMTFoSk5kWWJLakd6QjV6WWxPYjFCeGFiS2pzQzQtSk9jcTNtRk5KcU1YT3RLWTE5UTZFSUEzVC1reUdtVm9RUDFOTVFHdg?oc=5",
+          "published": "Mon, 26 Jan 2026 19:23:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999996423721313,
+          "text_length": 131,
+          "content_retrieved": true
+        },
+        {
+          "title": "2026 Outlook Market Technology: Dawn of a New Operating Reality - Nasdaq",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPXzYwdUZpQ01oRXY1ODExTkhMczJUQl9BRnVuR2JjT0E1RG9FX0lhWHgxdFd6WHh1YlR6SEpLRnBOR0VjSHR5blAzZDBLbXJzd05DaVBHejI4WkoxdF9kMERCTTZRczJxNnhpbWJqSFhfUlhVaFVmbUdSWXJpdHd1TF9rOW52eXR5VFJpTnVLVV9TRE5iTi1xYTlPR0pxQQ?oc=5",
+          "published": "Wed, 28 Jan 2026 21:37:09 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999182224273682,
+          "text_length": 74,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Rises As Powell Sees Improving Outlook; Tesla Surges (Live Coverage) - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQWpQWk9IWE80U1ZCdVN3a0M1RHRLaVRJNHhreDJzU2xGb0N4b082SlhpX0UzeFo3T0dHcUVEOVlHTGx6UTZLNHg2SGxvSVJHZXBlTjQ1QjRYQ2EwM0dOMm5rQ2ZmeElSZTNhZ2VOOGdUMVoxUzFtZE1MdV9ySThIRFVHa0I5VXlya0hNNGp4eEhZdC1pSGVKYmdiQ09KMEg4MUszc2NrSnhWWXFGWnA0VExQaUdhNnUtTjhHTk4yUmhmYlVjNWVKQnJ3?oc=5",
+          "published": "Wed, 28 Jan 2026 21:50:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 1.0,
+          "text_length": 125,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market News for Jan. 28, 2026: Federal Reserve Holds Rates Steady; Nasdaq Edges Higher - The Wall Street Journal",
+          "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPVjdPSVZlR1plRlBNSFFFb0FGZXk0dC1JdDViOGw3ZmZxd2dZUHhxYlVMT2lyY1RuVlFyMUdtVDZ4Y3JVSnEzaWwyaXhTMTFCZTBiakxZNHc2bnZ0dkxmVGJPYmZrMVI3WFltazRBOHJrZlgzWUVsMXBZUVBNX0hqWGpmbE5JUHpiNlZLSGJZNHVuaThhSU15ZjVFaGlkYW1hVFJGeUpFd09wQy02VjBrUGVKNGtUTXYyYno1bmRiamxtTTBPNXRUR0dhb3NVYTVHTWZlYkdjMnZHOFRoSlNmaUxfYW1hVDNCUExYVlFpRlhvWXp5WFRXdjNBNWhFU0pIT1d0bkFRVHdwQXBEb0xwX2RRandRejQ2V25hQmFvRnlDa0JFbmNsVkFUSVMzT2YwV0V5ZmRTTE9fQll0WEZTTE53TmVhelJfN2dCUmxVR1JqcEdLOE15WW1SNldVcE04S0N4YXRXMThpUmlQVzlUYktkWmpRTGZ1NncxX3pRWQ?oc=5",
+          "published": "Thu, 29 Jan 2026 04:37:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.931177020072937,
+          "text_length": 120,
+          "content_retrieved": true
+        },
+        {
+          "title": "EURUSD, Nasdaq Outlook: Trade Deals and Mega-Cap Earnings - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzIxSjRYNHk1ampBUE9RdHNGZnNEcFRHajJOT1VIQ1B3bzZTcFF0NS1OT2JyYjBNejlPSk80ZnQ4WmRlRjloRjh3MjBQSllFUmNxekRxQ3Jhb0czd3JWdWJJblIxQ18tZE1LcWkyZlZuUDFrSmJTTEFZRk5rOHlxcmplU0JZLXhNaWFiZFVhYVlzUk9kYWRqYW9nOXAzOTdo0gGsAUFVX3lxTE4wOGNaVkIxQjlwclFlMU1MWnZwNDV5M3R6c3dtTF9JZjktOEpMZFc2bnRkUFZXcXZlcVdlUVRVV2Z5Q1c3Q3VfZ0tkYzI2WFNfMlZ0Rk5TQ1c4Y2IyWkgzVFlZZVlUNllqdTR1Qnczcm45QTFyOVdEZm16Zk5sOC14RXR6WXBkUk5CTmZUd3FwU2JrMWd2b05OYUdqMTJtcjIwU3Z0a0c5NDhCVjI?oc=5",
+          "published": "Tue, 27 Jan 2026 17:10:42 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999994039535522,
+          "text_length": 71,
+          "content_retrieved": true
+        },
+        {
+          "title": "CMCSA Comcast (NASDAQ) $28.41 pre-market Jan 29, 2026: watch broadband trends - Meyka",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZEUtUjA5Q2xOV2piMnFoNF9HOXZHWFZMX0tOY2JuNnVORGpUSlZldE9TWExPbmQxOXdHTm5WOUxPOXk1Mkx0dVdKaFdBZThwTzBhRk1hLTVleF9pNmFSZmNteS0wX3lWRFVpaVdjYXhKVFl1X01tcWYzNC1uWE0wbHRxLS14WHB2NXhSMmppSk9WajVzbkpOU1N3LWNieVVZekE?oc=5",
+          "published": "Thu, 29 Jan 2026 10:52:18 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999419450759888,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "Zacks Industry Outlook Highlights American International, Prudential Financial, Markel, Principal Financial Group and Everest - Nasdaq",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd0txOGZCUHlfYVhYeUE0Q2U2Y29lUW03T1VwNHdxN0VsaXlqVHpyellsOFNSSnhuQWxnZG1nZWRaY2x2U1dHSFJCdnRHTDhENVAwY0ZacDF6X3VtN0twM0ZYamNyNG8wUXpWX2Z2azFodFBjM2RwWmdBWUhGb2lIMFJ4YjlWekxRQzk5VzVpdDhBT3k1NjlyTzUxaUpkcUhLaWpXaE5DV1dJZEJNaDdBU2IwMzVXUE0?oc=5",
+          "published": "Thu, 29 Jan 2026 08:43:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999933242797852,
+          "text_length": 136,
+          "content_retrieved": true
+        },
+        {
+          "title": "Nasdaq 100 forecast: Can big tech earnings drive new all-time highs? - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQU13OERLTUttSC1oc1pOOG1BMHZkTS1oeDJGOGNHVXc4UjR2d3M3OUh6bHRCalNEZkdxb3BLWndfc190ODdCY3E1RzFNdnpWejlZSlZxNUpSRE9Ga1dETmYyVjBDSl9QbzBfNWJNaDFlQnVEbWRMTDVQYTFibGQybGZYbWZ5UkRFclhSSUZfSFR2UzduZ285VmVjYjVDOGtnMWlIMlc2MjBiYnB0blhR0gG7AUFVX3lxTFB1X0c3LTd5LVJOZ2lFV2lMNEtaMlBPUnlGN1ZEQ1RmUUpwTEFaUUhabUUwdGVVQ1lRSkp0b0JYZHI1Z0RnZm9CUDRCODF0c2dpUlZGd21POEdlY1NKZ3JWQ2Z2dVlGSHhrSGdnaXdRMHVIQ0tKRGFlNlVfZmlncXZYMU5oRjJFRTRreTY1N3Fad2dBWjU1ME4tcnVDQ2txYVVCSlg5WmVNM2Q0b19wTjZyNjlDVjhtNEcyclk?oc=5",
+          "published": "Tue, 27 Jan 2026 18:14:42 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.7298851609230042,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "AMBA (Ambarella, NASDAQ) pre-market $66.69 29 Jan 2026: AI vision demand anchors outlook - Meyka",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTHQ3TTRnLVZYdGJlU082RG5uMTFqakVvOFAtOWJrWGdUY194ZUFzcURfSDN2UTlYOV9acHRGazFCcVk1bUl0THF5WllXbHdsc2g1Nk9sT08xM281V1BQcE9VOW1OSVNhY09sOWFjeWljMVpCclVKZ3dCX3FFOUpxcUF3WUI2UXRrVkZJNzBEcnl0eXFDQkZTamhHNEVWZm8yeWlHRlZzRWMxSjQtaFA2UA?oc=5",
+          "published": "Thu, 29 Jan 2026 13:07:14 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9985817670822144,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "Aurubis Raises FY 2025/26 Operating EBT Outlook - Nasdaq",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmZROEltN1hRa2RVaXNMbTRRWDBxM0FpM1owLV9MSldvR1J1YVBSNldkVGhEYWVOV295MEM0TTZLVURvaUxfalBrcGt5YnJxeGRtYWwzTUxwQU1BSjJfNV9OTEoxcEZGczVwaTNCUTlsQTJLUzdLR3g2NGVfc1NST2ZiUng5dw?oc=5",
+          "published": "Wed, 28 Jan 2026 16:52:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9997637867927551,
+          "text_length": 58,
+          "content_retrieved": true
+        },
+        {
+          "title": "First Trust NASDAQ-100 Technology Sector Index Fund (NASDAQ:QTEC) Sets New 1-Year High - Should You Buy? - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaXlOYlN6d2lFbVV4RFp5NU53LVdveDJrWjZTdksyQzc5YnY2Sk9wWEk4blV2a1VrWlN1b1VJMkRsYVN1akZrQ2k4WGVBb0FwZU01Tjh5dE91ekJyYWtSUFRnZnUyVnozRVU4dDJFV0ZOc0hxeHFqM3hiQ2tGcGlyWTNQWVhYMTFwZkd3UjR2VktTZnNqNGZORmlub2MweFNHRy1NMFR1V0JTVERtQ3lfLUQwM3VGNEFQNE9OMEVwVTVBa0tTd1JRRlFDRmx3UGxlWGpLa0V1MjEyUXpLSHVKTUU0ckVrNlE?oc=5",
+          "published": "Wed, 28 Jan 2026 15:41:54 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9997712969779968,
+          "text_length": 119,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today Updates: Dow Jones, S&P 500, Nasdaq; Indices Mixed Ahead of Fed, Tech Earnings - The Sunday Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMlBhZ3c5c2Q0bzJQTFlSVDJwZ1RPOVlWcXhnMmN0bkNJTnRYMi1sQ3JKdlYwV1phelg5bkZFMGJVYmpBTXhMSmpHUXo5WXozUzNoOW1GNl93enl3NTBHbXNTelR0REZWX1lPbkd3TmtBd1lyS3l5VWZOTEVlNmwybVQ1LWR6M0ozakwwdW0zZEgxcnhDTGxtYks1YnQwMXR6SkpDSloxem94cnNxdlFaLVpfSUZDWHJKM1RENHVOalh4NFdSbVpIN2g3ejFJTy1CeWpGLWdR?oc=5",
+          "published": "Wed, 28 Jan 2026 18:10:33 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998914003372192,
+          "text_length": 121,
+          "content_retrieved": true
+        },
+        {
+          "title": "Qorvo (NASDAQ:QRVO) Draws Nasdaq 100 Index Focus on Connectivity Chips - Kalkine Media",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblBlaXIwVTgzNDZ1ekVpN0dSRHlyVWo5ZW5KQXdjMzRuV0dCLTdmZm5fTkVTSENqUWpOMlZWYi1JM01zbkY4Z1B2Y2twX0YtX3dCT243bkxnUlJRUnVpZHpxZ2FISW5uZ1c4aE9jdnFERFUwMzBjbGFvbGhmSGZsU08yNVVKZ1ExZThxX09hMl96YXppc056QmtncnV4VF96UnI2dFpOb0piVEFfNHotOWhQZw?oc=5",
+          "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999996423721313,
+          "text_length": 88,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today Updates: Dow Jones, S&P 500, Nasdaq; Why U.S. Indices Were Split as US-Iran Tensions Flare - The Sunday Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQckNCaFpuSDc0dERkSEVLS2pmWDlRdjk3ZEZJeThWR0h2MHl4eVNZLXVJV25HRG0yeVJsQndrbjFrd1JiRDk5eV9zMW1wQWxRYWZRQTNIV2FKa1QxZGFBUk9VaGxTQWFiQ3d3YktYQUtRNWxWemJsTzBZN2RFRldSMGhnbUxVLTJMNXd3NVRqVDduaUVfZnZQbDNheGN2VW1ldkQtWE5ncHE0QUs3UWk2b0RyTW9aY3VyanY1eWMzd1VuUDJMUDMxek9YdC1sMGN0VU03THJEUXNSWVk1d1YtZGlMcHU?oc=5",
+          "published": "Tue, 27 Jan 2026 18:33:45 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999995231628418,
+          "text_length": 133,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stock Market Today Updates: Tech Lift Nasdaq, Dow Falls, S&P 500 Rise on Trade Relief & Gold Breaks $5,000 Ahead of Fed Meet - The Sunday Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUzB2TEsya3h1ZEJuUVpxTW9nYXl3VExJQ0ZJbnROSDAyMk9BNkg3cjZMT0J1SV91YkdhSlBPc1diZkg5aVpsNGFBejRMSTRibkwtRW95NWhQekFvZGF0VENTNzB1N3ZiMHFMc2hEZ3dSbW9vQWdWZkpYdTRaN201TzRob1pwOTI3UC1JNXh0QmY0SHVnOXkwTkVEVk9WdXpOM09NOThRdmp0MHpyTkpZeWdTcVY5b0tUNzRscG1TdjZaamF6Mmg2TV9MRnMwZ0tQYTZmSkswN2M5c0lzWVM3a2tDTE1EcWN6UlRkcmh6M3NReDBHd2J3?oc=5",
+          "published": "Tue, 27 Jan 2026 15:22:04 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8624345660209656,
+          "text_length": 148,
+          "content_retrieved": true
+        },
+        {
+          "title": "Live Nasdaq Composite: Semiconductor Stocks Drive Gains on Fed Decision Day - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeGhiUGQtcExUSFR2enB0cG9WSVBFSE00V09RT05uRTJBNjFsekRlRnpVTnRlclBvbmpsZVBNdHU5YXdIS1pQQ0dGMnllUXZaRzJBekNDYzJWT0dmcTByZHV4RVljQjRHSTVnZHZXMVZudjFIUS1rT1VOVTlabXRpM2U0WEtkaFozTHZvUFAtUkFLUDlkdHhGbEIxVjEyMUdlTEZBd0RpYlQzeG00YVRFRFAwZzBWcS1iVkE?oc=5",
+          "published": "Wed, 28 Jan 2026 14:56:56 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9948298335075378,
+          "text_length": 93,
+          "content_retrieved": true
+        }
+      ]
+    },
+    "HK_HSI": {
+      "name": "Hang Seng Index (HSI)",
+      "total_articles": 26,
+      "duplicate_count": 1,
+      "sentiment_counts": {
+        "positive": 9,
+        "negative": 3,
+        "neutral": 14,
+        "directional_total": 12
+      },
+      "sentiment_percentages": {
+        "positive": 75.0,
+        "negative": 25.0,
+        "neutral": 53.84615384615385
+      },
+      "sentiment_classification": {
+        "label": "BULLISH",
+        "description": "Positive market sentiment"
+      },
+      "articles": [
+        {
+          "title": "Bank of China (Hong Kong): Predicts a relatively higher likelihood of the Federal Reserve cutting interest rates by mid-year. Southbound trading and overseas capital inflows are expected to continue supporting the performance of the Hang Seng Index this y - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUmhQUC1JX2FQM0JtSEN1QXJVYS1Ecm90WGRyMEFTMWZ4a2d3TklyWXFJcGlJOGtWaGZLX2hkcUJTLTVfT1BjZWNHRFNUUkR6RkwtTGhkcnBLdkk3VzdDU29iRFEwTlpnS3ZyN0pWX2x2YW9aRVZ5aHFva09XN2ZLT1RTXzBnWjU3ZVc3RjVlNnNTcEJtSFlrb3c2YW9jT05DNnBqQ2NuNA?oc=5",
+          "published": "Thu, 29 Jan 2026 11:26:27 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999247789382935,
+          "text_length": 264,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hang Seng, Nikkei 225 and Nifty 50 Forecasts – Asian Indices Look to Rally After Wednesday Performance - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ2ZpeEJCdDNIS0JPU0RMUWZxYTVoZDBYbFFzWUdmZmpVRFkwUHlER3lGaS1RZnp3bXBFMGxWeDBfbGZTN3BfaGlLSXpSMmxFdF9pTkNseHRzUlozSnVqVzA4d2xHdHZFNlpqQTVNTXo5bTNwZWFvM1RlV2Z4WXpFYzhMeklWaXNXQWl3OWg0M0Y5MjFyeDhocFZn?oc=5",
+          "published": "Wed, 28 Jan 2026 14:21:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9075993895530701,
+          "text_length": 115,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong stock market close | Hang Seng Index slightly up, technology sector under pressure, gold strengthens, ZIJIN MINING rises 4.36%, FANGZHOU JIANKE surges 33.22% - Longbridge",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Oa28tUjNxVVZLN25aRkc1LTE4NXpCemVxVUxKLUZvTEUzaWtRM1h2eFBEZy1meHlKVHVjaFR5bUtTczBsUDJUZmthNXloT21md0E?oc=5",
+          "published": "Mon, 26 Jan 2026 09:31:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999947547912598,
+          "text_length": 182,
+          "content_retrieved": true
+        },
+        {
+          "title": "Market Snapshot | Mixed performance across the three major indices, with the Hang Seng Index up 0.51% and breaking above 28,000 points in the afternoon session; real estate stocks surged collectively, Sunac China skyrocketed over 29%, and Country Gar - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSTFSMGt3RzUzblVJZi1KVlAzay1yUDdOZVExV3V1Z0Q2OUZKcGpUejFTY0M3V1pzNl9VWlROektPN0RiSXEwdU1nZHZTX000MElEOUxmamY5M09JRml1bTFpSGtqX1RNZURXN3Q3c2U4ZkJqYWlNWk85amdGOUgwNVRaOUtLdWhrNFBnUVpVZnNhZV9SMVBDRnVQenMxSENxaXF6NEQzbld1RG1ZcnQ4?oc=5",
+          "published": "Thu, 29 Jan 2026 08:26:07 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8298021554946899,
+          "text_length": 259,
+          "content_retrieved": true
+        },
+        {
+          "title": "H-share Market Indicator | Hang Seng Index Hovers Below 27,000 Points with Prominent Performance in Large-cap Value Stocks - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaVczOElaX2pDOUhsOXl2RG1lZlhWOW9zdmhNNmw2T3psdlFfdzZlblZOTnhJSWRFQ1lwVzhQMEQyWU9VSTJOSEJTSExKWE5qalVuTE9jbHdmS0dNTHJpQkNrOHBlaVFmTEZ6andyaGZadXdPa3NxM25lSnBXbzVSNW5wemdnNUt3TmN6WjNCMkc1NzQ5QkI3bERVM3RUM2JpRUE?oc=5",
+          "published": "Mon, 26 Jan 2026 12:49:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999452829360962,
+          "text_length": 131,
+          "content_retrieved": true
+        },
+        {
+          "title": "Nine Hang Seng Indexes have been included in the performance comparison benchmark database for public offering funds. - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaWRPRExDVWpmMG1iXzl0Q08zd0NyeHNzYVczSFhjNFZBeU9VVkE3cUhTY1NfMzVDZlpHY0xLazh4Tmx5ckotbDFmZVpWMW5ERkhKSXRQb1MzSlE0VkJjOTFBUUwzLWV1cUhoclMyTFBudXRwcUtvMDhSaFJIOVZvcGk5NEMyZkxUckQ3cHNaOG96bTRkNjUyWWQ1RHhGa3B1ZVZz?oc=5",
+          "published": "Wed, 28 Jan 2026 10:56:48 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999874830245972,
+          "text_length": 126,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong Stock Market Review: The Hang Seng Index edged up by 0.06%, with active performance in the energy sector. Gold stocks stood out, as shares of Lingbao Gold and others hit new highs! - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSllOOWtHWDZwRHlaamdGN0NfMlBicUQ3c0ExeGo2bkFnSWtsWDhRb1dsLV9fdmpGSHFlVWR6ZnNHaU9Ud2hlYWRqZUhLTzlaN0dHUWFHWTF5MmpkYXByUUxYamdsbDhSNTQwck92YkVXNjZWUjRLWGJ5SUVmR1c3Vlh6d18xOVBoMUxWcHlTbGlOaU9VTG5FdUVMVHU?oc=5",
+          "published": "Mon, 26 Jan 2026 08:28:59 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8344205021858215,
+          "text_length": 199,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong Stock Market Midday Review | Mixed performance across the three major indices, with the tech index down 1.31% and the Hang Seng Index slightly up; gold concept stocks performed strongly across the board, with Chifeng Gold and Laopu Gold ri - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWWZTU25OdFlHX1Axd01lSUNKdlhuamI1SktXaWdjX05Dd3JGcWtmb2RESFFZcWJXUE5jNVdZQ2tmdHVjY0V1cGZ2dHkzei14OHZXMzAtUGVUY2dpREkwUXhNMFA2ZG9lUTkxdnU1b3BUMDB2NDEwN2gwd0VlSW9ZMFQzVF9xaTItSlM5V1BpTEVRMk1kS09nUGRtUW5yVi1vcks2Vy0waUZZQQ?oc=5",
+          "published": "Mon, 26 Jan 2026 04:11:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9920709729194641,
+          "text_length": 258,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong Market Rises to Near Two-Week High - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUkZxcURNMGlaNDVUTFdRekNkZmlhZEp3TmE4eFU0RF8xc3JycC1XZjdBbHNuVUlmUEVHTVA5eWVHNklDR2V2Nzc1Z2I4M2JpYWFXR0V0X1BMdVFKYkJiRzBoMFJUTm1YbmEwdjYyS0p2V3RRako0UUxIVEQ4ekNvQWMzUl95Sm9tVy1vYjJKRXlkZXpnWGlmSmc5OA?oc=5",
+          "published": "Tue, 27 Jan 2026 02:32:24 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9992539286613464,
+          "text_length": 60,
+          "content_retrieved": true
+        },
+        {
+          "title": "Pre-market most active 29 Jan 2026: 7500.HK CSOP HSI -2x HKSE rising volume - Meyka",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0ppbmlMUDlhMXphd21ZMl80S2c1Q0g3ZmNUd2w5TGNmSXpHZXNZb254UEJWUW1IVEdEYXY0NzVZRlRiMWhMVGRJZURqNnlBT1dQQlZUYlZydmpCWklJTFdUYS15dnhseDNGeFYwMXZnZlRBaEpuR2N1MXFnLWFvMWdITndFMjFaQ25JY0pqX01tVGFSbGpvcVJqbGZpYjB6aWtn?oc=5",
+          "published": "Wed, 28 Jan 2026 18:52:45 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999940395355225,
+          "text_length": 85,
+          "content_retrieved": true
+        },
+        {
+          "title": "HSI Swells 240Pts+ to Reclaim 27,000-lv. in Early Trade; Autonomous Driving Stocks Squeezed; Hesai Once Dives ~10% - AASTOCKS.com",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVDZDMnp1dnNra1NjZVRHTTR3eExlLVZDSG52Q0xhSm83RDhNUHVpbkhtMk8yVm5JNGFnTU9SYVBRRG5FbXpYaThINVlXV2tIOVd6WUVnZWJ3czZDNWpFUU9HdXhQQmMxU2lPekhvd0o4SVI1OGxqUC1aRU1wOHVfNEdVOEN6QXVyaGJWdVVSNC1QeDFN?oc=5",
+          "published": "Tue, 27 Jan 2026 01:53:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9655341506004333,
+          "text_length": 131,
+          "content_retrieved": true
+        },
+        {
+          "title": "Weekly Recap: HSI Climbs As Market Rebounds From Midweek Slump - BusinessToday Malaysia",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWFZ6OHRpWHQzV1JaMjg5bnB0VkRJSU01eTZjMFh3S2lybnRUemtQd1E3b0NjcXp5VGJmaEN1ZjdiT2pRMFVOQkIyOUQtN0JDT3dlVGdDTlZCZUFkQnhOSlBUZzRJQndIZkhuTWxtMVU5d0tVS2FnQmxIendyQ3hDM0FFSHN2SEJxN3BjV1pnTVpQU1Ezc0VoQlpLbjdrZ3dSaUNUcE5ZS3FYUQ?oc=5",
+          "published": "Sun, 25 Jan 2026 02:31:15 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999955892562866,
+          "text_length": 89,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong stocks reverse losses on commodity, property sector gains - South China Morning Post",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM0JXYXdIWUczaGh3SlkzeS1qN3YzUnBhM0FIcXRobHo2Z01JOXFWeThlcTNRQ016Z1BwSlRPdXBHNXBvVk1sczlYMC02WkM3ZWZ5LWRIZWt6Sk1vMnNFX2JGRXFrbVZEdjlTbFkwOGFjdUgwcUhuMHFXSFgtaEEzRlhWY19JSEFoWnFFUngwOXY4bW5ubEN6Y0NPbjk4eG1hXzUwQnhMbU92aG5IWktGaUc5a3VpLVJlTi05eWJnSGJ1X290Z09iZkcyMVh1Nk1zdE5ubtIB1AFBVV95cUxQYW5IQ19QZ3VPWEhibzJiRWZ6WlZjb2dRM2R0Sm1ZN214M0xfa09NNEN4VWt0UGw4eHJ5alh4RUR3cExvdVNoNzhUNTU3UUtnUmRLa21rWEpuVFZKZF9hNTNvT2hUMEdZWWV4d0FWbEdGU3cyOGhyaXAtRWFFcjVoenMxOU1OZGlTWDRxc3JBT0dVOU5YTGNMaWJJS2VXZzlsRGJsR09fX1V1Q093cnRTR1JFaURyLWdZSEdaSFlhRnhJY1hEaE1Ha2IySnU1QXRpUlFzSA?oc=5",
+          "published": "Thu, 29 Jan 2026 02:20:11 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.5001042485237122,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong Stock Market Front-Runs Local Home Prices by Two Months - The World Property Journal",
+          "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQaUlxdmNHb01IS09pUm8wRVdkU0JGLW1BUEY5S2dMTkhzeEhnLUVSS3k0SlVUbVVkVERNaGlOMmFKT1RlNXNuOWM0Q2s3OUQtR1RxeDBCa0RBYTdMUVFLUng3dHVsekdVc01WRFBCVDRkcWFtVXNGYS00M1lscDJKR2RsSFVkYTI5VjBWbW0wejdyOWFPUHJTUjlxLVlNT0cyNFUyV09kU3VZMkpaQmdjVEFQcVJHZUd5NTFLSXJSa216M0c0ZWs1ZjZqNWY3OWJjdk1mVm10Z3A3R0NFRV8ybDV4SDJIVGhZcmZXaDcwN2FydVNsdjFGWWg5RmZHQ1prcFdEQzU1Y2hIcEpXNWpJSDlINV95SkVjNXRrdk84cUpsNHhnSDlfTmtn?oc=5",
+          "published": "Thu, 29 Jan 2026 10:31:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999998807907104,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "First gold ETF allowing physical gold redemption makes debut in HK - chinadailyasia.com",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpUTc1NllOaFdSR0Fhb3RuakMwTFU2VmxSNE1pVmdaa2xkX1hTWk1pazhtNGczbUNyVzlPNW5CNUI5RGpDYUlFZHFZa3FTOE0zakk5UjRmdFk?oc=5",
+          "published": "Thu, 29 Jan 2026 13:44:04 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.99982750415802,
+          "text_length": 89,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold jumps to fresh highs as Asia stock markets mostly rise after U.S. Fed holds rates - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaVZIcUtrQnFHUllDLWFtR2phVGNEUHBLa04zRGNDZlJENTByakFzUWJRaUU1X3R0WGp3eWNiX2c5eF9ETERjbjNfWnJDYVpOVGVLQjBINTd3bER1MjZ6U2dGUXBVSlpJb1A5VjlyMWFxTnd0MDhkd1o0TDFhRl9kRGZiYWtIaFVpRklxWWxxcjRJLWhh0gGaAUFVX3lxTE92VDVRVDFiZlVCUm5fV2M2dkxKNjl0M3laVXpncUpTVy1aSi1YbloyVTBNOU5JN1UtYWJRT1hIdWlRcVNIdmlzUUN2RzJjWl9oeEZxN1VXUDMwWEY5YnlhaGJuZEpXM1lTRVFyNkJtcFFnNkFvQlpiYTFiQVcyemxBQ1gtMGFVTkVQZmJ5QTRfbE55Wld1Qm1MM0E?oc=5",
+          "published": "Wed, 28 Jan 2026 23:57:50 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9995779395103455,
+          "text_length": 95,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong Stock Market Midday Review | Hang Seng Index rose 0.52% in the morning session, with real estate stocks surging on heavy trading volume. - 富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSGJOYV93QzEwVXhVQU5KRU9rZURkdF9yc3pwbmduUU5qN0V0bzIyWUh1a2xlWVd3cmNaMXNsb0hOUENzNEhLeFdjU3ZmLWVJQUNOSm9JX0xQcEd6Z1E3NW1YUXd6MkhhZnVVSzJxcjUzcVdCa1FUS1dyTnpNRGxwTXpnc0xrN3JNUk1HWk1ZclE1eXJxQ1NWT3lvWjlVUWc?oc=5",
+          "published": "Thu, 29 Jan 2026 04:13:21 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8009283542633057,
+          "text_length": 155,
+          "content_retrieved": true
+        },
+        {
+          "title": "CSOP Huatai-PineBridge CSI A500 ETF Will List on Hong Kong Stock Exchange Tomorrow - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYThhTHdMdVJXeXNRU2hyVzN3b0NZVXQyQ2c5QVZrNXJsWXJxV0N1b0xHeFUwMHpVZDNtSml6RDNOaU5lOGlqWTAtMVloZ3VfTjZGdmRSdFQ5VmRURHZzYjhhdUNDTWhYTXlBaER1LTBWNXExTGNGQzk4WXNWUnFHTU5IbVJnVmpyNXRzeGhjblZaR3NqNXpmZFBDNUpvSWJ5cl92SVQ1dk9fLUlYT0h0OXBkN3JXU2JsNDRaNlJlUnotUHRBUmZjOFlVMkFQbzZpYlBJU3N1ZUpPNFU?oc=5",
+          "published": "Tue, 27 Jan 2026 08:04:44 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 1.0,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hang Seng Index closes shy of 28,000 points - The Standard (HK)",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWdXVW9ETjJqMy1YVlRiOTRYNFlYb0duTFMtVkQ4SklENWg2V3Zla0dWWExobUpnVUZDYjFGSTY5STluWEwzTEZURWdOWXZDS1dFbXFHTXdidWNEck81MEtNd1ktVS15MUNsaGVYdTZycEJwYXNFbjZjVXhHaTJfX3JUSVJrenctblY0QXZoU0MwT1FyanlJM1NKdw?oc=5",
+          "published": "Thu, 29 Jan 2026 08:51:46 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999988079071045,
+          "text_length": 65,
+          "content_retrieved": true
+        },
+        {
+          "title": "JD.com's Jingdong Property files for Hong Kong IPO - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRTMtRVdONU9ldVAxbFFfUk9xVDZkWU9aVm5paUUxZHl2Q3FBcS1McEhnWWM4cERNV1RVX2lJN1AtaE41WFNMR2ZFNnpieEJ4UVpEQ1g3eGE4SExsNk5nV1FrMldCX1djLVpmUHR5WExFYjI5ZGI3aFZFUWJ0MEFlQ0xqTnpnajJJZVdNdUJuc2hONmJQb2lmYjlkV3lweVF2?oc=5",
+          "published": "Tue, 27 Jan 2026 04:54:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999980926513672,
+          "text_length": 62,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong property, stock markets lifted by mainland Chinese money - Nikkei Asia",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDVRQjN1NHljR3FMQUlhNUU0dUtBUHlFQzVfU3FvZEVzUUVuLUhpMFRWWHZ5azJxNVZocFQwaHdSZTg2TnVaNUZIRzlHejNnYTZic01yMkdlVmNuV2h0Y2JjOEZxamQ5TDZtTEZVTlBDb1RKU2piQTN5ZW9OZDI5NmtfV1ZXRjR3WjU2NlBmWVhxRG9LbVk3Mi13bndiSDE1di1Td09KYlJ4M1pYckswSVVHSHZ1Zw?oc=5",
+          "published": "Wed, 28 Jan 2026 21:06:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999976396560669,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hong Kong stocks fall on profit-taking, concerns over AI investment returns - South China Morning Post",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTy0yc3VNWEhQS3hsZmdEcGVxdUVVZVRyRGN4WXdQWHdua0pSY0J5aWlDY3g3bWxxOWRUSTI1RjVLUklhSVEtNkpoby1jQWFmZU5QQmJVLUxCR3dlMF9Mc3RIckVGSnJLSk54dWhkcE9wSFlTMmFfeFk1dTd5TERsMnpEQjdXQmpIbUUyVXo5ZEt3dTBiYmZDRmVzbFdGMXQxazQ1OU11d1UwOWtoRzlsajJBS2hjeGVidjFkbGMwN2I4ckEyUm5OakpJbzhnZ3ZuV2l0U0h0bU4wU2FObXlDdGd1M3JrVk1QVUhnV1Ayc9IB1AFBVV95cUxQYW5IQ19QZ3VPWEhibzJiRWZ6WlZjb2dRM2R0Sm1ZN214M0xfa09NNEN4VWt0UGw4eHJ5alh4RUR3cExvdVNoNzhUNTU3UUtnUmRLa21rWEpuVFZKZF9hNTNvT2hUMEdZWWV4d0FWbEdGU3cyOGhyaXAtRWFFcjVoenMxOU1OZGlTWDRxc3JBT0dVOU5YTGNMaWJJS2VXZzlsRGJsR09fX1V1Q093cnRTR1JFaURyLWdZSEdaSFlhRnhJY1hEaE1Ha2IySnU1QXRpUlFzSA?oc=5",
+          "published": "Thu, 29 Jan 2026 02:20:11 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9999542236328125,
+          "text_length": 104,
+          "content_retrieved": true
+        },
+        {
+          "title": "Pre-market spike 27 Jan 2026: 83012.HK Amundi Hang Seng HK35 ETF HKSE upside - Meyka",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdkdzVkdTSEV4WGxVdGI5UU9xQ3BrWDFvXzE2QkVCSG5sZ0xpaGE4dEw1Mk1iMVFIVDNYay1obk1fc1E3UnRPb1dLcFlGdi1JNzRCZjFMLUlPTnNGLTJtRjF1cHBqQno5N2hxbEhrbGZORGVrWFFJb05mRGlEUDF1ODM3WGNSUi1OUUZwdnZseVYzZE8yV2RvNDhGdzU4NC02TjdIR1FB?oc=5",
+          "published": "Mon, 26 Jan 2026 17:21:23 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999698400497437,
+          "text_length": 86,
+          "content_retrieved": true
+        },
+        {
+          "title": "US monetary policy future trend remains uncertain: HKMA - The Standard (HK)",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbE9uX3lnazVhLVp1bkNLUWdxNGNjcFRaT19TRkNjcl9DdUF3U3hROVczak84dXBNVnFTLUFQRUtOVjlyOWRteWtaMTliaDN1ZFBLbmNOLTR2SFM3blBMWXhhRmJPaEVGSHhMd3FFN0kzX19OeE05X2dsQnpNYVpENHVSVW12b083LWlCSkJlQU4zN2o1bkhCR1pMSnBKTk55ZHNtQV9sSHdWTlE?oc=5",
+          "published": "Thu, 29 Jan 2026 03:13:28 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9832932949066162,
+          "text_length": 77,
+          "content_retrieved": true
+        },
+        {
+          "title": "Federated Hermes to Establish Hong Kong Office to Capitalise on Asian Market Growth - Hubbis",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWZHb011NkltTThFTFd0U3RxQWhCZ2hMYk1EeUZZZVZRU1pITVlheVJod2x6cnRaRTZlYm8xdk1FVWhsUWw5N1QxbW1HTVFuV254S0NfQzc5cU80R0tycDh4dmFLUkJreWN6MFpiVUthY2tkRmRMNk43c3JUU3F5SVp5eEw5amZmNk9PRWhIVThwUXZ2RnV6ZmtyWHpCWFV1d1ozZkZ3RHNzaWsxTUo2dg?oc=5",
+          "published": "Mon, 26 Jan 2026 16:02:14 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999862909317017,
+          "text_length": 94,
+          "content_retrieved": true
+        },
+        {
+          "title": "Here’s what’s driving the Hang Seng Index rally today - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM1E4dUZDMWZYLUprck4tVkxHUHV4VXVYTzBtRGQtbENSa0RhVUY1aHlJZWZQekhoa2M0WmRSM2otZE5DN09wejdlZjNkTnEwVHFUVk43TEtWRWhJRnRNMnFFUVpDMkpyM0dSU1NJbDd2elhtRWZ3cUZvTWQtQ1lkWWxpMXJ6YW9yZFZpWlBYQkhIOUZKbGtaUHdZOEVHdXYxNUFLX1NzRkZxTzc4b3p3?oc=5",
+          "published": "Thu, 29 Jan 2026 04:07:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9997982382774353,
+          "text_length": 69,
+          "content_retrieved": true
+        }
+      ]
+    },
+    "GOLD": {
+      "name": "Gold (XAU/USD)",
+      "total_articles": 63,
+      "duplicate_count": 7,
+      "sentiment_counts": {
+        "positive": 23,
+        "negative": 3,
+        "neutral": 37,
+        "directional_total": 26
+      },
+      "sentiment_percentages": {
+        "positive": 88.46153846153845,
+        "negative": 11.538461538461538,
+        "neutral": 58.730158730158735
+      },
+      "sentiment_classification": {
+        "label": "STRONG BULLISH",
+        "description": "Very strong positive sentiment"
+      },
+      "articles": [
+        {
+          "title": "Gold and silver keep hitting record highs. But is the precious metals market 'broken'? - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2VaYVdCOTBaSlpxSnNUaFRsMm94Tkh1ZWF4U0VvUjFVcVJvaHVvRmg2UXB5a1p0a0dXSlZleHgxM25TWXo1MFExWEFWeFRDbE1GWWxEdFB2OUd5UHJsaUFVTFFBMDhJcC14eGlud2NORGZoQVBXcWFkbzFubDZLM085MzUyOUJrQ2c3T2syMWJOZEZHWUJvdC13Zmt1em5aMERteEZhVmtzQQ?oc=5",
+          "published": "Thu, 29 Jan 2026 00:46:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.45428359508514404,
+          "text_length": 95,
+          "content_retrieved": true
+        },
+        {
+          "title": "Tokenized gold boom trims Tether Gold’s market share despite rising XAUT supply - The Block",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSUdpRUM5U1pSUXd5bGRVWjlmZ0hFOGVZVlZZVHdvOUk2OEJ5SmU2SW9lVlBBY3Q2SDRvN1ZTR3VuUWdBZ1RmWUtPcXJBR2hSeUdHc1RjLXFvU1djZkJVdWVINjRoLWN2TUo4Vl9BWVl5TFEyT3pXMktqdXBkeWhydVVhWXdoVThLSVA3cnhlZExENVBQUTNud25OUVZJVmQxaFowX0dBa2VPd2FpblU0THo1Yw?oc=5",
+          "published": "Mon, 26 Jan 2026 14:58:26 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8842989802360535,
+          "text_length": 93,
+          "content_retrieved": true
+        },
+        {
+          "title": "Tether Is Shaking Up the Gold Market With Massive Metal Hoard - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeWl1cmpqUWJVLVpQbHN5R0FGd0JQSzE2LU5rRzNjMkFtMmpHVnhfaE12R0dtc0F0RWxSdGE4VnlnWkZMUnBOUlFHQzVoazJqOTdGNi13VVJZbVlzLWdOa3pUVTdrdGRzSzJRUlNSSF9ybnhCSFpBNjljcHRvREJydVF2YjJ3c2s?oc=5",
+          "published": "Wed, 28 Jan 2026 07:50:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9990028738975525,
+          "text_length": 79,
+          "content_retrieved": true
+        },
+        {
+          "title": "Tether now holds more gold than many central banks as its market cap rose to $2.24 billion in 2025 - KITCO",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0lxaWdpLWlVVXBwbWVmNGc4OG10aHZEc2ZIYnhfeFMwNU03YTI5Y1NuTTlkb1NJbGFaTnR4YS01R3NCQlhhT3NHUlhhZE9DZVpJSUVMYUdERFpVUkNsWXZ3dXNsRFY4Y2xSbXBtUE9UZXdHRWpVN1IwZVpOeFBZdmg5NjZ1T29CdFdVcFhDTGQ3dlVFMjMtbXo0YVBLNlcwankxVVpmZGpNdU5ab0t5Z25zMEpqUQ?oc=5",
+          "published": "Mon, 26 Jan 2026 17:05:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.5684446096420288,
+          "text_length": 108,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin price slides as gold rallies on weaker dollar - Yahoo Finance UK",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZWFVa2FEcmlaN0UxcW1RRjhuWTR6UzFvaS1VT0wtMnBGNDhMOHotR29yS2k2MEs4UFpRZlVmcGh0SUVTcWhXLXQtOUhDVXlFT3BwTjNXWEY5VWRFVUtzVDVjZkhOR2tNUWxCQ1pCUmRnM202eXpvemVRZ2x4d1lEYnktY0ZXYXdVeXBXajNKRllobFlSLXBNa3hTMUQ?oc=5",
+          "published": "Thu, 29 Jan 2026 09:51:42 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8787060976028442,
+          "text_length": 74,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold in “extreme greed” sentiment as it adds the entire bitcoin market cap in one day - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmIyRnJjbVFaMTdWVlJQV0tINmx6QUlRUS1oaWVCYXV2M0JWZUxNenRaN21VX3JOOEhrY0xSS3RuUkFXUE1iTl81VmcwVGQyLWt2bW1GY1FOZUpyTnFUZ3JVYzNfQ2N0T09QMFV6eGZlaEtLbEtqU0V6TFhoZlBqLTByeEhqYVpacWFfWmZPZndaNmNTOEtYdGhtMEpTUVBWUmtLemdyR1RFOXNXVnlMSmZKWkZCbEY0YU5lbjZWU0dDdWVxNFE?oc=5",
+          "published": "Thu, 29 Jan 2026 13:02:09 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999643564224243,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold nearly adds Bitcoin’s entire market cap in a single day - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc1pJME1HWjBGYnJfRjF6NDJIcGRCTUlXcUhoeWJNQ3BRN2VDOUNxZFhlRG1lVU1maWRyanRMUjhUX0ZlaG5pa24yUzBUcEZ0NWUtdXRLUngwMDdmQnpEaXd3cFlxLXAxLXp5TVFWUm5RQUZ4SW9JS0VhTmFWcFU5bWVjaHFUejRlMVY0b1VhbUlzcVlkeHp4Q0k2V2puN3ZrWmpDUjFNRHdUdy1sUUxzUWdmamtrdVd5UTlkVFhVR19uQQ?oc=5",
+          "published": "Thu, 29 Jan 2026 05:27:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999799728393555,
+          "text_length": 76,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold market analysis for January 27 - key intra-day price entry levels for active traders - KITCO",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORDlGNElBdk9faGgzOWtjWHlMdkdLV0hwS1lybXpwU1hRTWxlZTR4XzR4RGFfcUJZb3BmdXkwOHNjTUE5UFNVeUZob2VUZXlJRllwbVdoNThXb2VhZC1NaHhSNVpuTF8wY2JlN3BqXzFMcTV4VGh1WWRha1lRNjNNLWdOb0NXd21pU2JWbUJ6d09nek8yaUNCQVUxTzVBem9tMUdOcENqRDdIMWFQLW9mcTlaWnNuc2ww?oc=5",
+          "published": "Tue, 27 Jan 2026 13:15:46 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999998807907104,
+          "text_length": 99,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Climbs to Record Above $5,500 on Bets for Dovish Fed Chair - Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOUk3UjhKTmdTRWRNalVNZlBoOVVyel91U1ZaLXJ4bEh6OFExN0hyWVkxUVN6bnhwNDQtMERzZ1dPNEhoUW5wdExPLUNDcjYtSnlib2JYNk8teF9jM1ptQUZLZ05oRHhZZzF5X3RDWHFnd3gyaHUtQWMyaHBWRDlOakxaMG9hcWlOWUVRQVVvLUo0dXh3dU11RnM3QWVBcDNyTXJVbnZuNzE0aHJNSm9RSl92WQ?oc=5",
+          "published": "Thu, 29 Jan 2026 07:49:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9996210336685181,
+          "text_length": 77,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold’s soaring so fast it’s topped Goldman target set only last week. Now a JPMorgan analyst plots path to $8,500. - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxQYWJMQXUzdHNuQWxzN3huTWRZZlZQS2tqS0RJSVlfWXhkR18wd3NPSmNmYmhfRlE1cmhYRWpFZDh2OXJZYjJiVVJsVjRFVjduSS1PblV5SXY5cUQwMlNYWFE0NGtVMzFYNkd0YVpMbGd0NVBMVm9DUGdQYnhUWjUwMVlCU21nMGsxRThqY1hsVlFnOGJLWHFfV3NmOTRWZDJjcVBjUVNPYmxVckFkalZEWWV6UWxyWEFJYjUxb2dJbGI4dmZBOWdLUUlZR243cDIyWEpFY052MHV4V253S1RTczRURzl2eEVZbm50T2FrWGFJUHdxLW9iQi1EZUcyTnV3MF9vTHJuY19YQTlMX0xqRklucGJWcS1hclhCUldCYXZVeVMyS1laWGZvaDVfV0VjTWJkbHlzdTNkZUEwQlJmWjY3X1pmbGVtWjFCc3Q1aVpLS29JS3pCZ3RZbnJFOENVTWtrdjRKWk1WM1YwaTdJV2xOTlBoZ0ZfUEpIUURnT0RFOWhBNlBXWEdHSWVSNXlZdkhWcHhNT0hiSlI0aEtPTUxSbkluUjQ5aF9WbWRKemdsZHR2NkNnYWVpalE5eFJ3ekNkU2lCZEI5QURtaFdNRHp1U0F1MDRuZXM3bGNEeG1PWi1VRzdnck9CTzE?oc=5",
+          "published": "Thu, 29 Jan 2026 11:45:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999328851699829,
+          "text_length": 130,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold nears $5,600 as safe-haven rush intensifies; silver blazes past $120 - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXhqYWttUmVVWWd5Smc3OXJ6MmlEcTN6eDZndm5KM25SaWkwTHFOZ1dIUVh1Wnl2UXg0c1dDbjRKZWV3dlB6OE1oSndHa3JjaVpZV2tzQndfMVRjWHlKSHpMTlRuYmFaWmtrTUIxR2RwY1A0eFZES01vTWs5WWpYLXZ4LWRmQXpmZnJKN1ZZdGljSzA?oc=5",
+          "published": "Thu, 29 Jan 2026 11:54:07 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8505982160568237,
+          "text_length": 85,
+          "content_retrieved": true
+        },
+        {
+          "title": "Explained: What made gold price jump 9% in one day to beat silver - The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQnNkRVRLOHptVFlNREQ4YWdiaGJEc3pKX3lpaTA3OERBRXpxMlFlaEU0OVY4cUc2aThmU3Qzd0pzYXBQSUw2WTFxVEwyOFJ1M01YRHlVY1RrdlludmZiUEdidVdvaGExVUwxbG8tYzI3LTY0bXdVWmJPYjVYaW1DbXhUaGROTHRwZjZOTmZwVnpHa1doSzFkaGJqNnEzRk5UQ1NoakU5dXpsRzZCSDJfTFZBUEI4Zk9lczRmSWl2T2FvcFhyWFNYcWFhY3NscldnR1R0TE1WYWJFZ9IB3wFBVV95cUxOLTB1QVpsdThZVGdMRDY4alVQb0RYYlI4NlZ2S3VSMWl4djgxaWdLcjVVZUlxZHRXTmc1N0hyd19TR29YZXNZWTFGbm55WU1sSFJvYWV5ZEx3czZpTFBCRWhabmZ3dFRTMWt5ZEVjb1RCbjk3TnJhS0NlRFRLVF9BajZvd3ZVemhCUy1pY3RveVhpNXlJRzRqWkpFeVNRSERIdnRGNndKcExYMHBoa2R0S3FGY2taWXpXOFZsNWNvUHp6cHF4MFVQbU9IMHpUMmNPckpXcURzRnAtVWw5YUlZ?oc=5",
+          "published": "Thu, 29 Jan 2026 05:58:46 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999915361404419,
+          "text_length": 88,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Price Surges Above $5,500: Here’s Why - Morningstar Canada",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbGl1V2pnMWtPWi11U2oyRVNYRWl6aHR0NWlvS0hNSWszbFhkUGc1OU5XQkNlLU1xSTNSdmxHeXNpZVRicmJkM0JDejdrbGtGWTQzbXhWRERJUElDOE9Hek8yQkdOV3FBYUQ2cjB2VmdxSE1XVHNzOXRZdVhIS19xRHpZMTNLQzN3RDNz?oc=5",
+          "published": "Thu, 29 Jan 2026 12:49:11 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999761581420898,
+          "text_length": 65,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold price pushes over $5,500 amid weak dollar - Yahoo Finance UK",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOURYMUVWaEJVUG8xTGFZeVo5Ti1hMUdrb3JSX2NsdUJ6S0ZYY1c3NzR0WVYzMlJwUVFjNi00LXZ2eWFfZTRFN3EyNloyWkJEMjNUd1VVNGFaNjd0bmpTMnVBQ1pNR25tLWdNYXk0Q1hGZnFQYUtIc1F1OHhHVjcwSzNjN3VPRnp4bDJzMEZkd2xUZG1CZHE1M0RyN1ZZWlNYZ090TWYzNDZPaTFXWVpkWkZB?oc=5",
+          "published": "Thu, 29 Jan 2026 09:18:20 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9723580479621887,
+          "text_length": 67,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold surges past $5,500 amid Iran tensions, weakening US dollar - Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaE9zb1dxUHUxRDNZRkFIZ0pabjVzcFkyUzlWNV9uZ3dnSkJMS1RvdzdsMUVYVlBEV0FjR0F6Y1R5V1h3cVE3aUN0bzZsTnhhYVJnLUlwMjRrLTZUcnVyeHN5NjZEN2h4cE9xWmlhY0U3TE5UUWV2eUVwdnNMeTU4QlR4b3NVY21zS0tJX3BiSHl5N3NmRVJaMkV3cVMxQVZQcFBYSnFwSdIBrAFBVV95cUxNQTZLNXdRZzVWVmdmNDhzZEtfQ1JCWHZvX3dSSTFuQ1BhLTJBUkZlSEQ5ZC1NUXY3Nko0dnVYMUZnVHVDdUd3TWV3ZV9PWVI1MVd0MjV3eHRxYW94b25hd3dmUUtoVEtHS0ZjUmR1c2sxLXE1R3FUUXV4YUhwWmlqS19VSU9nNm1palFBNzAzUXVGQ0pWODVIdG9NR0l3N3NxUFBUX19wc3V1dVJD?oc=5",
+          "published": "Thu, 29 Jan 2026 07:42:03 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8743569850921631,
+          "text_length": 78,
+          "content_retrieved": true
+        },
+        {
+          "title": "Fundamental System Shift: Analysts Outline Gold Price Increase to $8,650 per Ounce! - Shanghai Metals Market",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTVJiTHVtUzZSOEstUlBqLWlkLVhsamU3WmZQMjdDdkthRTBpSWFNTFVrTF9DeHM0cUswM2tBZ2dfdHp6SFFZcWhYSTBLQkFYczBIX2VBYzV1S0tJSWFuenItZnZUcjBZUEVGR0lqMXZIN0hyMGI3X2lmUDRnY3N4RmVqb0VTeVY4Tk9td3g0bExOWXdOQVhpQTRCeHhOMDJaeVZkOEFzcTdpV0J0WWRtUkVJQ0x6cjYzRllUMWt0eElhZw?oc=5",
+          "published": "Thu, 29 Jan 2026 03:44:05 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9949177503585815,
+          "text_length": 110,
+          "content_retrieved": true
+        },
+        {
+          "title": "Baba Vanga Gold Price Prediction 2026: What Baba Vanga Allegedly Said About Gold Prices & Economic Crisis - The Sunday Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSFVucEZiMEhRMnpGVHZQM29fNXBjUmhwNlU5ck9DWUNnTjJwTmNRVUF6WldDNE5wejBhdjFvYzNmVDJKRzdoQXY4SkRSenJoNlA1cWJyNnZjeHM3bmNkazdpZnp3UUl3N3MtSEVuNzVBUEtYLXZ4djh1aFE3R0Q4dy1oZDNMeURObG5GbkJDOGJVNTVWcDJSOHBiQ1BUSVJZd1dxdExzaHBVQTRVZ0hadGR3V3o4d0tfRjREVTYtelRadHNHakFWaWxQWTJBV0hlYXRhdHJ6N2U1czdBWXJ5U0FjSkI?oc=5",
+          "published": "Thu, 29 Jan 2026 12:07:34 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999923706054688,
+          "text_length": 129,
+          "content_retrieved": true
+        },
+        {
+          "title": "Weak dollar drives gold over $5,500 for first time, amid geopolitical and debasement fears - The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRWlOb2stcVg4ZmV5TTVuenJTc1RFbmRRU3JacHhDazZTeWxVR0V6OWZKSjNWSm81eVNFQnRoVHpTZllCQmM0WWF1TWphQ043N1hqVUZ5cFpYb1drQXBWbkRfTGJtV2VvM1J4VEF0TEg2cGdNT04xLUJBaG5oYkJIbjRwbW5Mci1sYk9OMWZtb1puLTAzU1NQcjQxOV9nNC1EMnVRV1NSZTZQT3FtbjR4Nm5wMVM0Xy0wdWVKVmNEbDFBdDZQb1piOHgxY2xuZzNuaEE?oc=5",
+          "published": "Thu, 29 Jan 2026 07:50:37 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9986683130264282,
+          "text_length": 107,
+          "content_retrieved": true
+        },
+        {
+          "title": "Current price of gold as of January 29, 2026 - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LbmdpZE5JMV9vT3AyeVJ6OTJsOUtROHRFS0pHdmRhUUVuZnd3bkREWHFVZFZ2VlFzNHItVDM2empqWDJrcG91Z0g3NnFJZGxidmx3WEh2c1BoanhqR0w2dG04RHdkMWoycmxTcW9n?oc=5",
+          "published": "Thu, 29 Jan 2026 13:59:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999992847442627,
+          "text_length": 56,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold price soars past $5,500, silver price nears $118 - Mining.com",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53YVI0QUZMS0g2QUxhMXdHVVJUeDE5T1hYM2J1Q25EYng0RkNZUlUtdWE5NDZ6dVFjSmUzXzF1ZlFvQ2tDZ0dhWGF5R0JvTzlfWXZBdklhajR3ZG14dWtTYng3TFYzb3d3TFpPLS03bk1relpKeGQxYmd3?oc=5",
+          "published": "Wed, 28 Jan 2026 23:09:02 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.993168830871582,
+          "text_length": 68,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold jumps above $5,500 as weak dollar is 'supercharging' rally - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTXNzYXZyUDdoZEhyNHVLdmI1cmJQQ1QzdGdudXIyN0VPWHI0ZTUxX1MxMUlHU1plSlhMV3dqWUs2cURmNFlGVXRPZlFCbU8yZmc1V1ptMFJtblhuZHdBd2dGcUJZbGVlYWlNbDVkV2o1b0VmWHJVdVZEalNINy1tRUg1OUNXLVVQWmdMdDQxd2pESmRfZ2pDRDJkYTQyOHVlaEhsQXF4S1o?oc=5",
+          "published": "Thu, 29 Jan 2026 03:08:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999964237213135,
+          "text_length": 81,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold, silver ETFs historically overbought -- yet still a Buy? - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOUt6c1RHeTh1ZVlkWGVDNWxOUER5NlRvRDBsV1JKUFk4T2Y3b3NRWHAwcXNoOG9RSUtnYmpEbHM3SjNwQ0FwbUllVjhyY2FJcGFVaUhlemNPbVpMWEhTRG54QXIzcTFSV0YxLXJkdlM4REpFWmRJU2FrajRpRjF4YkVTcTRwaVpHMGlfcmQwNHNhSDgwbFVkdW5R?oc=5",
+          "published": "Thu, 29 Jan 2026 14:07:04 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9984500408172607,
+          "text_length": 79,
+          "content_retrieved": true
+        },
+        {
+          "title": "Strong price gains, all-time highs in gold, silver; safe haven bidding - KITCO",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUzVWMDI3LTJiVkhKVXlYUmRndFg4WU5SU1NiV2pOUndsR09EeW1XaFJiRFVad0RaX2w0VGJOYVhpUWJnbDNvZmQzdHNMbDdKdm1tRndRQ05iZzB5N3JZaTNnMXE4VmFmQ2NDZGRvVGtxZng1RWZTVEFpdDFYNUV1NXh2VU51dkpCZlZERkhTYUUtOGwtLUV2MXFXa29HMWF5VzFnZ3ZDOFExWkpWREFn?oc=5",
+          "published": "Thu, 29 Jan 2026 12:54:45 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 1.0,
+          "text_length": 80,
+          "content_retrieved": true
+        },
+        {
+          "title": "iShares Physical Gold ETC adds 370,000 new securities - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSUVJNlhhczJKSlpReEoxV3pzZWFoYUlSeFk2RTRGRUx3VnNuS3RFZEZKNm15ZFFvODBZQlZJS2tab09Ib1BOVzN3T2NNeFZJTVdfRFJmN2ZKV0JJbW5FWmxfZUltdW5CVVZtNk92Rm5qdnJLakt5dVpuN2pzU09HamN5WU9PZ09ZUkx0M3lta2VkbmpXZEo4MkRFY3VBVHRvbGR4aGlNWVoycVNnWEE?oc=5",
+          "published": "Thu, 29 Jan 2026 13:03:08 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999267041683197,
+          "text_length": 71,
+          "content_retrieved": true
+        },
+        {
+          "title": "First gold and silver, now oil is starting to rally and that's bad news for bitcoin - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORXdBaXhpcTR3dUZCa1lyWG1jLVJ1OWtqQXFSWGVTYVJEZTR1T3NhNmxRYllUV2Ywel83VmdSSzJraVozR2I3QW1nRnQyNEd6eEx6YVBVMGZmdUZjZzUwWmRZa05zUGZ5UFhuM1JRY0dOU01JdGRObGZkVWlDRzJiYUVqb0gxNmU0Z2lYSThaUFo5YlNyMFNHYnoyb2lKUUlpV3lqT3dkZHFrRHk5UFlFc0dfZTlDVi1ST2YwYm1SbGJoNWc?oc=5",
+          "published": "Thu, 29 Jan 2026 05:24:22 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9999951124191284,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold hits record high as investors seek safety - ABC News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOU5vUTBNWWQ5SXNFYmhvYmFWb2h2aW5BTi1EbzRkYW44cVk4STZzOTc1NnZzeDNINmNFSDNBYUxCYjlJYU1jNEdXTFBWSDBpc25MWUpkNmVBanJxRkhTcWdfUmotQ1NQbDlEY3hPSHB0dHJEUjYwdU45bm5YbWk3MkxZV3dGNTJhTTM3UlZqZVNicU8tYnZ5ejJB0gGfAUFVX3lxTE9RQ0pqYkp5a0dhMGhhUVpLX0pjNnd3bE1PcF9kZXJYZVAxa1EzbFR3UlFYc3BXRnYxMDlNV0M4bVctZkpseWJlOUJDTFlIVllCRkRvVjAxNENtdEpwR0YwMlppRzdnc3ZNYTN1bVVTeWh6dUZaQXRKbVJOWlZwbjNFbk9HZ2dreEdlNkpzQURXemhHc1pBZHpERzZWOVFmRQ?oc=5",
+          "published": "Mon, 26 Jan 2026 16:02:40 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999948740005493,
+          "text_length": 59,
+          "content_retrieved": true
+        },
+        {
+          "title": "Nicki Minaj calls herself Trump's 'number one fan' and shows off gold card visa - BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZWEhyUmtZazFCLTRuOFY1MDZydVdxbDVubFJPTjJVc0FYQW9lWi1tdmhBOGlDLVpXQ01wLUtqMWV4dzJLWElQdU82ZWJQWWxmOWxOcW5oSVBDQQ?oc=5",
+          "published": "Thu, 29 Jan 2026 12:20:47 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999990701675415,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Demand Trends: Q4 and Full Year 2025 - World Gold Council",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb1ZPVWhSNjZoWWttR3hhd3dydXhfZFFPNzU2eXY3ZFBrU2ZwNXQ5YzJTbnBwaU04M2RTMEQwOGdjeE9wYWRvb2k5ODFYaEtfcUtUYVdxVTVyeVhQelJMRzVIdTRrcDFrUHVqRkZrQUkydHpmWkwxcTF6Nm5VQ0tIbHg0N3BwNkd2N3NuMFhhT3QwWHVh?oc=5",
+          "published": "Thu, 29 Jan 2026 12:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999608993530273,
+          "text_length": 64,
+          "content_retrieved": true
+        },
+        {
+          "title": "WTI, Gold Outlook: Steep Commodity Trends Call for Discipline - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcWhRLVBneS05dnMxVF85NmszdUVaMGRKT09wamphZ1kzUnJIX2QxUFBRbmNua1Etc0NsWnBOWHdHWFdhbmVORzY1SFc4c1lDX1pvM0NReDdxUUxFWFRkY1ZZSjk5dnltbG1SSmdwS2pldzZnY21nd2NpanVUZFRpNXVmMkY4TXBiQ25Wb3oyNkMwR1lhT3hYZ1dpRlNoZHh2QnVWSzU2bW1aZ9IBtgFBVV95cUxNMmxrRXVHa3RWUkRTMTNKWEVxdFpIZkJNQWtaUDZTc1ZDQkdzbjFiVjBDbl80SXNIS005a19wMGN2Z3Q0Q1E2bTJKdDk5RW1hQlJwSGljbGw1a2QwdXNlVk5aSWI5eXVkS2ZpakM4WHNjak9JemNiVndKVFJsWWZXenVLS3RxR2VMMFg2WEttcll3SGphRi1zc3pRWXF3N1A0bjlrVkpnWFRxUHJBY25yZy1HTzVLdw?oc=5",
+          "published": "Thu, 29 Jan 2026 08:46:17 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9994933605194092,
+          "text_length": 75,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Price Analysis: Expert Reveals Why February 2026 Could Be Critical - Intellectia AI",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OTUszZlMyY29hUDBCbzV1bnZ5b01fck1kU0VxQ21qVXVPemxtOU4xcGU5R19sYy11dGlDOGJ2QnUtbkRBcHMwU0RrX0E2ZGJadklza3p6MGJsZnJKR0kzQ2VfOHlDeGpubXF1LXFn?oc=5",
+          "published": "Thu, 29 Jan 2026 07:57:55 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999920129776001,
+          "text_length": 90,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Demand Trends: US Focus Q4 and Full Year 2025 - World Gold Council",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYklZc2JTQU85OGgxekFNQmktNW0zS1ExT0ZoMjhBZUVMM0p6RWV1bnJ2R1FnRm5GSVJvcU5WbGdFcVQ5dm8xbFBrMHJ3YXlDXzJTRlJvSDJJcWk0V3Ryd0ZDaG9fN3pLOHlsVDFqZWQzLWFHMWlaQlFEazFfTmVOR0JibVJVYjNnc2lCRXR0QmdCYTBjNjBlUA?oc=5",
+          "published": "Thu, 29 Jan 2026 12:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999957084655762,
+          "text_length": 73,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Hits New Highs: Market Reactions and Trends Explained - Global Banking & Finance Review",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV1ZJenJpQ3pPelJxOHRJV2xTWThNaGU2LWFQUjdlWkl4S05XU2NIaVlMQmxEZEJRT3hZWlZxbUdKXzRoSkdEZll1SGE3Sm16UGJXaDdCSmM1eEpXNlVRMFM2VnZoZUpaV1VrV2xIYzZ5YUNjUFM3WE5ibFBFREhYbHA1NlByY0lUaWMydQ?oc=5",
+          "published": "Wed, 28 Jan 2026 22:37:24 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9363108277320862,
+          "text_length": 94,
+          "content_retrieved": true
+        },
+        {
+          "title": "Limited-Edition Gold Bottles - Trend Hunter",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LLUZIMGp5Z2RmZDQwQ01BSzZTa056RFp0RXExTzFRazV6Tmgyd0RXQXNreEMza2k1OTJGYzZ3NlhmMVA5MnF6SlE3ZUFfVHFZTi1IVXZiMVJRZlRpQVpCSm5Oc1VGQUFfcC1TclU3UUgyRGN4MmFj0gF8QVVfeXFMUEI4YUZHZVZfY1VzU1RqSVZndWZKaWV6YWtPemFrTXV6SDNIb3hMVEltUlRHZzFuamlSNldqNW5mOUw1c29yOUNZVWp1NmMzZ182VF8tcVBCRklLaUJCQUZPa1RRTTl5SG9CS3Y0QWZvUzhlN3NvOVdIbGNFVA?oc=5",
+          "published": "Thu, 29 Jan 2026 02:52:53 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999579191207886,
+          "text_length": 45,
+          "content_retrieved": true
+        },
+        {
+          "title": "A Red Metal ETF That's Green With Opportunities - ETF Trends",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObnRSOWJQRjVKeUFnVE1NVFA4c1NPUW4tdWYyY0tDdHZreklLOV9iNzV5d19lRXN6dDVoR3E1eFl0YnZhTnM0YlE4NUdzZVFjX0hPN25Td2pfNlVEcjEwd2VVcHp0bDhUNWR2RTgxaHRWVUZfRDdlWVN1ZHdFNzNMdGVoM0hfZWxaZmJaNnlwT0pqek91ZFd3QmNB0gGfAUFVX3lxTE0ta2JhUnZ2bzhuWERoTWs2alBpTHZEZW9yZmxJM1VBejBZYUs1ODVVMDJoMXl0RE9Ob29aMDNQVXdzbXk0NGNuNENLSTR5aVpmb3Rsb3NWWnJCakNlcFBEMlpNcURsRmJwcFV0b2lqb2FOdzZrUUVkak1XNnZmM0tpMXM5V3MtYmlnTnNnUk9sT0NzWkNuSUdxQ2o1WkZCYw?oc=5",
+          "published": "Tue, 27 Jan 2026 16:48:45 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.7001115083694458,
+          "text_length": 62,
+          "content_retrieved": true
+        },
+        {
+          "title": "Rising Trends of Gold Appraisal Market Future Prospects, Revenue Trends & Competitive Strategies 2026-2033 - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVFJuRDFpamVOZGUtRG4tUWVSSzBfbGE2Vjd4amFxNjVIeTFpUXQ5V3pzcXIwQ092cTJUa1l0cXJmbUhSTzdJbGt0ZTNpZTUzVk8tX2VBc3NuaEtqaklUTlhvYURwZS03MTFkeDVtajMxQXZQNE52TWtuazJHSnZLOHV6Mk9JbVJSU0F4ZVRXUTF0M1FtZWc?oc=5",
+          "published": "Thu, 29 Jan 2026 10:45:50 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9987264275550842,
+          "text_length": 121,
+          "content_retrieved": true
+        },
+        {
+          "title": "Google Trends: Gold, silver most searched as metal rally continues nonstop in 2026 - The Financial Express",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ2ZibE9Mb3JtRVlZb2ZPYnVpNnc0S3NNVExLYk9KOXJ2UU1tQ1p0TVFxREZwaFIzaFlvLXlnTkRMeE5SX282MGtQamVlNzhLZ1h0dlVyY1h2WlRqdmtHTXFLUzdIQlBQN3JKQkNGZC1NbFA5LXpNWnZOMXJkdE5tUklCeE9ibWYzNVJNSF84R25mREo1aTNMU09OY1lQRmdIVkhIdlBvbE5aZmNGem1URkxabi0wTmdrUXhSNkpteVc5SFljMkpDd216SkRDTE0tOFBlRlgyUdIB3gFBVV95cUxQVmxDam5hX0drXzJhOGZ6YVJoYlJ2OFNrTDJ5R1RxbWg3dUpPU0tyN0czU2tBV29za0lLTTQ3X1U1ODJTaG5EakdaTmhfM0VJNm9uN1pxaU5EajRWMXRRLUlULUI0X1FvQjgzYnZiY1BBYm1hTDJIU3Npb3N2VXZMZEdKX2pWLVB2NllXal9TSlRKT1hkbGRiakRBdXh4S0NBek5GeTJKMkRfcXFHMmVIZUJLZXY1ZHg4MUd3c2thdGdfaE9xT1NMOC04WFlJLVFBOUNESkNRd2FqSVFfMEE?oc=5",
+          "published": "Thu, 29 Jan 2026 12:52:44 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9985631108283997,
+          "text_length": 108,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin trader warns of downside as gold rally continues to pull focus from BTC - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYmFmWHA0SjhFcE9zWl9SRHRBRG1VZXBtVWNYcHFrTU1QSVJ3cHMzeWh2RFgzM0MzTk1oSUtGRElEMXlXczFPRVpOWjIwSFlBQ0g2YkhEc2twOVhvc3lnd1dHT1VzQVhlV2FBQndBNVdkRS04VXI0NGF3ZlVIWTF0Y3RUeWh4dVN0U2FZYnlmazJHOXZFd0FhQ0UwbFZLUGNWeGV2SVZ1UHIxV25jR2J1UHhsRUx0d2FZWnBSTFRBaG4?oc=5",
+          "published": "Thu, 29 Jan 2026 06:44:22 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9996638298034668,
+          "text_length": 92,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Forecast: XAU/USD keeps breaking into fresh record highs; where next? - FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRF8wSTc1SHVjQ3FMWTNOYjdkVjY0Y1dYZ2xRMDdNRmpIeWwwVkxoYk5YejJKTDJzSnlZcl9CRm9NeVpYaWxnbUlxVjBnRm9oWnMtSWM1RkpDM1RpZVFQRVlXdEtxN0FNWi00UlI1ODFEMTQ5ak0zeWhGeUp5U1FtNHNVYjIxNnROTHRIYWZ3UnR5aGo1eFNnbjZoNUp3aWtXNTNGY1QtcS15ZndaaE1zM3NzNTdyRkJ4NktzaS02ZlRRQdIBxwFBVV95cUxNZkdnTFZHV04xOU9zcjVjLWxtaWhyN0s5d3Vrc2VLZEd6SlpBZ2NXQVBLSVJXWGZsS1htaGYtQ2RCQmlBRUs0bFdsTHM3R3pCU3BQdTN4QXJoeHlqa2NlbUZfNEgxTG93ZFJKWDRyR3V6aDIxLXEwXzEtRnlmWC1ld3J5MW00SUNSRTdncDkxY3JhYkFUcHVFLUtzenY3b1lJOU1uSkZUMkVrUmVpMUpHUnhFQWxzdUFKbTFYcjgzRjYzSE1lOG8w?oc=5",
+          "published": "Thu, 29 Jan 2026 04:35:31 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9882848262786865,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Price Analysis: Eying $5,300 Amid Weak Dollar, Geopolitics - Forex Crunch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFdnLUU4cUZvV1I5QjdrRmtOWmI1Nl90aXEtVnZqMjJvaWZJNHFxdUlvcGQyc0pGT21BNEtnSjNKeGZ1SndwRzdmS1VMX1RlWGU1Ty1kTVVCMi1BMURwNkZaMzVQZVdySWo3N1RNZ0hYMGVPdktSdEZYU09kOThQWmZma3RJcFl3dS1QMThtYlVZNC1GMUl4dUx3QklXUVg5Tmt3TXFnaw?oc=5",
+          "published": "Wed, 28 Jan 2026 06:13:05 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9709360599517822,
+          "text_length": 80,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold News: Analysis Shows Gold Rally Based on Reality, Not Irrational Exuberance - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaVp2ajA0ZGpEZkFTYVB3Um9xX2Nxbk11TjFFcFk3ak03LWNVZ2hHLUVfQ21yV1RaZU14MkhQY25GZExWRXB3MmhjclhlY2pPVkVtOWJIUHRZV0FiR1hIYlp6Wk00SWQ0eHVLTVpTSEI3VHNyLUpiVGtUcTdyVDNMOEJWNDdTcUo4TnR6WENFRUJEbTUxdUxQQUZUbldqZDFzNnFvUUpLZGFPblZMNlJFQ0Q2Q3F4R1ZfVDh5TzE3RTBJSGJFMlVTRg?oc=5",
+          "published": "Thu, 29 Jan 2026 14:06:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.998820960521698,
+          "text_length": 93,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Analysis 29/01: Gold Price Continues to Climbs Ahead of - DailyForex",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU0gxRk96RlZQenFWVC1qZWVCQ3VFdUlVVDBGT29KVUEzcTlLeDdGSmtTMHZLU3VsX0FJbmY5MjZMQ202WnllRFlXZ3ZTeXNIbGtJVHRyR053ZExyTl9wTmROYWpJNmlTM0FFTks4NXJibFJfSFF3ZHR6cmEwbGE3QXlNN0U0SGR5QnRpRUpPU0lZdmx3SWtwU1d1QlI?oc=5",
+          "published": "Thu, 29 Jan 2026 07:52:58 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.7685281038284302,
+          "text_length": 75,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold is talking, silver is screaming: Is it time to rebalance your precious metal investments? - The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRDhad2JRU3BNWjQ2UVdyeFM1RkJsd2IxaWVDcXNfc0hmMVNJUXpnenZ6Ynh6TXI0TkFBNGh3UTJaYjFrYTdnWFNVdzhRbVN5WEJnU21rb1lUT0ZxX0VJeDlkd09CNHhNdF9XMjJWOG8tRzZJR2h1ZkNqVUViWDRLYlFHWnFhNmVLb2lkYXY0R3FMdzR0M3c1SGNaeGljbUJHUEZCY1BIaUZteTNSVWgxbG9DRnA0ZnhLbkkzeWpmdnU5anAyLVhsU0xUWWZPQVg5VG9rWDRXQ01vcGVLRjN3TDRtU29jYjR4Y0Z3OVRB0gHzAUFVX3lxTE50WjJsUUs4MXpYR3pzMXFFSkhBLTRfeEFSSDFlQU5MSWV0YmN3WmRMTlFHeWFQY2tvTjJ2Yl9QazNKNjVxZDZzQi1iMHd2VHAxd1BKN1BZbmdGT1ZLZWF4RjV4Ml9nTFlSV0JDWmpRZ3RtRUp0aVNFQkZIc2F6ZDJzLVRJbV9JUzh6c1ZhcHVkMTZ0d3g5RVBrTUVfdHZuYWtLdGNVbzdEWW9nUlBvd2tNLWFwb3U0YmZpWnpzTGVNMVVNRmxGM215SlNVNXdhVWJwdzFEMjAyVk1tTkZkSzhBcTd2TWRmLWlYOVpVSnhFT1BSUQ?oc=5",
+          "published": "Thu, 29 Jan 2026 09:05:48 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9997044205665588,
+          "text_length": 117,
+          "content_retrieved": true
+        },
+        {
+          "title": "XAU/USD: Gold Price Exploded After Break of $5,000 Barrier and Eye $6,000 - Action Forex",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY2tDUXk2UEpfcnRkMV9ScVE2eFpLMTYtX1lQWlF3UktTLUN5MzVPcUxJeFNPWmFSUnFSenYyS2VuZF9BdUI4U20zaHV2My1zYWY0b2JYVlRhTVpjNURsX1p2UmxPV1ZjQ2F0bGZoeGxNbDA3RFYzUXNJN0lhbzkwLTZ1U1VtRUdEM2VOeVo5bV94OE9IOEJZT2xMQ0tYb29ZY2hHQ3VDWXYxRFVWdFcwVjhTMGx1aGszUXJWQkUwWEp3b1R4WHdOdjJ4QUR5SkdfdEE?oc=5",
+          "published": "Thu, 29 Jan 2026 12:39:57 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9933577179908752,
+          "text_length": 90,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold price keeps achieving new all-time highs - Analysis-29-01-2026 - Economies.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZlBfR3JjZEc2MjIzS2NNN1JmWVNDWW9qLUhiTDZXWXc1X0xpdEVuN1BQUjFZTUIxZGNSazJnVEtDaXYzWHIyaXZzSi1lYkgxMV9Ja05EUVV2RW43cG45aE03X3FXZ1hSY3EyRFNpdzdIb3BhVmwtOWdVSVh5Ui1mOFN4V0M1YjZadnVha3B0SVV1OTNsY1N3WWx0Q0ZPM2xMcGUzdVJyeVBOeXcwSWgxSUNhYy1aeVRiS1pPTUlkVFpfZUpE?oc=5",
+          "published": "Thu, 29 Jan 2026 02:49:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9814913272857666,
+          "text_length": 85,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold forecast: XAU/USD extends rally past $5K handle – what now? - FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTS1CMmlfTDBadVFNLXBJMWRGelJ6RHpnejZoLThCcDR2VTF2VEdvNFdkQkNYanp2cWN3ZnZlZTN5YmJOd0FjUzNoazZ3b2lJZ3pvc2pmeGZ5RnVJbDRFdFp1ZklrNTBLSHJjN1dwVTBNQWZVOVhmdXVkYjBhc3BHUXlsck5hRjFMVllXX21hY3lwOWFzZkMtWG9pRld6MllSWXh4Zlpn0gGyAUFVX3lxTE9XNjNJMy1fMUlRWUtWVmtQbzY2T21RTlk0MXVUXzJSbVNuU3c3NnFkcVFxZ3FzbU0tZVF6X25WQ3NkYjRveURWRmticVd0MlFvRjBMV3NQM0d4RlFwdmFkdHJpTDVGbnlqVG5XcFBVVEtVMGo4bHN4MjhaaVlLV1VaSTdmaVlaVGp5dzVDczNFQkZLMVZucWoxcVhUSWNTYi0ydDN5by1Ia0EwMVpqZ205NlE?oc=5",
+          "published": "Mon, 26 Jan 2026 16:02:35 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.809788167476654,
+          "text_length": 78,
+          "content_retrieved": true
+        },
+        {
+          "title": "Global banks are rushing to raise their forecasts for gold and silver prices this year - The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX3VSSVdpdTdyWEZ6Rm9GajFKRTNQSTdSSUZ1MnliSHJPbjZBdWlqMlBiMmZXQ0VyZm1fLW9GRDRrU3JfSjNOQWJrUElFM3AzV0RGQTdqaEdyZTZCMmowWmZuaFVyY2U0REdTeE82ZHRkd3pFY2VrcjlSamdCcFFSMGMyUG9nYWl4UVBTSWtwbjFBai1yRUFOSWZUMHVrMEVIS0c1OGFsb3JxSW9HeFVZcmhwZTNSakpWRDhfZg?oc=5",
+          "published": "Tue, 27 Jan 2026 20:40:02 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8149387836456299,
+          "text_length": 109,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold, silver price prediction today: Will gold cross Rs 1.85 lakh/10 grams & silver breach Rs 4.15 lakh/k - Times of India",
+          "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQSm96ck9va2YtRTFvMmdqR2JOMGVzTzJQenBrZ05SRG5tbFNXY2ptLTJWa1JJR2VSOG1Xc2FvRGQ1a1FXdG40bm5oeWFHRVN5a1A1R1h1UmNRS1NDSldQMWpBdjBLeU5qejd4TjNldUJaYXRCd0tkcU5xWjFYZ25PdC1OSEZPdFlaNjVIOVNUTVZoa19YbVBGdXF5T1NsZ1djWl9yZHFncHQ3OTMza1dHN0gtc0F2YVJXWkx1MnhyZDk0c0FvYWR3dkZQZ2NaNDRza0ZtdEJXbWJSVWNKME5IRF9Cd3d5QXF1c29OLTVDNHlReWpQMWI5ZXkwYUszLTdQTzZXdEpjU1FMM3ZPYUI5Q3RvVnctbnRwWlZhY2pLUGViT2htcXNHTTIxMVBUX1J2TWlwVDRQZUrSAb4CQVVfeXFMUGJWbEpQSVlKN2xxemRlak40QlRPeXBHYmIyZlRHXzR0RmJkNnE0TUZuS1FIazlPYlBKMllwLUREMGZWTXBZM0hJTlVxbU5nZlBzSHh0X2FNa3JRejFhb1Y0bnctb21NdUZpbFl5MTA4THJiMkNUTzBwcVVYRWlLNlpvYzYtZGJiMndESFBkWkUxNkFLZGZUekFET25fcldoYm5seGktbEVRVTZ1QlhXeHYxX0s5OTU4bmZhckk1T29WcFkyQ0JtaGNkM3FDVUlPZXVlblZIQmNCUHBvNDdUTXRvS1pPYi1YRmQyUnVkWHBrNjd5SVlOY2g0aHNzVFpGTXB3T1d5dm1BWTZVWDFZcm1fczh3cjZsZXJ5U2tnSEY4YWZrUWpHTTR3dG9XdFlfSktxNzFaQjhHR1NweU1n?oc=5",
+          "published": "Thu, 29 Jan 2026 05:45:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999998807907104,
+          "text_length": 124,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold & Silver Prices: Economic Survey Forecast - Rediff MoneyWiz",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcnRmWnRJYUd3SmVRLUs1RUdDUmlmbEVwaXlYeDMtOHhLcjlDc00tR3dXZjd6RThTZDNaQThLU0V1bjZLbWF5c1BHV1NTX19BLWVncnJWQUJXSGQ4Zk40NUFOeEJsbHpaeVd5clRwaUtJSUhJZlZBbmZMRnZIVTlyV3hsYUZpbFB4SHUzSmNLR09YVmtOOTctcDQzVdIBoAFBVV95cUxPVU0wSlNvWHctTkJkamR4TDNON2pEeDhxT1VGcVluVmtrcmxYZGpya3lGMHZXdVhYOTFxSExkenk4MF9va3o1NDg4V0V2TGpsTll2b21MZEVRNkhPZEdOc1hOdldRWV8tV2VXWFZITXRtTERCUTZvVDRYZS1McGhad0xVSER5S2MwOGV1MWhHYVhCcDN6eGJ4QktvZTJGRlFv?oc=5",
+          "published": "Thu, 29 Jan 2026 09:35:26 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999912977218628,
+          "text_length": 66,
+          "content_retrieved": true
+        },
+        {
+          "title": "Forecast update for gold -29-01-2026. - Economies.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT1dQeWFMN0RRbWlRYmtkUjVTQnVWdnNqMXFIYkN4T3lRcUNkaVAtRFdHTnpXM3JuMnBLaEdKWFBqN0wwNWM5cmI5MjhWOHZ4N1lvYUttWFRJSmx3X2lYQUlITVY1RGpUZFN1cUpDRmI4aVQwYzcxckFNRWpBM1J1cWgySTltcDZvVVVidEFQSTBMWjVJZkM4d1pIOF8?oc=5",
+          "published": "Thu, 29 Jan 2026 10:20:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999821186065674,
+          "text_length": 55,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold (XAUUSD) Price Forecast: Rally at Turning Point After Momentum Shows First Signs of Fatigue - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNS1DOXpkMnVxZ1B2dEtSVl83ejBNbFB2VldMVWtVaVpXbXMyVDFyeS1JV2RCSXM4Y3prcHBDazgwdnBfdnNzZFplcW41R00wWVJMZTB0QkpzV2FveUZLanZwd1VERXF3RU8yaVhhNUdLTGNaSERweHhHMVpzeHpkUWZNbUZfdk1tRFE0aDFQMEtfZkhuZkZDWVFabzlPRVFaanJmdHphZFZwaVo2SXN1b1I5cm9qeFVaVU9FYkwwM1JwTG96YmE1WVBGWWxXUFJka2tiVWlSRGh2VDlW?oc=5",
+          "published": "Tue, 27 Jan 2026 14:20:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.983871340751648,
+          "text_length": 109,
+          "content_retrieved": true
+        },
+        {
+          "title": "Another day another high: Gold surges past $5,100 as investors seek shelter from global risks - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb2hidFJjdUpVanpYWmRVSVotXzhPREx5YlZ3dnZ5Vkp1M0V1MG9jYnJxcnJPaXE1cXRJUUs3R0pCUmhBeGpzZTZZVS16b0dPMVFhdG1XRnVKTHRVOE9iX0RUdnI5YlE3djhNXzJrb2g2RkxIaFhKX3R5SURUZGNRSDN30gGHAUFVX3lxTFB1UFNCMVhWMGt2ck05NzZIQkh1ajVHdFl4YTBaLW1zTFR3dDR1TnhHckU3eW81bjhZNUlIeFpGSk5NcGNsZ2NWdGFQQWI5RGdFZlpwRkhYNVZnMFVYRTZJM2x4THNTLTRGQ2l5cVBFaFMtcGkzQVRqOGxaWkF2Q0ZqbE1DM3I3VQ?oc=5",
+          "published": "Mon, 26 Jan 2026 00:24:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999771118164062,
+          "text_length": 102,
+          "content_retrieved": true
+        },
+        {
+          "title": "Deutsche Bank sees gold climbing to $6,000/oz in 2026 - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM1dmdVZoMUt1YWpGYlpacmwwRENVWm5OckxiZXd0djRDN1E4WnVHdHZhcjVoREZ5OXNoTDg4U0FHZ0lPUkt3eG9mMUZET1MwMnlfY1J0U1h1TjFhOG5HR19FQUluMGFqTFZqVEhETTNlY19TYWNsREJFcWpBR1k1TkJCTl9ycUtTQ25wRnFFQzlDNGNnd2w1b1huYzl3b1llbmdJRjVCSGVVdEk4clE?oc=5",
+          "published": "Tue, 27 Jan 2026 18:23:48 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9958751797676086,
+          "text_length": 65,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Monthly Forecast: Gold Forecast for February 2026 - DailyForex",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT21FWXlCQUFuby1HQlZNeklPbXN4a1hIeTZ4MzRmQldkeF9yeEd6QjNheDVqOHZueTZaN3ZEV2VWeWVZZ1FhRC13X3pYdjE3SERkbTBPREZ6dTBSQU14WnpqTmkzS1hWTHlSVlhLNnRoUEh6UjNLcEc1TjRfS25jRzVuWG9va3JIby1LVXJ4RTM4czBFUXBCX2pTdVNZT2dQWnEzMA?oc=5",
+          "published": "Thu, 29 Jan 2026 08:53:06 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999998927116394,
+          "text_length": 69,
+          "content_retrieved": true
+        },
+        {
+          "title": "Banks lift gold forecasts as $6,000/oz targets emerge after record rally - investingLive",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVjRLTU1pNkVUeGZVOXBPOFVoTkVibmNBSzBFVl9lc1VVcU1yanRCeDdIdk1kSFVqa011RHdacTJnazQ0SEdhellmQUg5cEc4WVoxRHFGdmdoUk5YOV9YSFJqNHQyN19oUnJ5NEdDNEs1QzFVeDNremh1YUQ2UTVhNC1IeGIzd01Pd2YwYklYUzhjUjllMzVXdF94bVQ3dXkwc1psUldXdmJaY3lTWTRGSjR4OGQ2THNh0gG-AUFVX3lxTE9JT0lTWWstRUVMdFQzOWFHYlJsS2FMcTVFLXBmdWRaNWZHU0hxWUtwM3BEcWxrZjNjUU83amliRFNOZlo5MExKaUM4aW04bHE5cHVsVzNkLWhvREVtY3VvenUteF9lNXA5YWhWOXZ2NGhGN0RvN2ppVkhOYVBFbDNNTDBXTU14eVdqUGtOSno1TTIyQlA1UXJBOFJyU0pMZ2U1V3pYMkJoVVNtcmhkMVZyWDJKazFsR3ZZR3ZDdFE?oc=5",
+          "published": "Thu, 29 Jan 2026 01:28:41 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999998807907104,
+          "text_length": 90,
+          "content_retrieved": true
+        },
+        {
+          "title": "Should you invest in gold or silver? 3 ways to invest in precious metals - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzE5SVFEeGdSX21XQzM0NXVYOURESFd4RUZyMk1HLUlHSHo0d25BbDg2VjdxbzlJc2FnZkp0d0cxQUhuN1JuTDNZOW5yVm8za2FpYmN5enJXZE5iZmNMTGhuc3g3RDc0NkI0dXQ4eFpWZXJYRml3MHJjMzlIczJuaUYwOGNZbTk1?oc=5",
+          "published": "Tue, 27 Jan 2026 17:53:04 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999992847442627,
+          "text_length": 81,
+          "content_retrieved": true
+        },
+        {
+          "title": "Current price of gold as of January 28, 2026 - Fortune",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tTVNkeEF5U0pqa003aUgxRXRya0xYSVRlN1k1M1gtcnBwejlvYklmNmdaRlhTVE5XQ0YteWtLQVNVUFl4dmEwS2plNm83OFJnbXAwcmhmSkFXRVMxOWxHQVRneThyb3E5NlhHX0Jn?oc=5",
+          "published": "Wed, 28 Jan 2026 13:47:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999991655349731,
+          "text_length": 56,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold and taxes: What investors need to remember this tax season - CBS News",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXZCRnl4OC1lSDJkVng1c3ZYbVlyYXlBMUVtS3dDLWdxRHZWaXRpTGc3UTVhdlRWVl93OEpwSkRlLUhaSHpzUTE3ZUhZUEZBN3FZOW5majZhdC05b0t5cU1qLXFUNEVDeVpiekRoV1hWRjdPaGlaSW5wOGx2R0ZDLWNzVDFXRFNWS1hJWlZyczMzX2NzZDFZ0gGcAUFVX3lxTE9IRVZZOHVhaFhZZTFsWHNvQzhnQ3lHaTZkcFE4bXRqa2VPR1hNOEVyeG9JRUwwdTRKdkJoNk9McUFvT2h3TkpuaWNQUW9FYkUtWEpGbHFHeXNRZ1pqSE5zamk5eVlJVDRoOWVRSlJHblo0d0NGSmpuaExTaUJiUHpSTm9CMnhnYkxsOFJrVVdUalc0Zk10ZnJYSnl3WQ?oc=5",
+          "published": "Tue, 27 Jan 2026 18:17:23 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999208450317383,
+          "text_length": 76,
+          "content_retrieved": true
+        },
+        {
+          "title": "AngloGold Ashanti: 'Gold Is The Money Of Kings,' Be A King (NYSE:AU) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0M3MlRlVkFUbFJRT05qbm0waTNTRThXZWFkMFhnSlZRd2tJSmw5VTQzUlpGcmhuazA3T3g1UUdtRk9yUmJTZFl4UlF1dHNQTlBhLWFTMUluQi1QR05wc1U3UmtJcXVlMjJtSUNjLXFqdmx2ZTRlRGNlZ1hpcVNYeUFxbVNLNFlmUXdpX29hT3RNYUlLWm9tZi1GR2J0V3NzSzVKMlJ5R3VqUWlkNHc?oc=5",
+          "published": "Thu, 29 Jan 2026 10:57:21 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9982354640960693,
+          "text_length": 86,
+          "content_retrieved": true
+        },
+        {
+          "title": "Mark Moss: Trust is Gold's Key Driver as Price Hits Record Levels - Investing News Network",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01Ums5ZTk2VWpiSGRwVWZRTlFqX1BOOUUwY2JETFlKUHN0S2RXT04wWE9HWjU0QzVpbHJ6bndNRjZ1ODlfbEp5MVVzT0V6andJUjJFNWRzQWJCUXpUdlk3NWRKeGNFRUUy?oc=5",
+          "published": "Wed, 28 Jan 2026 23:50:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9341954588890076,
+          "text_length": 92,
+          "content_retrieved": true
+        },
+        {
+          "title": "Financial analyst gives tips on gold investing as price climbs - azfamily.com",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEZuWXNWQmI1dkVJcTVHbHlQWW8tZUpNMlM5cFpMajNoZWljNzBvTEhyMUtpUG8xOGRobEFQVEdKaFNWMEJKcXpjTGh0WDVPSzRZTVBVNjAxMUs0al9BY0oyQmVwYWx3SVd4UjdyUnJWNEwxMTN5QTZQaEZRdHVOV2tDUDlVS3lkM0FOdWV3R040Q3dpMGxEcG0tOVcxb2Fo?oc=5",
+          "published": "Wed, 28 Jan 2026 15:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998551607131958,
+          "text_length": 79,
+          "content_retrieved": true
+        },
+        {
+          "title": "How To Buy Gold from Costco - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4eXNWZzRaNDFuUkpBcG9fZnp5Yk9MbGVicy1PRjFpcW5zVGlWTFlJZDMxa3J3RHdINzdDbVRGMnNqb096NmlWdi1rQ2VCMHBmem9tblY1VTQzQkxNTWJhUjZYVjhzNU0?oc=5",
+          "published": "Mon, 26 Jan 2026 20:07:32 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998444318771362,
+          "text_length": 36,
+          "content_retrieved": true
+        },
+        {
+          "title": "Here’s how gold prices could hit $10,000 this year - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOODg0VFNJYk9XbWJtMnF1bmFYUUxQZ0NWQ0J0QjJXVEtaQ0JmSzAzT1FJTjJROGhYcmFUb3A5UEhSd3V3M0FjcUw3cHNrd3B2aWh1X24xSG5fLTN3VHc2RXVGVnFiSkwxUmFGVVFiTWlwTUNSZWw1Q2E0RzNqTjdqRjk1YWxMalhNVzA3dUVxM2tPMmtPTlMwNzlsVV83U0lDOGlkNlpB?oc=5",
+          "published": "Wed, 28 Jan 2026 09:55:12 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998859167098999,
+          "text_length": 68,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Investment Rockets in 2025, Setting a New High as Uncertainty Bites - World Gold Council",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQjRxUjJoWndiSTJoTjU3OFgwUExieEkyZzV3WE5TWlB2N2NRUjYzVHZpaU1FZmpsQ1lfcE5YZDNNaWxja2ZtNkpoakxZbS1FNXVKQ2x0N2dtSXdzOHBFYTJBRmtGVDIwdHdkbldBaDRxX2o4UHNhR21ab3lrSDJ5dDBNcXFTY3llcFpVOWlFQW9YX3NmaEs1RjR0blpkclF4YmxIRDl5QngyUWx0OVF5VG5ySzg1dw?oc=5",
+          "published": "Thu, 29 Jan 2026 06:59:56 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9864888787269592,
+          "text_length": 95,
+          "content_retrieved": true
+        }
+      ]
+    },
+    "BITCOIN": {
+      "name": "Bitcoin (BTC/USD)",
+      "total_articles": 56,
+      "duplicate_count": 14,
+      "sentiment_counts": {
+        "positive": 9,
+        "negative": 11,
+        "neutral": 36,
+        "directional_total": 20
+      },
+      "sentiment_percentages": {
+        "positive": 45.0,
+        "negative": 55.00000000000001,
+        "neutral": 64.28571428571429
+      },
+      "sentiment_classification": {
+        "label": "MILD BEARISH",
+        "description": "Moderately negative outlook"
+      },
+      "articles": [
+        {
+          "title": "It’s ‘Breaking’—Sudden U.S. Dollar ‘Crisis’ Warning Predicted To Spark Huge Bitcoin Price Boom To Rival Gold - Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdzFKT3lxZGxuUmVTM2FUSEtmcVE2TUZ4LWdCdkV1LWdibDlOYUJnMmtzUmdOdk1aWWYyVkdTbVZ0ZXlhcGZoS293TFJBeXhYT29tVlZJYl9sbndTR1ozX1pGMXBpdjU0SEZpbmE1TVdSUFM0TG9mbnJ1ampDOVZuY1RhMS1xOVM3YWhMaUZYX3lCSklJZ0xnN3ZmOUZqdkxla3NKYzk3TURvYkZ5dWtYWHcxN3BaaTR2c0I2aWJXcXB5VG5Vazh3WjhlU1EtREpxWWdVWnd4emtYbFpUYTZwWWQ2Uk9Cd2xoVkQ4NHpR?oc=5",
+          "published": "Wed, 28 Jan 2026 12:01:36 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.8507257699966431,
+          "text_length": 119,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin price slides as gold rallies on weaker dollar - Yahoo Finance UK",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZWFVa2FEcmlaN0UxcW1RRjhuWTR6UzFvaS1VT0wtMnBGNDhMOHotR29yS2k2MEs4UFpRZlVmcGh0SUVTcWhXLXQtOUhDVXlFT3BwTjNXWEY5VWRFVUtzVDVjZkhOR2tNUWxCQ1pCUmRnM202eXpvemVRZ2x4d1lEYnktY0ZXYXdVeXBXajNKRllobFlSLXBNa3hTMUQ?oc=5",
+          "published": "Thu, 29 Jan 2026 09:51:42 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8787060976028442,
+          "text_length": 74,
+          "content_retrieved": true
+        },
+        {
+          "title": "More than half of bitcoin investors are officially underwater as the $88,000 price level fails to hold - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRnZ6bU0telhsZXVQVmNwOTFzdjZOdFFGZXJNZ2pBNndLZ0NFcDBmdDhfdk56bnN0YjM2SmpNTVBYMVVSb0R2Mzg2Smd3MFAtNGRjS1dSYkZUSDdKaGUzT05YZW5BU25jaWRXbURYRXo5d2NNZ1V4bkxEMmFJbEthRFhGczhhb2JmdUY5VG1xMC1KYmEwamFPOFhZVk83MVVZYXZsamtzbUItcndrOVItLU9ZSFh0WDIzQ1lWVw?oc=5",
+          "published": "Thu, 29 Jan 2026 10:17:08 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.8708591461181641,
+          "text_length": 115,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Jumps Above $90,000 Ahead of Fed Meeting, Senate Crypto Vote - Bitcoin Magazine",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TcTFXX0ZEZ0IyZ0I3QjNCQno2dlhoSDczbmxwTlR5N0ZRZzV2Y2YwMHRvb2xjU1MyY1lMM3FCQ0twX2pxZWFSTjY2UzBnb09tdjNGbFNxV2dieGVYUXVxcjBhZmVCUEJDZXJXTFZrZjlsWnhYNXc?oc=5",
+          "published": "Wed, 28 Jan 2026 14:20:06 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9877457022666931,
+          "text_length": 95,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin price today: dips to $88k despite haven rush; US legislation move eyed - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT3RldmNwNy1JV0YybGFrRGtqb0h5aU9oRWs0NThPYUNWdmVWWnBQS2kycF9HakVrNzJqWGt4OVFRNDE0WHMxXzNkSlRIa3NkTjRMSEdJN0lJM1NlWl9CcGhBM1hyMENmNTM5R01kM0dNSlpPV0N1UVJqQlBDZHBsbTdNNElfbnh3X0NDSmRjY25uQUk3a3dwdVNWNnBkU205eTlWUUdlRTEyakota095UE5Uel9jLThWQXFXdmQxamV6Zy1rcTJXMXJFQkItT1U?oc=5",
+          "published": "Thu, 29 Jan 2026 07:23:06 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9882344007492065,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Surge Incoming, Claims ‘World’s Smartest Man,’ Says Monday Will ‘Be Insane’ - CCN.com",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX1ZYWVN3NHZmU2NoSGx5UldOWk9SZjAzc3lTdHpTa1JMMVd6NW1hMlFVVENlT1JTVktqX2JwUDFnV2RBc09mRzVfRExCVllVYm9mdUhkT2JOdi1IeDV4emRTNzhORFpEb29rOEtha3psM1RZVjUtaUpxeHQ5b0lNWEc4Tk54MlJOdGc?oc=5",
+          "published": "Mon, 26 Jan 2026 10:02:15 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9830515384674072,
+          "text_length": 101,
+          "content_retrieved": true
+        },
+        {
+          "title": "Is This Bitcoin Price “Coma” A Victory Lap in Disguise? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZFpfTHNERWhlRmZkZm01ZUxlcXd6OVRRNVhSR19kUEpvcmpaUXpRSDh6Wml6Nkl5RmhpcWE4bHdheEc3WEUxVFNaWUZsdVpGUDF3Ni1aaFBneGNDVWFkNUw2cWdSeWdoVHlvXzZJR3Rvc3dzWGN5b0ZtRE9maEhTRlNR?oc=5",
+          "published": "Wed, 28 Jan 2026 10:55:54 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9993715882301331,
+          "text_length": 73,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin trader warns of downside as gold rally continues to pull focus from BTC - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYmFmWHA0SjhFcE9zWl9SRHRBRG1VZXBtVWNYcHFrTU1QSVJ3cHMzeWh2RFgzM0MzTk1oSUtGRElEMXlXczFPRVpOWjIwSFlBQ0g2YkhEc2twOVhvc3lnd1dHT1VzQVhlV2FBQndBNVdkRS04VXI0NGF3ZlVIWTF0Y3RUeWh4dVN0U2FZYnlmazJHOXZFd0FhQ0UwbFZLUGNWeGV2SVZ1UHIxV25jR2J1UHhsRUx0d2FZWnBSTFRBaG4?oc=5",
+          "published": "Thu, 29 Jan 2026 06:44:22 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9996638298034668,
+          "text_length": 92,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Bulls Take a Breather as Bitwise’s BITB Sees Fresh Outflows Amid Price Slump - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVXZzUFBRWF9QcWNXcVZCM3M1d2FSR25uaVVnZlp6N0d1NDlQdXZ5a1U0enBsLVNyZk9NQ2NGZFBGbjh1YTZkaEpYQ1o1cld5UC1FUUc4SjgxeUFGanU0cGo4d2U2VXhIOU0yZmxrTHFjTHNjVWxxNG4zdzllTFQtTDBxUDNJMnN6WU10R0RKMVpibzhGZWVJM0VvMXVESEstZkp0M2RQSmt1SXBlWGQzQ1Vxa2hWaUw5RDZCYXB0Vmp4SGpDWnFEVnJ3?oc=5",
+          "published": "Thu, 29 Jan 2026 13:57:16 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9925372004508972,
+          "text_length": 97,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Downside: Where Does This Fall In BTC’s Price End? - Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFNNWjM5ZFVXZDBlbGNURlZUZnBsQnp5QWwySjRxYXg3YWE3Vk91TEkxcjVrZkFlTEpXX1kwbWVYdUZqLWNYNGVOeUViRXVCc2liRWlJUy1wY2lvWnNIWXBIX2ZxZUlZbllOSVgwLWE5MTIwejdqeGxwLWJ1ZWlJZFkxNVRGX3VtR05KeUotTzVXVUZoaHhuT2xCRnVoWTlRSDFvOVdUdzIwTGVuWlowcE1hQQ?oc=5",
+          "published": "Mon, 26 Jan 2026 13:17:31 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.6035634875297546,
+          "text_length": 69,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Chart Live - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVazFqSlVNSk05SWNJUmZ2YVVLZVpTVURyTE90S2F1VVZtdk5YS2M4bjdTZnZfUlJrblZvMzFUVk80LXNmWEdlYnktN1ctWUxGMTlPZnBFNnNsUQ?oc=5",
+          "published": "Thu, 29 Jan 2026 12:01:42 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999858140945435,
+          "text_length": 42,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Retreats as Hawkish Fed and Outflows Pressure Market: Analyst - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONU93Rl9kdE44a2xvOXR4YXF5MXFVR0p0emtEYTJOaTFHYTJnZFJvOE81MmlMM0VKamZhQW5SSWRnc01VSHdfVVIyOFF1aENFMXlqVWsxVHNRTksxVFB1TWUtZDBvR1piLU4yVUk0LVZmYnN4VFYwRHF5Vm5ZNFh1cWY2UEFabXo1cVRF?oc=5",
+          "published": "Thu, 29 Jan 2026 11:11:11 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.8884954452514648,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "CHART: Gold gained twice the market cap of BTC in three days - Protos | Informed crypto news",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMXMyMG9TZTEwWEY5RzZrZVFvMjd4WG16d0pVa2huSmhzS01TWlRaaDdGSkU0cTROcGJwOFFMTk93cUEzU1BrVVdIMV8yel9iQVlzQURrNTNhcm01dGhMZDV4Z3pDdWJrZUlKNU54S2tMcUFKR0o2dFdqejZVZ3YzdndxUThLZw?oc=5",
+          "published": "Thu, 29 Jan 2026 14:01:32 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.7991617918014526,
+          "text_length": 94,
+          "content_retrieved": true
+        },
+        {
+          "title": "Sygnum’s new bitcoin fund pulls in $65 million from investors looking for steady yield - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN3VVSkNmZjF0WDBRNC1NejI5UFpXRjdkWUpNNFBNR0V6N3Q1SjdSQ0NJVVRtbDV0SWNEdzVvVTZuUkI5ZzhpWm1McG0xVmRRTjc2dTF4YkRIbllMX0lwMHVkVDNnSGpYYjNtVnVNXy1PVmVQY0xPdUh4MFh2Q25VSTRSNTlSenJCTDNKaXpuSFJTOUMtblo2cTU3ZEF4Vi1CZGNsTnBmYUdkMTJBNm9RdlVfbFQ4WFVFQmQ3M01WaHF4YVlVVWc?oc=5",
+          "published": "Thu, 29 Jan 2026 12:29:48 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9995964169502258,
+          "text_length": 99,
+          "content_retrieved": true
+        },
+        {
+          "title": "Stay Updated on Crypto: Latest Insights on Bitcoin, Ethereum, and Altcoins! - Investing News Network",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
+          "published": "Wed, 28 Jan 2026 17:05:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999558925628662,
+          "text_length": 102,
+          "content_retrieved": true
+        },
+        {
+          "title": "Gold Adds Bitcoin’s Entire Market Cap in a Day — Why Is BTC Falling Behind? - CCN.com",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWg4MkMydGhKeXYtcTUwQWZPUElXLVNGYk04WkVzbVY5TWVSenVXVzU3cGkwMFdLQW5XV2NGbVRaNHY4YnRqRE9JcXhzVEg5S0VHZHBxbExGaXA1ZjdJVEpOWGVwbXdnRUVzbkhtRTJvcVJRQnZHb1RtcjNiVlRiN3ZVaGpLMmZVSkI2Mm5KOWJsYXJLMFU1Qw?oc=5",
+          "published": "Thu, 29 Jan 2026 10:17:15 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999805688858032,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "Swiss bank Sygnum raises over 750 BTC for market-neutral fund - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUWxjZ0R3UnJ5ZVBjUTZtal9jNURPN2JtOHpLbUhHdElKdWt5VXUxa0l0UTgxWkhYM3M5aU0tS1JFQUxOYXppYTFYNEthSDg1b2ZuMURCOGMxWHZ2RkZBcmVYMVJ0cmpGZkxfLU91aUoyQzlmSWdxUHVpS1ZIVC1KOVZ1bkJqdkxMbVlLOVlpYmNOTFJtUzZpak8zb28yaHZGczU3MHZUYkUyc1FzUnBDU2Y3SFQ1MGNlYTdvV0pIQU5pRHAwQUpVM0ZEMGF4SF85M0xfQTdn?oc=5",
+          "published": "Thu, 29 Jan 2026 07:43:48 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999618411064148,
+          "text_length": 69,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin’s Historical Bottom Indicator Points to $62K – Could BTC Fall That Low? - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRlI1MGVCOEwzWnQ5V2hPZ3RyM2JYdUVCeUJHWFNENVhDZGhFRXlKT2VhWlJITVJWZWFjNVRwTERxMjQwcFFtaFpoR2pidzJsb1NqZHFqQXhkZkpGU2RtZF90eG1MaDBqb0UybVNtMGlEb0RINzd0WDlMbThpUF95ejROVFhxdlJ3S2RWQVptMnlrTVVEaUpwYmJnakhwaGZQZXNHblRILTNFemVWVkJ1UmlBN19NVG5xNHRoYTNWbk5vQmdaSE1jZ3U2MlpaX1ZEY2c?oc=5",
+          "published": "Thu, 29 Jan 2026 13:28:55 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.6635048389434814,
+          "text_length": 95,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Prediction: What To Expect From BTC In February 2026? - BeInCrypto",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wVktmX0tZOG5wOEFSbnVXY2dTNlpLOFdoTWcxVHExR3AtVnlHUTVXbDZ4eHkzS0N5enFNcHZFZnBkUzlhNmZxT19hVTF5YlFnUlRlRjlXd3pNWHFzVGdFOHdoRXgyQWpsV3JwWXNUWQ?oc=5",
+          "published": "Thu, 29 Jan 2026 10:37:25 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999222755432129,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "Hyperliquid leads BTC market depth, beating out Binance reserves - Cryptopolitan",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xMWFCVWFvVXZPVnd1b0EyakJHUnNTVVl6TWFnWFFrZDVGNVFvX1pZaXUtdjJwdkFMQVRrOVM4MVpJNjh2RmZkNjBrM0lOVHl1Z0JNZllkZ3RPSFV0M1Zad2dpbUYwWENBQmU1RzB6dnVfekk?oc=5",
+          "published": "Thu, 29 Jan 2026 13:20:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.812861979007721,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "First gold and silver, now oil is starting to rally and that's bad news for bitcoin - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORXdBaXhpcTR3dUZCa1lyWG1jLVJ1OWtqQXFSWGVTYVJEZTR1T3NhNmxRYllUV2Ywel83VmdSSzJraVozR2I3QW1nRnQyNEd6eEx6YVBVMGZmdUZjZzUwWmRZa05zUGZ5UFhuM1JRY0dOU01JdGRObGZkVWlDRzJiYUVqb0gxNmU0Z2lYSThaUFo5YlNyMFNHYnoyb2lKUUlpV3lqT3dkZHFrRHk5UFlFc0dfZTlDVi1ST2YwYm1SbGJoNWc?oc=5",
+          "published": "Thu, 29 Jan 2026 05:24:22 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9999951124191284,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin price news: BTC stuck at $89,000 as gold surges to fresh record - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSzlRS3E0c2tCVkw4eFY1Q2Q2SGJXNzk5N0ZsWENvQXRCV2VRV2M5WTZRblktejBxYXhDUXFuNEJjTjI3c3ZFT0xiekNYalBtM1hZVER1cFppUnJMcWJ4cXBkRkhvcVNHLVEwZjlzNHJYdGFJM0xBRGluc3ktVXROZzNOcEJmbkEwdmpXTUR2eVpyb3hHbFMxazRUOWZsMTI2cnNlM3JWVlo0TnVsZ2VTQkN6YjdCUzNqVl8tNHFYRzhwek11NjRyMXhJT3JTOXdmTVdWUlM5YWRfUQ?oc=5",
+          "published": "Wed, 28 Jan 2026 21:39:19 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9558554887771606,
+          "text_length": 84,
+          "content_retrieved": true
+        },
+        {
+          "title": "Crypto options activity is keeping Bitcoin stuck near $90K, says Deribit - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMG1sVll3QllDNWN1X2V3VzZ2Tmc4aU5HUTBCM1oxOThkMHUzWHM0SDFUTE9rMFhvUXE4T0ZKVEVBbDhlQ2RySFdZaVhoZzRYeTdfcHkwUEo1N1p4RDFkZTN4WjVSenFMUVI4ZF91dnROaDcwTm51eHJLcEhPNFExd3VPN3J0d2Y1bkpEQ0NiR0Z2ZFREQVVrbVNSakFhVHdDV0twODRDVG0yYzBTSEx5N25TSktfUi1tQW5mSjNRb1cwZDNKelFIM0ltQzlhYWM?oc=5",
+          "published": "Thu, 29 Jan 2026 02:50:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9957013726234436,
+          "text_length": 88,
+          "content_retrieved": true
+        },
+        {
+          "title": "Crypto’s ‘Digital Gold’ Myth Exposed as Traders Pivot to Metals - Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTZLd1VQZW0tV2VNM1c4N2ZEU2E4N3M2Uk5TaTg5Q3BKSVVIb1hzV245Nk4tWmhWLUFST1hSdEFYZlQ5bXpNZlhDZkp6QWZCNi1SRml4Wmh6UG5MbmdoMXBUUGs3RjVickR2b2JHQjJJdzNLVDVnOC13ZS1ocEd0WFZJaEVldlZQTVBKeGZXbUx0Zm5qcmg0WjZoS1oxT3VLeFcwOWJnVjVCbmpUOUQ4Qnh3?oc=5",
+          "published": "Thu, 29 Jan 2026 12:30:03 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999895095825195,
+          "text_length": 81,
+          "content_retrieved": true
+        },
+        {
+          "title": "Grand Forks detective says if someone online asks for bitcoin or gift cards, 'you're being scammed' - grandforksherald.com",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcnQtVFlMZENKbU10Ql9iTjRiM1YwNFRsYk5kME9LTHVNYmpaVThxczJhbzFhZmNnczVyV3FDa19nRUJzbG10QXltWTBnU3ZfTWt3Y09KeW9vRXd0Q1JtWGNzZXp4eHRXSDJJcXBrXzg3WHl0OElFQUR5eDNIdDUzNURtd3ZiaTZ0UjdNZWVGazk2Mjk0OFNYYUZ4eGhXdzdzS2FZQ3RjLXh4WWJTX0xUMU8xdFV2ZTI2ZW9NM1FNclNsd1Axa2wxaFN0MDRjekhPWWZDLUtn?oc=5",
+          "published": "Wed, 28 Jan 2026 13:01:51 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999638795852661,
+          "text_length": 124,
+          "content_retrieved": true
+        },
+        {
+          "title": "Top Analyst Reveals What’s Next For Bitcoin, XRP and Ethereum - Coinpedia",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjJIa0pBUFZvZXVRWE5jLTJ4MEdHbGI0YlJNdVE1UEVYQ0Q2VGlkelZHOG54MTNlSmc4R3Q3S2lyZzFMbkJTVFd2aGdENlZWT204amVVSlJsamtpeFFiUTRVSDlYbXEyLUJGbTJWQW44T3dtX0hRcHJVVHZOMTJhUHNOeTFWWk5tRTFfUjFzbzfSAcwBQVVfeXFMTVRwcDZlSmxnaXpJYTdaSWxKZTRZNUF5Tjh1NzFiY3FMb29UenBSNXpPS3VDczNTeDRIWGtKajlOV0R5d2JRWXYzb3Y3am5ZVEhMV0lSSWtkdUEyMXBkc1hYRndscHFwOHIzb1FsYk1fUE1LbEZ0QmZSMXhtU29tcXFRazVWV0l1Rm40OUwyeFJjLXFuaVpZNWtPM1FXVzJGeEhRMWJkV1RaSU05OXc2VlpFc09XclptcHJlU3VXbEhmaUI1SWJZbnVSUzJ3?oc=5",
+          "published": "Wed, 28 Jan 2026 15:50:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999991655349731,
+          "text_length": 75,
+          "content_retrieved": true
+        },
+        {
+          "title": "Analyst revamps MicroStrategy, Coinbase, Robinhood ratings - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc0RXQ1FYWi1mbGdOWHR4RW9wZkVSQWg3QjZnMHg0OVpCOUlIZHNlSGplcWo4LWN4WjNjY0RQY1JXS3J6U2VzUWJRTy1rY3F0S21sdTVJSkdpMUZJTXg1alhXTkRwWE5qTUZ2UmpTbEdxOXVlbFpvQjR3bW5CRjBSMkdick80bXhoN0QtMWhiUG5fQU9EcWYteHNadEpMNjFwVWg5ZQ?oc=5",
+          "published": "Wed, 28 Jan 2026 15:44:23 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999853372573853,
+          "text_length": 76,
+          "content_retrieved": true
+        },
+        {
+          "title": "Tesla (TSLA) earnings news: BTC holdings remained at 11,509 coins in fourth quarter - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORzkzT0hiMUZfYkpQR2xER1JlMUxYbUg5dGxyLUd5OXotQ0N2NkxvcFJ0a1FQcFV6dlJfM0wyU3duUmlfSkVaVHhLWjFyZnc3bnI2dElSRjh1Qy1qVDFjSHlTZ051dzZzLUNZZy14WGxlNUFvanRmdlZONFJkYmt1b3NxLXZtUWxtaUlwUm1hc19BQXgyYmx4dWpyOE9kUzVoRlpHVGhZZWxzSjR4al9CNGcyWU1yWnVGSF9lU3FlQnZWS19nZlR3M0lqZ2pzTnpDUnVDdA?oc=5",
+          "published": "Wed, 28 Jan 2026 21:12:01 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999998807907104,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "Fed Hold Rates, Bitcoin (BTC) Price Fails to Breach $90K —Why This Is the Make-or-Break Point - CCN.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVDB0M3k2OTFNM3FoNGtocU93R3ZvQ256LUQxYmI4MHJYRjZXTWZMb1Ixb3JYUXVjY0t4TE1USkRKV04tSW9fMktONW5CYXpRQ3FVRWhyWHFYX3JFVG1lemZuRWtNQWNVRnUxanpsZnNNeVV5ajFGMjk3N2pFdmxXMVpTR0J4aG0wWU5qLXA5elBweHJISDREcDFiOA?oc=5",
+          "published": "Thu, 29 Jan 2026 07:50:56 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.708570659160614,
+          "text_length": 105,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin vs. gold: Key differences that could position BTC for a big rally - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSmpLWVlRMWo5X2Z1ZF9FbHNsMnRZMk16SUdkbkplZnA2d1BmazMtdnRGeHdlRk8zNHMxTlk2MHlZVlN1SG8tbGk2QzdVZjRZQUppVkd0MzR1b2FjMGxkbzZPc2dxNU1wXzZic01TNVdEYmFtMWlhQTlIMU1zY0pRLWpLdGpMblN2c2F0WHRZRGpsSGZRblJiRW93Zk5TX3ktbU56OGpXY0k5bThxcld0Mldsb2RFMzR3OFpLZ3pObURyd2JoYnB1cUh0VjgyNndBcUEyemd0MHVZaWdEQVoxbHN6SktUN3lyVzNWMEFjNjRlZw?oc=5",
+          "published": "Thu, 29 Jan 2026 12:13:08 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.98817378282547,
+          "text_length": 81,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Traders Target $93.5K Liquidation Sweep Despite Fed Rate Pause - Mitrade",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTC1DMFh3a0xZT3VfbDBGYjk5ZVpVN0JZYnNQWGlSNi1VQ3pVZWhpS3Z1V2o0TURwcW95c0wtcEk5R05OcGtjaTR4Nkg3MHlnUXFiRW96ODhsbE13czgwYmtlRVdHd2VsX2J5WGZRUWtkTkRVVUFLbEprelA1QnkzTW1yOA?oc=5",
+          "published": "Thu, 29 Jan 2026 09:19:07 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9949131011962891,
+          "text_length": 82,
+          "content_retrieved": true
+        },
+        {
+          "title": "Investment Potential Analysis of Bitcoin and Solana - Intellectia AI",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUnNKV0N4ZFI1Q2twYjg0MF9wcmVNQ1I0UHM1Sk80eVRUbUdnM1hwcU5LWl9ncUhVT3NlNUM1cl9EYUw3UDBIdkR3UDlIWWtGMnM5ck9rQmhzV2I5SUl2dTRZc2w5M3dzcVhXYk10U2wyOWh0OW1aVkViaUYzaEpveVBDS1hzd2xHM3FZZ1hR?oc=5",
+          "published": "Thu, 29 Jan 2026 12:11:47 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998810291290283,
+          "text_length": 70,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Prediction 2026–2031: Can BTC Rally to $105K in Jan 2026? - CoinDCX",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MMzdaYXRIQnVJc3JFV1dKaGNMbzhoVUxFaHNNaDNOTGJuSUR0blBMUU5wMnBfNnJwNzJaRXVzTGtiMDVxZUR4UmtYWHdRR0drclVISnFNR0otQkctc0VBUWhSY05Oc2lKY2VBcXdDTnJOZw?oc=5",
+          "published": "Tue, 27 Jan 2026 08:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9967400431632996,
+          "text_length": 83,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin (BTC/USD): Multi-Chart Technical and Cycle Analysis - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR2M4djl3ZnItM2NGU0FRVXVvWWhkdm9fX0RMMzZ1VXNyam9jVzZaaUNtUno4Z1RKTHFGUzZXaV83MUJsR0hoUm5KR0dsVEd4WG9nM0o3ZW1heXhoaDMwUVNGNXNMa1FiRU5FNVVENkJwT3dZeWhGeGZzbHU3X0VfUDljYTVFUjNveVNTVmllV1Z2UzI0emU0NGd5d2gtb3VJZmVqMi1ZREV5Q0E?oc=5",
+          "published": "Sun, 25 Jan 2026 20:25:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999998927116394,
+          "text_length": 72,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin in 72 hour danger zone as both historic Supreme Court battle and Fed decision threaten to tank the dollar - CryptoSlate",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLTU3c0dfQk8yMVk3eUwxOWJHYTRaOFpFLThxY0RqQXFBWW94Y2NfT2FpbzAtRGlCemdRdFlBOXY5UjAtbnE2enpLY1dQQ1YwM3hxWldFc0dSaVd6akVsQWE3c2g4enFxYTM5YTVza2FOSWFpdnBXOHJXeFpQZ3NtRGxsM3hwOGZObHp3MmN0bFNObWtz?oc=5",
+          "published": "Wed, 28 Jan 2026 18:05:23 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9968301653862,
+          "text_length": 129,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin income windfall drives Metaplanet to revise full-year revenue forecast upward - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcVkyN0RWYjJ3aEh0R1VtbWdkcDV3S0FyUWNoRUVRcGcya3hwY05kejg0cHJidVZ2WnlQeGlCVUtiV1h5QVZhZ0tXRWcxUWpWS2JNSTNrbHluMXdwcl8wQTJOM3A3QWJJQ21ZMmZ4QUJKNUxIQWFLZFh6b0VKT2lYVFpIWmVWdFdydno4WldmclU1ak1vdEp3Y2xVLVJJQ0FEMlVkSU94dXR4Z2Z0WUdGZGRpdFFrbzNBR3hIUWQwYUp6MUlFQWVjWUlB?oc=5",
+          "published": "Mon, 26 Jan 2026 11:00:42 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9999995231628418,
+          "text_length": 98,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Forecast: Fed Pause, Iran Tensions Put BTC’s $88K Support to the Test - FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWFpMNVB0cG93VEx4VkFLZ1lpSlJ5XzhuY0FvVW4wdGpzT3Zta25kcUowZXR5MWVYUG9rYkswTlFLTmFGY1RTSWpFRkl2ajdpYzFCajB0UEtWNjJQLW40NDhzcnZXRm4zemk2TkV3UWxVOUdHM0lvREpoNlg4RU03cjY3cTBBd1djc3dfa1p4bURBSkY1bjJaTDFjU0lrV2I1S09lRFZnWEVYZGhPaG9HNUVrVWF6UFZTc2ZlQkZuNFNVeGtBWnpGY25B?oc=5",
+          "published": "Thu, 29 Jan 2026 04:47:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9130718111991882,
+          "text_length": 96,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Prediction Still Warns of $78,000 Risk — But Tiring Sellers Spark Bounce Hope - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSHNNaDZnSTNXbzRkZmlFZkQxd2Z0R0k4MHgtbGlHUG4yaHhIOG1xSmg2eWNMOEduSWhCeHVZSG1SREMzUG9SVzJDNHRGUVF1dmRWQVlEMW5xMmFJRHE3M0I0WHRwZ0gxZnZmbmEtdXpfVWtWRmJCTjEzdV9RdGduSHozRm5vSFFCUXc?oc=5",
+          "published": "Mon, 26 Jan 2026 06:36:00 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9535069465637207,
+          "text_length": 109,
+          "content_retrieved": true
+        },
+        {
+          "title": "BTC/USD Monthly Forecast 01/02: Headwinds Return (Chart) - DailyForex",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdGhmd281YWEzUXVSdmpsU2VOOHJLMnN5TlRjWGNiYUxScWpWcjA5aDJRNmd4c0pBclV2Zm81NGd1dGNpdFhDRU5aa0RkYlEwTG9yai1FOGdibDhMSW15UmRtTW1nYmw0alJXT2pYU2xLNjdXWjFFRE9ycmEyUGlhMkdwTjc5VlBSSjB4Q2xXWEZYc09OejFGanlOQ2ItZG5GdGpndE03TjBBVjA?oc=5",
+          "published": "Thu, 29 Jan 2026 08:43:05 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999997615814209,
+          "text_length": 71,
+          "content_retrieved": true
+        },
+        {
+          "title": "Why is BTC falling? - FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcWpEREUzclF2YklKNjB6ZkNLZ3JvSUVNWTI1WmZPdGtiZEN3Tkl0QjdFUVdMbXd0WEh6b1ZGN2oxb2ZEQ2FIbkhiUHVrckg4OWhRMUdXN2p0UUc4ci0yWmVMb3JLZDFWN0REcXZzZXl1dnJsZDl3S0tLQV9oNnR3U3RzaXJaaXJyVkF6TEllTWpsaUVBd2o3cmRDaHd6TUNLTXZRNHFFTlU0RDJPQnExS2tDMjUybnhWZEstYXc3dDE4WlFGaTVpMkVKVjcyampfSVk0bFlzVVNjV1M0cFgxWlhST2J1N2dxQnBIeGJ30gHzAUFVX3lxTE1SdEtZSjVQc0Z1SEFHOGlQYWFoTFZQWWtuM01kbTFOb0FpaEZXMER6NzRURXlFbklWRm9xX29fVW13eWFQRG5uVGVobkhrVFd5UzUtSl9OR2Q1MkM1bXY1aHZqWE9tcDVXN0JsMklpWmpuM01va09SdlZ4UjAtOHg1WGNEM3JTUzVUUUNmUUxUOTF1MmVkX3E2WXo5Mm41M1IzeDdUNlktUlB6eUJMN3o1ZXctVVVsUEVxYlRSTGxVSDloc29FSGRqdHloM2ZCN1prenJQM2RVUi1FVXhEQ0E5b0ROc3FzLS0zWTlIZmJMQ211Zw?oc=5",
+          "published": "Thu, 29 Jan 2026 11:01:58 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.906947910785675,
+          "text_length": 32,
+          "content_retrieved": true
+        },
+        {
+          "title": "Cardano price outlook for 2026 Is Bitcoin Hyper gaining analyst coverage - openPR.com",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0RneldGRHdQR0QtbUswN0FicUVETmpoYm1QOXdndGVSRUdWRmJxUy1IUEZoMTVmRnp1YXdfUVN0WF9sRU9MZWszVUF1Zmk2NXR4WE9QM0NtZTJpZVV2YXNjTUtxeDBxanFSamU4UDlUeXVHTF9vdDE2MHNEcXoyTDFvSjVtRGhDTl91cGowM2RmVmFMdVJCQVNISVkya3BU?oc=5",
+          "published": "Thu, 29 Jan 2026 11:16:45 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9789053201675415,
+          "text_length": 87,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Price Prediction 2026: Here’s What The Experts Think! - MoneyMagpie",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLUxPdFVlbExfZ1A1ejdXREg3QUd1dkpqSWpLNV9XU3VWYU1OVjI0anQzSGZhaHJoNU9XX3RRcFNuNHpGU2RnVVFUZ3pLLTRtVUFSREtmMnFkNV9RSG1pckdSR2djZzEzU2RSNWRCWXdYNHA0Qno5WjVMQks2MjV0dkwySQ?oc=5",
+          "published": "Thu, 29 Jan 2026 13:29:26 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.999964714050293,
+          "text_length": 77,
+          "content_retrieved": true
+        },
+        {
+          "title": "Cryptocurrency Market Trends and Global Forecasts Report 2025-2035: Millennial-Led Participation and the Emergence of Crypto as a Viable Career Path Redefine Financial Sector Perceptions - ResearchAndMarkets.com - Business Wire",
+          "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxQM2NpemtrVzVTOENyV0JVMnhhMVE5Sk9jX0s4X3JKb0t0VHlydHgtdld6TkpFUzg5VWpBRGpyR2NhZkQ1ejhjTVVzQWRfUmx2My1IcW5DSG8zTEhmeXJCUThsemdZU2RJTk03Y0ZlZl85cldVanlsUFRXcUF2djUzUldnaVVORVJDOEVCY1ZIZ2d6a3JjYVBOd3c3N3RzdTg5Vm4wLU9jMmhMZjZfdjhNMVQ5LWttYmduNGc3WFhwZDhUNnI3MlpCUG5BdThtam81aTVVWHVlSG5XaUc4MnJIQndGaURkejFRV0dpSmJzNjB6SWpMTnZENlNzanFFWHR4ekNPdnhjWU9McnJfRWdzLUU3VmVaMTd3ZDA4ZFBqRXVpbkpMYkUtdEI3YV9ycWRsY1gwR28tbVlwMm1mdEdwZEZpYkd2cnRDMXl3Wl9xYmpDamtyQ2lRN1ZocFZ1SkwzVFRESmxaVDVkS3lwdW8yaU9PV2Fka2ZPeFlhREFnQkU?oc=5",
+          "published": "Wed, 28 Jan 2026 17:24:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9868953824043274,
+          "text_length": 229,
+          "content_retrieved": true
+        },
+        {
+          "title": "Forecast update for Bitcoin -29-01-2026 - Economies.com",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWlrTVBUVlgzWlpneFhwS3BlZTJXUzVsQUpubEMySmFGM0xHSEJXcnBtdWtHdFh3bVJZVDllV2RzdTFMQ1JJbl9nSzBzRUFFQmtIdGRubV9PMmVianctNExQbXc0S21EdUFpS3B6R1ozcU43MmhzSXotZWV1UVZmTEtpNHlBdU5iYUlIOEtBUzhUZw?oc=5",
+          "published": "Thu, 29 Jan 2026 10:30:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999830722808838,
+          "text_length": 57,
+          "content_retrieved": true
+        },
+        {
+          "title": "Americans lost $333M to bitcoin ATM scams in 2025. Here's why they're surging, how they work and how to protect yourself - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRzNhbURVU1JoTXVma0xVYnVMZGh1TmszNXk3NzZSZWlyRFJHWk1ZTGVWZmJKSTdIVDRZb1N2RmpEcVRjTDI5WU5PbWVta3B0MnJTbENGVzFvTjlHVkYycS1QckxFSnVLUlBxYmJtNGltbmJobDAwUXZydjd4bXJpTW1jQQ?oc=5",
+          "published": "Thu, 29 Jan 2026 13:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9319159388542175,
+          "text_length": 138,
+          "content_retrieved": true
+        },
+        {
+          "title": "FOMC keeps rates on hold, as expected - CoinDesk",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbzRSemFtdERHZWdlSk5iYkhUSURlR0FOQjdLT2ZFeFdzYVRyLTdSU1lkOUZ1VDBiNGYwUkRBaVFINWZWTmV2Z3RzZDNwUDFPTldseDZtMWs3cVU2UmNnWVNQRHNVTUpyNkdrdERXVDVQQ0RhOEs0M2h2elZEVnRjRzlrb1JoYTJvaW4tbjRScjJYQzNvWTlMWWpsaFdIckxnRVdoUmRTai1LdnQ4YWZxcFZVcUJRTmkza2RucjR0X3hmN2Y4dEhJ?oc=5",
+          "published": "Wed, 28 Jan 2026 19:38:48 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.8822951316833496,
+          "text_length": 50,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin, XRP jump as Fed holds rates steady - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVTZuT1g1UzdrcnU3aXJFT05LSmlMOW03UjVsN1BuTVgxX0hfRTctajJzZTJJc0ZuTmp2aFRlZVFYZmI5cktybDBJVUpobjdzUzZyZWQ4dm1LTXI1TWhZX0RRSy1EbXFoc3h2LWtSeFplMVpkT1k1NlNrM0pVNnY2bzhfU2dzYUx3VEs0QVY2NE5HX29VNnZtOXBJM05YMWRnOThFNVFYY2M?oc=5",
+          "published": "Wed, 28 Jan 2026 19:37:07 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9866757988929749,
+          "text_length": 61,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin and Ethereum Traders Should Watch 'Narrative Whipsaw' Heading into Fed Decision - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZVN2Q3BRdEtZeHJXdzQ5aTdqOEEwTTR1MHc5VDRLeFpTbkN0VXBabzREd3gwX2JUeXZPX0JxT2NHcGYxemlJVnhxQ0w4eXF2cE04Q3NwT0xIV2lHcl9OSlJna1ZLZm5jcUduSHZES0VYZ3pDdVNpN2JJZ3pHTXRwS2lJMTNKX1JMZE80UWlZVQ?oc=5",
+          "published": "Wed, 28 Jan 2026 12:42:12 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9997339844703674,
+          "text_length": 105,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Hasn't Had a Bad Day Yet in 2026. Is the Leading Crypto Set to Bounce Back in 2026? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAweWxfUkpnSnNTWklTcG5ZZ0syS25GcGV1d3Rab0hwOU5GbkVMc25BNjVoaG82MmJSSGFvNG5waWljX19rNUU2eFJJVFd0WW9KS0dmUEVLN0QzNUxaeDNYV3Noc1pKVVVRUENQVy1SamJWRXdXbEF5bF9ybw?oc=5",
+          "published": "Thu, 29 Jan 2026 02:25:00 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.9588144421577454,
+          "text_length": 109,
+          "content_retrieved": true
+        },
+        {
+          "title": "Is Bitcoin a Buy Right Now? - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zbkg2YzlGbWtvbFFuWW9mcVpfRUFJdERkWld3eEgtamZqY0U0d2xSdE1wcWk5VTVDcmV1V09fcjljWmJfUHRTWWZPTzNNZmFhTThOclpSNjg0VTFhQlhKTzYyMkVIbzBtTE54OHgwMlhfNlhweXRWVw?oc=5",
+          "published": "Wed, 28 Jan 2026 12:00:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9977261424064636,
+          "text_length": 47,
+          "content_retrieved": true
+        },
+        {
+          "title": "If You'd Invested $100 in Bitcoin 10 Years Ago, Here's How Much You'd Have Today - Nasdaq",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUlkxWmZFcGYyMF9mdkNvOUFRV0c2S1g3dVFha3dwdTZWWGdFcmhSTW82VDZNeGNxaVZhUDktbnFSR2xlenNFTWVTcURLdDVMQ0duRHc0dU9XSjlKWl9DRk1scWFPdTFWZ3E3Xy1GTjZLalRPM1lkS2UwU21VcThtd0pWdjFYcXRWUFR5UGppT2YtZ0RkTTFYM1dRNVFtUmpsa1JrUU9uaGFLdw?oc=5",
+          "published": "Thu, 29 Jan 2026 00:50:00 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999978542327881,
+          "text_length": 91,
+          "content_retrieved": true
+        },
+        {
+          "title": "Here are the winners and losers (so far) in bitcoin mining from Nvidia's $2 billion CoreWeave investment - Yahoo Finance Singapore",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVl9GMUhNZ1VMbWRnVXFTOXdRYUF5Z3Y0S1lTclE5UkpNdkVTLVNta2JxbllnTzJnRmV5TWREdzEtMkYwUlNpMk1HSzllbkdWOXlrYmQ1c3BCX1FSY1dmTmkyTGh0YU9hYUVTWXFreTRNUnlRM3pfMGRtWFdfUm1KTkRmMHpsS2N2Q2c?oc=5",
+          "published": "Mon, 26 Jan 2026 16:06:50 GMT",
+          "content": "",
+          "sentiment": "Positive",
+          "confidence": 0.9996732473373413,
+          "text_length": 132,
+          "content_retrieved": true
+        },
+        {
+          "title": "BlackRock looks to bring yield-generation to Bitcoin investments with iShares Bitcoin Premium Income ETF - The Block",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdWd6bnQyQXMxWU1Eenp4SXhsRkpSUUxfTFRseHN0aEliQUtpQWxSbWNuajNyNmtERURHTlNNWXYwTElSdEF2VzlDWW51T3FwZXMyZ3Y0MkxKR1BfS1lGUWN2MThPRHJ4R0puTFYxZmEyUWxVeHdBWWNwTFBOV2E3aWprazVuOFNUWE4yNF80ZmFzUURObFFnaTJnZ1dSTlZvb2I5OFJwdW1RQzdVdnJnRWRUaGM4RTFQdkVaeTExUDdyVFlGS09uNUpQVmJqdDVMcVlMamhFSQ?oc=5",
+          "published": "Mon, 26 Jan 2026 18:23:46 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9994483590126038,
+          "text_length": 118,
+          "content_retrieved": true
+        },
+        {
+          "title": "South Dakota Lawmaker Takes Second Stab at Launching State Bitcoin Reserve - Decrypt",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWd6cWlNUjR6SFREYWN6R2FqQU03S3dKcGJGSnd6QUU2V3pENWxQUFM0eE4tRWZ2RExQT05LNG0tSnp3R2hzOThUUzJkVlBOdmVzTDNQYVlXMzhHRnVJeHpCV1dzc1RIcmZ0alpVUFA3OFUyY2xDUlV2a3lSVjJ5U3RIZGZ0VWVjVDV6eHNHbmJjTTlDb1YyQ2kzTHJrVjRvR2fSAaoBQVVfeXFMUF9BTkd6aVQ4VmNGV0NZZU95M0w1ekoteFl1aDk5azFPNWx2X2JxUXFtelZsTFpTdVItSVQwMWoteENkY2ZhNVVkWER1Q1h1WW5VWW4wRUxJbFdMV2hNcU1oYTllcExxV3dGQVZWT2FiYWNsUnZwY09nMkpKcUhFN2NmN3h1a1JhTE1JOFp6MmRKdE5qcTM2RXZLVDFaVmxrT1B6QVppaV9DQnc?oc=5",
+          "published": "Wed, 28 Jan 2026 15:14:21 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9999972581863403,
+          "text_length": 86,
+          "content_retrieved": true
+        },
+        {
+          "title": "UK Bans Coinbase Ads for ‘Trivializing’ Crypto Investment Risks - FinanceFeeds",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObkt4V2tMa0p3dG5VOHJCdl9pQ1dTTmZVUS1Idjd0UWp4Z2ZSNVByODZrcEttU3Jnd3dva3N5S0JTRzY4QUQ3cWJKYkVTOFJpZGsxamNUSG1oY0hUYmczRXE1SEhMTi1PeDR6ZkN6UWJaMUFJUFpWem1Fd25DNDVRZg?oc=5",
+          "published": "Wed, 28 Jan 2026 14:36:23 GMT",
+          "content": "",
+          "sentiment": "Negative",
+          "confidence": 0.6025751829147339,
+          "text_length": 80,
+          "content_retrieved": true
+        },
+        {
+          "title": "Bitcoin Reserve Bill Returns To South Dakota After 'Volatility' Killed It Last Year - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcVB1NFRYdmlNdnJDTl81OHN4cl9BcHpNNlhZbVk1U3hwcnVodVdPcWNnclF6RmxseG5IUEtmQ09vT0pOUkJINmxGbHZlNTBYXzhaWnd4QjZrR0hpT2hWSTVMVk5jXy1tM2NHaUNpM3YtdWlSQ1V6NTh1U3BBd2JCTDdWMTBJUUxMZHdCeTVhM2RucGpIZVNaQU9QQ2l3eUx2eEtsandXNWRQMHpPbUZHTUhnb2hqSkRpNTVISzljU3ZSdjJJenY2VjFJenV3YXBGbjJ0M05HdmtoUVk?oc=5",
+          "published": "Wed, 28 Jan 2026 16:47:01 GMT",
+          "content": "",
+          "sentiment": "Neutral",
+          "confidence": 0.9998611211776733,
+          "text_length": 96,
+          "content_retrieved": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,170 @@
+====================================================================================================
+COMPREHENSIVE MARKET SENTIMENT ANALYSIS REPORT
+Generated: 2026-02-07 03:31:56
+====================================================================================================
+
+NOTE: Sentiment percentages exclude neutral articles (Positive + Negative only)
+
+
+====================================================================================================
+[ASSET] S&P 500 Index (SPX)
+====================================================================================================
+
+Total Articles Analyzed: 49
+Duplicates Removed: 10
+Directional Articles (Positive + Negative): 27
+
+Sentiment Distribution:
+  [+] Positive: 15 articles (55.6%)
+  [-] Negative: 12 articles (44.4%)
+  Total Directional: 27 articles (neutral excluded)
+
+Market Sentiment: [MILD BULLISH] - Moderately positive outlook
+
+[NEWS] Top Positive Headlines:
+  1. The Best-Performing Stocks in 2026 (By One-Year Returns) - NerdWallet (Confidence: 1.00)
+  2. Dow surges 1,200 points for first close above 50,000 in sharp rebound from tech rout: Live updates - CNBC (Confidence: 1.00)
+  3. Analysts Expect This S&P 500 Leader To Deliver Good Outlook - Investor's Business Daily (Confidence: 1.00)
+  4. S&P 500 Remains Strong as Bitcoin Slides to a 1-Year Low - Mitrade (Confidence: 1.00)
+  5. S&P500 and Nasdaq 100: Earnings Momentum and Metals Recovery Support US Stocks Today - FXEmpire (Confidence: 1.00)
+
+[NEWS] Top Negative Headlines:
+  1. S&P 500 turns negative for 2026 as investors add job market to a growing list of worries facing Wall Street - MarketWatch (Confidence: 1.00)
+  2. Growth Scare Hits Markets Edgy From Tech Selloff - The Wall Street Journal (Confidence: 1.00)
+  3. Falling tech stocks and a plunge for bitcoin hit Wall Street - wral.com (Confidence: 1.00)
+  4. Wall Street ends sharply down as AI worries weigh - Reuters (Confidence: 1.00)
+  5. The Stock Market Does This Every 4 Years. It Signals an Alarming Drop in the S&P 500 in 2026 If History Repeats Itself. - The Motley Fool (Confidence: 1.00)
+
+
+====================================================================================================
+[ASSET] Nasdaq 100 Index (NDX)
+====================================================================================================
+
+Total Articles Analyzed: 41
+Duplicates Removed: 5
+Directional Articles (Positive + Negative): 22
+
+Sentiment Distribution:
+  [+] Positive: 12 articles (54.5%)
+  [-] Negative: 10 articles (45.5%)
+  Total Directional: 22 articles (neutral excluded)
+
+Market Sentiment: [MILD BULLISH] - Moderately positive outlook
+
+[NEWS] Top Positive Headlines:
+  1. Dow surges 1,200 points for first close above 50,000 in sharp rebound from tech rout: Live updates - CNBC (Confidence: 1.00)
+  2. Nasdaq 100: Tech Rebound Lifts US Indices Today as Traders Weigh Alphabet Forecast - FXEmpire (Confidence: 1.00)
+  3. Dow reaches 50K, ends at record high as U.S. stocks rise on NVDA lift (COMP:IND:) - Seeking Alpha (Confidence: 1.00)
+  4. US tech stocks rally strongly after three days of heavy selling - Financial Times (Confidence: 1.00)
+  5. 7 Best-Performing Tech Stocks for February 2026 - NerdWallet (Confidence: 1.00)
+
+[NEWS] Top Negative Headlines:
+  1. Stocks drop on weak labor market data and AI concerns - cnn.com (Confidence: 1.00)
+  2. Stock Market Today, Feb. 4: Uber Falls After Profit Outlook Misses Expectations - Yahoo Finance (Confidence: 1.00)
+  3. Stock Market Today, Feb. 4: AMD Plunges Over 17% As Tech Fallout Continues - Nasdaq (Confidence: 1.00)
+  4. Nasdaq Index: Forecast Turns Bearish After 50-Day MA Break as AI-Driven Tech Stress Builds - FXEmpire (Confidence: 1.00)
+  5. Stock market today: Dow, Nasdaq, S&P 500 sink as tech falters amid flood of earnings - Yahoo Finance (Confidence: 1.00)
+
+
+====================================================================================================
+[ASSET] Hang Seng Index (HSI)
+====================================================================================================
+
+Total Articles Analyzed: 22
+Duplicates Removed: 1
+Directional Articles (Positive + Negative): 14
+
+Sentiment Distribution:
+  [+] Positive: 9 articles (64.3%)
+  [-] Negative: 5 articles (35.7%)
+  Total Directional: 14 articles (neutral excluded)
+
+Market Sentiment: [BULLISH] - Positive market sentiment
+
+[NEWS] Top Positive Headlines:
+  1. Hang Seng Indexes Company: In 2025, Hong Kong stocks in the technology and biotechnology sectors performed exceptionally well, with the Hang Seng Dual Technology Index achieving its best performance since its inception. - 富途牛牛 (Confidence: 1.00)
+  2. Hang Seng Indexes Company: Technology and biotechnology themes in Hong Kong stocks performed strongly in 2025, with the Hang Seng Dual Tech Index achieving its best performance since inception. - 富途牛牛 (Confidence: 1.00)
+  3. Eternal Beauty Holdings Limited and Lane Crawford Debut Landmark Fragrance, Further Expanding Footprint in High-Margin Niche Fragrance Market - FinancialContent (Confidence: 1.00)
+  4. HSI Opens 219 Pts Lower; Baidu Mounts 2%+; Yum China Surges - AASTOCKS.com (Confidence: 1.00)
+  5. Hong Kong Stock Market Closing | Hang Seng Index Slightly Up, Technology Index Declines Significantly, Guofu Hydrogen Energy Leads in Gains, Hotspots Concentrated in New Energy - Longbridge (Confidence: 1.00)
+
+[NEWS] Top Negative Headlines:
+  1. Hong Kong Market Slumps, Set for Steep Weekly Decline - TradingView (Confidence: 1.00)
+  2. Hong Kong Stock Market Midday Review | Hang Seng Index down 0.41% in morning session, Tencent's over 3% decline weighs on blue chips - 富途牛牛 (Confidence: 1.00)
+  3. Hong Kong stocks drop as mainland tech firms, metals and crypto slide - South China Morning Post (Confidence: 0.99)
+  4. Asia markets mostly fall, tracking Wall Street losses on tech rout - CNBC (Confidence: 0.98)
+  5. Hong Kong Stock Market Midday Review | Hang Seng Index fell 1.27% in the morning session, Tencent's market value dropped below HKD 5 trillion - 富途牛牛 (Confidence: 0.97)
+
+
+====================================================================================================
+[ASSET] Gold (XAU/USD)
+====================================================================================================
+
+Total Articles Analyzed: 61
+Duplicates Removed: 9
+Directional Articles (Positive + Negative): 19
+
+Sentiment Distribution:
+  [+] Positive: 13 articles (68.4%)
+  [-] Negative: 6 articles (31.6%)
+  Total Directional: 19 articles (neutral excluded)
+
+Market Sentiment: [BULLISH] - Positive market sentiment
+
+[NEWS] Top Positive Headlines:
+  1. JPMorgan says bitcoin could reach $266,000 'long term' as it looks more attractive than gold - The Block (Confidence: 1.00)
+  2. Flows surge despite price pullback - World Gold Council (Confidence: 1.00)
+  3. JPMorgan: Bitcoin is Now a More Attractive Investment Than Gold Long Term - Bitcoin Magazine (Confidence: 1.00)
+  4. Gold (XAUUSD) & Silver Price Forecast: Safe-Haven Bid Returns – Can XAU Recover $5,000? - FXEmpire (Confidence: 1.00)
+  5. Silver Lease Rates Jump as Gold Cuts Price Crash in Half - BullionVault (Confidence: 1.00)
+
+[NEWS] Top Negative Headlines:
+  1. Gold and silver extend losses as key support levels hold - KITCO (Confidence: 1.00)
+  2. Gold (XAUUSD), Silver, Platinum Forecasts – Gold Retreats From Session Highs As Rebound Loses Steam - FXEmpire (Confidence: 1.00)
+  3. Why is gold price down by 3.9% and will it fall below $4,768 or rise again? Gold drop, analysts insights a - The Economic Times (Confidence: 1.00)
+  4. Gold Price Forecast: XAU/USD fails to sustain gains above $5,000 for third consecutive day - FXStreet (Confidence: 1.00)
+  5. Why is gold price down again and will it go below $4,917 or make a comeback? Gold fall, analysts insights - The Economic Times (Confidence: 0.99)
+
+
+====================================================================================================
+[ASSET] Bitcoin (BTC/USD)
+====================================================================================================
+
+Total Articles Analyzed: 64
+Duplicates Removed: 6
+Directional Articles (Positive + Negative): 26
+
+Sentiment Distribution:
+  [+] Positive: 9 articles (34.6%)
+  [-] Negative: 17 articles (65.4%)
+  Total Directional: 26 articles (neutral excluded)
+
+Market Sentiment: [BEARISH] - Negative market sentiment
+
+[NEWS] Top Positive Headlines:
+  1. JPMorgan: Bitcoin is Now a More Attractive Investment Than Gold Long Term - Bitcoin Magazine (Confidence: 1.00)
+  2. Crypto stocks rally up to 25% after big relief - Yahoo Finance Singapore (Confidence: 1.00)
+  3. Bitcoin rebounds back above $70,000 after nearly breaking below $60,000 a day ago - CNBC (Confidence: 1.00)
+  4. Crypto market rebounds after BTC price tumbles to 2024 low: Crypto Markets Today - CoinDesk (Confidence: 1.00)
+  5. Market Recap: Bitcoin and Altcoins Rally After Losses - Investing News Network (Confidence: 1.00)
+
+[NEWS] Top Negative Headlines:
+  1. Falling tech stocks and a plunge for bitcoin hit Wall Street - AP News (Confidence: 1.00)
+  2. Bitcoin price nears $64,000, hitting lowest levels since October 2024 - Yahoo Finance (Confidence: 1.00)
+  3. How options on the BlackRock bitcoin ETF may have worsened crypto meltdown - CoinDesk (Confidence: 1.00)
+  4. ​​​Major cryptocurrencies hit by sharp 2026 sell-off - ig.com (Confidence: 1.00)
+  5. Bitcoin is in 'full capitulation mode' as analysts see further losses below $64k - Business Insider (Confidence: 1.00)
+
+
+====================================================================================================
+[GLOBAL] OVERALL MARKET SUMMARY
+====================================================================================================
+S&P 500 Index (SPX)............................... [MILD BULLISH]
+Nasdaq 100 Index (NDX)............................ [MILD BULLISH]
+Hang Seng Index (HSI)............................. [BULLISH]
+Gold (XAU/USD).................................... [BULLISH]
+Bitcoin (BTC/USD)................................. [BEARISH]
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

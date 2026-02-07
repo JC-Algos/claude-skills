@@ -211,7 +211,11 @@ def format_telegram(categorized, now_hk):
     lines.append("━━━━━━━━━━━━━━━")
     lines.append("🐷 Oracle | 來源：信報、明報、AAStocks、Now、Yahoo、Bloomberg、Reuters、SCMP")
     
-    return '\n'.join(lines)
+    # Prevent Telegram auto-linking tickers like 01991.HK as URLs
+    result = '\n'.join(lines)
+    result = re.sub(r'(\d{4,5})\.HK', r'\1\.HK', result)  # Zero-width escape
+    result = result.replace('.HK', '·HK')  # Use middle dot instead of period
+    return result
 
 def format_whatsapp(categorized, now_hk):
     """Format for WhatsApp (cleaner, shorter source names)"""

@@ -1,0 +1,19 @@
+{
+  "name": "jc-algos",
+  "version": "1.0.0",
+  "description": "Build and maintain JC-Algos.com — frontend, Stripe backend, Supabase auth, TradingView indicator subscriptions, and TA API.",
+  "keywords": [
+    "jc-algos",
+    "stripe",
+    "supabase",
+    "tradingview",
+    "indicators",
+    "subscription",
+    "payment",
+    "webhook",
+    "frontend",
+    "backend"
+  ],
+  "author": "Oracle",
+  "private": true
+}

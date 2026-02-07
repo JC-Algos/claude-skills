@@ -1,0 +1,393 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "yfinance>=0.2.40",
+#     "rich>=13.7.0",
+# ]
+# ///
+"""Yahoo Finance CLI - Get stock data quickly."""
+
+import sys
+import yfinance as yf
+from rich.console import Console
+from rich.table import Table
+from rich import box
+from datetime import datetime
+
+console = Console()
+
+def format_number(n, decimals=2):
+    """Format numbers with K/M/B suffixes."""
+    if n is None or str(n) == 'nan':
+        return "N/A"
+    try:
+        n = float(n)
+        if abs(n) >= 1e12:
+            return f"{n/1e12:.{decimals}f}T"
+        elif abs(n) >= 1e9:
+            return f"{n/1e9:.{decimals}f}B"
+        elif abs(n) >= 1e6:
+            return f"{n/1e6:.{decimals}f}M"
+        elif abs(n) >= 1e3:
+            return f"{n/1e3:.{decimals}f}K"
+        else:
+            return f"{n:.{decimals}f}"
+    except:
+        return "N/A"
+
+def format_pct(n):
+    """Format as percentage."""
+    if n is None or str(n) == 'nan':
+        return "N/A"
+    try:
+        return f"{float(n)*100:.2f}%"
+    except:
+        return "N/A"
+
+def cmd_price(symbol):
+    """Quick price check."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    
+    price = info.get('regularMarketPrice') or info.get('currentPrice', 'N/A')
+    change = info.get('regularMarketChange', 0)
+    change_pct = info.get('regularMarketChangePercent', 0)
+    
+    color = "green" if change >= 0 else "red"
+    sign = "+" if change >= 0 else ""
+    
+    console.print(f"\n[bold]{symbol}[/bold] - {info.get('shortName', 'N/A')}")
+    console.print(f"[{color} bold]{price:.2f}[/{color} bold] [{color}]{sign}{change:.2f} ({sign}{change_pct:.2f}%)[/{color}]")
+    console.print(f"Volume: {format_number(info.get('regularMarketVolume', 0), 0)}")
+    console.print(f"Day Range: {info.get('regularMarketDayLow', 'N/A'):.2f} - {info.get('regularMarketDayHigh', 'N/A'):.2f}")
+    console.print(f"52W Range: {info.get('fiftyTwoWeekLow', 'N/A'):.2f} - {info.get('fiftyTwoWeekHigh', 'N/A'):.2f}")
+    console.print()
+
+def cmd_quote(symbol):
+    """Detailed quote."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    
+    table = Table(title=f"{symbol} - {info.get('shortName', 'N/A')}", box=box.ROUNDED)
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="white")
+    
+    price = info.get('regularMarketPrice') or info.get('currentPrice', 'N/A')
+    change = info.get('regularMarketChange', 0)
+    change_pct = info.get('regularMarketChangePercent', 0)
+    color = "green" if change >= 0 else "red"
+    
+    table.add_row("Price", f"[{color}]{price:.2f}[/{color}]")
+    table.add_row("Change", f"[{color}]{change:+.2f} ({change_pct:+.2f}%)[/{color}]")
+    table.add_row("Open", f"{info.get('regularMarketOpen', 'N/A')}")
+    table.add_row("Previous Close", f"{info.get('regularMarketPreviousClose', 'N/A')}")
+    table.add_row("Day Range", f"{info.get('regularMarketDayLow', 'N/A')} - {info.get('regularMarketDayHigh', 'N/A')}")
+    table.add_row("52W Range", f"{info.get('fiftyTwoWeekLow', 'N/A')} - {info.get('fiftyTwoWeekHigh', 'N/A')}")
+    table.add_row("Volume", format_number(info.get('regularMarketVolume', 0), 0))
+    table.add_row("Avg Volume", format_number(info.get('averageVolume', 0), 0))
+    table.add_row("Market Cap", format_number(info.get('marketCap', 0)))
+    table.add_row("P/E Ratio", f"{info.get('trailingPE', 'N/A')}")
+    table.add_row("EPS (TTM)", f"{info.get('trailingEps', 'N/A')}")
+    table.add_row("Dividend Yield", format_pct(info.get('dividendYield')))
+    
+    console.print(table)
+
+def cmd_fundamentals(symbol):
+    """Show fundamental metrics."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    
+    table = Table(title=f"{symbol} Fundamentals", box=box.ROUNDED)
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="white")
+    
+    table.add_row("Market Cap", format_number(info.get('marketCap')))
+    table.add_row("Enterprise Value", format_number(info.get('enterpriseValue')))
+    table.add_row("P/E (Trailing)", f"{info.get('trailingPE', 'N/A')}")
+    table.add_row("P/E (Forward)", f"{info.get('forwardPE', 'N/A')}")
+    table.add_row("PEG Ratio", f"{info.get('pegRatio', 'N/A')}")
+    table.add_row("Price/Book", f"{info.get('priceToBook', 'N/A')}")
+    table.add_row("Price/Sales", f"{info.get('priceToSalesTrailing12Months', 'N/A')}")
+    table.add_row("EV/Revenue", f"{info.get('enterpriseToRevenue', 'N/A')}")
+    table.add_row("EV/EBITDA", f"{info.get('enterpriseToEbitda', 'N/A')}")
+    table.add_row("─" * 20, "─" * 15)
+    table.add_row("EPS (TTM)", f"{info.get('trailingEps', 'N/A')}")
+    table.add_row("EPS (Forward)", f"{info.get('forwardEps', 'N/A')}")
+    table.add_row("Revenue", format_number(info.get('totalRevenue')))
+    table.add_row("Gross Profit", format_number(info.get('grossProfits')))
+    table.add_row("EBITDA", format_number(info.get('ebitda')))
+    table.add_row("Net Income", format_number(info.get('netIncomeToCommon')))
+    table.add_row("─" * 20, "─" * 15)
+    table.add_row("Profit Margin", format_pct(info.get('profitMargins')))
+    table.add_row("Operating Margin", format_pct(info.get('operatingMargins')))
+    table.add_row("ROE", format_pct(info.get('returnOnEquity')))
+    table.add_row("ROA", format_pct(info.get('returnOnAssets')))
+    table.add_row("─" * 20, "─" * 15)
+    table.add_row("Analyst Target", f"{info.get('targetMeanPrice', 'N/A')}")
+    table.add_row("Recommendation", f"{info.get('recommendationKey', 'N/A')}")
+    
+    console.print(table)
+
+def cmd_history(symbol, period="1mo"):
+    """Show price history."""
+    ticker = yf.Ticker(symbol)
+    hist = ticker.history(period=period)
+    
+    if hist.empty:
+        console.print(f"[red]No data for {symbol}[/red]")
+        return
+    
+    table = Table(title=f"{symbol} - {period} History", box=box.ROUNDED)
+    table.add_column("Date", style="cyan")
+    table.add_column("Open", justify="right")
+    table.add_column("High", justify="right")
+    table.add_column("Low", justify="right")
+    table.add_column("Close", justify="right")
+    table.add_column("Volume", justify="right")
+    
+    for date, row in hist.tail(20).iterrows():
+        date_str = date.strftime("%Y-%m-%d")
+        table.add_row(
+            date_str,
+            f"{row['Open']:.2f}",
+            f"{row['High']:.2f}",
+            f"{row['Low']:.2f}",
+            f"{row['Close']:.2f}",
+            format_number(row['Volume'], 0)
+        )
+    
+    console.print(table)
+
+def cmd_compare(symbols_str):
+    """Compare multiple symbols."""
+    symbols = [s.strip() for s in symbols_str.split(",")]
+    
+    table = Table(title="Stock Comparison", box=box.ROUNDED)
+    table.add_column("Symbol", style="cyan bold")
+    table.add_column("Price", justify="right")
+    table.add_column("Change", justify="right")
+    table.add_column("Change %", justify="right")
+    table.add_column("52W Range", justify="right")
+    table.add_column("Market Cap", justify="right")
+    
+    for symbol in symbols:
+        try:
+            ticker = yf.Ticker(symbol)
+            info = ticker.info
+            price = info.get('regularMarketPrice') or info.get('currentPrice', 0)
+            change = info.get('regularMarketChange', 0)
+            change_pct = info.get('regularMarketChangePercent', 0)
+            color = "green" if change >= 0 else "red"
+            
+            table.add_row(
+                symbol,
+                f"{price:.2f}",
+                f"[{color}]{change:+.2f}[/{color}]",
+                f"[{color}]{change_pct:+.2f}%[/{color}]",
+                f"{info.get('fiftyTwoWeekLow', 'N/A'):.0f}-{info.get('fiftyTwoWeekHigh', 'N/A'):.0f}",
+                format_number(info.get('marketCap'))
+            )
+        except Exception as e:
+            table.add_row(symbol, "Error", "-", "-", "-", "-")
+    
+    console.print(table)
+
+def cmd_search(query):
+    """Search for symbols."""
+    import yfinance as yf
+    results = yf.Tickers(query)
+    
+    # Use download to verify symbols
+    console.print(f"\n[bold]Searching for: {query}[/bold]")
+    console.print("Tip: Use exact symbols like AAPL, 0700.HK, RELIANCE.NS")
+    console.print()
+
+def cmd_dividends(symbol):
+    """Show dividend info."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    divs = ticker.dividends
+    
+    table = Table(title=f"{symbol} Dividends", box=box.ROUNDED)
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="white")
+    
+    table.add_row("Dividend Rate", f"${info.get('dividendRate', 'N/A')}")
+    table.add_row("Dividend Yield", format_pct(info.get('dividendYield')))
+    table.add_row("Ex-Dividend Date", str(info.get('exDividendDate', 'N/A')))
+    table.add_row("Payout Ratio", format_pct(info.get('payoutRatio')))
+    table.add_row("5Y Avg Yield", format_pct(info.get('fiveYearAvgDividendYield')))
+    
+    console.print(table)
+    
+    if not divs.empty:
+        console.print("\n[bold]Recent Dividends:[/bold]")
+        for date, amount in divs.tail(5).items():
+            console.print(f"  {date.strftime('%Y-%m-%d')}: ${amount:.4f}")
+
+def cmd_ratings(symbol):
+    """Show analyst ratings."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    
+    table = Table(title=f"{symbol} Analyst Ratings", box=box.ROUNDED)
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="white")
+    
+    table.add_row("Recommendation", f"[bold]{info.get('recommendationKey', 'N/A').upper()}[/bold]")
+    table.add_row("Mean Rating", f"{info.get('recommendationMean', 'N/A')}")
+    table.add_row("Number of Analysts", f"{info.get('numberOfAnalystOpinions', 'N/A')}")
+    table.add_row("─" * 20, "─" * 15)
+    table.add_row("Target Low", f"${info.get('targetLowPrice', 'N/A')}")
+    table.add_row("Target Mean", f"${info.get('targetMeanPrice', 'N/A')}")
+    table.add_row("Target High", f"${info.get('targetHighPrice', 'N/A')}")
+    table.add_row("Target Median", f"${info.get('targetMedianPrice', 'N/A')}")
+    
+    console.print(table)
+
+def cmd_options(symbol):
+    """Show options chain."""
+    ticker = yf.Ticker(symbol)
+    
+    try:
+        dates = ticker.options
+        if not dates:
+            console.print(f"[red]No options data for {symbol}[/red]")
+            return
+        
+        console.print(f"\n[bold]{symbol} Options - Expiry: {dates[0]}[/bold]\n")
+        
+        opt = ticker.option_chain(dates[0])
+        
+        # Show near-the-money calls
+        console.print("[cyan bold]CALLS (Near the Money):[/cyan bold]")
+        calls = opt.calls.head(10)
+        for _, row in calls.iterrows():
+            console.print(f"  Strike ${row['strike']:.0f}: Bid ${row['bid']:.2f} / Ask ${row['ask']:.2f} | Vol: {row['volume']} | OI: {row['openInterest']}")
+        
+        console.print()
+        
+        # Show near-the-money puts
+        console.print("[magenta bold]PUTS (Near the Money):[/magenta bold]")
+        puts = opt.puts.head(10)
+        for _, row in puts.iterrows():
+            console.print(f"  Strike ${row['strike']:.0f}: Bid ${row['bid']:.2f} / Ask ${row['ask']:.2f} | Vol: {row['volume']} | OI: {row['openInterest']}")
+        
+    except Exception as e:
+        console.print(f"[red]Error fetching options: {e}[/red]")
+
+def cmd_profile(symbol):
+    """Show company profile."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    
+    table = Table(title=f"{symbol} - {info.get('shortName', 'N/A')}", box=box.ROUNDED)
+    table.add_column("Field", style="cyan")
+    table.add_column("Value", style="white")
+    
+    table.add_row("Sector", info.get('sector', 'N/A'))
+    table.add_row("Industry", info.get('industry', 'N/A'))
+    table.add_row("Full-Time Employees", format_number(info.get('fullTimeEmployees'), 0))
+    table.add_row("Website", info.get('website', 'N/A'))
+    table.add_row("City", info.get('city', 'N/A'))
+    table.add_row("Country", info.get('country', 'N/A'))
+    
+    console.print(table)
+    
+    desc = info.get('longBusinessSummary', '')
+    if desc:
+        console.print(f"\n[bold]About:[/bold]\n{desc[:500]}...")
+
+def cmd_earnings(symbol):
+    """Show earnings info."""
+    ticker = yf.Ticker(symbol)
+    info = ticker.info
+    
+    table = Table(title=f"{symbol} Earnings", box=box.ROUNDED)
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="white")
+    
+    table.add_row("EPS (TTM)", f"${info.get('trailingEps', 'N/A')}")
+    table.add_row("EPS (Forward)", f"${info.get('forwardEps', 'N/A')}")
+    table.add_row("P/E (Trailing)", f"{info.get('trailingPE', 'N/A')}")
+    table.add_row("P/E (Forward)", f"{info.get('forwardPE', 'N/A')}")
+    
+    console.print(table)
+    
+    # Earnings history
+    try:
+        earnings = ticker.earnings_history
+        if earnings is not None and not earnings.empty:
+            console.print("\n[bold]Recent Earnings:[/bold]")
+            for _, row in earnings.tail(4).iterrows():
+                surprise = row.get('surprisePercent', 0)
+                color = "green" if surprise >= 0 else "red"
+                console.print(f"  EPS: ${row.get('epsActual', 'N/A')} vs Est: ${row.get('epsEstimate', 'N/A')} [{color}]({surprise:+.1f}% surprise)[/{color}]")
+    except:
+        pass
+
+def main():
+    if len(sys.argv) < 2:
+        console.print("[bold]Yahoo Finance CLI[/bold]")
+        console.print("\nUsage: yf <command> <symbol> [args]")
+        console.print("\nCommands:")
+        console.print("  price <sym>         Quick price check (default)")
+        console.print("  quote <sym>         Detailed quote")
+        console.print("  fundamentals <sym>  Key metrics & ratios")
+        console.print("  earnings <sym>      Earnings data")
+        console.print("  profile <sym>       Company info")
+        console.print("  dividends <sym>     Dividend info")
+        console.print("  ratings <sym>       Analyst ratings")
+        console.print("  options <sym>       Options chain")
+        console.print("  history <sym> [period]  Price history (1d,5d,1mo,3mo,1y,max)")
+        console.print("  compare <sym,sym,...>   Compare stocks")
+        console.print("\nExamples:")
+        console.print("  yf AAPL")
+        console.print("  yf quote 0700.HK")
+        console.print("  yf fundamentals NVDA")
+        console.print("  yf compare AAPL,MSFT,GOOGL")
+        return
+    
+    cmd = sys.argv[1].lower()
+    
+    # If first arg looks like a symbol, default to price
+    if not cmd in ['price', 'quote', 'fundamentals', 'earnings', 'profile', 'dividends', 'ratings', 'options', 'history', 'compare', 'search']:
+        cmd_price(sys.argv[1].upper())
+        return
+    
+    if len(sys.argv) < 3:
+        console.print(f"[red]Missing symbol for {cmd}[/red]")
+        return
+    
+    symbol = sys.argv[2].upper()
+    
+    try:
+        if cmd == 'price':
+            cmd_price(symbol)
+        elif cmd == 'quote':
+            cmd_quote(symbol)
+        elif cmd == 'fundamentals':
+            cmd_fundamentals(symbol)
+        elif cmd == 'earnings':
+            cmd_earnings(symbol)
+        elif cmd == 'profile':
+            cmd_profile(symbol)
+        elif cmd == 'dividends':
+            cmd_dividends(symbol)
+        elif cmd == 'ratings':
+            cmd_ratings(symbol)
+        elif cmd == 'options':
+            cmd_options(symbol)
+        elif cmd == 'history':
+            period = sys.argv[3] if len(sys.argv) > 3 else "1mo"
+            cmd_history(symbol, period)
+        elif cmd == 'compare':
+            cmd_compare(symbol)
+        elif cmd == 'search':
+            cmd_search(" ".join(sys.argv[2:]))
+    except Exception as e:
+        console.print(f"[red]Error: {e}[/red]")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "1.0.4",
+      "installedAt": 1769893208875
+    },
+    "yahoo-finance": {
+      "version": "1.0.0",
+      "installedAt": 1769407812088
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1769409771708
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1769409902276
+    },
+    "wacli": {
+      "version": "1.0.0",
+      "installedAt": 1769409937055
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1769410069309
+    },
+    "claude-code-usage": {
+      "version": "1.2.0",
+      "installedAt": 1769410145847
+    },
+    "research": {
+      "version": "1.0.1",
+      "installedAt": 1769410442027
+    },
+    "gemini": {
+      "version": "1.0.0",
+      "installedAt": 1769410451349
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Forex Analyst (Scheduled - VPS)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * 1-5"
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger-node",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300],
+      "notes": "⏰ Runs Mon-Fri at 8:00 AM\n\nTo change schedule, edit cronExpression:\n0 8 * * 1-5 = 8 AM weekdays\n0 9,15 * * * = 9 AM and 3 PM daily\n0 */4 * * * = Every 4 hours"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "currency-pair-id",
+              "name": "currency_pair",
+              "value": "EURUSD",
+              "type": "string"
+            },
+            {
+              "id": "timeframe-id",
+              "name": "timeframe",
+              "value": "4H",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-currency-pair-node",
+      "name": "Set Currency Pair",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [440, 300],
+      "notes": "💱 CHANGE PAIR HERE:\n\nSupported pairs:\n- EURUSD\n- GBPUSD\n- AUDUSD\n- NZDUSD\n- USDJPY\n- USDCAD\n\nTimeframe: 15m, 1H, 4H, 1D"
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Set Currency Pair",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true
+  }
+}

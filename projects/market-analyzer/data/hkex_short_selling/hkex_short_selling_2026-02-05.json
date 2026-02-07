@@ -1,0 +1,5441 @@
+[
+  {
+    "stock_code":"0001",
+    "stock_name":"CKH HOLDINGS",
+    "short_turnover_shares":4068000,
+    "short_turnover_hkd":266009450,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0002",
+    "stock_name":"CLP HOLDINGS",
+    "short_turnover_shares":1544500,
+    "short_turnover_hkd":116414375,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0003",
+    "stock_name":"HK & CHINA GAS",
+    "short_turnover_shares":11864000,
+    "short_turnover_hkd":90441990,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0004",
+    "stock_name":"WHARF HOLDINGS",
+    "short_turnover_shares":593000,
+    "short_turnover_hkd":15669860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0005",
+    "stock_name":"HSBC HOLDINGS",
+    "short_turnover_shares":5364800,
+    "short_turnover_hkd":738889080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0006",
+    "stock_name":"POWER ASSETS",
+    "short_turnover_shares":1213000,
+    "short_turnover_hkd":75222500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0008",
+    "stock_name":"PCCW",
+    "short_turnover_shares":813000,
+    "short_turnover_hkd":4918680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0010",
+    "stock_name":"HANG LUNG GROUP",
+    "short_turnover_shares":66000,
+    "short_turnover_hkd":1073580,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0012",
+    "stock_name":"HENDERSON LAND",
+    "short_turnover_shares":4311000,
+    "short_turnover_hkd":139709940,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0013",
+    "stock_name":"HUTCHMED",
+    "short_turnover_shares":284000,
+    "short_turnover_hkd":6531330,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0014",
+    "stock_name":"HYSAN DEV",
+    "short_turnover_shares":210000,
+    "short_turnover_hkd":4626400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0016",
+    "stock_name":"SHK PPT",
+    "short_turnover_shares":5287500,
+    "short_turnover_hkd":667249500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0017",
+    "stock_name":"NEW WORLD DEV",
+    "short_turnover_shares":1813000,
+    "short_turnover_hkd":18538020,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0019",
+    "stock_name":"SWIRE PACIFIC A",
+    "short_turnover_shares":77000,
+    "short_turnover_hkd":6016000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0020",
+    "stock_name":"SENSETIME-W",
+    "short_turnover_shares":48756000,
+    "short_turnover_hkd":113491060,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0023",
+    "stock_name":"BANK OF E ASIA",
+    "short_turnover_shares":232800,
+    "short_turnover_hkd":3428930,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0027",
+    "stock_name":"GALAXY ENT",
+    "short_turnover_shares":1684000,
+    "short_turnover_hkd":71113120,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0029",
+    "stock_name":"DYNAMIC HOLD",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":48300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0030",
+    "stock_name":"YNBY INTL",
+    "short_turnover_shares":160000,
+    "short_turnover_hkd":39520,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0035",
+    "stock_name":"FE CONSORT INTL",
+    "short_turnover_shares":21000,
+    "short_turnover_hkd":17430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0038",
+    "stock_name":"FIRST TRACTOR",
+    "short_turnover_shares":128000,
+    "short_turnover_hkd":1159460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0041",
+    "stock_name":"GREAT EAGLE H",
+    "short_turnover_shares":8000,
+    "short_turnover_hkd":127740,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0045",
+    "stock_name":"HK&S HOTELS",
+    "short_turnover_shares":12500,
+    "short_turnover_hkd":80160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0062",
+    "stock_name":"TRANSPORT INT'L",
+    "short_turnover_shares":800,
+    "short_turnover_hkd":8376,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0066",
+    "stock_name":"MTR CORPORATION",
+    "short_turnover_shares":2824000,
+    "short_turnover_hkd":103363460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0069",
+    "stock_name":"SHANGRI-LA ASIA",
+    "short_turnover_shares":82000,
+    "short_turnover_hkd":399680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0081",
+    "stock_name":"CH OVS G OCEANS",
+    "short_turnover_shares":1547000,
+    "short_turnover_hkd":3947200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0083",
+    "stock_name":"SINO LAND",
+    "short_turnover_shares":2620000,
+    "short_turnover_hkd":31606280,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0085",
+    "stock_name":"CE HUADA TECH",
+    "short_turnover_shares":254000,
+    "short_turnover_hkd":330240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0086",
+    "stock_name":"SUN HUNG KAI CO",
+    "short_turnover_shares":9000,
+    "short_turnover_hkd":38240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0101",
+    "stock_name":"HANG LUNG PPT",
+    "short_turnover_shares":1460000,
+    "short_turnover_hkd":13733780,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0107",
+    "stock_name":"SICHUAN EXPRESS",
+    "short_turnover_shares":54000,
+    "short_turnover_hkd":295920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0116",
+    "stock_name":"CHOW SANG SANG",
+    "short_turnover_shares":32000,
+    "short_turnover_hkd":441150,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0119",
+    "stock_name":"POLY PROPERTY",
+    "short_turnover_shares":1030000,
+    "short_turnover_hkd":2395970,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0123",
+    "stock_name":"YUEXIU PROPERTY",
+    "short_turnover_shares":1860000,
+    "short_turnover_hkd":8802970,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0135",
+    "stock_name":"KUNLUN ENERGY",
+    "short_turnover_shares":1878000,
+    "short_turnover_hkd":15314920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0136",
+    "stock_name":"CHINA RUYI",
+    "short_turnover_shares":8432000,
+    "short_turnover_hkd":17757440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0142",
+    "stock_name":"FIRST PACIFIC",
+    "short_turnover_shares":240000,
+    "short_turnover_hkd":1519200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0144",
+    "stock_name":"CHINA MER PORT",
+    "short_turnover_shares":686000,
+    "short_turnover_hkd":11280460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0148",
+    "stock_name":"KINGBOARD HLDG",
+    "short_turnover_shares":55500,
+    "short_turnover_hkd":1706360,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0151",
+    "stock_name":"WANT WANT CHINA",
+    "short_turnover_shares":3711000,
+    "short_turnover_hkd":18392430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0152",
+    "stock_name":"SHENZHEN INT'L",
+    "short_turnover_shares":412500,
+    "short_turnover_hkd":3717915,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0165",
+    "stock_name":"CHINA EB LTD",
+    "short_turnover_shares":346000,
+    "short_turnover_hkd":3210340,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0168",
+    "stock_name":"TSINGTAO BREW",
+    "short_turnover_shares":284000,
+    "short_turnover_hkd":14960000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0173",
+    "stock_name":"K. WAH INT'L",
+    "short_turnover_shares":76000,
+    "short_turnover_hkd":196370,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0175",
+    "stock_name":"GEELY AUTO",
+    "short_turnover_shares":8983000,
+    "short_turnover_hkd":144647400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0177",
+    "stock_name":"JIANGSU EXPRESS",
+    "short_turnover_shares":1472000,
+    "short_turnover_hkd":15223700,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0179",
+    "stock_name":"JOHNSON ELEC H",
+    "short_turnover_shares":80500,
+    "short_turnover_hkd":2127020,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0182",
+    "stock_name":"CONCORD NE",
+    "short_turnover_shares":2020000,
+    "short_turnover_hkd":658100,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0189",
+    "stock_name":"DONGYUE GROUP",
+    "short_turnover_shares":793000,
+    "short_turnover_hkd":9380770,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0200",
+    "stock_name":"MELCO INT'L DEV",
+    "short_turnover_shares":721000,
+    "short_turnover_hkd":3230810,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0215",
+    "stock_name":"HUTCHTEL HK",
+    "short_turnover_shares":300000,
+    "short_turnover_hkd":345000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0220",
+    "stock_name":"U-PRESID CHINA",
+    "short_turnover_shares":1544000,
+    "short_turnover_hkd":12019150,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0241",
+    "stock_name":"ALI HEALTH",
+    "short_turnover_shares":13800000,
+    "short_turnover_hkd":84926540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0257",
+    "stock_name":"EB ENVIRONMENT",
+    "short_turnover_shares":156000,
+    "short_turnover_hkd":774940,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0267",
+    "stock_name":"CITIC",
+    "short_turnover_shares":4497000,
+    "short_turnover_hkd":54903680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0268",
+    "stock_name":"KINGDEE INT'L",
+    "short_turnover_shares":19301000,
+    "short_turnover_hkd":215751470,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0270",
+    "stock_name":"GUANGDONG INV",
+    "short_turnover_shares":162000,
+    "short_turnover_hkd":1221300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0272",
+    "stock_name":"SHUI ON LAND",
+    "short_turnover_shares":165000,
+    "short_turnover_hkd":112200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0285",
+    "stock_name":"BYD ELECTRONIC",
+    "short_turnover_shares":3197500,
+    "short_turnover_hkd":105919070,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0288",
+    "stock_name":"WH GROUP",
+    "short_turnover_shares":8272000,
+    "short_turnover_hkd":77943960,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0290",
+    "stock_name":"GOFINTECH QUANT",
+    "short_turnover_shares":1196000,
+    "short_turnover_hkd":3464860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0291",
+    "stock_name":"CHINA RES BEER",
+    "short_turnover_shares":8770000,
+    "short_turnover_hkd":241702100,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0293",
+    "stock_name":"CATHAY PAC AIR",
+    "short_turnover_shares":856000,
+    "short_turnover_hkd":10799270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0297",
+    "stock_name":"SINOFERT",
+    "short_turnover_shares":396000,
+    "short_turnover_hkd":641440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0300",
+    "stock_name":"MIDEA GROUP",
+    "short_turnover_shares":794600,
+    "short_turnover_hkd":70840405,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0303",
+    "stock_name":"VTECH HOLDINGS",
+    "short_turnover_shares":87600,
+    "short_turnover_hkd":5423670,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0308",
+    "stock_name":"CHINA TRAVEL HK",
+    "short_turnover_shares":392000,
+    "short_turnover_hkd":532260,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0314",
+    "stock_name":"SIPAI HEALTH",
+    "short_turnover_shares":8600,
+    "short_turnover_hkd":21026,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0315",
+    "stock_name":"SMARTONE TELE",
+    "short_turnover_shares":225000,
+    "short_turnover_hkd":1117170,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0316",
+    "stock_name":"OOIL",
+    "short_turnover_shares":284000,
+    "short_turnover_hkd":36966600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0317",
+    "stock_name":"COMEC",
+    "short_turnover_shares":26000,
+    "short_turnover_hkd":387380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0322",
+    "stock_name":"TINGYI",
+    "short_turnover_shares":6324000,
+    "short_turnover_hkd":79492160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0323",
+    "stock_name":"MAANSHAN IRON",
+    "short_turnover_shares":792000,
+    "short_turnover_hkd":2130800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0325",
+    "stock_name":"BLOKS",
+    "short_turnover_shares":24300,
+    "short_turnover_hkd":1750950,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0326",
+    "stock_name":"CHINA STAR ENT",
+    "short_turnover_shares":730000,
+    "short_turnover_hkd":3123200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0327",
+    "stock_name":"PAX GLOBAL",
+    "short_turnover_shares":253000,
+    "short_turnover_hkd":1203590,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0336",
+    "stock_name":"HUABAO INTL",
+    "short_turnover_shares":445000,
+    "short_turnover_hkd":2014530,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0338",
+    "stock_name":"SHANGHAI PECHEM",
+    "short_turnover_shares":370000,
+    "short_turnover_hkd":585160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0340",
+    "stock_name":"TONGGUAN GOLD",
+    "short_turnover_shares":118000,
+    "short_turnover_hkd":370180,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0341",
+    "stock_name":"CAFE DE CORAL H",
+    "short_turnover_shares":250000,
+    "short_turnover_hkd":1176460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0345",
+    "stock_name":"VITASOY INT'L",
+    "short_turnover_shares":152000,
+    "short_turnover_hkd":1079720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0347",
+    "stock_name":"ANGANG STEEL",
+    "short_turnover_shares":2142000,
+    "short_turnover_hkd":4241440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0354",
+    "stock_name":"CHINASOFT INT'L",
+    "short_turnover_shares":7024000,
+    "short_turnover_hkd":31915740,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0357",
+    "stock_name":"MEILAN AIRPORT",
+    "short_turnover_shares":243000,
+    "short_turnover_hkd":2442430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0358",
+    "stock_name":"JIANGXI COPPER",
+    "short_turnover_shares":1950000,
+    "short_turnover_hkd":84543840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0363",
+    "stock_name":"SHANGHAI IND H",
+    "short_turnover_shares":122000,
+    "short_turnover_hkd":1840420,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0371",
+    "stock_name":"BJ ENT WATER",
+    "short_turnover_shares":4694000,
+    "short_turnover_hkd":13632180,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0376",
+    "stock_name":"YUNFENG FIN",
+    "short_turnover_shares":686000,
+    "short_turnover_hkd":2099100,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0384",
+    "stock_name":"CHINA GAS HOLD",
+    "short_turnover_shares":1448800,
+    "short_turnover_hkd":11331088,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0386",
+    "stock_name":"SINOPEC CORP",
+    "short_turnover_shares":49832000,
+    "short_turnover_hkd":265518780,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0388",
+    "stock_name":"HKEX",
+    "short_turnover_shares":1141100,
+    "short_turnover_hkd":470191680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0390",
+    "stock_name":"CHINA RAILWAY",
+    "short_turnover_shares":5164000,
+    "short_turnover_hkd":22638760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0392",
+    "stock_name":"BEIJING ENT",
+    "short_turnover_shares":46500,
+    "short_turnover_hkd":1667160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0405",
+    "stock_name":"YUEXIU REIT",
+    "short_turnover_shares":32000,
+    "short_turnover_hkd":27200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0412",
+    "stock_name":"SDHG",
+    "short_turnover_shares":339000,
+    "short_turnover_hkd":504680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0425",
+    "stock_name":"MINTH GROUP",
+    "short_turnover_shares":262000,
+    "short_turnover_hkd":9455880,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0434",
+    "stock_name":"BOYAA",
+    "short_turnover_shares":403000,
+    "short_turnover_hkd":1175020,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0435",
+    "stock_name":"SUNLIGHT REIT",
+    "short_turnover_shares":20000,
+    "short_turnover_hkd":47850,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0440",
+    "stock_name":"DAH SING",
+    "short_turnover_shares":8800,
+    "short_turnover_hkd":326792,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0460",
+    "stock_name":"SIHUAN PHARM",
+    "short_turnover_shares":5830000,
+    "short_turnover_hkd":9480290,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0467",
+    "stock_name":"UNITEDENERGY GP",
+    "short_turnover_shares":2030000,
+    "short_turnover_hkd":1133760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0486",
+    "stock_name":"RUSAL",
+    "short_turnover_shares":18000,
+    "short_turnover_hkd":98390,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0489",
+    "stock_name":"DONGFENG GROUP",
+    "short_turnover_shares":500000,
+    "short_turnover_hkd":4484620,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0506",
+    "stock_name":"CHINA FOODS",
+    "short_turnover_shares":270000,
+    "short_turnover_hkd":1144140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0511",
+    "stock_name":"TVB",
+    "short_turnover_shares":131800,
+    "short_turnover_hkd":383827,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0512",
+    "stock_name":"GRAND PHARMA",
+    "short_turnover_shares":502500,
+    "short_turnover_hkd":3948640,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0517",
+    "stock_name":"COSCO SHIP INTL",
+    "short_turnover_shares":12000,
+    "short_turnover_hkd":81500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0522",
+    "stock_name":"ASMPT",
+    "short_turnover_shares":59800,
+    "short_turnover_hkd":5772510,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0525",
+    "stock_name":"GUANGSHEN RAIL",
+    "short_turnover_shares":58000,
+    "short_turnover_hkd":124800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0535",
+    "stock_name":"GEMDALE PPT",
+    "short_turnover_shares":186000,
+    "short_turnover_hkd":32852,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0546",
+    "stock_name":"FUFENG GROUP",
+    "short_turnover_shares":1042000,
+    "short_turnover_hkd":9064110,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0548",
+    "stock_name":"SHENZHENEXPRESS",
+    "short_turnover_shares":88000,
+    "short_turnover_hkd":669420,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0551",
+    "stock_name":"YUE YUEN IND",
+    "short_turnover_shares":624000,
+    "short_turnover_hkd":10963205,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0552",
+    "stock_name":"CHINACOMSERVICE",
+    "short_turnover_shares":3626000,
+    "short_turnover_hkd":16277560,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0558",
+    "stock_name":"LK TECH",
+    "short_turnover_shares":625000,
+    "short_turnover_hkd":1965350,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0564",
+    "stock_name":"ZCZL",
+    "short_turnover_shares":166400,
+    "short_turnover_hkd":3696060,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0565",
+    "stock_name":"ART GROUP HOLD",
+    "short_turnover_shares":610000,
+    "short_turnover_hkd":893300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0570",
+    "stock_name":"TRAD CHI MED",
+    "short_turnover_shares":782000,
+    "short_turnover_hkd":1610300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0576",
+    "stock_name":"ZHEJIANGEXPRESS",
+    "short_turnover_shares":3026000,
+    "short_turnover_hkd":22832900,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0579",
+    "stock_name":"JNCEC",
+    "short_turnover_shares":134000,
+    "short_turnover_hkd":303260,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0580",
+    "stock_name":"SUN.KING TECH",
+    "short_turnover_shares":196000,
+    "short_turnover_hkd":361620,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0581",
+    "stock_name":"CHINA ORIENTAL",
+    "short_turnover_shares":82000,
+    "short_turnover_hkd":117460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0586",
+    "stock_name":"CONCH VENTURE",
+    "short_turnover_shares":268500,
+    "short_turnover_hkd":2893515,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0590",
+    "stock_name":"LUK FOOK HOLD",
+    "short_turnover_shares":694000,
+    "short_turnover_hkd":22604180,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0596",
+    "stock_name":"INSPUR DIGI ENT",
+    "short_turnover_shares":1436000,
+    "short_turnover_hkd":6298460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0598",
+    "stock_name":"SINOTRANS",
+    "short_turnover_shares":1778000,
+    "short_turnover_hkd":9416750,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0604",
+    "stock_name":"SHENZHEN INVEST",
+    "short_turnover_shares":426000,
+    "short_turnover_hkd":367860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0622",
+    "stock_name":"OSHIDORI",
+    "short_turnover_shares":174000,
+    "short_turnover_hkd":159960,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0631",
+    "stock_name":"SANY INT'L",
+    "short_turnover_shares":1236000,
+    "short_turnover_hkd":15775110,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0636",
+    "stock_name":"KLN",
+    "short_turnover_shares":167500,
+    "short_turnover_hkd":1184055,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0639",
+    "stock_name":"SHOUGANG RES",
+    "short_turnover_shares":1800000,
+    "short_turnover_hkd":5797920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0656",
+    "stock_name":"FOSUN INTL",
+    "short_turnover_shares":4041000,
+    "short_turnover_hkd":16071240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0659",
+    "stock_name":"CTF SERVICES",
+    "short_turnover_shares":322000,
+    "short_turnover_hkd":2937610,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0666",
+    "stock_name":"REPT BATTERO",
+    "short_turnover_shares":244200,
+    "short_turnover_hkd":3130726,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0667",
+    "stock_name":"CHINA EAST EDU",
+    "short_turnover_shares":289500,
+    "short_turnover_hkd":1618295,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0669",
+    "stock_name":"TECHTRONIC IND",
+    "short_turnover_shares":4985500,
+    "short_turnover_hkd":567892800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0670",
+    "stock_name":"CHINA EAST AIR",
+    "short_turnover_shares":4514000,
+    "short_turnover_hkd":28294260,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0683",
+    "stock_name":"KERRY PPT",
+    "short_turnover_shares":207000,
+    "short_turnover_hkd":5086120,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0688",
+    "stock_name":"CHINA OVERSEAS",
+    "short_turnover_shares":18184500,
+    "short_turnover_hkd":266778310,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0694",
+    "stock_name":"BEIJING AIRPORT",
+    "short_turnover_shares":2292000,
+    "short_turnover_hkd":5874840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0696",
+    "stock_name":"TRAVELSKY TECH",
+    "short_turnover_shares":1110000,
+    "short_turnover_hkd":11792270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0697",
+    "stock_name":"SHOUCHENG",
+    "short_turnover_shares":2480000,
+    "short_turnover_hkd":4871780,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0700",
+    "stock_name":"TENCENT",
+    "short_turnover_shares":6523100,
+    "short_turnover_hkd":3575957750,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0709",
+    "stock_name":"GIORDANO INT'L",
+    "short_turnover_shares":106000,
+    "short_turnover_hkd":158420,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0710",
+    "stock_name":"BOE VARITRONIX",
+    "short_turnover_shares":575000,
+    "short_turnover_hkd":2763850,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0719",
+    "stock_name":"SHANDONG XINHUA",
+    "short_turnover_shares":10000,
+    "short_turnover_hkd":69080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0728",
+    "stock_name":"CHINA TELECOM",
+    "short_turnover_shares":15232000,
+    "short_turnover_hkd":76895700,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0751",
+    "stock_name":"SKYWORTH GROUP",
+    "short_turnover_shares":388000,
+    "short_turnover_hkd":2781380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0752",
+    "stock_name":"PICO FAR EAST",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":11460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0753",
+    "stock_name":"AIR CHINA",
+    "short_turnover_shares":1292000,
+    "short_turnover_hkd":9747760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0754",
+    "stock_name":"HOPSON DEV HOLD",
+    "short_turnover_shares":445500,
+    "short_turnover_hkd":1433756,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0762",
+    "stock_name":"CHINA UNICOM",
+    "short_turnover_shares":10986000,
+    "short_turnover_hkd":79954460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0763",
+    "stock_name":"ZTE",
+    "short_turnover_shares":453400,
+    "short_turnover_hkd":12069528,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0772",
+    "stock_name":"CHINA LIT",
+    "short_turnover_shares":382000,
+    "short_turnover_hkd":13092984,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0775",
+    "stock_name":"CKLIFE SCIENCES",
+    "short_turnover_shares":326000,
+    "short_turnover_hkd":270580,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0777",
+    "stock_name":"NETDRAGON",
+    "short_turnover_shares":645500,
+    "short_turnover_hkd":6235315,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0778",
+    "stock_name":"FORTUNE REIT",
+    "short_turnover_shares":32000,
+    "short_turnover_hkd":162600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0780",
+    "stock_name":"TONGCHENGTRAVEL",
+    "short_turnover_shares":2118800,
+    "short_turnover_hkd":47518080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0788",
+    "stock_name":"CHINA TOWER",
+    "short_turnover_shares":896000,
+    "short_turnover_hkd":9811740,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0799",
+    "stock_name":"IGG",
+    "short_turnover_shares":213000,
+    "short_turnover_hkd":720350,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0806",
+    "stock_name":"VALUE PARTNERS",
+    "short_turnover_shares":468000,
+    "short_turnover_hkd":1111130,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0808",
+    "stock_name":"PROSPERITY REIT",
+    "short_turnover_shares":149000,
+    "short_turnover_hkd":214400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0811",
+    "stock_name":"XINHUA WINSHARE",
+    "short_turnover_shares":78000,
+    "short_turnover_hkd":843310,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0817",
+    "stock_name":"CHINA JINMAO",
+    "short_turnover_shares":8246000,
+    "short_turnover_hkd":14416340,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0819",
+    "stock_name":"TIANNENG POWER",
+    "short_turnover_shares":336000,
+    "short_turnover_hkd":2486080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0823",
+    "stock_name":"LINK REIT",
+    "short_turnover_shares":2409600,
+    "short_turnover_hkd":85069588,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0826",
+    "stock_name":"TIANGONG INT'L",
+    "short_turnover_shares":808000,
+    "short_turnover_hkd":2618880,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0836",
+    "stock_name":"CHINA RES POWER",
+    "short_turnover_shares":6922000,
+    "short_turnover_hkd":120751920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0839",
+    "stock_name":"CHINA EDU GROUP",
+    "short_turnover_shares":677000,
+    "short_turnover_hkd":2021220,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0853",
+    "stock_name":"MICROPORT",
+    "short_turnover_shares":439300,
+    "short_turnover_hkd":4813257,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0855",
+    "stock_name":"CHINA WATER",
+    "short_turnover_shares":374000,
+    "short_turnover_hkd":2024640,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0856",
+    "stock_name":"VSTECS",
+    "short_turnover_shares":226000,
+    "short_turnover_hkd":1657580,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0857",
+    "stock_name":"PETROCHINA",
+    "short_turnover_shares":35480000,
+    "short_turnover_hkd":321141380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0861",
+    "stock_name":"DC HOLDINGS",
+    "short_turnover_shares":1413000,
+    "short_turnover_hkd":3776430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0863",
+    "stock_name":"OSL GROUP",
+    "short_turnover_shares":1307500,
+    "short_turnover_hkd":19533585,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0866",
+    "stock_name":"CHINA QINFA",
+    "short_turnover_shares":322000,
+    "short_turnover_hkd":1325680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0867",
+    "stock_name":"CMS",
+    "short_turnover_shares":1116000,
+    "short_turnover_hkd":16441330,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0868",
+    "stock_name":"XINYI GLASS",
+    "short_turnover_shares":6341000,
+    "short_turnover_hkd":67578430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0874",
+    "stock_name":"BAIYUNSHAN PH",
+    "short_turnover_shares":130000,
+    "short_turnover_hkd":2476680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0880",
+    "stock_name":"SJM HOLDINGS",
+    "short_turnover_shares":2302000,
+    "short_turnover_hkd":5657200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0881",
+    "stock_name":"ZHONGSHENG HLDG",
+    "short_turnover_shares":1046000,
+    "short_turnover_hkd":12607490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0883",
+    "stock_name":"CNOOC",
+    "short_turnover_shares":15970000,
+    "short_turnover_hkd":376610860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0884",
+    "stock_name":"CIFI HOLD GP",
+    "short_turnover_shares":5520000,
+    "short_turnover_hkd":506310,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0902",
+    "stock_name":"HUANENG POWER",
+    "short_turnover_shares":9064000,
+    "short_turnover_hkd":48231160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0909",
+    "stock_name":"MING YUAN CLOUD",
+    "short_turnover_shares":1618000,
+    "short_turnover_hkd":4759660,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0914",
+    "stock_name":"CONCH CEMENT",
+    "short_turnover_shares":3403500,
+    "short_turnover_hkd":83915530,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0916",
+    "stock_name":"CHINA LONGYUAN",
+    "short_turnover_shares":2967000,
+    "short_turnover_hkd":20287160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0917",
+    "stock_name":"QUNABOX GROUP",
+    "short_turnover_shares":127000,
+    "short_turnover_hkd":3005518,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0921",
+    "stock_name":"HISENSE HA",
+    "short_turnover_shares":63000,
+    "short_turnover_hkd":1486820,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0934",
+    "stock_name":"SINOPEC KANTONS",
+    "short_turnover_shares":232000,
+    "short_turnover_hkd":963860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0939",
+    "stock_name":"CCB",
+    "short_turnover_shares":87569000,
+    "short_turnover_hkd":690388410,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0941",
+    "stock_name":"CHINA MOBILE",
+    "short_turnover_shares":5686500,
+    "short_turnover_hkd":453643450,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0945",
+    "stock_name":"MANULIFE-S",
+    "short_turnover_shares":100,
+    "short_turnover_hkd":29240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0956",
+    "stock_name":"CHINA SUNTIEN",
+    "short_turnover_shares":239000,
+    "short_turnover_hkd":987090,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0960",
+    "stock_name":"LONGFOR GROUP",
+    "short_turnover_shares":6809000,
+    "short_turnover_hkd":68936250,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0966",
+    "stock_name":"CHINA TAIPING",
+    "short_turnover_shares":1606800,
+    "short_turnover_hkd":39987500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0968",
+    "stock_name":"XINYI SOLAR",
+    "short_turnover_shares":23342000,
+    "short_turnover_hkd":79806200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0975",
+    "stock_name":"MONGOL MINING",
+    "short_turnover_shares":648000,
+    "short_turnover_hkd":7869780,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0981",
+    "stock_name":"SMIC",
+    "short_turnover_shares":3317000,
+    "short_turnover_hkd":221817825,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0990",
+    "stock_name":"DEEP SOURCE",
+    "short_turnover_shares":3440000,
+    "short_turnover_hkd":2925200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0991",
+    "stock_name":"DATANG POWER",
+    "short_turnover_shares":724000,
+    "short_turnover_hkd":1632500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0992",
+    "stock_name":"LENOVO GROUP",
+    "short_turnover_shares":22912000,
+    "short_turnover_hkd":211787620,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0995",
+    "stock_name":"ANHUIEXPRESSWAY",
+    "short_turnover_shares":172000,
+    "short_turnover_hkd":2256280,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0998",
+    "stock_name":"CITIC BANK",
+    "short_turnover_shares":677000,
+    "short_turnover_hkd":4898940,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"0999",
+    "stock_name":"XIAOCAIYUAN",
+    "short_turnover_shares":5600,
+    "short_turnover_hkd":49672,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1024",
+    "stock_name":"KUAISHOU-W",
+    "short_turnover_shares":9783800,
+    "short_turnover_hkd":703404695,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1030",
+    "stock_name":"SEAZEN",
+    "short_turnover_shares":50698000,
+    "short_turnover_hkd":124920840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1033",
+    "stock_name":"SINOPEC SSC",
+    "short_turnover_shares":6232000,
+    "short_turnover_hkd":5482960,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1038",
+    "stock_name":"CKI HOLDINGS",
+    "short_turnover_shares":983000,
+    "short_turnover_hkd":63658425,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1044",
+    "stock_name":"HENGAN INT'L",
+    "short_turnover_shares":590500,
+    "short_turnover_hkd":16568030,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1052",
+    "stock_name":"YUEXIUTRANSPORT",
+    "short_turnover_shares":56000,
+    "short_turnover_hkd":262100,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1055",
+    "stock_name":"CHINA SOUTH AIR",
+    "short_turnover_shares":1916000,
+    "short_turnover_hkd":12339440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1057",
+    "stock_name":"ZHEJIANG SHIBAO",
+    "short_turnover_shares":58000,
+    "short_turnover_hkd":322980,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1060",
+    "stock_name":"DAMAI ENT",
+    "short_turnover_shares":22260000,
+    "short_turnover_hkd":20557500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1061",
+    "stock_name":"ESSEX BIO-TECH",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":16400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1066",
+    "stock_name":"WEIGAO GROUP",
+    "short_turnover_shares":2680000,
+    "short_turnover_hkd":14276972,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1070",
+    "stock_name":"TCL ELECTRONICS",
+    "short_turnover_shares":329000,
+    "short_turnover_hkd":4106540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1071",
+    "stock_name":"HUADIAN POWER",
+    "short_turnover_shares":444000,
+    "short_turnover_hkd":1765540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1072",
+    "stock_name":"DONGFANG ELEC",
+    "short_turnover_shares":1717200,
+    "short_turnover_hkd":46388984,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1083",
+    "stock_name":"TG SMART ENERGY",
+    "short_turnover_shares":594000,
+    "short_turnover_hkd":2133500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1088",
+    "stock_name":"CHINA SHENHUA",
+    "short_turnover_shares":4201000,
+    "short_turnover_hkd":176987140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1093",
+    "stock_name":"CSPC PHARMA",
+    "short_turnover_shares":17778000,
+    "short_turnover_hkd":172218760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1099",
+    "stock_name":"SINOPHARM",
+    "short_turnover_shares":1849200,
+    "short_turnover_hkd":38949784,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1108",
+    "stock_name":"TRIUMPH NEW EN",
+    "short_turnover_shares":130000,
+    "short_turnover_hkd":512260,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1109",
+    "stock_name":"CHINA RES LAND",
+    "short_turnover_shares":9493000,
+    "short_turnover_hkd":301958380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1112",
+    "stock_name":"H&H INTL HLDG",
+    "short_turnover_shares":127000,
+    "short_turnover_hkd":1979585,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1113",
+    "stock_name":"CK ASSET",
+    "short_turnover_shares":2657000,
+    "short_turnover_hkd":123598330,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1114",
+    "stock_name":"BRILLIANCE CHI",
+    "short_turnover_shares":576000,
+    "short_turnover_hkd":2249040,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1117",
+    "stock_name":"CH MODERN D",
+    "short_turnover_shares":1464000,
+    "short_turnover_hkd":2263410,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1119",
+    "stock_name":"IDREAMSKY",
+    "short_turnover_shares":144800,
+    "short_turnover_hkd":79732,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1126",
+    "stock_name":"DREAM INT'L",
+    "short_turnover_shares":45000,
+    "short_turnover_hkd":388840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1128",
+    "stock_name":"WYNN MACAU",
+    "short_turnover_shares":884000,
+    "short_turnover_hkd":5346996,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1133",
+    "stock_name":"HARBIN ELECTRIC",
+    "short_turnover_shares":1688000,
+    "short_turnover_hkd":32058020,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1138",
+    "stock_name":"COSCO SHIP ENGY",
+    "short_turnover_shares":4278000,
+    "short_turnover_hkd":64230920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1142",
+    "stock_name":"E&P GLOBAL",
+    "short_turnover_shares":1624000,
+    "short_turnover_hkd":255306,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1157",
+    "stock_name":"ZOOMLION",
+    "short_turnover_shares":831800,
+    "short_turnover_hkd":7683380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1164",
+    "stock_name":"CGN MINING",
+    "short_turnover_shares":11090000,
+    "short_turnover_hkd":48315500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1167",
+    "stock_name":"JACOBIO-B",
+    "short_turnover_shares":426300,
+    "short_turnover_hkd":2419338,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1171",
+    "stock_name":"YANKUANG ENERGY",
+    "short_turnover_shares":7236000,
+    "short_turnover_hkd":88176700,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1177",
+    "stock_name":"SINO BIOPHARM",
+    "short_turnover_shares":23901000,
+    "short_turnover_hkd":151819840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1179",
+    "stock_name":"HWORLD-S",
+    "short_turnover_shares":583800,
+    "short_turnover_hkd":22428724,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1186",
+    "stock_name":"CHINA RAIL CONS",
+    "short_turnover_shares":8000,
+    "short_turnover_hkd":43200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1193",
+    "stock_name":"CHINA RES GAS",
+    "short_turnover_shares":161600,
+    "short_turnover_hkd":3481908,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1196",
+    "stock_name":"REALORD GROUP",
+    "short_turnover_shares":218000,
+    "short_turnover_hkd":3349480,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1199",
+    "stock_name":"COSCO SHIP PORT",
+    "short_turnover_shares":520000,
+    "short_turnover_hkd":3189880,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1208",
+    "stock_name":"MMG",
+    "short_turnover_shares":7928000,
+    "short_turnover_hkd":78471600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1209",
+    "stock_name":"CHINA RES MIXC",
+    "short_turnover_shares":1626600,
+    "short_turnover_hkd":77099392,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1211",
+    "stock_name":"BYD COMPANY",
+    "short_turnover_shares":6246100,
+    "short_turnover_hkd":567709635,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1234",
+    "stock_name":"CHINA LILANG",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":13300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1258",
+    "stock_name":"CHINFMINING",
+    "short_turnover_shares":4618000,
+    "short_turnover_hkd":69150540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1268",
+    "stock_name":"MEIDONG AUTO",
+    "short_turnover_shares":394000,
+    "short_turnover_hkd":593040,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1276",
+    "stock_name":"HENGRUI PHARMA",
+    "short_turnover_shares":544200,
+    "short_turnover_hkd":37212270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1277",
+    "stock_name":"KINETIC DEV",
+    "short_turnover_shares":3620000,
+    "short_turnover_hkd":6342640,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1280",
+    "stock_name":"QIDIAN GUOFENG",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":10760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1288",
+    "stock_name":"ABC",
+    "short_turnover_shares":12570000,
+    "short_turnover_hkd":68449600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1299",
+    "stock_name":"AIA",
+    "short_turnover_shares":8719200,
+    "short_turnover_hkd":764676750,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1302",
+    "stock_name":"LIFETECH SCI",
+    "short_turnover_shares":578000,
+    "short_turnover_hkd":982080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1304",
+    "stock_name":"FORTIOR",
+    "short_turnover_shares":20100,
+    "short_turnover_hkd":2510070,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1308",
+    "stock_name":"SITC",
+    "short_turnover_shares":1104000,
+    "short_turnover_hkd":32514000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1310",
+    "stock_name":"HKBN",
+    "short_turnover_shares":118500,
+    "short_turnover_hkd":818745,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1313",
+    "stock_name":"CR BLDG MAT TEC",
+    "short_turnover_shares":3048000,
+    "short_turnover_hkd":5657480,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1316",
+    "stock_name":"NEXTEER",
+    "short_turnover_shares":1152000,
+    "short_turnover_hkd":7755530,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1318",
+    "stock_name":"MAO GEPING",
+    "short_turnover_shares":162000,
+    "short_turnover_hkd":14504340,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1330",
+    "stock_name":"DYNAGREEN ENV",
+    "short_turnover_shares":25000,
+    "short_turnover_hkd":129820,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1333",
+    "stock_name":"BRETON",
+    "short_turnover_shares":3600,
+    "short_turnover_hkd":71436,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1336",
+    "stock_name":"NCI",
+    "short_turnover_shares":2320600,
+    "short_turnover_hkd":141210515,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1339",
+    "stock_name":"PICC GROUP",
+    "short_turnover_shares":5423000,
+    "short_turnover_hkd":35628720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1341",
+    "stock_name":"HAO TIAN INTL",
+    "short_turnover_shares":13496000,
+    "short_turnover_hkd":989144,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1347",
+    "stock_name":"HUA HONG SEMI",
+    "short_turnover_shares":1848000,
+    "short_turnover_hkd":181315550,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1357",
+    "stock_name":"MEITU",
+    "short_turnover_shares":17201000,
+    "short_turnover_hkd":108139665,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1359",
+    "stock_name":"CHINA CINDA",
+    "short_turnover_shares":5532000,
+    "short_turnover_hkd":7060610,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1364",
+    "stock_name":"GUMING",
+    "short_turnover_shares":99600,
+    "short_turnover_hkd":2911048,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1368",
+    "stock_name":"XTEP INT'L",
+    "short_turnover_shares":585000,
+    "short_turnover_hkd":3048680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1375",
+    "stock_name":"CC SECURITIES",
+    "short_turnover_shares":738000,
+    "short_turnover_hkd":1605510,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1378",
+    "stock_name":"CHINAHONGQIAO",
+    "short_turnover_shares":8836000,
+    "short_turnover_hkd":304985090,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1382",
+    "stock_name":"PACIFICTEXTILES",
+    "short_turnover_shares":114000,
+    "short_turnover_hkd":141360,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1385",
+    "stock_name":"SHANGHAI FUDAN",
+    "short_turnover_shares":529000,
+    "short_turnover_hkd":24482320,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1398",
+    "stock_name":"ICBC",
+    "short_turnover_shares":70575000,
+    "short_turnover_hkd":454700160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1405",
+    "stock_name":"DPC DASH",
+    "short_turnover_shares":19600,
+    "short_turnover_hkd":1303505,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1415",
+    "stock_name":"COWELL",
+    "short_turnover_shares":1672000,
+    "short_turnover_hkd":48909720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1428",
+    "stock_name":"BRIGHT SMART",
+    "short_turnover_shares":466000,
+    "short_turnover_hkd":3927620,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1448",
+    "stock_name":"FU SHOU YUAN",
+    "short_turnover_shares":1597000,
+    "short_turnover_hkd":4181250,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1456",
+    "stock_name":"GLMS SEC",
+    "short_turnover_shares":33000,
+    "short_turnover_hkd":174305,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1458",
+    "stock_name":"ZHOU HEI YA",
+    "short_turnover_shares":260000,
+    "short_turnover_hkd":420625,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1475",
+    "stock_name":"NISSIN FOODS",
+    "short_turnover_shares":1000,
+    "short_turnover_hkd":7300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1477",
+    "stock_name":"OCUMENSION-B",
+    "short_turnover_shares":105500,
+    "short_turnover_hkd":748540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1478",
+    "stock_name":"Q TECH",
+    "short_turnover_shares":355000,
+    "short_turnover_hkd":3146560,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1501",
+    "stock_name":"INT MEDICAL",
+    "short_turnover_shares":5200,
+    "short_turnover_hkd":161016,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1508",
+    "stock_name":"CHINA RE",
+    "short_turnover_shares":1987000,
+    "short_turnover_hkd":3240970,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1513",
+    "stock_name":"LIVZON PHARMA",
+    "short_turnover_shares":37100,
+    "short_turnover_hkd":1110470,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1515",
+    "stock_name":"CR MEDICAL",
+    "short_turnover_shares":1529000,
+    "short_turnover_hkd":4846565,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1516",
+    "stock_name":"SUNAC SERVICES",
+    "short_turnover_shares":2373000,
+    "short_turnover_hkd":3333900,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1519",
+    "stock_name":"J&T EXPRESS-W",
+    "short_turnover_shares":2459600,
+    "short_turnover_hkd":26029800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1523",
+    "stock_name":"PLOVER BAY TECH",
+    "short_turnover_shares":57000,
+    "short_turnover_hkd":415140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1541",
+    "stock_name":"IMMUNEONCO-B",
+    "short_turnover_shares":38000,
+    "short_turnover_hkd":165894,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1548",
+    "stock_name":"GENSCRIPT BIO",
+    "short_turnover_shares":1122000,
+    "short_turnover_hkd":13965900,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1578",
+    "stock_name":"BANK OF TIANJIN",
+    "short_turnover_shares":1500,
+    "short_turnover_hkd":3630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1579",
+    "stock_name":"YIHAI INTL",
+    "short_turnover_shares":3377000,
+    "short_turnover_hkd":54437030,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1585",
+    "stock_name":"YADEA",
+    "short_turnover_shares":1330000,
+    "short_turnover_hkd":15128900,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1606",
+    "stock_name":"CDB LEASING",
+    "short_turnover_shares":18000,
+    "short_turnover_hkd":28740,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1610",
+    "stock_name":"COFCO JOYCOME",
+    "short_turnover_shares":1445000,
+    "short_turnover_hkd":2399400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1611",
+    "stock_name":"SINOHOPE TECH",
+    "short_turnover_shares":90500,
+    "short_turnover_hkd":206405,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1618",
+    "stock_name":"MCC",
+    "short_turnover_shares":1208000,
+    "short_turnover_hkd":2239330,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1635",
+    "stock_name":"DZUG",
+    "short_turnover_shares":99000,
+    "short_turnover_hkd":302140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1651",
+    "stock_name":"TSUGAMI CHINA",
+    "short_turnover_shares":342000,
+    "short_turnover_hkd":14356360,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1658",
+    "stock_name":"PSBC",
+    "short_turnover_shares":10601000,
+    "short_turnover_hkd":55189500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1666",
+    "stock_name":"TONG REN TANG",
+    "short_turnover_shares":302000,
+    "short_turnover_hkd":1300430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1672",
+    "stock_name":"ASCLETIS-B",
+    "short_turnover_shares":178000,
+    "short_turnover_hkd":2406660,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1675",
+    "stock_name":"ASIAINFO TECH",
+    "short_turnover_shares":730000,
+    "short_turnover_hkd":5591080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1681",
+    "stock_name":"CONSUN PHARMA",
+    "short_turnover_shares":19000,
+    "short_turnover_hkd":330490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1686",
+    "stock_name":"SUNEVISION",
+    "short_turnover_shares":1645000,
+    "short_turnover_hkd":10054120,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1691",
+    "stock_name":"JS GLOBAL LIFE",
+    "short_turnover_shares":583500,
+    "short_turnover_hkd":1049525,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1698",
+    "stock_name":"TME-SW",
+    "short_turnover_shares":532300,
+    "short_turnover_hkd":33366265,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1709",
+    "stock_name":"DL HOLDINGS GP",
+    "short_turnover_shares":225000,
+    "short_turnover_hkd":403720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1729",
+    "stock_name":"TIME INTERCON",
+    "short_turnover_shares":1741000,
+    "short_turnover_hkd":29247580,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1735",
+    "stock_name":"CENTRAL NEW EGY",
+    "short_turnover_shares":118000,
+    "short_turnover_hkd":950080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1766",
+    "stock_name":"CRRC",
+    "short_turnover_shares":4330000,
+    "short_turnover_hkd":25140240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1772",
+    "stock_name":"GANFENGLITHIUM",
+    "short_turnover_shares":4775800,
+    "short_turnover_hkd":265664210,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1773",
+    "stock_name":"TIANLI INT HLDG",
+    "short_turnover_shares":449000,
+    "short_turnover_hkd":1208780,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1776",
+    "stock_name":"GF SEC",
+    "short_turnover_shares":2176000,
+    "short_turnover_hkd":36974774,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1783",
+    "stock_name":"ENVISION GREEN",
+    "short_turnover_shares":402000,
+    "short_turnover_hkd":1277760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1787",
+    "stock_name":"SD GOLD",
+    "short_turnover_shares":1790750,
+    "short_turnover_hkd":69464460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1788",
+    "stock_name":"GUOTAI JUNAN I",
+    "short_turnover_shares":8020000,
+    "short_turnover_hkd":20249750,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1789",
+    "stock_name":"AK MEDICAL",
+    "short_turnover_shares":996000,
+    "short_turnover_hkd":6053980,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1797",
+    "stock_name":"EAST BUY",
+    "short_turnover_shares":3667000,
+    "short_turnover_hkd":109916790,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1798",
+    "stock_name":"DATANG RENEW",
+    "short_turnover_shares":2308000,
+    "short_turnover_hkd":4624130,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1799",
+    "stock_name":"XINTE ENERGY",
+    "short_turnover_shares":32800,
+    "short_turnover_hkd":240796,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1800",
+    "stock_name":"CHINA COMM CONS",
+    "short_turnover_shares":1019000,
+    "short_turnover_hkd":5169310,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1801",
+    "stock_name":"INNOVENT BIO",
+    "short_turnover_shares":2605000,
+    "short_turnover_hkd":205802950,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1810",
+    "stock_name":"XIAOMI-W",
+    "short_turnover_shares":34696200,
+    "short_turnover_hkd":1195951852,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1811",
+    "stock_name":"CGN NEW ENERGY",
+    "short_turnover_shares":186000,
+    "short_turnover_hkd":471540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1816",
+    "stock_name":"CGN POWER",
+    "short_turnover_shares":17710000,
+    "short_turnover_hkd":55420180,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1818",
+    "stock_name":"ZHAOJIN MINING",
+    "short_turnover_shares":2711500,
+    "short_turnover_hkd":91173950,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1828",
+    "stock_name":"FWD",
+    "short_turnover_shares":8300,
+    "short_turnover_hkd":301490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1833",
+    "stock_name":"PA GOODDOCTOR",
+    "short_turnover_shares":3138400,
+    "short_turnover_hkd":43373883,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1836",
+    "stock_name":"STELLA HOLDINGS",
+    "short_turnover_shares":610500,
+    "short_turnover_hkd":8963230,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1848",
+    "stock_name":"CALC",
+    "short_turnover_shares":13000,
+    "short_turnover_hkd":63140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1855",
+    "stock_name":"ZONQING LTD",
+    "short_turnover_shares":22000,
+    "short_turnover_hkd":27300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1858",
+    "stock_name":"CHUNLI MEDICAL",
+    "short_turnover_shares":6250,
+    "short_turnover_hkd":87972,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1866",
+    "stock_name":"CHINA XLX FERT",
+    "short_turnover_shares":201000,
+    "short_turnover_hkd":2088200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1872",
+    "stock_name":"GUAN CHAO HLDGS",
+    "short_turnover_shares":60000,
+    "short_turnover_hkd":418100,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1873",
+    "stock_name":"VIVA BIOTECH",
+    "short_turnover_shares":1272000,
+    "short_turnover_hkd":2910820,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1876",
+    "stock_name":"BUD APAC",
+    "short_turnover_shares":15212600,
+    "short_turnover_hkd":123557985,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1877",
+    "stock_name":"JUNSHI BIO",
+    "short_turnover_shares":261000,
+    "short_turnover_hkd":5400092,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1880",
+    "stock_name":"CTG DUTY-FREE",
+    "short_turnover_shares":103900,
+    "short_turnover_hkd":9587630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1882",
+    "stock_name":"HAITIAN INT'L",
+    "short_turnover_shares":220000,
+    "short_turnover_hkd":5321020,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1883",
+    "stock_name":"CITIC TELECOM",
+    "short_turnover_shares":765000,
+    "short_turnover_hkd":1968500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1888",
+    "stock_name":"KB LAMINATES",
+    "short_turnover_shares":872500,
+    "short_turnover_hkd":12824940,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1896",
+    "stock_name":"MAOYAN ENT",
+    "short_turnover_shares":299400,
+    "short_turnover_hkd":2145554,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1898",
+    "stock_name":"CHINA COAL",
+    "short_turnover_shares":4510000,
+    "short_turnover_hkd":53125340,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1905",
+    "stock_name":"HAITONG UT",
+    "short_turnover_shares":20000,
+    "short_turnover_hkd":15800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1907",
+    "stock_name":"CHINA RISUN GP",
+    "short_turnover_shares":683000,
+    "short_turnover_hkd":1743850,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1908",
+    "stock_name":"C&D INTL GROUP",
+    "short_turnover_shares":2608000,
+    "short_turnover_hkd":43291690,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1910",
+    "stock_name":"SAMSONITE",
+    "short_turnover_shares":85500,
+    "short_turnover_hkd":1678662,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1911",
+    "stock_name":"CR HOLDINGS",
+    "short_turnover_shares":37700,
+    "short_turnover_hkd":152617,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1913",
+    "stock_name":"PRADA",
+    "short_turnover_shares":140300,
+    "short_turnover_hkd":5693824,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1918",
+    "stock_name":"SUNAC",
+    "short_turnover_shares":33152000,
+    "short_turnover_hkd":40949120,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1919",
+    "stock_name":"COSCO SHIP HOLD",
+    "short_turnover_shares":1285000,
+    "short_turnover_hkd":17787405,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1921",
+    "stock_name":"DALIPAL HLDG",
+    "short_turnover_shares":48000,
+    "short_turnover_hkd":291180,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1928",
+    "stock_name":"SANDS CHINA LTD",
+    "short_turnover_shares":3244400,
+    "short_turnover_hkd":57927040,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1929",
+    "stock_name":"CHOW TAI FOOK",
+    "short_turnover_shares":5432400,
+    "short_turnover_hkd":75763680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1951",
+    "stock_name":"JXR",
+    "short_turnover_shares":3009000,
+    "short_turnover_hkd":7326965,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1952",
+    "stock_name":"EVEREST MED",
+    "short_turnover_shares":478500,
+    "short_turnover_hkd":18328590,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1958",
+    "stock_name":"BAIC MOTOR",
+    "short_turnover_shares":2169500,
+    "short_turnover_hkd":3936125,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1963",
+    "stock_name":"BCQ",
+    "short_turnover_shares":57500,
+    "short_turnover_hkd":464295,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1969",
+    "stock_name":"CHINA CHUNLAI",
+    "short_turnover_shares":63000,
+    "short_turnover_hkd":198840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1972",
+    "stock_name":"SWIREPROPERTIES",
+    "short_turnover_shares":386200,
+    "short_turnover_hkd":9528476,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1988",
+    "stock_name":"MINSHENG BANK",
+    "short_turnover_shares":2451000,
+    "short_turnover_hkd":9565630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1995",
+    "stock_name":"ES SERVICES",
+    "short_turnover_shares":32000,
+    "short_turnover_hkd":58200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1997",
+    "stock_name":"WHARF REIC",
+    "short_turnover_shares":1918000,
+    "short_turnover_hkd":53999420,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"1999",
+    "stock_name":"MAN WAH HLDGS",
+    "short_turnover_shares":536800,
+    "short_turnover_hkd":2668688,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2001",
+    "stock_name":"NEW HIGHER EDU",
+    "short_turnover_shares":3000,
+    "short_turnover_hkd":2580,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2005",
+    "stock_name":"SSY GROUP",
+    "short_turnover_shares":664000,
+    "short_turnover_hkd":1947000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2007",
+    "stock_name":"COUNTRY GARDEN",
+    "short_turnover_shares":34240000,
+    "short_turnover_hkd":9892820,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2009",
+    "stock_name":"BBMG",
+    "short_turnover_shares":1702000,
+    "short_turnover_hkd":1425410,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2013",
+    "stock_name":"WEIMOB INC",
+    "short_turnover_shares":16460000,
+    "short_turnover_hkd":32365230,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2015",
+    "stock_name":"LI AUTO-W",
+    "short_turnover_shares":5070200,
+    "short_turnover_hkd":348122705,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2016",
+    "stock_name":"CZBANK",
+    "short_turnover_shares":558000,
+    "short_turnover_hkd":1403800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2018",
+    "stock_name":"AAC TECH",
+    "short_turnover_shares":964000,
+    "short_turnover_hkd":34660190,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2020",
+    "stock_name":"ANTA SPORTS",
+    "short_turnover_shares":2428000,
+    "short_turnover_hkd":194587680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2026",
+    "stock_name":"PONY-W",
+    "short_turnover_shares":254400,
+    "short_turnover_hkd":26199150,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2038",
+    "stock_name":"FIH",
+    "short_turnover_shares":282000,
+    "short_turnover_hkd":5430270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2039",
+    "stock_name":"CIMC",
+    "short_turnover_shares":182800,
+    "short_turnover_hkd":1861706,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2050",
+    "stock_name":"SANHUA",
+    "short_turnover_shares":2442300,
+    "short_turnover_hkd":79808804,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2057",
+    "stock_name":"ZTO EXPRESS-W",
+    "short_turnover_shares":1860600,
+    "short_turnover_hkd":340197575,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2076",
+    "stock_name":"BOSS ZHIPIN-W",
+    "short_turnover_shares":8600,
+    "short_turnover_hkd":591930,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2096",
+    "stock_name":"SIMCERE PHARMA",
+    "short_turnover_shares":1097000,
+    "short_turnover_hkd":12960710,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2097",
+    "stock_name":"MIXUE GROUP",
+    "short_turnover_shares":25900,
+    "short_turnover_hkd":10187720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2099",
+    "stock_name":"CHINAGOLDINTL",
+    "short_turnover_shares":114200,
+    "short_turnover_hkd":21602040,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2105",
+    "stock_name":"LAEKNA-B",
+    "short_turnover_shares":169500,
+    "short_turnover_hkd":2282405,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2121",
+    "stock_name":"AINNOVATION",
+    "short_turnover_shares":87000,
+    "short_turnover_hkd":459080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2128",
+    "stock_name":"CHINA LESSO",
+    "short_turnover_shares":7721000,
+    "short_turnover_hkd":47691980,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2142",
+    "stock_name":"HBM HOLDINGS-B",
+    "short_turnover_shares":356000,
+    "short_turnover_hkd":3978100,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2145",
+    "stock_name":"CHICMAX",
+    "short_turnover_shares":489100,
+    "short_turnover_hkd":32162230,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2155",
+    "stock_name":"MORIMATSU INTL",
+    "short_turnover_shares":79000,
+    "short_turnover_hkd":782960,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2156",
+    "stock_name":"C&D PROPERTY",
+    "short_turnover_shares":81000,
+    "short_turnover_hkd":213850,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2157",
+    "stock_name":"LEPU BIO-B",
+    "short_turnover_shares":738000,
+    "short_turnover_hkd":3473080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2158",
+    "stock_name":"YIDU TECH",
+    "short_turnover_shares":1650300,
+    "short_turnover_hkd":9151267,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2160",
+    "stock_name":"MP CARDIOFLOW-B",
+    "short_turnover_shares":1895000,
+    "short_turnover_hkd":1500540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2162",
+    "stock_name":"KEYMED BIO-B",
+    "short_turnover_shares":147500,
+    "short_turnover_hkd":8099925,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2169",
+    "stock_name":"CANGGANGRAILWAY",
+    "short_turnover_shares":14000,
+    "short_turnover_hkd":8740,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2171",
+    "stock_name":"CARSGEN-B",
+    "short_turnover_shares":128000,
+    "short_turnover_hkd":1721345,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2172",
+    "stock_name":"MICROPORT NEURO",
+    "short_turnover_shares":203000,
+    "short_turnover_hkd":2318860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2186",
+    "stock_name":"LUYE PHARMA",
+    "short_turnover_shares":1574000,
+    "short_turnover_hkd":4333020,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2190",
+    "stock_name":"ZYLOXTB",
+    "short_turnover_shares":15000,
+    "short_turnover_hkd":369030,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2191",
+    "stock_name":"SF REIT",
+    "short_turnover_shares":69000,
+    "short_turnover_hkd":191370,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2192",
+    "stock_name":"MEDLIVE",
+    "short_turnover_shares":598500,
+    "short_turnover_hkd":5938825,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2196",
+    "stock_name":"FOSUN PHARMA",
+    "short_turnover_shares":237500,
+    "short_turnover_hkd":4871490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2198",
+    "stock_name":"CHINA SANJIANG",
+    "short_turnover_shares":321000,
+    "short_turnover_hkd":1365770,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2202",
+    "stock_name":"CHINA VANKE",
+    "short_turnover_shares":1170300,
+    "short_turnover_hkd":4343066,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2208",
+    "stock_name":"GOLDWIND",
+    "short_turnover_shares":992400,
+    "short_turnover_hkd":13041274,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2225",
+    "stock_name":"JINHAI MED TECH",
+    "short_turnover_shares":110000,
+    "short_turnover_hkd":213700,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2228",
+    "stock_name":"XTALPI",
+    "short_turnover_shares":5658000,
+    "short_turnover_hkd":63328720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2232",
+    "stock_name":"CRYSTAL INTL",
+    "short_turnover_shares":54000,
+    "short_turnover_hkd":392990,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2233",
+    "stock_name":"WESTCHINACEMENT",
+    "short_turnover_shares":4118000,
+    "short_turnover_hkd":13240220,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2238",
+    "stock_name":"GAC GROUP",
+    "short_turnover_shares":2110000,
+    "short_turnover_hkd":7751440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2245",
+    "stock_name":"LYGEND RESOURCE",
+    "short_turnover_shares":331600,
+    "short_turnover_hkd":8465060,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2252",
+    "stock_name":"MEDBOT-B",
+    "short_turnover_shares":486000,
+    "short_turnover_hkd":12216150,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2255",
+    "stock_name":"HAICHANG HLDG",
+    "short_turnover_shares":576000,
+    "short_turnover_hkd":277385,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2256",
+    "stock_name":"ABBISKO-B",
+    "short_turnover_shares":160000,
+    "short_turnover_hkd":2059420,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2259",
+    "stock_name":"ZIJIN GOLD INTL",
+    "short_turnover_shares":305100,
+    "short_turnover_hkd":62458370,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2268",
+    "stock_name":"WUXI XDC",
+    "short_turnover_shares":587000,
+    "short_turnover_hkd":36013875,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2269",
+    "stock_name":"WUXI BIO",
+    "short_turnover_shares":7571500,
+    "short_turnover_hkd":280606410,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2273",
+    "stock_name":"GUSHENGTANG",
+    "short_turnover_shares":50600,
+    "short_turnover_hkd":1534060,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2276",
+    "stock_name":"CONANT OPTICAL",
+    "short_turnover_shares":80800,
+    "short_turnover_hkd":4865030,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2282",
+    "stock_name":"MGM CHINA",
+    "short_turnover_shares":1031600,
+    "short_turnover_hkd":13703140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2285",
+    "stock_name":"CHERVON",
+    "short_turnover_shares":51900,
+    "short_turnover_hkd":1259516,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2313",
+    "stock_name":"SHENZHOU INTL",
+    "short_turnover_shares":1745200,
+    "short_turnover_hkd":112410915,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2314",
+    "stock_name":"LEE & MAN PAPER",
+    "short_turnover_shares":996000,
+    "short_turnover_hkd":3663250,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2318",
+    "stock_name":"PING AN",
+    "short_turnover_shares":9504500,
+    "short_turnover_hkd":671024050,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2319",
+    "stock_name":"MENGNIU DAIRY",
+    "short_turnover_shares":11607000,
+    "short_turnover_hkd":197422270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2328",
+    "stock_name":"PICC P&C",
+    "short_turnover_shares":5792000,
+    "short_turnover_hkd":90855600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2331",
+    "stock_name":"LI NING",
+    "short_turnover_shares":10254500,
+    "short_turnover_hkd":218612980,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2333",
+    "stock_name":"GWMOTOR",
+    "short_turnover_shares":1191000,
+    "short_turnover_hkd":15749705,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2338",
+    "stock_name":"WEICHAI POWER",
+    "short_turnover_shares":1045000,
+    "short_turnover_hkd":28769240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2342",
+    "stock_name":"COMBA",
+    "short_turnover_shares":298000,
+    "short_turnover_hkd":651940,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2343",
+    "stock_name":"PACIFIC BASIN",
+    "short_turnover_shares":3286000,
+    "short_turnover_hkd":10279690,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2356",
+    "stock_name":"DAHSING BANKING",
+    "short_turnover_shares":52400,
+    "short_turnover_hkd":581448,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2357",
+    "stock_name":"AVICHINA",
+    "short_turnover_shares":2940000,
+    "short_turnover_hkd":12099390,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2359",
+    "stock_name":"WUXI APPTEC",
+    "short_turnover_shares":1307300,
+    "short_turnover_hkd":146459560,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2367",
+    "stock_name":"GIANT BIOGENE",
+    "short_turnover_shares":819400,
+    "short_turnover_hkd":27514836,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2373",
+    "stock_name":"BEAUTYFARM MED",
+    "short_turnover_shares":27000,
+    "short_turnover_hkd":657980,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2378",
+    "stock_name":"PRU",
+    "short_turnover_shares":7450,
+    "short_turnover_hkd":958350,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2380",
+    "stock_name":"CHINA POWER",
+    "short_turnover_shares":18854000,
+    "short_turnover_hkd":58203080,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2382",
+    "stock_name":"SUNNY OPTICAL",
+    "short_turnover_shares":1816900,
+    "short_turnover_hkd":107717170,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2386",
+    "stock_name":"SINOPEC SEG",
+    "short_turnover_shares":143000,
+    "short_turnover_hkd":1051840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2388",
+    "stock_name":"BOC HONG KONG",
+    "short_turnover_shares":3835000,
+    "short_turnover_hkd":159132710,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2390",
+    "stock_name":"ZHIHU-W",
+    "short_turnover_shares":700,
+    "short_turnover_hkd":6310,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2400",
+    "stock_name":"XD INC",
+    "short_turnover_shares":1726400,
+    "short_turnover_hkd":136253250,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2410",
+    "stock_name":"TYK MEDICINES-B",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":49860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2411",
+    "stock_name":"PAGODA GP",
+    "short_turnover_shares":1000,
+    "short_turnover_hkd":1640,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2419",
+    "stock_name":"DEKON AGR",
+    "short_turnover_shares":204300,
+    "short_turnover_hkd":14793920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2423",
+    "stock_name":"BEKE-W",
+    "short_turnover_shares":8596700,
+    "short_turnover_hkd":417720324,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2429",
+    "stock_name":"UBOX ONLINE",
+    "short_turnover_shares":783500,
+    "short_turnover_hkd":1809935,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2431",
+    "stock_name":"MINIEYE",
+    "short_turnover_shares":36000,
+    "short_turnover_hkd":468984,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2432",
+    "stock_name":"DOBOT",
+    "short_turnover_shares":14200,
+    "short_turnover_hkd":501928,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2443",
+    "stock_name":"AUTOSTREETS",
+    "short_turnover_shares":40000,
+    "short_turnover_hkd":103444,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2460",
+    "stock_name":"CR BEVERAGE",
+    "short_turnover_shares":9800,
+    "short_turnover_hkd":101442,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2469",
+    "stock_name":"FENBI",
+    "short_turnover_shares":684000,
+    "short_turnover_hkd":1412555,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2473",
+    "stock_name":"XXF",
+    "short_turnover_shares":2525000,
+    "short_turnover_hkd":5380600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2477",
+    "stock_name":"WELLCELL HOLD",
+    "short_turnover_shares":23200,
+    "short_turnover_hkd":237592,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2487",
+    "stock_name":"CUTIA-B",
+    "short_turnover_shares":800,
+    "short_turnover_hkd":3830,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2488",
+    "stock_name":"LAUNCH TECH",
+    "short_turnover_shares":57000,
+    "short_turnover_hkd":485375,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2489",
+    "stock_name":"PERSISTENCEGOLD",
+    "short_turnover_shares":325000,
+    "short_turnover_hkd":368850,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2498",
+    "stock_name":"ROBOSENSE",
+    "short_turnover_shares":691900,
+    "short_turnover_hkd":23254150,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2507",
+    "stock_name":"CIRRUS",
+    "short_turnover_shares":9500,
+    "short_turnover_hkd":606445,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2509",
+    "stock_name":"QYUNS-B",
+    "short_turnover_shares":1800,
+    "short_turnover_hkd":36436,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2510",
+    "stock_name":"TS LINES",
+    "short_turnover_shares":176000,
+    "short_turnover_hkd":1560590,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2511",
+    "stock_name":"HIGHTIDE-B",
+    "short_turnover_shares":8500,
+    "short_turnover_hkd":22525,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2517",
+    "stock_name":"GUOQUAN",
+    "short_turnover_shares":946800,
+    "short_turnover_hkd":4004964,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2522",
+    "stock_name":"RIMAG GROUP",
+    "short_turnover_shares":39500,
+    "short_turnover_hkd":322390,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2525",
+    "stock_name":"HESAI-W",
+    "short_turnover_shares":71660,
+    "short_turnover_hkd":13586470,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2533",
+    "stock_name":"BLACK SESAME",
+    "short_turnover_shares":560300,
+    "short_turnover_hkd":10411159,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2552",
+    "stock_name":"HUA MEDICINE-B",
+    "short_turnover_shares":92500,
+    "short_turnover_hkd":263680,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2555",
+    "stock_name":"CHABAIDAO",
+    "short_turnover_shares":14600,
+    "short_turnover_hkd":93266,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2556",
+    "stock_name":"MARKETINGFORCE",
+    "short_turnover_shares":110000,
+    "short_turnover_hkd":4279056,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2562",
+    "stock_name":"SYNAGISTICS",
+    "short_turnover_shares":165500,
+    "short_turnover_hkd":521480,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2565",
+    "stock_name":"PEGBIO CO-B",
+    "short_turnover_shares":4000,
+    "short_turnover_hkd":245750,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2570",
+    "stock_name":"REFIRE",
+    "short_turnover_shares":62840,
+    "short_turnover_hkd":3217381,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2577",
+    "stock_name":"INNOSCIENCE",
+    "short_turnover_shares":478800,
+    "short_turnover_hkd":26174490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2582",
+    "stock_name":"GUOFUHEE",
+    "short_turnover_shares":35400,
+    "short_turnover_hkd":1291871,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2587",
+    "stock_name":"HEALTHYWAY INC",
+    "short_turnover_shares":15000,
+    "short_turnover_hkd":66465,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2588",
+    "stock_name":"BOC AVIATION",
+    "short_turnover_shares":62700,
+    "short_turnover_hkd":5260115,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2589",
+    "stock_name":"AUNTEA JENNY",
+    "short_turnover_shares":690,
+    "short_turnover_hkd":60253,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2590",
+    "stock_name":"GEEKPLUS-W",
+    "short_turnover_shares":238600,
+    "short_turnover_hkd":6589876,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2592",
+    "stock_name":"CLOUDBREAK-B",
+    "short_turnover_shares":41000,
+    "short_turnover_hkd":97650,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2598",
+    "stock_name":"LIANLIAN",
+    "short_turnover_shares":96000,
+    "short_turnover_hkd":621230,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2600",
+    "stock_name":"CHALCO",
+    "short_turnover_shares":14534000,
+    "short_turnover_hkd":181732660,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2601",
+    "stock_name":"CPIC",
+    "short_turnover_shares":3006800,
+    "short_turnover_hkd":116605476,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2602",
+    "stock_name":"ONEWO",
+    "short_turnover_shares":94600,
+    "short_turnover_hkd":1839998,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2607",
+    "stock_name":"SH PHARMA",
+    "short_turnover_shares":52300,
+    "short_turnover_hkd":613159,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2609",
+    "stock_name":"BAYZED HEALTH",
+    "short_turnover_shares":30600,
+    "short_turnover_hkd":109992,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2610",
+    "stock_name":"NANSHAN AL INTL",
+    "short_turnover_shares":16500,
+    "short_turnover_hkd":1019155,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2611",
+    "stock_name":"GTHT",
+    "short_turnover_shares":1788400,
+    "short_turnover_hkd":31287376,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2616",
+    "stock_name":"CSTONE PHARMA-B",
+    "short_turnover_shares":2124000,
+    "short_turnover_hkd":11023040,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2618",
+    "stock_name":"JD LOGISTICS",
+    "short_turnover_shares":2591300,
+    "short_turnover_hkd":28958293,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2628",
+    "stock_name":"CHINA LIFE",
+    "short_turnover_shares":33670000,
+    "short_turnover_hkd":1139807800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2629",
+    "stock_name":"MIRXES-B",
+    "short_turnover_shares":26200,
+    "short_turnover_hkd":733750,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2638",
+    "stock_name":"HKELECTRIC-SS",
+    "short_turnover_shares":179500,
+    "short_turnover_hkd":1218770,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2643",
+    "stock_name":"CAOCAO INC",
+    "short_turnover_shares":10100,
+    "short_turnover_hkd":329060,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2648",
+    "stock_name":"ANJOY FOOD",
+    "short_turnover_shares":10700,
+    "short_turnover_hkd":845325,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2666",
+    "stock_name":"UNI MEDICAL",
+    "short_turnover_shares":192500,
+    "short_turnover_hkd":1193550,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2669",
+    "stock_name":"CHINA OVS PPT",
+    "short_turnover_shares":1460000,
+    "short_turnover_hkd":6417350,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2688",
+    "stock_name":"ENN ENERGY",
+    "short_turnover_shares":654300,
+    "short_turnover_hkd":44753005,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2689",
+    "stock_name":"ND PAPER",
+    "short_turnover_shares":299000,
+    "short_turnover_hkd":2473490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2696",
+    "stock_name":"HENLIUS",
+    "short_turnover_shares":176500,
+    "short_turnover_hkd":10589295,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2722",
+    "stock_name":"CHONGQING M&E",
+    "short_turnover_shares":674000,
+    "short_turnover_hkd":1646620,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2727",
+    "stock_name":"SH ELECTRIC",
+    "short_turnover_shares":2088000,
+    "short_turnover_hkd":8478320,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2777",
+    "stock_name":"R&F PROPERTIES",
+    "short_turnover_shares":26800,
+    "short_turnover_hkd":15544,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2778",
+    "stock_name":"CHAMPION REIT",
+    "short_turnover_shares":1047000,
+    "short_turnover_hkd":2694830,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2799",
+    "stock_name":"CITIC FAMC",
+    "short_turnover_shares":7967000,
+    "short_turnover_hkd":6772370,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2800",
+    "stock_name":"TRACKER FUND",
+    "short_turnover_shares":552983500,
+    "short_turnover_hkd":14860740160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2801",
+    "stock_name":"ISHARES CHINA",
+    "short_turnover_shares":2000,
+    "short_turnover_hkd":53796,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2802",
+    "stock_name":"A CSOP HSCEICC",
+    "short_turnover_shares":12913700,
+    "short_turnover_hkd":111209442,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2806",
+    "stock_name":"GX CN CONSUME",
+    "short_turnover_shares":8500,
+    "short_turnover_hkd":401468,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2807",
+    "stock_name":"GX CN ROBO&AI",
+    "short_turnover_shares":45700,
+    "short_turnover_hkd":2925780,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2809",
+    "stock_name":"GX CN CLN EN",
+    "short_turnover_shares":1400,
+    "short_turnover_hkd":156170,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2810",
+    "stock_name":"PREMIAEMASEAN",
+    "short_turnover_shares":200,
+    "short_turnover_hkd":15192,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2812",
+    "stock_name":"SAMSUNGCDGN",
+    "short_turnover_shares":1200,
+    "short_turnover_hkd":16332,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2819",
+    "stock_name":"ABF HK IDX ETF",
+    "short_turnover_shares":100,
+    "short_turnover_hkd":10250,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2820",
+    "stock_name":"GX CN BIOTECH",
+    "short_turnover_shares":12800,
+    "short_turnover_hkd":894255,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2822",
+    "stock_name":"CSOP A50 ETF",
+    "short_turnover_shares":370800,
+    "short_turnover_hkd":5527726,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2823",
+    "stock_name":"ISHARES A50",
+    "short_turnover_shares":2537200,
+    "short_turnover_hkd":40950906,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2826",
+    "stock_name":"GX CN CLOUD",
+    "short_turnover_shares":150,
+    "short_turnover_hkd":10185,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2828",
+    "stock_name":"HSCEI ETF",
+    "short_turnover_shares":54214600,
+    "short_turnover_hkd":5000297816,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2834",
+    "stock_name":"ISHARESND100",
+    "short_turnover_shares":13230,
+    "short_turnover_hkd":6307684,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2836",
+    "stock_name":"ISHARES INDIA",
+    "short_turnover_shares":2200,
+    "short_turnover_hkd":87280,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2837",
+    "stock_name":"GX HS TECH",
+    "short_turnover_shares":60100,
+    "short_turnover_hkd":400867,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2840",
+    "stock_name":"SPDR GOLD TRT",
+    "short_turnover_shares":11111,
+    "short_turnover_hkd":38981814,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2845",
+    "stock_name":"GX CN EV BATT",
+    "short_turnover_shares":6300,
+    "short_turnover_hkd":664592,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2846",
+    "stock_name":"ISHARESCSI300",
+    "short_turnover_shares":10300,
+    "short_turnover_hkd":361908,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2858",
+    "stock_name":"YIXIN",
+    "short_turnover_shares":4180000,
+    "short_turnover_hkd":11288790,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2866",
+    "stock_name":"COSCO SHIP DEV",
+    "short_turnover_shares":265000,
+    "short_turnover_hkd":292880,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2869",
+    "stock_name":"GREENTOWN SER",
+    "short_turnover_shares":98000,
+    "short_turnover_hkd":444660,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2877",
+    "stock_name":"SHINEWAY PHARM",
+    "short_turnover_shares":48000,
+    "short_turnover_hkd":464840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2880",
+    "stock_name":"LIAONING PORT",
+    "short_turnover_shares":28000,
+    "short_turnover_hkd":24920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2883",
+    "stock_name":"CHINA OILFIELD",
+    "short_turnover_shares":230000,
+    "short_turnover_hkd":2046520,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2888",
+    "stock_name":"STANCHART",
+    "short_turnover_shares":21300,
+    "short_turnover_hkd":4250380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"2899",
+    "stock_name":"ZIJIN MINING",
+    "short_turnover_shares":19412000,
+    "short_turnover_hkd":764845520,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3003",
+    "stock_name":"CSOP MSCI A 50",
+    "short_turnover_shares":72100,
+    "short_turnover_hkd":484151,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3008",
+    "stock_name":"BOS HSK BTC",
+    "short_turnover_shares":627100,
+    "short_turnover_hkd":3446169,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3009",
+    "stock_name":"BOS HSK ETH",
+    "short_turnover_shares":516800,
+    "short_turnover_hkd":828490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3010",
+    "stock_name":"ISHARES AXJ",
+    "short_turnover_shares":62500,
+    "short_turnover_hkd":4738164,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3032",
+    "stock_name":"HSTECH ETF",
+    "short_turnover_shares":14560600,
+    "short_turnover_hkd":77117058,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3033",
+    "stock_name":"CSOP HS TECH",
+    "short_turnover_shares":518225800,
+    "short_turnover_hkd":2709024099,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3037",
+    "stock_name":"CSOP HSI ETF",
+    "short_turnover_shares":1000,
+    "short_turnover_hkd":26730,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3042",
+    "stock_name":"CAM BTC",
+    "short_turnover_shares":1104100,
+    "short_turnover_hkd":9639669,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3046",
+    "stock_name":"CAM ETH",
+    "short_turnover_shares":562300,
+    "short_turnover_hkd":2805765,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3066",
+    "stock_name":"FA CSOP BTC",
+    "short_turnover_shares":36300,
+    "short_turnover_hkd":842070,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3067",
+    "stock_name":"ISHARESHSTECH",
+    "short_turnover_shares":7607600,
+    "short_turnover_hkd":84750756,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3068",
+    "stock_name":"FA CSOP ETH",
+    "short_turnover_shares":8000,
+    "short_turnover_hkd":77520,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3069",
+    "stock_name":"CAM HSBIOTECH",
+    "short_turnover_shares":1138100,
+    "short_turnover_hkd":17341711,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3077",
+    "stock_name":"PREMIA UST",
+    "short_turnover_shares":5,
+    "short_turnover_hkd":19779,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3081",
+    "stock_name":"VALUEGOLD ETF",
+    "short_turnover_shares":1161600,
+    "short_turnover_hkd":26821920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3085",
+    "stock_name":"PANDO ETH",
+    "short_turnover_shares":200,
+    "short_turnover_hkd":1200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3086",
+    "stock_name":"CAM NASDAQ100",
+    "short_turnover_shares":200,
+    "short_turnover_hkd":10180,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3088",
+    "stock_name":"CAM HS TECH",
+    "short_turnover_shares":157600,
+    "short_turnover_hkd":1059460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3109",
+    "stock_name":"CSOP STAR 50",
+    "short_turnover_shares":30000,
+    "short_turnover_hkd":402300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3111",
+    "stock_name":"EFUNDMSCIA50",
+    "short_turnover_shares":1200,
+    "short_turnover_hkd":3571,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3115",
+    "stock_name":"ISHARESHSI",
+    "short_turnover_shares":5100,
+    "short_turnover_hkd":492996,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3132",
+    "stock_name":"SAMSUNG SEMICON",
+    "short_turnover_shares":17000,
+    "short_turnover_hkd":716382,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3133",
+    "stock_name":"CSOP CSI300",
+    "short_turnover_shares":21300,
+    "short_turnover_hkd":240393,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3134",
+    "stock_name":"CSOP CSI PV",
+    "short_turnover_shares":11400,
+    "short_turnover_hkd":72006,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3135",
+    "stock_name":"FA SAMSUNG BTC",
+    "short_turnover_shares":2850,
+    "short_turnover_hkd":66892,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3141",
+    "stock_name":"CAM ASIA IGB",
+    "short_turnover_shares":163800,
+    "short_turnover_hkd":2439562,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3145",
+    "stock_name":"CAM ASIA HIGHDV",
+    "short_turnover_shares":238400,
+    "short_turnover_hkd":3533212,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3150",
+    "stock_name":"GX JP GL LEADER",
+    "short_turnover_shares":100,
+    "short_turnover_hkd":8246,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3151",
+    "stock_name":"PREMIA STAR50",
+    "short_turnover_shares":1800,
+    "short_turnover_hkd":17736,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3160",
+    "stock_name":"CAM JAPAN HDG",
+    "short_turnover_shares":30200,
+    "short_turnover_hkd":869132,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3170",
+    "stock_name":"HS GOLD ETF",
+    "short_turnover_shares":2909600,
+    "short_turnover_hkd":44949510,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3171",
+    "stock_name":"A SS BLOCKCHAIN",
+    "short_turnover_shares":26100,
+    "short_turnover_hkd":1046844,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3188",
+    "stock_name":"CAM CSI300",
+    "short_turnover_shares":404000,
+    "short_turnover_hkd":21925248,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3190",
+    "stock_name":"FB SSH HIGH DIV",
+    "short_turnover_shares":2400,
+    "short_turnover_hkd":41668,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3191",
+    "stock_name":"GX CN SEMICON",
+    "short_turnover_shares":33100,
+    "short_turnover_hkd":2110464,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3195",
+    "stock_name":"HS S&P500",
+    "short_turnover_shares":20300,
+    "short_turnover_hkd":220053,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3288",
+    "stock_name":"HAITIAN FLAV",
+    "short_turnover_shares":249600,
+    "short_turnover_hkd":8304616,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3306",
+    "stock_name":"JNBY",
+    "short_turnover_shares":56500,
+    "short_turnover_hkd":1096490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3311",
+    "stock_name":"CHINA STATE CON",
+    "short_turnover_shares":1110000,
+    "short_turnover_hkd":10506980,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3316",
+    "stock_name":"BINJIANG SER",
+    "short_turnover_shares":6500,
+    "short_turnover_hkd":150050,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3319",
+    "stock_name":"A-LIVING",
+    "short_turnover_shares":151500,
+    "short_turnover_hkd":345892,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3320",
+    "stock_name":"CHINARES PHARMA",
+    "short_turnover_shares":802500,
+    "short_turnover_hkd":3621455,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3323",
+    "stock_name":"CNBM",
+    "short_turnover_shares":2808000,
+    "short_turnover_hkd":15611320,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3328",
+    "stock_name":"BANKCOMM",
+    "short_turnover_shares":8571000,
+    "short_turnover_hkd":58674160,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3330",
+    "stock_name":"LINGBAO GOLD",
+    "short_turnover_shares":866000,
+    "short_turnover_hkd":18994360,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3337",
+    "stock_name":"ANTON OILFIELD",
+    "short_turnover_shares":1818000,
+    "short_turnover_hkd":2108500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3339",
+    "stock_name":"LONKING",
+    "short_turnover_shares":87000,
+    "short_turnover_hkd":285000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3347",
+    "stock_name":"TIGERMED",
+    "short_turnover_shares":338200,
+    "short_turnover_hkd":17909235,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3360",
+    "stock_name":"FE HORIZON",
+    "short_turnover_shares":586000,
+    "short_turnover_hkd":4491280,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3380",
+    "stock_name":"LOGAN GROUP",
+    "short_turnover_shares":62000,
+    "short_turnover_hkd":88590,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3393",
+    "stock_name":"WASION HOLDINGS",
+    "short_turnover_shares":350000,
+    "short_turnover_hkd":8148560,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3396",
+    "stock_name":"LEGENDHOLDING",
+    "short_turnover_shares":140800,
+    "short_turnover_hkd":1188155,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3403",
+    "stock_name":"CAM HSI ESG",
+    "short_turnover_shares":80,
+    "short_turnover_hkd":4456,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3416",
+    "stock_name":"A GX HSCEICC",
+    "short_turnover_shares":28786500,
+    "short_turnover_hkd":290445955,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3417",
+    "stock_name":"A GX HSTCC",
+    "short_turnover_shares":4808000,
+    "short_turnover_hkd":42090295,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3419",
+    "stock_name":"A GX HSICC",
+    "short_turnover_shares":489500,
+    "short_turnover_hkd":5169540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3425",
+    "stock_name":"MBC ETH",
+    "short_turnover_shares":3500,
+    "short_turnover_hkd":13775,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3439",
+    "stock_name":"HGI BTC",
+    "short_turnover_shares":1500,
+    "short_turnover_hkd":13291,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3441",
+    "stock_name":"CSOP EWSELECT",
+    "short_turnover_shares":223000,
+    "short_turnover_hkd":2566856,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3442",
+    "stock_name":"CSOP HKUSTECH",
+    "short_turnover_shares":258900,
+    "short_turnover_hkd":2251655,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3455",
+    "stock_name":"INVESCO QQQ",
+    "short_turnover_shares":190,
+    "short_turnover_hkd":903656,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3460",
+    "stock_name":"CAM SOL",
+    "short_turnover_shares":53100,
+    "short_turnover_hkd":195299,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3466",
+    "stock_name":"HS HIGH DIV",
+    "short_turnover_shares":490400,
+    "short_turnover_hkd":10280672,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3600",
+    "stock_name":"MODERN DENTAL",
+    "short_turnover_shares":43000,
+    "short_turnover_hkd":246490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3606",
+    "stock_name":"FUYAO GLASS",
+    "short_turnover_shares":418800,
+    "short_turnover_hkd":28316760,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3613",
+    "stock_name":"TONGRENTANGCM",
+    "short_turnover_shares":1000,
+    "short_turnover_hkd":8620,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3618",
+    "stock_name":"CQRC BANK",
+    "short_turnover_shares":830000,
+    "short_turnover_hkd":4933870,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3633",
+    "stock_name":"ZHONGYU ENERGY",
+    "short_turnover_shares":460000,
+    "short_turnover_hkd":1226910,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3650",
+    "stock_name":"KEEP",
+    "short_turnover_shares":30700,
+    "short_turnover_hkd":108255,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3668",
+    "stock_name":"YANCOAL AUS",
+    "short_turnover_shares":24400,
+    "short_turnover_hkd":809910,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3669",
+    "stock_name":"YONGDA AUTO",
+    "short_turnover_shares":155500,
+    "short_turnover_hkd":245895,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3681",
+    "stock_name":"SINOMAB BIO-B",
+    "short_turnover_shares":612900,
+    "short_turnover_hkd":927816,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3690",
+    "stock_name":"MEITUAN-W",
+    "short_turnover_shares":7334800,
+    "short_turnover_hkd":682364015,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3692",
+    "stock_name":"HANSOH PHARMA",
+    "short_turnover_shares":3372000,
+    "short_turnover_hkd":121647800,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3698",
+    "stock_name":"HUISHANG BANK",
+    "short_turnover_shares":152000,
+    "short_turnover_hkd":547380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3709",
+    "stock_name":"EEKA FASHION",
+    "short_turnover_shares":99000,
+    "short_turnover_hkd":701705,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3738",
+    "stock_name":"VOBILE GROUP",
+    "short_turnover_shares":36000,
+    "short_turnover_hkd":158440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3750",
+    "stock_name":"CATL",
+    "short_turnover_shares":602600,
+    "short_turnover_hkd":297053490,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3759",
+    "stock_name":"PHARMARON",
+    "short_turnover_shares":145000,
+    "short_turnover_hkd":3024854,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3788",
+    "stock_name":"CHINA HANKING",
+    "short_turnover_shares":220000,
+    "short_turnover_hkd":886010,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3800",
+    "stock_name":"GCL TECH",
+    "short_turnover_shares":232197000,
+    "short_turnover_hkd":262129990,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3808",
+    "stock_name":"SINOTRUK",
+    "short_turnover_shares":481500,
+    "short_turnover_hkd":18212270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3866",
+    "stock_name":"BQD",
+    "short_turnover_shares":47500,
+    "short_turnover_hkd":212205,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3868",
+    "stock_name":"XINYI ENERGY",
+    "short_turnover_shares":1622000,
+    "short_turnover_hkd":1999400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3877",
+    "stock_name":"CSSC SHIPPING",
+    "short_turnover_shares":8106000,
+    "short_turnover_hkd":17943240,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3888",
+    "stock_name":"KINGSOFT",
+    "short_turnover_shares":3862400,
+    "short_turnover_hkd":106181624,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3896",
+    "stock_name":"KINGSOFT CLOUD",
+    "short_turnover_shares":9212000,
+    "short_turnover_hkd":59390320,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3898",
+    "stock_name":"TIMES ELECTRIC",
+    "short_turnover_shares":172800,
+    "short_turnover_hkd":7192526,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3899",
+    "stock_name":"CIMC ENRIC",
+    "short_turnover_shares":360000,
+    "short_turnover_hkd":4198500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3900",
+    "stock_name":"GREENTOWN CHINA",
+    "short_turnover_shares":948500,
+    "short_turnover_hkd":10623465,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3908",
+    "stock_name":"CICC",
+    "short_turnover_shares":1020800,
+    "short_turnover_hkd":21903416,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3931",
+    "stock_name":"CALB",
+    "short_turnover_shares":1154900,
+    "short_turnover_hkd":28152086,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3933",
+    "stock_name":"UNITED LAB",
+    "short_turnover_shares":1124000,
+    "short_turnover_hkd":13996860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3939",
+    "stock_name":"WANGUO GOLD GP",
+    "short_turnover_shares":6962500,
+    "short_turnover_hkd":101756895,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3958",
+    "stock_name":"DFZQ",
+    "short_turnover_shares":93600,
+    "short_turnover_hkd":652360,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3968",
+    "stock_name":"CM BANK",
+    "short_turnover_shares":6667500,
+    "short_turnover_hkd":322358840,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3969",
+    "stock_name":"CHINA CRSC",
+    "short_turnover_shares":961000,
+    "short_turnover_hkd":3488970,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3978",
+    "stock_name":"BESTSTUDY EDU",
+    "short_turnover_shares":5000,
+    "short_turnover_hkd":17030,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3983",
+    "stock_name":"CHINA BLUECHEM",
+    "short_turnover_shares":120000,
+    "short_turnover_hkd":317140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3988",
+    "stock_name":"BANK OF CHINA",
+    "short_turnover_shares":72110000,
+    "short_turnover_hkd":336315910,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3990",
+    "stock_name":"MIDEA REAL EST",
+    "short_turnover_shares":238000,
+    "short_turnover_hkd":981012,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3993",
+    "stock_name":"CMOC",
+    "short_turnover_shares":13581000,
+    "short_turnover_hkd":296077380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3996",
+    "stock_name":"CH ENERGY ENG",
+    "short_turnover_shares":218000,
+    "short_turnover_hkd":250700,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"3998",
+    "stock_name":"BOSIDENG",
+    "short_turnover_shares":2800000,
+    "short_turnover_hkd":13608860,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6030",
+    "stock_name":"CITIC SEC",
+    "short_turnover_shares":1893000,
+    "short_turnover_hkd":54821430,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6049",
+    "stock_name":"POLY PPT SER",
+    "short_turnover_shares":12000,
+    "short_turnover_hkd":408584,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6055",
+    "stock_name":"CTIHK",
+    "short_turnover_shares":32000,
+    "short_turnover_hkd":1259380,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6060",
+    "stock_name":"ZA ONLINE",
+    "short_turnover_shares":977000,
+    "short_turnover_hkd":15319777,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6066",
+    "stock_name":"CSC",
+    "short_turnover_shares":311500,
+    "short_turnover_hkd":3951395,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6069",
+    "stock_name":"SY HOLDINGS",
+    "short_turnover_shares":1529000,
+    "short_turnover_hkd":16247390,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6078",
+    "stock_name":"HYGEIA HEALTH",
+    "short_turnover_shares":1098000,
+    "short_turnover_hkd":14881196,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6086",
+    "stock_name":"FANGZHOU JIANKE",
+    "short_turnover_shares":284000,
+    "short_turnover_hkd":725045,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6088",
+    "stock_name":"FIT HON TENG",
+    "short_turnover_shares":9589000,
+    "short_turnover_hkd":45022570,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6098",
+    "stock_name":"CG SERVICES",
+    "short_turnover_shares":422000,
+    "short_turnover_hkd":2724000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6099",
+    "stock_name":"CMSC",
+    "short_turnover_shares":573200,
+    "short_turnover_hkd":8337854,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6100",
+    "stock_name":"TONGDAO LIEPIN",
+    "short_turnover_shares":158400,
+    "short_turnover_hkd":591868,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6110",
+    "stock_name":"TOPSPORTS",
+    "short_turnover_shares":656000,
+    "short_turnover_hkd":1876050,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6127",
+    "stock_name":"JOINN",
+    "short_turnover_shares":43000,
+    "short_turnover_hkd":958488,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6160",
+    "stock_name":"BEONE MEDICINES",
+    "short_turnover_shares":797700,
+    "short_turnover_hkd":165745260,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6168",
+    "stock_name":"ZHOU LIU FU",
+    "short_turnover_shares":5100,
+    "short_turnover_hkd":123346,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6178",
+    "stock_name":"EB SECURITIES",
+    "short_turnover_shares":59200,
+    "short_turnover_hkd":525656,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6181",
+    "stock_name":"LAOPU GOLD",
+    "short_turnover_shares":102700,
+    "short_turnover_hkd":76296200,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6185",
+    "stock_name":"CANSINOBIO",
+    "short_turnover_shares":31400,
+    "short_turnover_hkd":1075600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6186",
+    "stock_name":"CHINA FEIHE",
+    "short_turnover_shares":3508000,
+    "short_turnover_hkd":13925590,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6196",
+    "stock_name":"BANKOFZHENGZHOU",
+    "short_turnover_shares":25000,
+    "short_turnover_hkd":28000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6198",
+    "stock_name":"QINGDAO PORT",
+    "short_turnover_shares":18000,
+    "short_turnover_hkd":137130,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6603",
+    "stock_name":"IFBH",
+    "short_turnover_shares":11600,
+    "short_turnover_hkd":180684,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6608",
+    "stock_name":"BAIRONG-W",
+    "short_turnover_shares":137500,
+    "short_turnover_hkd":1519245,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6613",
+    "stock_name":"LENS",
+    "short_turnover_shares":887600,
+    "short_turnover_hkd":23610280,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6616",
+    "stock_name":"GLOBAL NEW MAT",
+    "short_turnover_shares":235000,
+    "short_turnover_hkd":2098690,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6618",
+    "stock_name":"JD HEALTH",
+    "short_turnover_shares":1509350,
+    "short_turnover_hkd":90605500,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6655",
+    "stock_name":"HX BLDG MAT",
+    "short_turnover_shares":127900,
+    "short_turnover_hkd":2446609,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6669",
+    "stock_name":"ACOTEC-B",
+    "short_turnover_shares":5000,
+    "short_turnover_hkd":70270,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6676",
+    "stock_name":"ZG GROUP-W",
+    "short_turnover_shares":4500,
+    "short_turnover_hkd":6450,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6680",
+    "stock_name":"JLMAG",
+    "short_turnover_shares":95000,
+    "short_turnover_hkd":1941630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6681",
+    "stock_name":"BRAINAURORA-B",
+    "short_turnover_shares":82000,
+    "short_turnover_hkd":403920,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6682",
+    "stock_name":"PHANCY",
+    "short_turnover_shares":440800,
+    "short_turnover_hkd":19715592,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6683",
+    "stock_name":"STARPLUS LEGEND",
+    "short_turnover_shares":34500,
+    "short_turnover_hkd":199170,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6690",
+    "stock_name":"HAIER SMARTHOME",
+    "short_turnover_shares":4248200,
+    "short_turnover_hkd":116015460,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6693",
+    "stock_name":"CHIFENG GOLD",
+    "short_turnover_shares":330800,
+    "short_turnover_hkd":11899616,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6699",
+    "stock_name":"ANGELALIGN",
+    "short_turnover_shares":517400,
+    "short_turnover_hkd":37508310,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6806",
+    "stock_name":"SWHY",
+    "short_turnover_shares":674400,
+    "short_turnover_hkd":2138016,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6808",
+    "stock_name":"SUNART RETAIL",
+    "short_turnover_shares":1062000,
+    "short_turnover_hkd":1730265,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6818",
+    "stock_name":"CEB BANK",
+    "short_turnover_shares":1539000,
+    "short_turnover_hkd":5086720,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6821",
+    "stock_name":"ASYMCHEM",
+    "short_turnover_shares":35900,
+    "short_turnover_hkd":2966605,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6823",
+    "stock_name":"HKT-SS",
+    "short_turnover_shares":608000,
+    "short_turnover_hkd":7156450,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6826",
+    "stock_name":"HAOHAI BIOTEC",
+    "short_turnover_shares":23900,
+    "short_turnover_hkd":642316,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6831",
+    "stock_name":"GREEN TEA GROUP",
+    "short_turnover_shares":23600,
+    "short_turnover_hkd":162788,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6855",
+    "stock_name":"ASCENTAGE-B",
+    "short_turnover_shares":124500,
+    "short_turnover_hkd":5910612,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6862",
+    "stock_name":"HAIDILAO",
+    "short_turnover_shares":10040000,
+    "short_turnover_hkd":169902630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6865",
+    "stock_name":"FLAT GLASS",
+    "short_turnover_shares":262000,
+    "short_turnover_hkd":2895140,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6869",
+    "stock_name":"YOFC",
+    "short_turnover_shares":881000,
+    "short_turnover_hkd":75650025,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6881",
+    "stock_name":"CGS",
+    "short_turnover_shares":1213000,
+    "short_turnover_hkd":12663400,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6886",
+    "stock_name":"HTSC",
+    "short_turnover_shares":5678800,
+    "short_turnover_hkd":99184440,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6887",
+    "stock_name":"SUNSHINE PHARMA",
+    "short_turnover_shares":71800,
+    "short_turnover_hkd":2981660,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6936",
+    "stock_name":"SF HOLDING",
+    "short_turnover_shares":142600,
+    "short_turnover_hkd":5304000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6955",
+    "stock_name":"BOAN BIOTECH",
+    "short_turnover_shares":102800,
+    "short_turnover_hkd":807956,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6963",
+    "stock_name":"SUNSHINE INS",
+    "short_turnover_shares":668500,
+    "short_turnover_hkd":2787900,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6969",
+    "stock_name":"SMOORE INTL",
+    "short_turnover_shares":10279000,
+    "short_turnover_hkd":122889700,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6979",
+    "stock_name":"ZJLD",
+    "short_turnover_shares":560800,
+    "short_turnover_hkd":5195008,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6990",
+    "stock_name":"SKB BIO-B",
+    "short_turnover_shares":109900,
+    "short_turnover_hkd":45955120,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6993",
+    "stock_name":"BLUE MOON GROUP",
+    "short_turnover_shares":709500,
+    "short_turnover_hkd":1990505,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"6996",
+    "stock_name":"ANTENGENE-B",
+    "short_turnover_shares":371500,
+    "short_turnover_hkd":1258275,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7200",
+    "stock_name":"FL2 CSOP HSI",
+    "short_turnover_shares":13384000,
+    "short_turnover_hkd":83395510,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7226",
+    "stock_name":"XL2CSOPHSTECH",
+    "short_turnover_shares":177793800,
+    "short_turnover_hkd":831900369,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7233",
+    "stock_name":"XL2CSOPCSI300",
+    "short_turnover_shares":942500,
+    "short_turnover_hkd":4713568,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7234",
+    "stock_name":"XL2 BOS CHINEXT",
+    "short_turnover_shares":1100,
+    "short_turnover_hkd":9256,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7261",
+    "stock_name":"FL2CAMNDQ100",
+    "short_turnover_shares":7300,
+    "short_turnover_hkd":298726,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7288",
+    "stock_name":"FL2 CSOP HSCEI",
+    "short_turnover_shares":1749900,
+    "short_turnover_hkd":5905283,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7299",
+    "stock_name":"FL2CSOPGOLD",
+    "short_turnover_shares":835900,
+    "short_turnover_hkd":27469378,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7311",
+    "stock_name":"XI2CSOPCOIN",
+    "short_turnover_shares":28930,
+    "short_turnover_hkd":737018,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7347",
+    "stock_name":"XI2CSOPSMSN",
+    "short_turnover_shares":17200,
+    "short_turnover_hkd":9425,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7388",
+    "stock_name":"XI2CSOPNVDA",
+    "short_turnover_shares":1000,
+    "short_turnover_hkd":22000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7399",
+    "stock_name":"XI2CSOPMSTR",
+    "short_turnover_shares":60,
+    "short_turnover_hkd":6357,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7500",
+    "stock_name":"FI2 CSOP HSI",
+    "short_turnover_shares":11760400,
+    "short_turnover_hkd":19931444,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7522",
+    "stock_name":"FI2CAMNDQ100",
+    "short_turnover_shares":41000,
+    "short_turnover_hkd":212175,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7552",
+    "stock_name":"XI2CSOPHSTECH",
+    "short_turnover_shares":136395200,
+    "short_turnover_hkd":207020967,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7568",
+    "stock_name":"FI2CSOPNASDAQ",
+    "short_turnover_shares":962000,
+    "short_turnover_hkd":3211672,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7588",
+    "stock_name":"FI2 CSOP HSCEI",
+    "short_turnover_shares":25200,
+    "short_turnover_hkd":36567,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7709",
+    "stock_name":"XL2CSOPHYNIX",
+    "short_turnover_shares":5909600,
+    "short_turnover_hkd":152113898,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7711",
+    "stock_name":"XL2CSOPCOIN",
+    "short_turnover_shares":115290,
+    "short_turnover_hkd":3829260,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7747",
+    "stock_name":"XL2CSOPSMSN",
+    "short_turnover_shares":866000,
+    "short_turnover_hkd":49760204,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7766",
+    "stock_name":"XL2CSOPTSLA",
+    "short_turnover_shares":2600,
+    "short_turnover_hkd":343694,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7788",
+    "stock_name":"XL2CSOPNVDA",
+    "short_turnover_shares":14730,
+    "short_turnover_hkd":1946274,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"7799",
+    "stock_name":"XL2CSOPMSTR",
+    "short_turnover_shares":594560,
+    "short_turnover_hkd":3779770,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9606",
+    "stock_name":"DUALITYBIO-B",
+    "short_turnover_shares":60800,
+    "short_turnover_hkd":19512120,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9618",
+    "stock_name":"JD-SW",
+    "short_turnover_shares":2586900,
+    "short_turnover_hkd":279211540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9626",
+    "stock_name":"BILIBILI-W",
+    "short_turnover_shares":1341780,
+    "short_turnover_hkd":319168444,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9633",
+    "stock_name":"NONGFU SPRING",
+    "short_turnover_shares":3554800,
+    "short_turnover_hkd":173970304,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9636",
+    "stock_name":"JF SMARTINVEST",
+    "short_turnover_shares":730500,
+    "short_turnover_hkd":25306844,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9658",
+    "stock_name":"SUPER HI",
+    "short_turnover_shares":102000,
+    "short_turnover_hkd":1328540,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9660",
+    "stock_name":"HORIZONROBOT-W",
+    "short_turnover_shares":71371800,
+    "short_turnover_hkd":579797190,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9668",
+    "stock_name":"CBHB",
+    "short_turnover_shares":31500,
+    "short_turnover_hkd":28350,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9669",
+    "stock_name":"BEISEN HOLDING",
+    "short_turnover_shares":7000,
+    "short_turnover_hkd":39314,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9676",
+    "stock_name":"SHIYUE DAOTIAN",
+    "short_turnover_shares":14700,
+    "short_turnover_hkd":136914,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9688",
+    "stock_name":"ZAI LAB",
+    "short_turnover_shares":1026400,
+    "short_turnover_hkd":13876514,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9690",
+    "stock_name":"TUHU-W",
+    "short_turnover_shares":76500,
+    "short_turnover_hkd":1196704,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9696",
+    "stock_name":"TIANQI LITHIUM",
+    "short_turnover_shares":4652200,
+    "short_turnover_hkd":204323132,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9698",
+    "stock_name":"GDS-SW",
+    "short_turnover_shares":1911400,
+    "short_turnover_hkd":76900086,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9699",
+    "stock_name":"SF INTRA-CITY",
+    "short_turnover_shares":151000,
+    "short_turnover_hkd":2171308,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9858",
+    "stock_name":"YOURAN DAIRY",
+    "short_turnover_shares":716000,
+    "short_turnover_hkd":3475290,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9860",
+    "stock_name":"ADICON HOLDINGS",
+    "short_turnover_shares":580000,
+    "short_turnover_hkd":2944630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9863",
+    "stock_name":"LEAPMOTOR",
+    "short_turnover_shares":1541100,
+    "short_turnover_hkd":63235202,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9866",
+    "stock_name":"NIO-SW",
+    "short_turnover_shares":3212330,
+    "short_turnover_hkd":116137753,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9868",
+    "stock_name":"XPENG-W",
+    "short_turnover_shares":2383100,
+    "short_turnover_hkd":158294855,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9877",
+    "stock_name":"JENSCARE-B",
+    "short_turnover_shares":1000,
+    "short_turnover_hkd":7394,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9878",
+    "stock_name":"HUITONGDA NET",
+    "short_turnover_shares":23800,
+    "short_turnover_hkd":235654,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9880",
+    "stock_name":"UBTECH ROBOTICS",
+    "short_turnover_shares":176200,
+    "short_turnover_hkd":22512630,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9885",
+    "stock_name":"YSB",
+    "short_turnover_shares":247200,
+    "short_turnover_hkd":1330406,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9887",
+    "stock_name":"LEADS BIOLABS-B",
+    "short_turnover_shares":30400,
+    "short_turnover_hkd":1974645,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9888",
+    "stock_name":"BIDU-SW",
+    "short_turnover_shares":9065850,
+    "short_turnover_hkd":1264143885,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9890",
+    "stock_name":"TANWAN",
+    "short_turnover_shares":23800,
+    "short_turnover_hkd":425082,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9896",
+    "stock_name":"MNSO",
+    "short_turnover_shares":1305800,
+    "short_turnover_hkd":49618328,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9898",
+    "stock_name":"WB-SW",
+    "short_turnover_shares":15100,
+    "short_turnover_hkd":1203857,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9899",
+    "stock_name":"NETEASE MUSIC",
+    "short_turnover_shares":127500,
+    "short_turnover_hkd":22128970,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9900",
+    "stock_name":"ZCLOUD TECH CON",
+    "short_turnover_shares":12000,
+    "short_turnover_hkd":76480,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9901",
+    "stock_name":"NEW ORIENTAL-S",
+    "short_turnover_shares":1818700,
+    "short_turnover_hkd":89147258,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9911",
+    "stock_name":"NEWBORNTOWN",
+    "short_turnover_shares":962000,
+    "short_turnover_hkd":9758940,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9922",
+    "stock_name":"JIUMAOJIU",
+    "short_turnover_shares":517000,
+    "short_turnover_hkd":1118360,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9923",
+    "stock_name":"YEAHKA",
+    "short_turnover_shares":40800,
+    "short_turnover_hkd":303676,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9926",
+    "stock_name":"AKESO",
+    "short_turnover_shares":842000,
+    "short_turnover_hkd":84523300,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9930",
+    "stock_name":"HORIZON CD",
+    "short_turnover_shares":21000,
+    "short_turnover_hkd":21000,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9959",
+    "stock_name":"LINKLOGIS-W",
+    "short_turnover_shares":398000,
+    "short_turnover_hkd":819635,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9961",
+    "stock_name":"TRIP.COM-S",
+    "short_turnover_shares":256250,
+    "short_turnover_hkd":115987950,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9966",
+    "stock_name":"ALPHAMAB-B",
+    "short_turnover_shares":149000,
+    "short_turnover_hkd":1324870,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9969",
+    "stock_name":"INNOCARE",
+    "short_turnover_shares":533000,
+    "short_turnover_hkd":6256880,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9973",
+    "stock_name":"CHERY AUTO",
+    "short_turnover_shares":70300,
+    "short_turnover_hkd":1983582,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9979",
+    "stock_name":"GREENTOWN MGMT",
+    "short_turnover_shares":391000,
+    "short_turnover_hkd":1199330,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9985",
+    "stock_name":"WL DELICIOUS",
+    "short_turnover_shares":499800,
+    "short_turnover_hkd":6228850,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9987",
+    "stock_name":"YUM CHINA",
+    "short_turnover_shares":426950,
+    "short_turnover_hkd":182665420,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9988",
+    "stock_name":"BABA-W",
+    "short_turnover_shares":17589900,
+    "short_turnover_hkd":2767266390,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9989",
+    "stock_name":"HEPALINK",
+    "short_turnover_shares":75000,
+    "short_turnover_hkd":416470,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9992",
+    "stock_name":"POP MART",
+    "short_turnover_shares":5284000,
+    "short_turnover_hkd":1287125480,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9993",
+    "stock_name":"RADIANCE HLDGS",
+    "short_turnover_shares":897000,
+    "short_turnover_hkd":1523530,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9995",
+    "stock_name":"REMEGEN",
+    "short_turnover_shares":132000,
+    "short_turnover_hkd":10578950,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9996",
+    "stock_name":"PEIJIA-B",
+    "short_turnover_shares":44000,
+    "short_turnover_hkd":280600,
+    "trading_date":"05 FEB 2026"
+  },
+  {
+    "stock_code":"9999",
+    "stock_name":"NTES-S",
+    "short_turnover_shares":1233900,
+    "short_turnover_hkd":235328700,
+    "trading_date":"05 FEB 2026"
+  }
+]

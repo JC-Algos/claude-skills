@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.3-1",
+    "lastTouchedAt": "2026-02-06T16:32:56.209Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-06T16:32:56.204Z",
+    "lastRunVersion": "2026.2.3-1",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:manual": {
+        "provider": "anthropic",
+        "mode": "token"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-5",
+            "name": "Claude Opus 4.5",
+            "reasoning": true,
+            "input": ["text", "image"],
+            "contextWindow": 200000,
+            "maxTokens": 32000
+          },
+          {
+            "id": "claude-sonnet-4-5",
+            "name": "Claude Sonnet 4.5",
+            "reasoning": true,
+            "input": ["text", "image"],
+            "contextWindow": 200000,
+            "maxTokens": 16000
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-opus-4-5"
+      },
+      "models": {
+        "anthropic/claude-sonnet-4-5": {
+          "alias": "sonnet"
+        },
+        "anthropic/claude-opus-4-5": {
+          "alias": "opus"
+        }
+      },
+      "workspace": "/root/clawd",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "model": "anthropic/claude-opus-4-5"
+      },
+      {
+        "id": "webdev",
+        "model": "anthropic/claude-sonnet-4-5"
+      },
+      {
+        "id": "coder",
+        "model": "anthropic/claude-opus-4-5"
+      }
+    ]
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "apiKey": "BSAY357nahsmF9SChjh0TxeA0-Ik82L"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "default"
+      }
+    },
+    {
+      "agentId": "webdev",
+      "match": {
+        "channel": "telegram",
+        "accountId": "webdev"
+      }
+    },
+    {
+      "agentId": "coder",
+      "match": {
+        "channel": "telegram",
+        "accountId": "coder"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "customCommands": [
+        {
+          "command": "forex",
+          "description": "Run Forex Analyst workflow (e.g. /forex EURUSD)"
+        },
+        {
+          "command": "bb",
+          "description": "BB Squeeze Scanner (e.g. /bb HK 1h, /bb US 1d)"
+        }
+      ],
+      "dmPolicy": "open",
+      "botToken": "8225795790:AAFJRnHOwCyIttQEW-b7K1mV9JywJ8pTdxM",
+      "allowFrom": [
+        "*"
+      ],
+      "groupPolicy": "allowlist",
+      "streamMode": "partial",
+      "accounts": {
+        "webdev": {
+          "dmPolicy": "allowlist",
+          "botToken": "8555096260:AAFUg5QzXc2GcavI94CgcyldwfiK6URUphE",
+          "allowFrom": [
+            "90197440",
+            "7775867639"
+          ],
+          "groupPolicy": "disabled",
+          "streamMode": "partial"
+        },
+        "coder": {
+          "dmPolicy": "allowlist",
+          "botToken": "8581306140:AAGVt0k6XKHKdxfEFPbqcZxwKO0JD78Wwug",
+          "allowFrom": [
+            "90197440",
+            "7775867639"
+          ],
+          "groupPolicy": "disabled",
+          "streamMode": "partial"
+        },
+        "default": {
+          "dmPolicy": "open",
+          "botToken": "8225795790:AAFJRnHOwCyIttQEW-b7K1mV9JywJ8pTdxM",
+          "allowFrom": [
+            "*"
+          ],
+          "groupPolicy": "allowlist",
+          "streamMode": "partial"
+        }
+      }
+    },
+    "signal": {
+      "enabled": true,
+      "account": "+85290197440",
+      "httpUrl": "http://127.0.0.1:8080",
+      "dmPolicy": "allowlist",
+      "allowFrom": [
+        "+85290197440"
+      ],
+      "groupPolicy": "allowlist"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "allowInsecureAuth": true
+    },
+    "auth": {
+      "mode": "token",
+      "token": "280763f1388f5147d0fdfb60d09b965b3d52a960ccc2a793",
+      "password": "Jason@01030411"
+    },
+    "trustedProxies": [
+      "*"
+    ],
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "remote": {
+      "password": "Jason@01030411"
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    },
+    "entries": {
+      "goplaces": {
+        "apiKey": "HHH"
+      },
+      "nano-banana-pro": {
+        "apiKey": "AIzaSyBLIUO2FuCSW5RFOA6Hw1KeKTDtXfYoQ9Y"
+      },
+      "openai-image-gen": {
+        "apiKey": "ggg"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "signal": {
+        "enabled": true
+      }
+    }
+  }
+}

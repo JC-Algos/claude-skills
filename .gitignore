@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+.venv/
+*/venv/
+**/venv/
+projects/*/venv/
+
+# Node modules (large)
+node_modules/
+
+# Large files
+*.so
+*.dylib
+
+# Environment files with secrets
+.env
+*/.env
+**/.env
+jc-algos/.env
+projects/indicator-webhook/.env
+
+# Stripe keys (shouldn't be committed)
+jc-algos/app.py
+jc-algos/stripe_backend_FIXED.py
+skills/jc-algos/SKILL.md

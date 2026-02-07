@@ -1,0 +1,654 @@
+{
+  content: [
+    {
+      type: 'text',
+      text: 'Retrieved workflow: Forex Analyst\n' +
+        '\n' +
+        '{\n' +
+        '  "updatedAt": "2026-01-25T16:01:49.788Z",\n' +
+        '  "createdAt": "2026-01-25T16:01:39.832Z",\n' +
+        '  "id": "pl2w62mCX-7BC9zOezfgs",\n' +
+        '  "name": "Forex Analyst",\n' +
+        '  "description": null,\n' +
+        '  "active": false,\n' +
+        '  "isArchived": false,\n' +
+        '  "nodes": [\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "path": "forex-analysis",\n' +
+        '        "responseMode": "responseNode",\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "id": "88d600fa-d6ab-497e-bd43-da82a3d4d8e0",\n' +
+        '      "name": "Webhook",\n' +
+        '      "type": "n8n-nodes-base.webhook",\n' +
+        '      "typeVersion": 2,\n' +
+        '      "position": [\n' +
+        '        -960,\n' +
+        '        0\n' +
+        '      ],\n' +
+        '      "webhookId": "forex-analysis-webhook"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "assignments": {\n' +
+        '          "assignments": [\n' +
+        '            {\n' +
+        '              "id": "currency-pair-id",\n' +
+        '              "name": "currency_pair",\n' +
+        '              "value": "={{ $json.query.currency_pair }}",\n' +
+        '              "type": "string"\n' +
+        '            },\n' +
+        '            {\n' +
+        '              "id": "timeframe-id",\n' +
+        '              "name": "timeframe",\n' +
+        '              "value": "=4H",\n' +
+        '              "type": "string"\n' +
+        '            }\n' +
+        '          ]\n' +
+        '        },\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "id": "c9f39e11-b720-43be-81d1-39d3f556e218",\n' +
+        '      "name": "Set Currency Pair",\n' +
+        '      "type": "n8n-nodes-base.set",\n' +
+        '      "typeVersion": 3.3,\n' +
+        '      "position": [\n' +
+        '        -752,\n' +
+        '        0\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "url": "={{ $json.chart_url || $json.url }}",\n' +
+        '        "options": {\n' +
+        '          "response": {\n' +
+        '            "response": {\n' +
+        '              "responseFormat": "file"\n' +
+        '            }\n' +
+        '          }\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "id": "f16afad0-345d-49df-bbd3-344bd0851967",\n' +
+        '      "name": "Download Chart",\n' +
+        '      "type": "n8n-nodes-base.httpRequest",\n' +
+        '      "typeVersion": 4.2,\n' +
+        '      "position": [\n' +
+        '        -240,\n' +
+        '        96\n' +
+        '      ],\n' +
+        '      "retryOnFail": true,\n' +
+        '      "waitBetweenTries": 5000\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        `        "url": "=http://host.docker.internal:5002/forex-analysis-realtime?pair={{ $('Set Currency Pair').first().json.currency_pair }}\\n",\n` +
+        '        "options": {\n' +
+        '          "timeout": 300000\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "id": "652c223e-08cb-41f7-8ee7-ed71ab55d165",\n' +
+        '      "name": "HTTP Request (MyFXBook Sentiment)",\n' +
+        '      "type": "n8n-nodes-base.httpRequest",\n' +
+        '      "typeVersion": 4.2,\n' +
+        '      "position": [\n' +
+        '        -576,\n' +
+        '        528\n' +
+        '      ],\n' +
+        '      "retryOnFail": true,\n' +
+        '      "waitBetweenTries": 5000\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        `        "jsCode": "// ======================================================\\n// MYFXBOOK NODE: Full Original Logic\\n// ======================================================\\n\\nconst response = $input.first().json;\\nconst rawInputPair = $('Set Currency Pair').first().json.currency_pair || \\"EURUSD\\";\\nconst inputPair = rawInputPair.replace('/', '').toUpperCase();\\n\\n// --- ADAPTER: Extract from new unified endpoint ---\\nlet pairData = null;\\n\\n// New format: response.retail_sentiment directly\\nif (response.retail_sentiment && response.retail_sentiment.Symbol) {\\n  const r = response.retail_sentiment;\\n  pairData = {\\n    Symbol: r.Symbol,\\n    Short_Percentage: r.Short_Percentage,\\n    Long_Percentage: r.Long_Percentage,\\n    Total_Volume: r.Total_Volume,\\n    Short_Volume: r.Short_Volume || 0,\\n    Long_Volume: r.Long_Volume || 0,\\n    Sentiment: r.Sentiment,\\n    Status: r.Status || \\"Success\\"\\n  };\\n}\\n\\ntry {\\n  if (pairData) {\\n    const shortPct = pairData.Short_Percentage;\\n    const longPct = pairData.Long_Percentage;\\n    \\n    // --- YOUR ORIGINAL CONTRARIAN LOGIC ---\\n    let contrarianSignal = 'Neutral';\\n    if (shortPct >= 70) {\\n      contrarianSignal = 'STRONG BULLISH (Contrarian)';\\n    } else if (longPct >= 70) {\\n      contrarianSignal = 'STRONG BEARISH (Contrarian)';\\n    } else if (shortPct >= 60) {\\n      contrarianSignal = 'BULLISH (Contrarian)';\\n    } else if (longPct >= 60) {\\n      contrarianSignal = 'BEARISH (Contrarian)';\\n    } else {\\n      contrarianSignal = 'Neutral';\\n    }\\n    \\n    return [{\\n      json: {\\n        available: true,\\n        symbol: pairData.Symbol,\\n        short_percentage: shortPct,\\n        long_percentage: longPct,\\n        total_volume: pairData.Total_Volume,\\n        short_volume: pairData.Short_Volume,\\n        long_volume: pairData.Long_Volume,\\n        sentiment: pairData.Sentiment,\\n        contrarian_signal: contrarianSignal,\\n        status: pairData.Status\\n      }\\n    }];\\n  }\\n  throw new Error('No valid retail data');\\n} catch (error) {\\n  return [{\\n    json: {\\n      available: false,\\n      contrarian_signal: 'Not Available',\\n      error: error.message\\n    }\\n  }];\\n}\\n"\n` +
+        '      },\n' +
+        '      "id": "22cf64e7-78e9-4b56-a84b-4964536543c6",\n' +
+        '      "name": "Code",\n' +
+        '      "type": "n8n-nodes-base.code",\n' +
+        '      "typeVersion": 2,\n' +
+        '      "position": [\n' +
+        '        -368,\n' +
+        '        528\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "promptType": "define",\n' +
+        `        "text": "=Analyze this MyFXBook retail sentiment data using contrarian principles:\\n\\nCurrency Pair: {{ $('Set Currency Pair').first().json.currency_pair }}\\nRetail Data: {{ JSON.stringify($input.first().json) }}\\n\\n**INSTRUCTIONS:**\\n1. Extract the specific currency pair sentiment data\\n2. Analyze short vs long positioning percentages  \\n3. Evaluate trading volume significance\\n4. Apply contrarian interpretation principles\\n5. Assess institutional implications\\n\\n**CONTRARIAN ANALYSIS FRAMEWORK:**\\n- Short % >70% = Contrarian BULLISH signal (institutions may buy)\\n- Long % >70% = Contrarian BEARISH signal (institutions may sell)  \\n- High volume = Emotional retail participation (often wrong timing)\\n- Extreme positioning = Potential market turning points\\n\\n**OUTPUT REQUIREMENTS:**\\nProvide 3-4 sentence professional analysis covering:\\n1. Current retail positioning and volume\\n2. Contrarian signal strength (Weak/Moderate/Strong)\\n3. Institutional implications  \\n4. Expected market direction from contrarian perspective\\n\\nFocus on what institutional traders might do opposite to retail sentiment.",\n` +
+        '        "hasOutputParser": true,\n' +
+        '        "options": {\n' +
+        '          "systemMessage": "You are a professional forex analyst specializing in retail sentiment analysis using contrarian trading principles.\\n\\nYour task is to analyze MyFXBook Community Outlook data and provide contrarian market insights.\\n\\n**KEY CONTRARIAN PRINCIPLES:**\\n- When retail traders are heavily LONG (bullish), institutions often prepare to SELL (contrarian bearish signal)\\n- When retail traders are heavily SHORT (bearish), institutions often prepare to BUY (contrarian bullish signal)  \\n- Extreme retail positioning (>70% one direction) often indicates market turning points\\n- High retail volume suggests emotional trading, often at wrong times\\n\\n**ANALYSIS FRAMEWORK:**\\n1. **Retail Positioning Analysis**: Interpret short/long percentages\\n2. **Volume Significance**: Analyze trading volumes for market participation\\n3. **Contrarian Signal Strength**: Rate the contrarian signal (Weak/Moderate/Strong)\\n4. **Institutional Implication**: What are smart money likely doing?\\n5. **Trading Outlook**: Contrarian market direction forecast\\n\\n**PROFESSIONAL EXPERTISE:**\\n- 15+ years institutional forex trading experience\\n- Expert in retail vs institutional sentiment divergence\\n- Specializes in contrarian market timing signals\\n- Focus on actionable trading insights\\n\\n**OUTPUT FORMAT:** \\nProvide concise, professional analysis in 3-4 sentences focusing on contrarian insights that institutional traders can act upon.\\n\\n**EXAMPLE ANALYSIS STYLE:**\\n\\"Data shows [X]% retail positioning with [volume] lots, indicating [sentiment]. From contrarian perspective, this suggests [institutional implication]. Signal strength: [Weak/Moderate/Strong] [direction] bias expected.\\""\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "id": "c07067b3-530b-46b3-b776-40c7dd4d7074",\n' +
+        '      "name": "Retail Sentiment",\n' +
+        '      "type": "@n8n/n8n-nodes-langchain.agent",\n' +
+        '      "typeVersion": 1.6,\n' +
+        '      "position": [\n' +
+        '        -112,\n' +
+        '        528\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "jsCode": "// ===================================================================\\n// PREPARE FINAL REPORT - FIXED VERSION\\n// Properly extracts data from Code and Code1 nodes\\n// ===================================================================\\n\\nconst setCurrencyPairNode = $(\'Set Currency Pair\').first();\\nconst currencyPair = setCurrencyPairNode.json.currency_pair;\\nconst timeframe = setCurrencyPairNode.json.timeframe;\\n\\ntry {\\n  console.log(\\"=\\".repeat(80));\\n  console.log(\\"📧 GENERATING COMPLETE PROFESSIONAL REPORT\\");\\n  console.log(\\"=\\".repeat(80));\\n  console.log(`Currency Pair: ${currencyPair}, Timeframe: ${timeframe}`);\\n  \\n  const now = new Date();\\n  const sgTime = now.toLocaleString(\'en-US\', { \\n    timeZone: \'Asia/Singapore\',\\n    dateStyle: \'medium\',\\n    timeStyle: \'long\'\\n  });\\n  \\n  // ===================================================\\n  // 1. GET NEWS SENTIMENT FROM CODE1\\n  // ===================================================\\n  const newsNode = $(\'Code1\')?.first();\\n  let newsText = \'News analysis not available\';\\n  let newsSentiment = \'NEUTRAL\';\\n  let sentimentEmoji = \'⚪\';\\n  let newsArticles = [];\\n  \\n  if (newsNode && newsNode.json) {\\n    console.log(\'✅ News node found\');\\n    const newsData = newsNode.json;\\n    newsText = newsData.output || newsData.text || newsData.response || \'News analysis pending\';\\n    newsSentiment = newsData.sentiment_label || \'NEUTRAL\';\\n    sentimentEmoji = newsData.sentiment_emoji || \'⚪\';\\n    \\n    // Extract news articles array\\n    if (newsData.news_articles && Array.isArray(newsData.news_articles)) {\\n      newsArticles = newsData.news_articles.slice(0, 15); // Limit to 15\\n      console.log(`   ✅ Retrieved ${newsArticles.length} articles`);\\n    } else {\\n      console.log(\'   ⚠️ No news_articles array found\');\\n    }\\n  } else {\\n    console.log(\'⚠️ News node not found\');\\n  }\\n  \\n  // ===================================================\\n  // 2. GET TECHNICAL ANALYSIS\\n  // ===================================================\\n  const technicalNode = $(\'Technical Analysis AI\')?.first();\\n  let technicalText = \'Technical analysis not available\';\\n  let technicalSignal = \'Hold\';\\n  \\n  if (technicalNode && technicalNode.json) {\\n    console.log(\'✅ Technical node found\');\\n    technicalText = technicalNode.json.output || \\n                    technicalNode.json.text || \\n                    \'Technical analysis pending\';\\n    \\n    // Enhanced signal detection\\n    const techLower = technicalText.toLowerCase();\\n    \\n    if (techLower.includes(\'short position\') || \\n        techLower.includes(\'sell position\') || \\n        techLower.includes(\'bearish position\')) {\\n      technicalSignal = \'Sell\';\\n    } else if (techLower.includes(\'long position\') || \\n               techLower.includes(\'buy position\') || \\n               techLower.includes(\'bullish position\')) {\\n      technicalSignal = \'Buy\';\\n    } else if (techLower.includes(\'bearish bias\') || techLower.includes(\'recommend sell\')) {\\n      technicalSignal = \'Sell\';\\n    } else if (techLower.includes(\'bullish bias\') || techLower.includes(\'recommend buy\')) {\\n      technicalSignal = \'Buy\';\\n    }\\n    \\n    console.log(`   Technical Signal: ${technicalSignal}`);\\n  } else {\\n    console.log(\'⚠️ Technical node not found\');\\n  }\\n  \\n  // ===================================================\\n  // 3. GET CHART IMAGE URL\\n  // ===================================================\\n  const downloadChartNode = $(\'Download Chart\')?.first();\\n  let chartUrl = null;\\n  let chartAvailable = false;\\n  \\n  if (downloadChartNode && downloadChartNode.json) {\\n    chartUrl = downloadChartNode.json.url || downloadChartNode.json.chart_url;\\n    if (chartUrl) {\\n      chartAvailable = true;\\n      console.log(\'✅ Chart URL available\');\\n    }\\n  }\\n  \\n  // ===================================================\\n  // 4. GET RETAIL SENTIMENT DATA FROM CODE NODE\\n  // ===================================================\\n  const retailDataNode = $(\'Code\')?.first();\\n  let retailData = {\\n    available: false,\\n    short_percentage: 50,\\n    long_percentage: 50,\\n    total_volume: 0,\\n    short_volume: 0,\\n    long_volume: 0,\\n    sentiment: \'Neutral\',\\n    contrarian_signal: \'Not Available\'\\n  };\\n  \\n  if (retailDataNode && retailDataNode.json) {\\n    console.log(\'✅ Retail node found\');\\n    const data = retailDataNode.json;\\n    if (data.available && data.short_percentage !== undefined) {\\n      retailData = {\\n        available: true,\\n        short_percentage: data.short_percentage || 50,\\n        long_percentage: data.long_percentage || 50,\\n        total_volume: data.total_volume || 0,\\n        short_volume: data.short_volume || 0,\\n        long_volume: data.long_volume || 0,\\n        sentiment: data.sentiment || \'Neutral\',\\n        contrarian_signal: data.contrarian_signal || \'Neutral\'\\n      };\\n      console.log(`   SHORT: ${retailData.short_percentage}%, LONG: ${retailData.long_percentage}%`);\\n    } else {\\n      console.log(\'   ⚠️ Retail data not available\');\\n    }\\n  } else {\\n    console.log(\'⚠️ Retail node not found\');\\n  }\\n  \\n  // Get retail AI analysis if available\\n  const retailAINode = $(\'Retail Sentiment\')?.first();\\n  let retailAnalysisText = \'Contrarian analysis not available\';\\n  \\n  if (retailAINode && retailAINode.json) {\\n    retailAnalysisText = retailAINode.json.output || \\n                         retailAINode.json.text ||\\n                         \'Contrarian analysis pending\';\\n  }\\n  \\n  // ===================================================\\n  // 5. DETERMINE OVERALL RECOMMENDATION\\n  // ===================================================\\n  let overallRecommendation = \'Hold\';\\n  let riskLevel = \'Medium\';\\n  \\n  let bullishCount = 0;\\n  let bearishCount = 0;\\n  \\n  if (newsSentiment.includes(\'BULLISH\') || newsSentiment.includes(\'POSITIVE\')) bullishCount++;\\n  if (newsSentiment.includes(\'BEARISH\') || newsSentiment.includes(\'NEGATIVE\')) bearishCount++;\\n  \\n  if (technicalSignal === \'Buy\') bullishCount++;\\n  if (technicalSignal === \'Sell\') bearishCount++;\\n  \\n  if (retailData.contrarian_signal.includes(\'BULLISH\')) bullishCount++;\\n  if (retailData.contrarian_signal.includes(\'BEARISH\')) bearishCount++;\\n  \\n  if (bullishCount > bearishCount) {\\n    overallRecommendation = \'Buy\';\\n    riskLevel = bullishCount >= 2 ? \'Medium\' : \'High\';\\n  } else if (bearishCount > bullishCount) {\\n    overallRecommendation = \'Sell\';\\n    riskLevel = bearishCount >= 2 ? \'Medium\' : \'High\';\\n  }\\n  \\n  console.log(`📊 Overall: ${overallRecommendation} (Risk: ${riskLevel})`);\\n  console.log(`   Bullish: ${bullishCount}, Bearish: ${bearishCount}`);\\n  \\n  // ===================================================\\n  // 6. BUILD EMAIL SUBJECT & HTML\\n  // ===================================================\\n  \\n  const emailSubject = `${sentimentEmoji} Forex Analysis: ${currencyPair} (${timeframe}) - ${overallRecommendation} Signal`;\\n  \\n  const emailHTML = `<!DOCTYPE html>\\n<html>\\n<head>\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <title>Forex Analysis Report</title>\\n</head>\\n<body style=\\"margin: 0; padding: 0; font-family: \'Segoe UI\', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9;\\">\\n    <div style=\\"max-width: 900px; margin: 0 auto; background: #ffffff;\\">\\n        \\n        <!-- HEADER -->\\n        <div style=\\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 30px; text-align: center; color: white;\\">\\n            <h1 style=\\"margin: 0 0 10px 0; font-size: 32px; font-weight: 700;\\">📊 FOREX ANALYSIS REPORT</h1>\\n            <div style=\\"font-size: 18px; margin-top: 10px;\\">\\n                <strong style=\\"font-size: 26px;\\">${currencyPair}</strong> | ${timeframe} Timeframe\\n            </div>\\n            <div style=\\"font-size: 14px; opacity: 0.85; margin-top: 8px;\\">📅 ${sgTime}</div>\\n        </div>\\n        \\n        <!-- MARKET CONSENSUS OVERVIEW -->\\n        <div style=\\"background: linear-gradient(to bottom, #f8f9fa, #ffffff); padding: 30px;\\">\\n            <h2 style=\\"color: #2c3e50; margin: 0 0 20px 0; font-size: 24px; border-left: 4px solid #28a745; padding-left: 15px;\\">\\n                🎯 Market Consensus Overview\\n            </h2>\\n            \\n            <!-- Three Signal Cards -->\\n            <div style=\\"display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 25px;\\">\\n                <div style=\\"background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-top: 4px solid #28a745; text-align: center;\\">\\n                    <div style=\\"font-size: 32px; margin-bottom: 10px;\\">${sentimentEmoji}</div>\\n                    <h4 style=\\"margin: 0 0 8px 0; color: #28a745; font-size: 14px;\\">📰 NEWS</h4>\\n                    <div style=\\"font-size: 20px; font-weight: 700; color: #2c3e50; margin: 8px 0;\\">${newsSentiment}</div>\\n                </div>\\n                <div style=\\"background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-top: 4px solid #f39c12; text-align: center;\\">\\n                    <div style=\\"font-size: 32px; margin-bottom: 10px;\\">📊</div>\\n                    <h4 style=\\"margin: 0 0 8px 0; color: #f39c12; font-size: 14px;\\">📈 TECHNICAL</h4>\\n                    <div style=\\"font-size: 20px; font-weight: 700; color: #2c3e50; margin: 8px 0;\\">${technicalSignal}</div>\\n                </div>\\n                <div style=\\"background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-top: 4px solid #9b59b6; text-align: center;\\">\\n                    <div style=\\"font-size: 32px; margin-bottom: 10px;\\">🔄</div>\\n                    <h4 style=\\"margin: 0 0 8px 0; color: #9b59b6; font-size: 14px;\\">👥 CONTRARIAN</h4>\\n                    <div style=\\"font-size: 18px; font-weight: 700; color: #2c3e50; margin: 8px 0;\\">${retailData.contrarian_signal}</div>\\n                </div>\\n            </div>\\n            \\n            <!-- Overall Recommendation -->\\n            <div style=\\"background: linear-gradient(135deg, #28a745 0%, #20c997 100%); padding: 25px; border-radius: 12px; text-align: center; color: white; box-shadow: 0 6px 12px rgba(40,167,69,0.3);\\">\\n                <h3 style=\\"margin: 0 0 12px 0; font-size: 18px; opacity: 0.95;\\">💡 Overall Recommendation</h3>\\n                <div style=\\"font-size: 36px; font-weight: 700; margin: 12px 0;\\">${overallRecommendation}</div>\\n                <div style=\\"background: rgba(255,255,255,0.2); padding: 12px; border-radius: 8px; margin-top: 12px;\\">\\n                    <span style=\\"font-size: 15px; font-weight: 600;\\">Risk Level: ${riskLevel}</span>\\n                </div>\\n            </div>\\n        </div>\\n        \\n        ${retailData.available ? `\\n        <!-- RETAIL SENTIMENT SECTION -->\\n        <div style=\\"padding: 30px; background: linear-gradient(to bottom, #ffffff, #f8f9fa);\\">\\n            <h2 style=\\"color: #2c3e50; margin: 0 0 20px 0; font-size: 24px; border-left: 4px solid #9b59b6; padding-left: 15px;\\">👥 Retail Sentiment</h2>\\n            \\n            <div style=\\"background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 25px;\\">\\n                <h3 style=\\"margin: 0 0 25px 0; color: #34495e; font-size: 20px; text-align: center;\\">📊 Current Positioning</h3>\\n                \\n                <!-- SHORT Bar -->\\n                <div style=\\"margin-bottom: 30px;\\">\\n                    <div style=\\"display: flex; justify-content: space-between; margin-bottom: 10px;\\">\\n                        <span style=\\"font-weight: 700; color: #e74c3c; font-size: 18px;\\">📉 SHORT</span>\\n                        <span style=\\"font-weight: 700; color: #e74c3c; font-size: 24px;\\">${retailData.short_percentage}%</span>\\n                    </div>\\n                    <div style=\\"background: #ecf0f1; height: 40px; border-radius: 20px; overflow: hidden; position: relative;\\">\\n                        <div style=\\"background: linear-gradient(90deg, #e74c3c, #c0392b); height: 100%; width: ${retailData.short_percentage}%; border-radius: 20px;\\"></div>\\n                        <div style=\\"position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: ${retailData.short_percentage > 40 ? \'white\' : \'#333\'}; font-weight: 700;\\">${retailData.short_volume.toFixed(0)} lots</div>\\n                    </div>\\n                </div>\\n                \\n                <!-- LONG Bar -->\\n                <div style=\\"margin-bottom: 25px;\\">\\n                    <div style=\\"display: flex; justify-content: space-between; margin-bottom: 10px;\\">\\n                        <span style=\\"font-weight: 700; color: #27ae60; font-size: 18px;\\">📈 LONG</span>\\n                        <span style=\\"font-weight: 700; color: #27ae60; font-size: 24px;\\">${retailData.long_percentage}%</span>\\n                    </div>\\n                    <div style=\\"background: #ecf0f1; height: 40px; border-radius: 20px; overflow: hidden; position: relative;\\">\\n                        <div style=\\"background: linear-gradient(90deg, #27ae60, #229954); height: 100%; width: ${retailData.long_percentage}%; border-radius: 20px;\\"></div>\\n                        <div style=\\"position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: ${retailData.long_percentage > 40 ? \'white\' : \'#333\'}; font-weight: 700;\\">${retailData.long_volume.toFixed(0)} lots</div>\\n                    </div>\\n                </div>\\n                \\n                <div style=\\"text-align: center; padding: 18px; background: linear-gradient(135deg, #f8f9fa, #e9ecef); border-radius: 10px;\\">\\n                    <span style=\\"color: #6c757d; font-size: 15px; font-weight: 600;\\">Total Volume: </span>\\n                    <strong style=\\"color: #2c3e50; font-size: 22px;\\">${retailData.total_volume.toFixed(0)} lots</strong>\\n                </div>\\n            </div>\\n            \\n            <!-- Contrarian Signal -->\\n            <div style=\\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; text-align: center; color: white; margin-bottom: 25px;\\">\\n                <h3 style=\\"margin: 0 0 18px 0; font-size: 22px;\\">🔄 Contrarian Signal</h3>\\n                <div style=\\"font-size: 32px; font-weight: 700; margin: 18px 0;\\">${retailData.contrarian_signal}</div>\\n            </div>\\n            \\n            <!-- Analysis Text -->\\n            <div style=\\"background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);\\">\\n                <div style=\\"color: #495057; line-height: 1.9; font-size: 15px;\\">${retailAnalysisText.replace(/\\\\n/g, \'<br>\')}</div>\\n            </div>\\n        </div>\\n        ` : `\\n        <div style=\\"padding: 30px; background: #fff3cd; text-align: center;\\">\\n            <div style=\\"font-size: 48px; margin-bottom: 15px;\\">⚠️</div>\\n            <h2 style=\\"color: #856404; margin: 0;\\">Retail Sentiment Unavailable</h2>\\n        </div>\\n        `}\\n        \\n        <!-- NEWS SENTIMENT SECTION -->\\n        <div style=\\"padding: 30px; background: #ffffff;\\">\\n            <h2 style=\\"color: #2c3e50; margin: 0 0 20px 0; font-size: 24px; border-left: 4px solid #28a745; padding-left: 15px;\\">📰 News Sentiment</h2>\\n            \\n            <div style=\\"background: #f8f9fa; padding: 30px; border-radius: 12px; margin-bottom: 25px;\\">\\n                <div style=\\"color: #495057; line-height: 1.9; font-size: 15px;\\">${newsText.replace(/\\\\n/g, \'<br>\')}</div>\\n            </div>\\n            \\n            ${newsArticles.length > 0 ? `\\n            <div style=\\"background: white; padding: 30px; border-radius: 12px; border: 2px solid #28a745;\\">\\n                <h3 style=\\"margin: 0 0 20px 0; color: #28a745; font-size: 20px;\\">📌 Headlines (${newsArticles.length})</h3>\\n                <div>\\n                    ${newsArticles.map((article, index) => `\\n                        <div style=\\"padding: 16px 0; border-bottom: ${index === newsArticles.length - 1 ? \'none\' : \'1px solid #f0f0f0\'};\\">\\n                            <a href=\\"${article.link}\\" target=\\"_blank\\" style=\\"color: #3498db; text-decoration: none; font-weight: 600; display: block;\\">\\n                                <span style=\\"background: ${article.sentiment === \'Positive\' ? \'#d4edda\' : article.sentiment === \'Negative\' ? \'#f8d7da\' : \'#e9ecef\'}; color: ${article.sentiment === \'Positive\' ? \'#155724\' : article.sentiment === \'Negative\' ? \'#721c24\' : \'#6c757d\'}; padding: 4px 10px; border-radius: 4px; font-size: 11px; margin-right: 10px;\\">${index + 1}</span>\\n                                ${article.title}\\n                            </a>\\n                            <div style=\\"color: #95a5a6; font-size: 12px; margin-top: 6px; padding-left: 42px;\\">\\n                                ${article.pubDate ? `🕒 ${new Date(article.pubDate).toLocaleString(\'en-US\', { timeZone: \'Asia/Singapore\', dateStyle: \'medium\', timeStyle: \'short\' })}` : \'\'}\\n                            </div>\\n                        </div>\\n                    `).join(\'\')}\\n                </div>\\n            </div>\\n            ` : \'\'}\\n        </div>\\n        \\n        <!-- TECHNICAL ANALYSIS -->\\n        <div style=\\"padding: 30px; background: #f8f9fa;\\">\\n            <h2 style=\\"color: #2c3e50; margin: 0 0 20px 0; font-size: 24px; border-left: 4px solid #f39c12; padding-left: 15px;\\">📈 Technical Analysis</h2>\\n            \\n            ${chartAvailable && chartUrl ? `\\n            <div style=\\"text-align: center; margin-bottom: 30px; background: white; padding: 25px; border-radius: 12px;\\">\\n                <img src=\\"${chartUrl}\\" alt=\\"Chart\\" style=\\"max-width: 100%; height: auto; border-radius: 10px; border: 3px solid #e9ecef;\\">\\n            </div>\\n            ` : \'\'}\\n            \\n            <div style=\\"background: white; padding: 30px; border-radius: 12px;\\">\\n                <div style=\\"color: #495057; line-height: 1.9; font-size: 15px;\\">${technicalText.replace(/\\\\n/g, \'<br>\')}</div>\\n            </div>\\n        </div>\\n        \\n        <!-- DISCLAIMER -->\\n        <div style=\\"background: #fff3e0; padding: 25px; border-top: 4px solid #ff9800;\\">\\n            <div style=\\"text-align: center;\\">\\n                <h3 style=\\"margin: 0 0 15px 0; color: #e65100;\\">⚠️ AI DISCLAIMER</h3>\\n                <div style=\\"background: white; padding: 20px; border-radius: 10px; border: 3px solid #ff9800;\\">\\n                    <p style=\\"margin: 0 0 12px 0; color: #d84315; font-weight: 600;\\">🤖 AI-generated for educational purposes only</p>\\n                    <p style=\\"margin: 0 0 12px 0; color: #d84315; font-weight: 600;\\">📋 NOT investment advice</p>\\n                    <p style=\\"margin: 0; color: #d84315; font-weight: 600;\\">👨‍💼 Consult qualified financial advisor</p>\\n                </div>\\n            </div>\\n        </div>\\n        \\n        <!-- FOOTER -->\\n        <div style=\\"background: #2c3e50; color: white; padding: 35px; text-align: center;\\">\\n            <h3 style=\\"margin: 0 0 18px 0; color: #ecf0f1;\\">📊 Multi-Factor Analysis</h3>\\n            <div style=\\"background: rgba(231, 76, 60, 0.15); padding: 22px; border-radius: 10px; margin: 25px 0; border: 2px solid rgba(231, 76, 60, 0.4);\\">\\n                <h4 style=\\"margin: 0 0 12px 0; color: #e74c3c;\\">⚠️ RISK DISCLAIMER</h4>\\n                <p style=\\"margin: 0; font-size: 13px; color: #ecf0f1;\\">Forex trading involves substantial risk. Always conduct thorough research and consult advisors.</p>\\n            </div>\\n            <div style=\\"font-size: 12px; color: #95a5a6; margin-top: 25px;\\">\\n                <div>Generated: ${now.toISOString()}</div>\\n            </div>\\n        </div>\\n    </div>\\n</body>\\n</html>`;\\n  \\n  // Build plain text version\\n  const emailBody = `\\n${\'=\'.repeat(80)}\\n📊 FOREX ANALYSIS REPORT\\n${\'=\'.repeat(80)}\\n\\n📌 ${currencyPair} | ${timeframe}\\n📅 ${sgTime}\\n\\n${\'=\'.repeat(80)}\\n🎯 MARKET CONSENSUS\\n${\'=\'.repeat(80)}\\n\\nNews: ${newsSentiment}\\nTechnical: ${technicalSignal}\\nContrarian: ${retailData.contrarian_signal}\\n\\n💡 Overall: ${overallRecommendation} (Risk: ${riskLevel})\\n\\n${\'=\'.repeat(80)}\\n👥 RETAIL SENTIMENT\\n${\'=\'.repeat(80)}\\n\\n${retailData.available ? `\\nSHORT: ${retailData.short_percentage}% (${retailData.short_volume.toFixed(0)} lots)\\nLONG: ${retailData.long_percentage}% (${retailData.long_volume.toFixed(0)} lots)\\nTotal: ${retailData.total_volume.toFixed(0)} lots\\n\\nContrarian Signal: ${retailData.contrarian_signal}\\n\\n${retailAnalysisText}\\n` : \'Unavailable\'}\\n\\n${\'=\'.repeat(80)}\\n📰 NEWS SENTIMENT\\n${\'=\'.repeat(80)}\\n\\n${newsText}\\n\\n${newsArticles.length > 0 ? \'\\\\n📌 Headlines:\\\\n\' + newsArticles.map((a, i) => `${i + 1}. ${a.title}\\\\n   ${a.link}`).join(\'\\\\n\\\\n\') : \'\'}\\n\\n${\'=\'.repeat(80)}\\n📈 TECHNICAL ANALYSIS\\n${\'=\'.repeat(80)}\\n\\n${technicalText}\\n\\n${\'=\'.repeat(80)}\\n⚠️ DISCLAIMER\\n${\'=\'.repeat(80)}\\n\\n🤖 AI-generated for educational purposes only\\n📋 NOT investment advice\\n👨‍💼 Consult qualified financial advisor\\n\\n${\'=\'.repeat(80)}\\n  `;\\n  \\n  console.log(\\"✅ EMAIL REPORT COMPLETE\\");\\n  console.log(`   News Articles: ${newsArticles.length}`);\\n  console.log(`   Retail: ${retailData.available ? \'Available\' : \'Unavailable\'}`);\\n  console.log(`   Chart: ${chartAvailable ? \'Available\' : \'Unavailable\'}`);\\n  console.log(\\"=\\".repeat(80));\\n  \\n  return [{\\n    json: {\\n      email_subject: emailSubject,\\n      email_body: emailBody,\\n      email_html: emailHTML,\\n      currency_pair: currencyPair,\\n      timeframe: timeframe,\\n      overall_recommendation: overallRecommendation,\\n      risk_level: riskLevel,\\n      news_sentiment: newsSentiment,\\n      technical_signal: technicalSignal,\\n      contrarian_signal: retailData.contrarian_signal,\\n      chart_available: chartAvailable,\\n      news_articles_count: newsArticles.length,\\n      retail_available: retailData.available,\\n      report_generated: true\\n    }\\n  }];\\n  \\n} catch (error) {\\n  console.error(\'❌ ERROR:\', error.message);\\n  console.error(\'Stack:\', error.stack);\\n  \\n  return [{\\n    json: {\\n      error: true,\\n      error_message: error.message,\\n      email_subject: `ERROR: ${currencyPair}`,\\n      email_body: `Error: ${error.message}`,\\n      email_html: `<div style=\\"padding: 30px; background: #fee; text-align: center;\\"><h2 style=\\"color: #c00;\\">⚠️ Error</h2><p>${error.message}</p></div>`\\n    }\\n  }];\\n}"\n' +
+        '      },\n' +
+        '      "id": "eb08815d-734d-47e9-b090-0170647aebd3",\n' +
+        '      "name": "Prepare Final Report",\n' +
+        '      "type": "n8n-nodes-base.code",\n' +
+        '      "typeVersion": 2,\n' +
+        '      "position": [\n' +
+        '        608,\n' +
+        '        112\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "fromEmail": "jasonckb0411@gmail.com",\n' +
+        '        "toEmail": "jasonckb0411@gmail.com",\n' +
+        '        "subject": "=={{ $json.email_subject }}",\n' +
+        '        "html": "={{ $json.email_html }}\\n",\n' +
+        '        "options": {\n' +
+        '          "bccEmail": "jasonckb@yahoo.com.hk\\n,\\nfuse20032001@yahoo.com.hk\\n,\\nkeikeipig@gmail.com\\n,\\nken_lam@live.hk\\n,\\nkevinkflee1981@gmail.com\\n,\\nwinniecml923@gmail.com\\n,\\nmasiukit@gmail.com\\n,\\nmichaelk.wealth@gmail.com\\n,\\nkeith_leung152@hotmail.com\\n,\\nkohowai.vincent@gmail.com\\n,\\ngary_kinming@yahoo.com.hk\\n,\\nraychu1010@yahoo.com.hk\\n,\\nsamhotshotter@gmail.com"\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "id": "8eeed288-362f-45a0-917e-a2b110b9bb93",\n' +
+        '      "name": "Send Email Report",\n' +
+        '      "type": "n8n-nodes-base.emailSend",\n' +
+        '      "typeVersion": 2.1,\n' +
+        '      "position": [\n' +
+        '        800,\n' +
+        '        112\n' +
+        '      ],\n' +
+        '      "webhookId": "8f4ee4a6-59d0-4408-8b62-6d6d1ff77145"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "model": "google/gemini-2.5-flash",\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "id": "b2a549a8-7d2a-45bf-9a5c-bd87aa1bcbcd",\n' +
+        '      "name": "OpenRouter Chat Model",\n' +
+        '      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",\n' +
+        '      "typeVersion": 1,\n' +
+        '      "position": [\n' +
+        '        48,\n' +
+        '        288\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "id": "1e95f7fd-3198-49dd-86db-b77f2e78652c",\n' +
+        '      "name": "DeepSeek Chat Model",\n' +
+        '      "type": "@n8n/n8n-nodes-langchain.lmChatDeepSeek",\n' +
+        '      "typeVersion": 1,\n' +
+        '      "position": [\n' +
+        '        -256,\n' +
+        '        704\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "type": "n8n-nodes-base.respondToWebhook",\n' +
+        '      "typeVersion": 1.4,\n' +
+        '      "position": [\n' +
+        '        976,\n' +
+        '        112\n' +
+        '      ],\n' +
+        '      "id": "35def4b3-fc40-4d23-847d-4854016befe5",\n' +
+        '      "name": "Respond to Webhook"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "numberInputs": 3\n' +
+        '      },\n' +
+        '      "type": "n8n-nodes-base.merge",\n' +
+        '      "typeVersion": 3.2,\n' +
+        '      "position": [\n' +
+        '        480,\n' +
+        '        112\n' +
+        '      ],\n' +
+        '      "id": "1896c0e0-5cc5-4190-9de8-b748d67c820b",\n' +
+        '      "name": "Merge1"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "assignments": {\n' +
+        '          "assignments": [\n' +
+        '            {\n' +
+        '              "id": "chart-pair-id",\n' +
+        '              "name": "currency_pair",\n' +
+        `              "value": "={{ $('Set Currency Pair').first().json.currency_pair }}",\n` +
+        '              "type": "string"\n' +
+        '            },\n' +
+        '            {\n' +
+        '              "id": "chart-timeframe-id",\n' +
+        '              "name": "timeframe",\n' +
+        `              "value": "={{ $('Set Currency Pair').first().json.timeframe }}",\n` +
+        '              "type": "string"\n' +
+        '            },\n' +
+        '            {\n' +
+        '              "id": "chart-style-id",\n' +
+        '              "name": "chart_style",\n' +
+        '              "value": "=candlestick",\n' +
+        '              "type": "string"\n' +
+        '            },\n' +
+        '            {\n' +
+        '              "id": "indicators-id",\n' +
+        '              "name": "indicators",\n' +
+        '              "value": "RSI,MACD,EMA21",\n' +
+        '              "type": "string"\n' +
+        '            }\n' +
+        '          ]\n' +
+        '        },\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "id": "567cdb28-fbdc-494f-836c-05e1da151f91",\n' +
+        '      "name": "Set Chart Values",\n' +
+        '      "type": "n8n-nodes-base.set",\n' +
+        '      "typeVersion": 3.3,\n' +
+        '      "position": [\n' +
+        '        -560,\n' +
+        '        96\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "method": "POST",\n' +
+        '        "url": "=https://api.chart-img.com/v2/tradingview/advanced-chart/storage",\n' +
+        '        "sendHeaders": true,\n' +
+        '        "headerParameters": {\n' +
+        '          "parameters": [\n' +
+        '            {\n' +
+        '              "name": "x-api-key",\n' +
+        '              "value": "hEDQUZj9td1L3ReGdldo84FJM51tdGtkI163T2nj"\n' +
+        '            },\n' +
+        '            {\n' +
+        '              "name": "Content-Type",\n' +
+        '              "value": "application/json"\n' +
+        '            }\n' +
+        '          ]\n' +
+        '        },\n' +
+        '        "sendBody": true,\n' +
+        '        "specifyBody": "json",\n' +
+        '        "jsonBody": "={\\n  \\"style\\": \\"candle\\",\\n  \\"theme\\": \\"light\\",\\n  \\"interval\\": \\"4h\\",\\n  \\"symbol\\": \\"FX:{{ $json.currency_pair }}\\",\\n  \\"studies\\": [    \\n    {\\n      \\"name\\": \\"Moving Average Exponential\\",\\n      \\"input\\": {\\n        \\"length\\": 21,\\n        \\"source\\": \\"close\\",\\n        \\"offset\\": 0,\\n        \\"smoothingLine\\": \\"SMA\\",\\n        \\"smoothingLength\\": 21\\n      }\\n    },\\n    {\\n      \\"name\\": \\"Relative Strength Index\\"\\n    },\\n    {\\n      \\"name\\": \\"MACD\\"\\n    }\\n  ],\\n  \\"width\\": 800,\\n  \\"height\\": 600,\\n  \\"timezone\\": \\"Asia/Hong_Kong\\"\\n}",\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "id": "ea8e9442-40f4-4a9d-b6b3-6185618ca981",\n' +
+        '      "name": "Get Chart URL1",\n' +
+        '      "type": "n8n-nodes-base.httpRequest",\n' +
+        '      "typeVersion": 4.2,\n' +
+        '      "position": [\n' +
+        '        -400,\n' +
+        '        96\n' +
+        '      ],\n' +
+        '      "retryOnFail": true\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "url": "=http://host.docker.internal:5002/forex-analysis-realtime?pair={{ $json.currency_pair }}\\n",\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "type": "n8n-nodes-base.httpRequest",\n' +
+        '      "typeVersion": 4.2,\n' +
+        '      "position": [\n' +
+        '        -240,\n' +
+        '        -128\n' +
+        '      ],\n' +
+        '      "id": "73f84529-e605-43d5-942c-6b9a05d0122a",\n' +
+        '      "name": "HTTP Request"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "jsCode": "// =====================================================================\\n// NEWS SENTIMENT PROCESSOR - Full Original Logic\\n// =====================================================================\\n\\ntry {\\n  console.log(\'=== NEWS SENTIMENT DEBUG ===\');\\n\\n  const currencyPair = $(\'Set Currency Pair\').first().json.currency_pair || \'EURUSD\';\\n  const httpResponse = $input.first().json;\\n\\n  console.log(\'Currency Pair:\', currencyPair);\\n  console.log(\'Has news_sentiment:\', !!httpResponse.news_sentiment);\\n\\n  // Extract news sentiment from unified real-time endpoint\\n  const newsData = httpResponse.news_sentiment;\\n\\n  if (!newsData || !newsData.sentiment_classification) {\\n    console.error(\'No news sentiment data available\');\\n    return [{\\n      json: {\\n        output: `**Forex News Sentiment Analysis for ${currencyPair}**\\\\n\\\\n⚪ Market Sentiment: **NEUTRAL** (Data unavailable)`,\\n        sentiment_label: \'NEUTRAL\',\\n        sentiment_emoji: \'⚪\',\\n        positive_percent: 50.0,\\n        negative_percent: 50.0,\\n        total_articles: 0,\\n        currency_pair: currencyPair,\\n        news_articles: [],\\n        error: true\\n      }\\n    }];\\n  }\\n\\n  const sentiment = newsData.sentiment_classification;\\n  const percentages = newsData.sentiment_percentages;\\n  const counts = newsData.sentiment_counts;\\n\\n  // Extract news articles\\n  const newsArticles = (newsData.articles || []).map(article => ({\\n    title: article.title || \'Untitled\',\\n    link: article.link || \'#\',\\n    pubDate: article.published || \'\',\\n    sentiment: article.sentiment || \'Neutral\',\\n    confidence: article.confidence || 0\\n  }));\\n\\n  console.log(`Extracted ${newsArticles.length} news articles`);\\n\\n  // Get emoji\\n  const getEmoji = (label) => {\\n    if (label.includes(\'STRONG BULLISH\')) return \'🟢🟢\';\\n    if (label.includes(\'BULLISH\')) return \'🟢\';\\n    if (label.includes(\'MILD BULLISH\')) return \'🟡\';\\n    if (label.includes(\'NEUTRAL\')) return \'⚪\';\\n    if (label.includes(\'MILD BEARISH\')) return \'🟠\';\\n    if (label.includes(\'BEARISH\')) return \'🔴\';\\n    if (label.includes(\'STRONG BEARISH\')) return \'🔴🔴\';\\n    return \'⚪\';\\n  };\\n\\n  const emoji = getEmoji(sentiment.label);\\n\\n  // Market interpretation\\n  let marketInterpretation = \'\';\\n  if (sentiment.label.includes(\'BULLISH\')) {\\n    marketInterpretation = \'This suggests favorable market conditions with predominantly positive news flow. Market participants are expressing optimism about this currency pair.\';\\n  } else if (sentiment.label.includes(\'BEARISH\')) {\\n    marketInterpretation = \'This indicates challenging market conditions with concerning news developments. Market sentiment reflects caution or pessimism.\';\\n  } else {\\n    marketInterpretation = \'The market appears to be in a balanced state with mixed signals. News coverage shows no clear directional bias.\';\\n  }\\n\\n  // Create formatted analysis text\\n  const analysisText = `**Forex News Sentiment Analysis for ${currencyPair}**\\n\\n${emoji} **Market Sentiment: ${sentiment.label}**\\n\\n${sentiment.description}\\n\\n**Sentiment Breakdown:**\\n- Positive News: ${counts.positive} articles (${percentages.positive.toFixed(1)}%)\\n- Negative News: ${counts.negative} articles (${percentages.negative.toFixed(1)}%)\\n- Neutral News: ${counts.neutral} articles\\n\\n**Analysis Summary:**\\nTotal Articles Analyzed: ${newsData.total_articles}\\nDirectional Articles: ${counts.directional_total}\\n\\n**Market Interpretation:**\\n${marketInterpretation}\\n\\n${percentages.positive > 60 ? \'**Trading Consideration:** The strong positive sentiment suggests potential buying opportunities, though traders should confirm with technical analysis.\' : \'\'}${percentages.negative > 60 ? \'**Trading Consideration:** The negative sentiment suggests caution, with potential selling pressure. Confirm with technical levels before taking positions.\' : \'\'}${Math.abs(percentages.positive - percentages.negative) < 10 ? \'**Trading Consideration:** The balanced sentiment suggests a range-bound market. Look for technical breakouts before establishing positions.\' : \'\'}\\n\\n**Overall Outlook:** ${sentiment.label}\\n\\n*This analysis is based on automated sentiment analysis of recent forex news articles from multiple authoritative sources, processed using FinBERT financial sentiment model.*\\n\\n---\\n*Data Source: Python Forex Sentiment Analysis System*\\n*Analysis Timestamp: ${httpResponse.timestamp || new Date().toISOString()}*`;\\n\\n  console.log(`Successfully processed sentiment for ${currencyPair}: ${sentiment.label}`);\\n\\n  return [{\\n    json: {\\n      output: analysisText,\\n      text: analysisText,\\n      sentiment_label: sentiment.label,\\n      sentiment_description: sentiment.description,\\n      sentiment_emoji: emoji,\\n      positive_percent: percentages.positive,\\n      negative_percent: percentages.negative,\\n      positive_count: counts.positive,\\n      negative_count: counts.negative,\\n      neutral_count: counts.neutral,\\n      total_articles: newsData.total_articles,\\n      directional_total: counts.directional_total,\\n      currency_pair: currencyPair,\\n      pair_name: httpResponse.pair_name || currencyPair,\\n      timestamp: httpResponse.timestamp,\\n      news_articles: newsArticles,\\n      data_source: \'Python Sentiment Analysis via Flask API\'\\n    }\\n  }];\\n\\n} catch (error) {\\n  console.error(\'Error processing news sentiment:\', error.message);\\n  const currencyPair = $(\'Set Currency Pair\')?.first()?.json?.currency_pair || \'UNKNOWN\';\\n  return [{\\n    json: {\\n      output: `**Forex News Sentiment Analysis Error**\\\\n\\\\n⚪ **Market Sentiment: NEUTRAL** (Error occurred)`,\\n      sentiment_label: \'NEUTRAL\',\\n      sentiment_emoji: \'⚪\',\\n      positive_percent: 50.0,\\n      negative_percent: 50.0,\\n      total_articles: 0,\\n      news_articles: [],\\n      error: true,\\n      error_message: error.message,\\n      currency_pair: currencyPair\\n    }\\n  }];\\n}\\n"\n' +
+        '      },\n' +
+        '      "type": "n8n-nodes-base.code",\n' +
+        '      "typeVersion": 2,\n' +
+        '      "position": [\n' +
+        '        160,\n' +
+        '        -128\n' +
+        '      ],\n' +
+        '      "id": "4a665588-d5c3-400b-8672-04780bf14224",\n' +
+        '      "name": "Code1"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "promptType": "define",\n' +
+        '        "text": "=# Professional Role\\n\\nYou are a forex technical analyst, specializing in the interpretive analysis of currency pair charts. Your primary responsibility is to scrutinize provided financial charts and deliver comprehensive assessments of their technical dimensions. This includes examining candlestick formations, Moving Average Convergence Divergence (MACD) metrics, Exponential Moving Average (EMA200), Relative Strength Index (RSI), and Supertrend indicators. Your analysis should be a thorough dissection of the chart, pinpointing critical areas and offering practical insights.\\n\\nWhen evaluating a forex chart, ensure the inclusion of the following:\\n\\n1. **Candlestick Pattern Interpretation**:\\n   - Recognize and articulate the significance of any notable candlestick formations (e.g., bullish engulfing, doji, hammer).\\n   - Provide commentary on the prevailing market direction (upward, downward, or lateral).\\n   - Identify potential zones for price surges or retracements.\\n\\n2. **Relative Strength Index (RSI) Examination**:\\n   - Extract the numerical RSI value from the chart.\\n   - Describe the current RSI value and its market positioning (e.g., overbought, oversold, neutral) based on the extracted value.\\n   - Explain how the extracted RSI value and its trend either support or oppose the ongoing price trend.\\n   - Identify any divergences between RSI values and price movement that can be discerned from the chart.\\n\\n3. **MACD Analysis**:\\n   - Extract the MACD line, signal line, and histogram values from the chart.\\n   - MACD line value is alwayus lebelled blue color in the price axis; signal line value is always labelled oragne color in the price axis; histogram value is green when it is positive and red when it is in negative value. YOu should make sure you extract them out correctly from the chart\\n   - Detail the present values and analyze crossovers or divergences observed between the MACD and signal lines based on the extracted numerical data.\\n   - Analyze histogram momentum and its visual representation.\\n\\n4. **EMA21 Trend Analysis**:\\n   - Extract the current EMA21 value and price relationship.\\n   - Determine if price is above or below EMA21 for trend direction.\\n   - Assess EMA21 slope and its significance for medium-term trend.\\n\\n\\n\\nProvide specific entry levels, stop loss, take profit targets, and risk/reward ratios based on the technical confluence of these indicators.",\n' +
+        '        "options": {\n' +
+        '          "systemMessage": "=You are a professional forex technical analyst with 15+ years of experience in currency markets. You specialize in chart pattern recognition, technical indicator analysis, and providing actionable trading signals for institutional and retail forex traders.\\n\\n**EXPERTISE AREAS:**\\n- Price action analysis and chart pattern recognition\\n- Technical indicator interpretation (RSI, MACD, Moving Average)\\n- Support and resistance identification\\n- Multi-timeframe analysis and confluence\\n- Risk management and position sizing\\n- Market structure analysis\\n- Fibonacci analysis and pivot points\\n\\n**ANALYSIS APPROACH:**\\n- Always consider the bigger picture trend\\n- Look for confluence between multiple indicators\\n- Identify high-probability trade setups\\n- Provide clear entry, stop loss, and take profit levels\\n- Assess risk/reward ratios for trade opportunities\\n- Consider market sentiment and news impact\\n\\n**COMMUNICATION STYLE:**\\n- Professional and authoritative\\n- Specific and actionable recommendations\\n- Clear reasoning for analysis conclusions\\n- Quantifiable targets and levels where possible\\n- Balanced view of both bullish and bearish scenarios\\n\\nYour goal is to provide institutional-quality technical analysis that traders can immediately act upon with proper risk management."\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "id": "d00e28eb-c1aa-44cc-8b7a-54ccbc5e4b35",\n' +
+        '      "name": "Technical Analysis AI",\n' +
+        '      "type": "@n8n/n8n-nodes-langchain.agent",\n' +
+        '      "position": [\n' +
+        '        80,\n' +
+        '        96\n' +
+        '      ],\n' +
+        '      "typeVersion": 1.9\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "url": "={{ $json.url }}",\n' +
+        '        "options": {\n' +
+        '          "response": {\n' +
+        '            "response": {\n' +
+        '              "responseFormat": "file",\n' +
+        '              "outputPropertyName": "chart_data"\n' +
+        '            }\n' +
+        '          }\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "type": "n8n-nodes-base.httpRequest",\n' +
+        '      "typeVersion": 4.2,\n' +
+        '      "position": [\n' +
+        '        -80,\n' +
+        '        96\n' +
+        '      ],\n' +
+        '      "id": "f7696956-bbdc-4543-b5f4-f30fba6a9253",\n' +
+        '      "name": "Get Chart Image"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "type": "n8n-nodes-base.set",\n' +
+        '      "typeVersion": 3.4,\n' +
+        '      "position": [\n' +
+        '        -304,\n' +
+        '        240\n' +
+        '      ],\n' +
+        '      "id": "b94c03c0-3d8a-4a52-8dad-55798690cb62",\n' +
+        '      "name": "Edit Fields"\n' +
+        '    },\n' +
+        '    {\n' +
+        '      "parameters": {\n' +
+        '        "model": "minimax/minimax-m2.1",\n' +
+        '        "options": {}\n' +
+        '      },\n' +
+        '      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",\n' +
+        '      "typeVersion": 1,\n' +
+        '      "position": [\n' +
+        '        -160,\n' +
+        '        832\n' +
+        '      ],\n' +
+        '      "id": "2c56102e-6e52-4929-af07-60edcb8a8997",\n' +
+        '      "name": "OpenRouter Chat Model1"\n' +
+        '    }\n' +
+        '  ],\n' +
+        '  "connections": {\n' +
+        '    "Webhook": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Set Currency Pair",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Set Currency Pair": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "HTTP Request (MyFXBook Sentiment)",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          },\n' +
+        '          {\n' +
+        '            "node": "Set Chart Values",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          },\n' +
+        '          {\n' +
+        '            "node": "HTTP Request",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          },\n' +
+        '          {\n' +
+        '            "node": "Edit Fields",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Download Chart": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Get Chart Image",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "HTTP Request (MyFXBook Sentiment)": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Code",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Code": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Retail Sentiment",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Retail Sentiment": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Merge1",\n' +
+        '            "type": "main",\n' +
+        '            "index": 2\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Prepare Final Report": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Send Email Report",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Send Email Report": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Respond to Webhook",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "OpenRouter Chat Model": {\n' +
+        '      "ai_languageModel": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Technical Analysis AI",\n' +
+        '            "type": "ai_languageModel",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Merge1": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Prepare Final Report",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Set Chart Values": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Get Chart URL1",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Get Chart URL1": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Download Chart",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "HTTP Request": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Code1",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Code1": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Merge1",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Technical Analysis AI": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Merge1",\n' +
+        '            "type": "main",\n' +
+        '            "index": 1\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "Get Chart Image": {\n' +
+        '      "main": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Technical Analysis AI",\n' +
+        '            "type": "main",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    },\n' +
+        '    "OpenRouter Chat Model1": {\n' +
+        '      "ai_languageModel": [\n' +
+        '        [\n' +
+        '          {\n' +
+        '            "node": "Retail Sentiment",\n' +
+        '            "type": "ai_languageModel",\n' +
+        '            "index": 0\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      ]\n' +
+        '    }\n' +
+        '  },\n' +
+        '  "settings": {\n' +
+        '    "executionOrder": "v1",\n' +
+        '    "availableInMCP": false\n' +
+        '  },\n' +
+        '  "staticData": null,\n' +
+        '  "meta": null,\n' +
+        '  "pinData": {},\n' +
+        '  "versionId": "bbc6cb5d-0a83-47f4-ae0f-fd06817b3e56",\n' +
+        '  "activeVersionId": null,\n' +
+        '  "versionCounter": 2,\n' +
+        '  "triggerCount": 0,\n' +
+        '  "shared": [\n' +
+        '    {\n' +
+        '      "updatedAt": "2026-01-25T16:01:39.832Z",\n' +
+        '      "createdAt": "2026-01-25T16:01:39.832Z",\n' +
+        '      "role": "workflow:owner",\n' +
+        '      "workflowId": "pl2w62mCX-7BC9zOezfgs",\n' +
+        '      "projectId": "THAi7yhNBlayAlaF",\n' +
+        '      "project": {\n' +
+        '        "updatedAt": "2026-01-25T07:02:20.888Z",\n' +
+        '        "createdAt": "2026-01-25T06:57:47.212Z",\n' +
+        '        "id": "THAi7yhNBlayAlaF",\n' +
+        '        "name": "Jason Chan <jasonckb0411@gmail.com>",\n' +
+        '        "type": "personal",\n' +
+        '        "icon": null,\n' +
+        '        "description": null,\n' +
+        '        "creatorId": "4ec2a7b6-768c-4976-a81e-65b37c6dc622",\n' +
+        '        "projectRelations": [\n' +
+        '          {\n' +
+        '            "updatedAt": "2026-01-25T06:57:47.212Z",\n' +
+        '            "createdAt": "2026-01-25T06:57:47.212Z",\n' +
+        '            "userId": "4ec2a7b6-768c-4976-a81e-65b37c6dc622",\n' +
+        '            "projectId": "THAi7yhNBlayAlaF",\n' +
+        '            "user": {\n' +
+        '              "updatedAt": "2026-01-25T16:01:41.520Z",\n' +
+        '              "createdAt": "2026-01-25T06:57:46.591Z",\n' +
+        '              "id": "4ec2a7b6-768c-4976-a81e-65b37c6dc622",\n' +
+        '              "email": "jasonckb0411@gmail.com",\n' +
+        '              "firstName": "Jason",\n' +
+        '              "lastName": "Chan",\n' +
+        '              "personalizationAnswers": {\n' +
+        '                "version": "v4",\n' +
+        '                "personalization_survey_submitted_at": "2026-01-25T07:02:46.340Z",\n' +
+        '                "personalization_survey_n8n_version": "2.4.6",\n' +
+        '                "companyType": "personal",\n' +
+        '                "reportedSource": "google"\n' +
+        '              },\n' +
+        '              "settings": {\n' +
+        '                "userActivated": false,\n' +
+        '                "easyAIWorkflowOnboarded": true\n' +
+        '              },\n' +
+        '              "disabled": false,\n' +
+        '              "mfaEnabled": false,\n' +
+        '              "lastActiveAt": "2026-01-25",\n' +
+        '              "isPending": false\n' +
+        '            }\n' +
+        '          }\n' +
+        '        ]\n' +
+        '      }\n' +
+        '    }\n' +
+        '  ],\n' +
+        '  "tags": [],\n' +
+        '  "activeVersion": null\n' +
+        '}'
+    }
+  ]
+}

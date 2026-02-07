@@ -1,0 +1,16 @@
+ * Serving Flask app 'rss_server'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1201
+ * Running on http://72.62.251.37:1201
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+/root/clawd/rss_server.py:356: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return {'status': 'ok', 'timestamp': datetime.utcnow().isoformat()}
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2026 14:17:12] "GET /health HTTP/1.1" 200 -
+/root/clawd/rss_server.py:103: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'pubDate': datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')
+/root/clawd/rss_server.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ET.SubElement(channel, 'lastBuildDate').text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')
+INFO:__main__:HKEJ Stock: Generated 26 items
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2026 14:17:13] "GET /hkej/stock HTTP/1.1" 200 -

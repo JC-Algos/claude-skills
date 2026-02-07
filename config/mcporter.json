@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "n8n": {
+      "command": "n8n-mcp-server",
+      "env": {
+        "N8N_API_URL": "http://localhost:5678/api/v1",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ZWMyYTdiNi03NjhjLTQ5NzYtYTgxZS02NWIzN2M2ZGM2MjIiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzY5MzQ5OTYxfQ.2IkZEw_cVms-U_e3d4eQugYXLsRw0XW_oc-sGBYPCyY"
+      }
+    },
+    "tradingview": {
+      "command": "/root/.local/bin/uv",
+      "args": [
+        "tool",
+        "run",
+        "--from",
+        "git+https://github.com/atilaahmettaner/tradingview-mcp.git",
+        "tradingview-mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+HK Market Headlines - January 27, 2026 09:44 AM
+Collected: 12 articles
+============================================================
+
+1. 港股科技股續跌 恒指失守26500點 (HK tech stocks continue decline, HSI loses 26,500)
+   Source: HKET | 09:30 AM HKT
+   Link: https://example.com/hket1
+
+2. 內地放寬政策預期升溫 內房股造好
+   Source: HKET | 09:15 AM HKT
+   Link: https://example.com/hket2
+
+3. Futu: US-China trade tensions weigh on sentiment
+   Source: Futu | 09:00 AM HKT
+   Link: https://example.com/futu1
+
+4. 阿里巴巴季績勝預期 股價反彈2%
+   Source: HK01 | 08:45 AM HKT
+   Link: https://example.com/hk01-1
+
+5. PBOC signals more monetary easing ahead
+   Source: SCMP | 08:30 AM HKT
+   Link: https://www.scmp.com/business/example1
+
+6. 新能源車銷售續創新高 比亞迪領漲
+   Source: Mingpao | 08:15 AM HKT
+   Link: https://example.com/mingpao1
+
+7. Morgan Stanley upgrades HK property sector
+   Source: SCMP | 08:00 AM HKT
+   Link: https://www.scmp.com/business/example2
+
+8. 美聯儲官員稱通脹壓力持續 加息未完
+   Source: HK01 | 07:45 AM HKT
+   Link: https://example.com/hk01-2
+
+9. 港交所新股上市籌資額居亞洲首位
+   Source: HKET | 07:30 AM HKT
+   Link: https://example.com/hket3
+
+10. Tencent announces share buyback program
+    Source: SCMP | 07:15 AM HKT
+    Link: https://www.scmp.com/business/example3
+
+11. 金管局維持利率不變 樓市觀望氣氛濃
+    Source: Mingpao | 07:00 AM HKT
+    Link: https://example.com/mingpao2
+
+12. Small caps lead selloff as risk appetite wanes
+    Source: Futu | 06:45 AM HKT
+    Link: https://example.com/futu2

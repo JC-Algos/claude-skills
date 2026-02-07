@@ -1,0 +1,61 @@
+{
+  "name": "Forex Analyst (Hardcoded Pair)",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "forex-analysis",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-node",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "forex-analysis-webhook"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "currency-pair-id",
+              "name": "currency_pair",
+              "value": "EURUSD",
+              "type": "string"
+            },
+            {
+              "id": "timeframe-id",
+              "name": "timeframe",
+              "value": "4H",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-currency-pair-node",
+      "name": "Set Currency Pair (HARDCODED)",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [440, 300],
+      "notes": "⚠️ HARDCODED PAIR: Change 'EURUSD' to your desired pair here.\n\nSupported: EURUSD, GBPUSD, AUDUSD, NZDUSD, USDJPY, USDCAD"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Set Currency Pair (HARDCODED)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Forex Sentiment Analysis API (Flask)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/forex-sentiment
+Environment="PATH=/usr/bin:/usr/local/bin"
+ExecStart=/usr/bin/python3 /root/forex-sentiment/forex_sentiment_api.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
