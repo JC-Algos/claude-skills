@@ -160,3 +160,78 @@ Add to AGENTS.md as mandatory rule for config changes
 - Promoted: AGENTS.md
 
 ---
+
+## [LRN-20260207-001] correction
+
+**Logged**: 2026-02-07T10:07:00Z
+**Priority**: high
+**Status**: resolved
+**Area**: docs
+
+### Summary
+Consistently wrong day-of-week mapping in weekly market report — assumed Feb 3 was Monday when it was Tuesday.
+
+### Details
+When generating the Weekly Cross-Market Correlation Report (Feb 2-7, 2026), I:
+1. **Assumed** Feb 3 = Monday without verifying. The actual mapping: Feb 2 (Mon), Feb 3 (Tue), Feb 4 (Wed), Feb 5 (Thu), Feb 6 (Fri), Feb 7 (Sat).
+2. **Missed an entire trading day** (Monday Feb 2) because I only checked memory files for Feb 3-6.
+3. **Never ran `date` to verify** despite having shell access.
+
+### Root Cause Analysis
+- **Primary:** LLM date intuition is unreliable. I "felt" Feb 3 was Monday because "first weekday of month = Monday" is a common human heuristic, but wrong in this case.
+- **Secondary:** I relied on memory file existence (Feb 3-6) instead of checking the actual calendar. Feb 2 had a memory file too, but I never looked.
+- **Tertiary:** No verification step existed in the report workflow. The cross-market-report.md template had no "check date first" rule.
+
+### Suggested Action
+1. ✅ ALWAYS run `date -d 'YYYY-MM-DD' '+%A'` before labeling days in reports
+2. ✅ Added Step 0 to cross-market-report.md: "ALWAYS run `date` first"
+3. Promote to AGENTS.md and SOUL.md as a general rule
+
+### Resolution
+- **Resolved**: 2026-02-07T10:07:00Z
+- **Fix Applied**: Updated `memory/tools/cross-market-report.md` with mandatory date check
+- **Report**: Corrected version resent to Telegram channel
+
+### Metadata
+- Source: user_feedback
+- Related Files: `memory/tools/cross-market-report.md`
+- Tags: date-verification, market-reports, assumption-error, never-assume
+- See Also: None (first occurrence, but pattern is systemic)
+
+---
+
+## [LRN-20260207-002] best_practice
+
+**Logged**: 2026-02-07T10:07:00Z
+**Priority**: high
+**Status**: promoted
+**Area**: docs
+
+### Summary
+Never trust LLM date/time intuition — always verify with system commands.
+
+### Details
+LLMs have no reliable internal calendar. Day-of-week calculations are frequently wrong, especially for future dates or dates in non-obvious positions (e.g., "what day is Feb 3, 2026?"). This applies to:
+- Day-of-week labels in reports
+- Cron schedule reasoning (which UTC day maps to which HKT day)
+- "Today is X" assumptions without checking
+
+### Suggested Action
+Before ANY date-dependent output:
+```bash
+# Check specific date
+date -d '2026-02-03' '+%A %Y-%m-%d'
+
+# Check current time in HKT
+TZ='Asia/Hong_Kong' date '+%A %Y-%m-%d %H:%M %Z'
+
+# Check a range
+for d in {2..7}; do date -d "2026-02-0$d" '+%A %Y-%m-%d'; done
+```
+
+### Metadata
+- Source: user_feedback
+- Tags: date-verification, best-practice, always-verify, system-commands
+- Promoted: AGENTS.md, SOUL.md, memory/tools/cross-market-report.md
+
+---

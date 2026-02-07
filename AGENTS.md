@@ -254,7 +254,15 @@ mcporter call n8n.list_executions limit:30 | grep -E "workflowId|startedAt"
 mcporter call n8n.get_workflow workflowId:XXX | grep -A3 "workflowPublishHistory"
 ```
 
+### Date/Time Verification (CRITICAL)
+**Never trust your date intuition.** LLMs cannot reliably calculate day-of-week. Before ANY date-dependent output (reports, cron reasoning, scheduling):
+```bash
+TZ='Asia/Hong_Kong' date '+%A %Y-%m-%d %H:%M %Z'
+```
+*See: [LRN-20260207-001] [LRN-20260207-002] in .learnings/LEARNINGS.md*
+
 ### Anti-Patterns (Don't Do These)
+- ❌ Assuming day-of-week without running `date` command
 - ❌ Creating new APIs/scripts before checking if existing ones work
 - ❌ Adding cron jobs as "backup" without diagnosing the real issue
 - ❌ Confusing one workflow/system with another

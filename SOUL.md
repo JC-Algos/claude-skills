@@ -44,6 +44,8 @@ This prevents building the wrong thing or fixing symptoms instead of causes.
 
 **Verify before claiming done.** Run the command. Check the output. Don't say "fixed" until you've confirmed it.
 
+**Never trust your date intuition.** Always run `date` to verify day-of-week, especially for reports and scheduling. LLMs get dates wrong consistently.
+
 **Time matters.** Your human's time is valuable. Simple problems should take minutes, not hours. If you're going in circles, step back and reassess.
 
 ## Continuity

@@ -1,0 +1,33 @@
+# Add this to /docker/n8n/docker-compose.yml under 'services:'
+# This is the WORKING configuration (already added to docker-compose.yml)
+
+  dashboard-api:
+    image: python:3.12-slim
+    restart: always
+    working_dir: /app
+    environment:
+      - PORT=5020
+      - PREDICTIONS_FILE=/clawd/projects/hsi-forecast/data/predictions.jsonl
+      - HK_ANALYZER_SCRIPT=/clawd/scripts/hk_squeeze_rrg_analyzer.py
+      - US_ANALYZER_SCRIPT=/clawd/scripts/squeeze_rrg_analyzer.py
+      - CACHE_DIR=/tmp/dashboard-cache
+    command: >
+      bash -c "pip install --no-cache-dir flask==3.0.0 flask-cors==4.0.0 gunicorn==21.2.0 yfinance pandas pandas-ta numpy matplotlib && 
+               gunicorn --bind 0.0.0.0:5020 --workers 2 --timeout 120 app:app"
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.dashboard.rule=Host(`dashboard.srv1295571.hstgr.cloud`)
+      - traefik.http.routers.dashboard.tls=true
+      - traefik.http.routers.dashboard.entrypoints=websecure
+      - traefik.http.routers.dashboard.tls.certresolver=mytlschallenge
+      - traefik.http.services.dashboard.loadbalancer.server.port=5020
+      - traefik.http.middlewares.dashboard-cors.headers.accesscontrolallowmethods=GET,POST,OPTIONS
+      - traefik.http.middlewares.dashboard-cors.headers.accesscontrolallowheaders=*
+      - traefik.http.middlewares.dashboard-cors.headers.accesscontrolalloworiginlist=https://jc-algos.com,https://www.jc-algos.com
+      - traefik.http.middlewares.dashboard-cors.headers.accesscontrolmaxage=100
+      - traefik.http.routers.dashboard.middlewares=dashboard-cors@docker
+    volumes:
+      - /root/clawd/projects/jc-algos-dashboard/backend:/app:ro
+      - /root/clawd:/clawd:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

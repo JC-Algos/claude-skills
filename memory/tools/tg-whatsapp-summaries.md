@@ -126,3 +126,44 @@ Daily 08:30 UTC (16:30 HKT)
 - wacli store locks when `wacli sync --follow` is running
 - Kill sync process before sending: `pkill -f "wacli sync"`
 - No markdown tables on WhatsApp - use bullet lists
+
+---
+
+## Cross-Market Correlation Report (跨市場關聯分析)
+
+### Details
+- **Config:** `memory/tools/cross-market-report.md`
+- **Data Sources:** HK BB Squeeze + US BB Squeeze + HK News + US News (n8n)
+- **Session:** Isolated agentTurn (Opus 4-6)
+
+### Schedule (HKT, Mon-Fri + Sat)
+| Slot | HKT | UTC Cron | Focus |
+|------|-----|----------|-------|
+| 🌅 Morning | Mon-Fri 07:00 | `0 23 * * 0-4` | US close recap + HK open signals |
+| 🌙 Evening | Mon-Fri 20:00 | `0 12 * * 1-5` | HK close + US tonight setup |
+| 📋 Weekend | Sat 07:00 | `0 23 * * 5` | Weekly wrap + week-ahead outlook |
+
+### Delivery
+- ✅ Telegram: JC Algos NEW (-1003796838384)
+
+### Format
+Fixed template — see `memory/tools/cross-market-report.md` for full spec.
+Sections: 核心主題 → 美股BB Squeeze → 港股BB Squeeze → 跨市場關聯(共振/分歧/催化劑) → 策略啟示
+
+---
+
+## Weekly Portfolio Review (每週回顧)
+
+### Schedule
+- **Sat 09:00 HKT** (`0 1 * * 6` UTC)
+
+### Data Sources
+- All 4 scan scripts (HK/US BB Squeeze + HK/US News)
+- Daily memory files (memory/YYYY-MM-DD.md) for the full trading week
+- US news files from n8n for each trading day
+
+### Delivery
+- ✅ Telegram: JC Algos NEW (-1003796838384)
+
+### Format
+核心敘事 → 美股五日紀錄 → 港股表現+板塊 → 跨市場關聯趨勢 → 下週展望

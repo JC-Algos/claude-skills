@@ -38,6 +38,18 @@
 - n8n runs in Docker → use `172.18.0.1:PORT` to reach host services
 - Workflow: "Stock Technical Analyzer" (ID: 0IELKXByeMks9yOW)
 
+### JC Algos Dashboard
+- **Backend:** systemd `dashboard-api` on port 5020, Traefik → `dashboard.srv1295571.hstgr.cloud`
+- **Approach:** Oracle writes `daily-report.md` daily (overwrite), frontend renders it
+- **Frontend:** `JC-Algos/jc-algos-dashboard` repo, Jason manually copies to Hostinger
+- **Supabase:** URL `nwhyoravkuyiuewlfgfw.supabase.co`, table `user_profiles`
+- **Style:** Dark terminal, TG-message format (NOT dashboard cards)
+
+### Agent Orchestration
+- Main agent can spawn coder + webdev (`subagents.allowAgents` in per-agent config)
+- Config.patch doesn't work for per-agent subagents — edit JSON directly
+- Coder uses Claude Code Agent Teams for parallel work
+
 ## Jason's Preferences
 - TA reports in Traditional Chinese (粵語)
 - EMA values: 2 decimal places
