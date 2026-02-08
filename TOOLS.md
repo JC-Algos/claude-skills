@@ -11,7 +11,7 @@ Quick reference for Oracle's tools and configs. Detailed docs in sub-files.
 | [hsi-forecast.md](memory/tools/hsi-forecast.md) | HSI | 4 Judges prediction system |
 | [accounts.md](memory/tools/accounts.md) | Accounts | Jason's accounts, channels, WhatsApp groups |
 | [jc-algos-web.md](memory/tools/jc-algos-web.md) | JC Algos | Website, TradingView webhook |
-| [jc-algos-backend.md](memory/tools/jc-algos-backend.md) | JC Algos | Supabase, Stripe, pages, infrastructure |
+| [jc-algos-backend.md](memory/tools/jc-algos-backend.md) | JC Algos | Supabase, Stripe, pages, dashboard API, infrastructure |
 
 **Usage (Lazy Load):**
 - n8n task? → read `n8n-workflows.md`
@@ -21,6 +21,29 @@ Quick reference for Oracle's tools and configs. Detailed docs in sub-files.
 - JC Algos / TradingView? → read `jc-algos-web.md`
 - Supabase / Stripe / pages? → read `jc-algos-backend.md`
 - **Topic not found above?** → Search Misc below or `memory/*.md` files
+
+---
+
+## 🖥️ Server Access (SSH)
+
+### Hostinger (Frontend)
+- **Host:** 217.21.73.253
+- **Port:** 65002
+- **User:** u452726456
+- **Web Root:** `~/domains/jc-algos.com/public_html/`
+- **Connect:** `ssh -p 65002 u452726456@217.21.73.253`
+
+### srv1238641 (Backend API)
+- **Host:** 72.62.78.163
+- **Port:** 22
+- **User:** root
+- **Domain:** api.jc-algos.com
+- **Connect:** `ssh root@72.62.78.163`
+- **Services:** Stripe, RRG, RS, Fundamental, HSI-SPX, Pinbar, Portfolio, Signals (ports 5000-5008, 8000)
+
+### srv1295571 (This VPS - Oracle)
+- **Host:** 72.62.251.37
+- **Services:** n8n, Docker, TA API, Signal Web, Dashboard API, Economic Scraper
 
 ---
 
